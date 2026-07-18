@@ -167,6 +167,25 @@ footer {
     color: var(--text-secondary);
 }
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 0.75rem;
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+    color: var(--accent);
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     .logo h1 {
