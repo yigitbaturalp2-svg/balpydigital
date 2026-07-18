@@ -1,161 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balpy Adım Adım Kullanım Rehberi</title>
-    <meta name="description" content="Balpy uygulamasının başlangıç, koleksiyon, içerik ekleme, PDF, çalışma, program ve hesap özellikleri için adım adım rehber.">
-    <link rel="canonical" href="https://balpydigital.com/rehber/">
-    <meta property="og:title" content="Balpy Kullanım Rehberi">
-    <meta property="og:description" content="Balpy ile çalışma düzeninizi adım adım kurun.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://balpydigital.com/rehber/">
-    <meta property="og:image" content="https://balpydigital.com/og.png">
-    <meta property="og:image:alt" content="Balpy Kullanım Rehberi — Düzenle, Öğren, Tekrar Et">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="guide.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kullanım Rehberi | Balpy</title>
+  <meta name="description" content="Balpy uygulamasının koleksiyon, içerik, Ai İçerik, kaynak, tekrar, program ve hesap özelliklerini adım adım öğrenin.">
+  <link rel="canonical" href="https://balpydigital.com/rehber/">
+  <meta name="theme-color" content="#111827">
+  <meta property="og:title" content="Balpy Kullanım Rehberi">
+  <meta property="og:description" content="Uygulamadaki ekranlarla adım adım Balpy rehberi.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://balpydigital.com/rehber/">
+  <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/app-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400..700,0..1,0&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/rehber/guide.css">
 </head>
 <body class="guide-page">
-    <a class="skip-link" href="#guide-content">Rehbere geç</a>
-    <header class="site-header">
-        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">🐝</span><span>Balpy<span>Digital</span></span></a>
-        <nav class="header-nav" aria-label="Ana menü"><a href="/">Başlangıç</a><a class="active" href="/rehber/">Tüm rehber</a><a href="mailto:balpydigital.destek@gmail.com">Destek</a></nav>
-        <a class="header-cta" href="mailto:balpydigital.destek@gmail.com">Yardım iste</a>
-    </header>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#guide-content">Rehbere geç</a>
+  <header class="site-header shell">
+    <a class="brand" href="/" aria-label="Balpy Rehber ana sayfa"><img src="/assets/app-icon.png" alt="" width="42" height="42"><span><b>Balpy</b><small>Rehber</small></span></a>
+    <nav class="header-nav" aria-label="Ana menü"><a href="/">Başlangıç</a><a class="active" href="/rehber/">Tüm rehber</a><a href="#sss">Sık sorulanlar</a></nav>
+    <a class="button compact" href="mailto:balpydigital.destek@gmail.com"><span class="material-symbols-rounded">mail</span> Destek</a>
+  </header>
 
-    <div class="guide-hero shell">
-        <p class="eyebrow"><span></span> Balpy kullanım rehberi</p>
-        <h1>Ne yapmak istiyorsunuz?</h1>
-        <p>Başlık seçin veya aradığınız işlemi yazın. Rehber uygulamadaki güncel akışa göre hazırlanmıştır.</p>
-        <label class="guide-search">
-            <span aria-hidden="true">⌕</span>
-            <span class="sr-only">Rehberde ara</span>
-            <input id="guide-search" type="search" placeholder="Örneğin: PDF ekleme, koleksiyon, tekrar..." autocomplete="off">
-            <kbd>ARA</kbd>
-        </label>
+  <main id="guide-content">
+    <section class="guide-hero shell">
+      <span class="eyebrow"><span class="material-symbols-rounded fill">menu_book</span> Uygulama kullanım rehberi</span>
+      <h1>Nasıl yardımcı olalım?</h1>
+      <p>Yapmak istediğin işlemi yaz veya aşağıdaki başlıklardan seç.</p>
+      <label class="guide-search" for="guide-search">
+        <span class="material-symbols-rounded">search</span>
+        <span class="sr-only">Rehberde ara</span>
+        <input id="guide-search" type="search" autocomplete="off" placeholder="Örn. hazır koleksiyon, PDF, tekrar, hesap…">
+        <kbd>Ctrl K</kbd>
+      </label>
+      <div class="popular-searches" aria-label="Popüler rehber başlıkları"><span>Popüler:</span><a href="#koleksiyonlar">Hazır koleksiyon</a><a href="#ai-icerik">Ai İçerik</a><a href="#calisma">Tekrar</a><a href="#kaynaklar">PDF</a></div>
+    </section>
+
+    <div class="mobile-nav shell" aria-label="Rehber bölümleri"><a href="#hizli-baslangic">Başlangıç</a><a href="#koleksiyonlar">Koleksiyon</a><a href="#icerik-ekleme">İçerik</a><a href="#calisma">Tekrar</a><a href="#hesap">Hesap</a></div>
+
+    <div class="guide-layout shell">
+      <aside class="guide-sidebar">
+        <div class="sidebar-title"><span class="material-symbols-rounded">format_list_bulleted</span><strong>Rehber başlıkları</strong></div>
+        <nav id="guide-nav" aria-label="Rehber içindekiler">
+          <a class="active" href="#hizli-baslangic"><span class="material-symbols-rounded">rocket_launch</span>Hızlı başlangıç</a>
+          <a href="#ana-ekran"><span class="material-symbols-rounded">home</span>Ana Sayfa</a>
+          <a href="#koleksiyonlar"><span class="material-symbols-rounded">folder</span>Koleksiyonlar</a>
+          <a href="#icerik-ekleme"><span class="material-symbols-rounded">add_circle</span>İçerik ekleme</a>
+          <a href="#ai-icerik"><span class="material-symbols-rounded">auto_awesome</span>Ai İçerik</a>
+          <a href="#kaynaklar"><span class="material-symbols-rounded">menu_book</span>PDF ve kaynaklar</a>
+          <a href="#calisma"><span class="material-symbols-rounded">event_repeat</span>Çalışma ve tekrar</a>
+          <a href="#program"><span class="material-symbols-rounded">event_note</span>Program</a>
+          <a href="#hesap"><span class="material-symbols-rounded">person</span>Hesap ve veriler</a>
+          <a href="#sss"><span class="material-symbols-rounded">help_outline</span>Sık sorulanlar</a>
+        </nav>
+        <div class="sidebar-help"><span class="material-symbols-rounded">support_agent</span><div><b>Yanıtı bulamadın mı?</b><a href="mailto:balpydigital.destek@gmail.com">Bize e-posta gönder</a></div></div>
+      </aside>
+
+      <article class="guide-article">
+        <section class="guide-section searchable" id="hizli-baslangic" data-keywords="ilk giriş başlangıç profil seviye hazır koleksiyon hızlı ekle">
+          <div class="section-heading-row"><span class="section-icon violet material-symbols-rounded fill">rocket_launch</span><div><p class="section-kicker">İlk 5 dakika</p><h2>Hızlı başlangıç</h2></div><span class="section-index">01</span></div>
+          <p class="section-intro">Balpy'de çalışmaya başlamak için yalnızca profilini tamamlaman, koleksiyonlarını eklemen ve ilk içeriğini kaydetmen yeterli.</p>
+          <div class="step-list">
+            <div><span>1</span><div><h3>Profilini tamamla</h3><p>İlk girişte adını ve çalışma düzeyini seç. Hazır koleksiyonlar bu seçime göre gösterilir.</p></div></div>
+            <div><span>2</span><div><h3>Koleksiyonlarını getir</h3><p>Alt menüde <strong>Koleksiyonlar</strong> → sağ üst menü → <strong>Hazır Koleksiyonları Kullan</strong> yolunu izle.</p></div></div>
+            <div><span>3</span><div><h3>İlk içeriğini ekle</h3><p>Ana Sayfa'daki <strong>Hızlı ekle</strong> alanından Soru, Kart, Bilgi, Kaynak veya Ai İçerik seç.</p></div></div>
+          </div>
+          <div class="app-callout success"><span class="material-symbols-rounded">check_circle</span><p><strong>Hazırsın.</strong> Eklediğin içerikler ilgili koleksiyonda görünür; yeni içerikler Ana Sayfa'daki Bekleyenler alanına gelir.</p></div>
+        </section>
+
+        <section class="guide-section searchable" id="ana-ekran" data-keywords="ana sayfa sıradaki adım kaldığın yerden bekleyenler program hızlı ekle alt menü ev">
+          <div class="section-heading-row"><span class="section-icon blue material-symbols-rounded fill">home</span><div><p class="section-kicker">Günlük merkez</p><h2>Ana Sayfa</h2></div><span class="section-index">02</span></div>
+          <p class="section-intro">Uygulamayı açtığında günlük çalışma durumun burada özetlenir. Balpy sana bir sonraki mantıklı adımı gösterir.</p>
+          <div class="visual-guide two-column">
+            <div class="screenshot-wrap"><img src="/assets/screens/ana-sayfa.png" alt="Balpy Ana Sayfa ekranı ve bölümleri" loading="lazy"></div>
+            <ol class="annotated-list">
+              <li><span class="material-symbols-rounded fill">auto_awesome</span><div><b>Sıradaki adım</b><p>Öncelikli çalışma önerini gösterir.</p></div></li>
+              <li><span class="material-symbols-rounded">play_circle</span><div><b>Kaldığın yerden</b><p>Yarım kalan oturuma tek dokunuşla dönersin.</p></div></li>
+              <li><span class="material-symbols-rounded">hourglass_top</span><div><b>Bekleyenler</b><p>Yeni ve zamanı gelen içerikleri görürsün.</p></div></li>
+              <li><span class="material-symbols-rounded">event_note</span><div><b>Programım</b><p>Bugünün dersleri ve görevleri burada yer alır.</p></div></li>
+              <li><span class="material-symbols-rounded">add_circle</span><div><b>Hızlı ekle</b><p>İçerik ekleme yollarına doğrudan ulaşırsın.</p></div></li>
+            </ol>
+          </div>
+          <div class="nav-demo" aria-label="Balpy alt menüsü"><span class="selected"><i class="material-symbols-rounded fill">home</i><b>Ana Sayfa</b></span><span><i class="material-symbols-rounded">folder</i><b>Koleksiyonlar</b></span><span><i class="material-symbols-rounded">person</i><b>Profil</b></span></div>
+        </section>
+
+        <section class="guide-section searchable" id="koleksiyonlar" data-keywords="koleksiyon hazır koleksiyon ders ünite konu alt konu klasör ekle menü yks tyt ayt lgs">
+          <div class="section-heading-row"><span class="section-icon violet material-symbols-rounded fill">folder</span><div><p class="section-kicker">Düzen</p><h2>Koleksiyonlar</h2></div><span class="section-index">03</span></div>
+          <p class="section-intro">Koleksiyonlar; derslerini, ünitelerini, konularını ve içeriklerini düzenlediğin ana çalışma alanlarıdır.</p>
+          <div class="visual-guide two-column reverse">
+            <div class="screenshot-wrap"><img src="/assets/screens/koleksiyonlar.png" alt="Balpy Koleksiyonlar ekranında TYT ve AYT dersleri" loading="lazy"></div>
+            <div>
+              <h3 class="mini-title">Hazır koleksiyonları ekleme</h3>
+              <ol class="clean-steps"><li>Alt menüden <strong>Koleksiyonlar</strong>'ı aç.</li><li>Sağ üstteki <span class="inline-icon material-symbols-rounded">menu</span> menü ikonuna dokun.</li><li><strong>Hazır Koleksiyonları Kullan</strong> seçeneğini aç.</li><li>Eklemek istediğin dersleri seç ve işlemi onayla.</li></ol>
+              <div class="app-callout"><span class="material-symbols-rounded">info</span><p>Hazır dersler görünmüyorsa Profil ekranında doğru çalışma düzeyinin seçili olduğunu kontrol et.</p></div>
+            </div>
+          </div>
+          <h3 class="subheading">Kendi koleksiyonunu oluşturma</h3>
+          <div class="icon-flow"><div><span class="material-symbols-rounded">add</span><b>+ ikonuna dokun</b></div><i class="material-symbols-rounded">chevron_right</i><div><span class="material-symbols-rounded">edit</span><b>Adını yaz</b></div><i class="material-symbols-rounded">chevron_right</i><div><span class="material-symbols-rounded">account_tree</span><b>Konu ekle</b></div><i class="material-symbols-rounded">chevron_right</i><div><span class="material-symbols-rounded">check</span><b>Kaydet</b></div></div>
+        </section>
+
+        <section class="guide-section searchable" id="icerik-ekleme" data-keywords="içerik ekle soru kart bilgi kaynak ai hızlı ekle kamera fotoğraf ses not">
+          <div class="section-heading-row"><span class="section-icon orange material-symbols-rounded fill">add_circle</span><div><p class="section-kicker">İçerik oluşturma</p><h2>İçerik ekleme</h2></div><span class="section-index">04</span></div>
+          <p class="section-intro">Ana Sayfa'daki Hızlı ekle alanı, Balpy'nin beş içerik türüne giden en kısa yoldur.</p>
+          <div class="content-type-grid">
+            <div class="type-card question"><span class="material-symbols-rounded fill">quiz</span><div><h3>Soru</h3><p>Soru metni veya görseli, cevap ve çözüm ekle.</p></div></div>
+            <div class="type-card flashcard"><span class="material-symbols-rounded fill">style</span><div><h3>Kart</h3><p>Ön ve arka yüzle aktif hatırlama kartı oluştur.</p></div></div>
+            <div class="type-card info"><span class="material-symbols-rounded fill">lightbulb</span><div><h3>Bilgi</h3><p>Konu anlatımı, formül ve önemli notlarını kaydet.</p></div></div>
+            <div class="type-card source"><span class="material-symbols-rounded fill">menu_book</span><div><h3>Kaynak</h3><p>Kamera görsellerini veya PDF dosyanı ekle.</p></div></div>
+            <div class="type-card ai"><span class="material-symbols-rounded fill">auto_awesome</span><div><h3>Ai İçerik</h3><p>Kopyaladığın metni seçtiğin kılavuzla dönüştür.</p></div></div>
+          </div>
+          <div class="app-callout warning"><span class="material-symbols-rounded">lightbulb</span><p>Kaydetmeden önce doğru <strong>koleksiyon</strong> ve <strong>konu</strong> seçili mi kontrol et. Böylece içeriğini daha sonra kolayca bulursun.</p></div>
+        </section>
+
+        <section class="guide-section searchable" id="ai-icerik" data-keywords="ai içerik yapay zeka kılavuz genel bilgi soru kart özel kılavuz içe aktar metin panoya kopyala">
+          <div class="section-heading-row"><span class="section-icon violet material-symbols-rounded fill">auto_awesome</span><div><p class="section-kicker">Akıllı içerik</p><h2>Ai İçerik</h2></div><span class="section-index">05</span></div>
+          <p class="section-intro">Kopyaladığın ders metnini bilgi, soru veya karta dönüştürmek için kılavuz seçerek Ai İçerik akışını kullanabilirsin.</p>
+          <div class="visual-guide two-column">
+            <div class="screenshot-wrap"><img src="/assets/screens/ai-icerik.png" alt="Balpy Ai İçerik ekranında koleksiyon, kılavuzlar ve içe aktar butonu" loading="lazy"></div>
+            <div>
+              <ol class="clean-steps"><li>Dönüştürmek istediğin metni cihazında <strong>kopyala</strong>.</li><li>Ana Sayfa → Hızlı ekle → <strong>Ai İçerik</strong> yolunu aç.</li><li>İçeriğin kaydedileceği koleksiyon ve konuyu seç.</li><li><strong>Genel, Bilgi, Soru veya Kart</strong> kılavuzlarından birini seç.</li><li><strong>İçe aktar</strong> düğmesine dokun ve sonucu kontrol et.</li></ol>
+              <div class="app-callout warning"><span class="material-symbols-rounded">fact_check</span><p>Ai tarafından hazırlanan içerikleri kaydetmeden önce doğruluk ve anlatım açısından mutlaka gözden geçir.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="guide-section searchable" id="kaynaklar" data-keywords="pdf kaynak kamera fotoğraf sayfa kırp ekran görüntüsü ayraç paylaş bilgi soru kart">
+          <div class="section-heading-row"><span class="section-icon blue material-symbols-rounded fill">menu_book</span><div><p class="section-kicker">Dijital kaynaklık</p><h2>PDF ve kaynaklar</h2></div><span class="section-index">06</span></div>
+          <p class="section-intro">Ders notu, kitap sayfası veya PDF dosyasını kaynak olarak ekleyebilir; okurken doğrudan çalışma içeriği çıkarabilirsin.</p>
+          <div class="feature-grid">
+            <div><span class="material-symbols-rounded">photo_camera</span><h3>Kameradan ekle</h3><p>Sayfaları çek, düzenle ve tek kaynakta sırala.</p></div>
+            <div><span class="material-symbols-rounded">picture_as_pdf</span><h3>PDF seç</h3><p>Cihazındaki PDF'yi koleksiyona bağlayarak kaydet.</p></div>
+            <div><span class="material-symbols-rounded">bookmark</span><h3>Okurken işaretle</h3><p>Sayfaya git, ayraç ekle veya seçili sayfaları paylaş.</p></div>
+            <div><span class="material-symbols-rounded">library_add</span><h3>İçerik çıkar</h3><p>Kaynağı görüntülerken Bilgi, Soru, Kart ya da Ai İçerik oluştur.</p></div>
+          </div>
+          <div class="path-card"><span>İzlenecek yol</span><strong>Ana Sayfa</strong><i class="material-symbols-rounded">chevron_right</i><strong>Hızlı ekle</strong><i class="material-symbols-rounded">chevron_right</i><strong>Kaynak</strong><i class="material-symbols-rounded">chevron_right</i><strong>Kamera / PDF</strong></div>
+        </section>
+
+        <section class="guide-section searchable" id="calisma" data-keywords="çalış tekrar soru kart bilgi bildim bilemedim biliyorum tekrar et ilerleme aktif hatırlama seviye">
+          <div class="section-heading-row"><span class="section-icon green material-symbols-rounded fill">event_repeat</span><div><p class="section-kicker">Öğrenme</p><h2>Çalışma ve tekrar</h2></div><span class="section-index">07</span></div>
+          <p class="section-intro">Bir koleksiyonu açtığında Bilgileri Çalış, Kartları Çalış veya Soruları Çalış seçeneklerinden biriyle oturum başlatabilirsin.</p>
+          <div class="study-screens">
+            <figure><img src="/assets/screens/bilgi-tekrari.png" alt="Bilgi tekrarı ekranında konu anlatımı" loading="lazy"><figcaption><span class="material-symbols-rounded">article</span><b>Bilgiyi oku</b><small>Önemli vurguları ve formülleri incele.</small></figcaption></figure>
+            <figure><img src="/assets/screens/aktif-hatirlama.png" alt="Aktif hatırlama kartının soru yüzü" loading="lazy"><figcaption><span class="material-symbols-rounded">psychology</span><b>Cevabı hatırla</b><small>Kartı çevirmeden önce zihninden yanıtla.</small></figcaption></figure>
+            <figure><img src="/assets/screens/ilerleme.png" alt="Tekrar değerlendirme ekranında Tekrar Et ve Biliyorum seçenekleri" loading="lazy"><figcaption><span class="material-symbols-rounded">task_alt</span><b>Kendini değerlendir</b><small>Tekrar Et veya Biliyorum seçimini dürüstçe yap.</small></figcaption></figure>
+          </div>
+          <div class="study-choice"><div class="again"><span class="material-symbols-rounded">close</span><b>Tekrar Et</b><p>İçerik daha yakında yeniden karşına çıkar.</p></div><div class="know"><span class="material-symbols-rounded">check</span><b>Biliyorum</b><p>İçerik bir sonraki tekrar seviyesine ilerler.</p></div></div>
+        </section>
+
+        <section class="guide-section searchable" id="program" data-keywords="program haftalık günlük görev bildirim hatırlatma plan ders günleri">
+          <div class="section-heading-row"><span class="section-icon violet material-symbols-rounded fill">event_note</span><div><p class="section-kicker">Planlama</p><h2>Program ve bildirimler</h2></div><span class="section-index">08</span></div>
+          <p class="section-intro">Haftalık programına derslerini dağıt; Ana Sayfa'da her gün ne çalışacağını gör.</p>
+          <div class="check-list"><div><span class="material-symbols-rounded">calendar_month</span><p>Koleksiyonlarını haftanın uygun günlerine yerleştir.</p></div><div><span class="material-symbols-rounded">check_box</span><p>Günlük görevlerini tamamladıkça işaretle.</p></div><div><span class="material-symbols-rounded">notifications</span><p>Profil → <strong>Hatırlatmaları Aç</strong> ile çalışma bildirimlerini yönet.</p></div><div><span class="material-symbols-rounded">settings</span><p>Bildirim gelmiyorsa Android ayarlarında Balpy iznini kontrol et.</p></div></div>
+        </section>
+
+        <section class="guide-section searchable" id="hesap" data-keywords="hesap profil giriş çıkış senkronizasyon veri gizlilik silme yerel cihaz eposta hatırlatıcı çöp kutusu">
+          <div class="section-heading-row"><span class="section-icon blue material-symbols-rounded fill">person</span><div><p class="section-kicker">Ayarlar ve güvenlik</p><h2>Profil, hesap ve veriler</h2></div><span class="section-index">09</span></div>
+          <p class="section-intro">Profil ekranından kişisel bilgilerini düzenleyebilir, hatırlatıcıları yönetebilir, rehbere dönebilir ve hesap işlemlerine ulaşabilirsin.</p>
+          <div class="profile-mock" aria-label="Balpy Profil ekranı örneği">
+            <div class="profile-top"><b>Profil</b><span class="material-symbols-rounded">more_vert</span></div>
+            <div class="profile-person"><span class="material-symbols-rounded fill">person</span><div><strong>Baturalp</strong><small>YKS (Sayısal)</small></div></div>
+            <div class="profile-row"><span class="material-symbols-rounded">menu_book</span><div><b>Kullanım Rehberi</b><small>Balpy'yi adım adım öğren</small></div><i class="material-symbols-rounded">chevron_right</i></div>
+            <div class="profile-row"><span class="material-symbols-rounded">notifications_none</span><div><b>Hatırlatıcılar</b><small>Çalışma bildirimlerini yönet</small></div><i class="material-symbols-rounded">chevron_right</i></div>
+            <div class="profile-row"><span class="material-symbols-rounded">lock</span><div><b>Hesap ve gizlilik</b><small>Hesap, veri ve yasal bağlantılar</small></div><i class="material-symbols-rounded">chevron_right</i></div>
+          </div>
+          <div class="app-callout warning"><span class="material-symbols-rounded">warning</span><p>Normal kullanıcıların soru, kart, bilgi, kaynak, PDF, görsel ve ses içeriklerinin önemli bölümü cihazda tutulur. Uygulama verilerini temizlemeden önce saklamak istediğin içerikleri kontrol et.</p></div>
+          <div class="legal-links"><a href="/gizlilik-politikasi/"><span class="material-symbols-rounded">shield</span><div><b>Gizlilik Politikası</b><small>Verilerin nasıl işlendiğini incele</small></div><i class="material-symbols-rounded">arrow_forward</i></a><a href="/hesap-silme/"><span class="material-symbols-rounded">delete_forever</span><div><b>Hesap ve Veri Silme</b><small>Silme talebi adımlarını gör</small></div><i class="material-symbols-rounded">arrow_forward</i></a></div>
+        </section>
+
+        <section class="guide-section searchable" id="sss" data-keywords="sık sorulan sorular internet ücret ücretsiz destek rehber hazır koleksiyon görünmüyor">
+          <div class="section-heading-row"><span class="section-icon green material-symbols-rounded fill">help</span><div><p class="section-kicker">Yardım</p><h2>Sık sorulan sorular</h2></div><span class="section-index">10</span></div>
+          <div class="faq-list">
+            <details><summary>Hazır koleksiyonları nereden ekleyebilirim?<span class="material-symbols-rounded">add</span></summary><p>Alt menüden Koleksiyonlar bölümünü aç, sağ üstteki menü ikonuna dokun ve Hazır Koleksiyonları Kullan seçeneğini seç.</p></details>
+            <details><summary>Koleksiyonları web sitesinden indirmem gerekiyor mu?<span class="material-symbols-rounded">add</span></summary><p>Hayır. Bu site yalnızca kullanım rehberidir. Hazır koleksiyon işlemleri uygulamanın Koleksiyonlar bölümünde yapılır.</p></details>
+            <details><summary>Rehber önerisini kapattım, yeniden nasıl açarım?<span class="material-symbols-rounded">add</span></summary><p>Alt menüden Profil'i aç ve Kullanım Rehberi satırına dokun.</p></details>
+            <details><summary>Hazır koleksiyonlar neden görünmüyor?<span class="material-symbols-rounded">add</span></summary><p>Profilinde doğru çalışma düzeyinin seçili olduğunu kontrol et, ardından Koleksiyonlar bölümünü yeniden aç.</p></details>
+            <details><summary>Yardıma ihtiyacım var, nereye yazabilirim?<span class="material-symbols-rounded">add</span></summary><p><a href="mailto:balpydigital.destek@gmail.com">balpydigital.destek@gmail.com</a> adresine ekran görüntüsü ve kısa bir açıklama gönderebilirsin.</p></details>
+          </div>
+        </section>
+
+        <div class="no-results" id="no-results" hidden><span class="material-symbols-rounded">search_off</span><strong>Bu aramayla eşleşen başlık bulunamadı.</strong><p>Başka bir kelime dene veya destek ekibine yaz.</p><a href="mailto:balpydigital.destek@gmail.com">Destek e-postası gönder</a></div>
+      </article>
     </div>
+  </main>
 
-    <main class="guide-layout shell" id="guide-content">
-        <aside class="guide-sidebar" aria-label="Rehber içindekiler">
-            <strong>İçindekiler</strong>
-            <nav id="guide-nav">
-                <a href="#hizli-baslangic">Hızlı başlangıç</a>
-                <a href="#uygulamada-gezinme">Uygulamada gezinme</a>
-                <a href="#koleksiyonlar">Koleksiyonlar</a>
-                <a href="#hazir-koleksiyonlar">Hazır Koleksiyonlar</a>
-                <a href="#icerik-ekleme">İçerik ekleme</a>
-                <a href="#kaynaklar">PDF ve kaynaklar</a>
-                <a href="#calisma">Çalışma ve tekrar</a>
-                <a href="#program">Program ve bildirimler</a>
-                <a href="#hesap">Hesap ve veriler</a>
-                <a href="#sss">Sık sorulan sorular</a>
-            </nav>
-            <div class="sidebar-help"><span>Yanıtı bulamadınız mı?</span><a href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20rehber%20yardımı">Bize yazın →</a></div>
-        </aside>
-
-        <article class="guide-article">
-            <section class="guide-section searchable" id="hizli-baslangic" data-keywords="başlangıç ilk giriş profil sınıf hedef hesap">
-                <span class="section-index">01</span><p class="section-kicker">Başlarken</p><h2>Hızlı başlangıç</h2>
-                <p class="section-intro">İlk girişte çalışma düzeyinizi seçersiniz. Sonraki ekranda bu rehberi açabilir veya doğrudan uygulamaya başlayabilirsiniz.</p>
-                <div class="instruction-list">
-                    <div><span>1</span><p><strong>Çalışma düzeyinizi seçin.</strong> Balpy kurulumundaki listeden size uygun seçeneğe dokunun.</p></div>
-                    <div><span>2</span><p><strong>İlk koleksiyonunuzu ekleyin.</strong> Hazır Koleksiyonları Kullan seçeneğini açabilir veya kendiniz oluşturabilirsiniz.</p></div>
-                    <div><span>3</span><p><strong>İçerik kaydedin.</strong> Ana Sayfa → Hızlı Ekle bölümünden soru, kart, bilgi, kaynak veya Ai İçerik seçin.</p></div>
-                </div>
-                <div class="tip"><strong>İpucu</strong><p>Kurulumdaki rehber seçeneğini atlarsanız Profil → Kullanım Rehberi yoluyla bu siteye her zaman dönebilirsiniz.</p></div>
-            </section>
-
-            <section class="guide-section searchable" id="uygulamada-gezinme" data-keywords="ana sayfa alt menü profil koleksiyon gezinme navigasyon">
-                <span class="section-index">02</span><p class="section-kicker">Temel yapı</p><h2>Uygulamada gezinme</h2>
-                <p class="section-intro">Balpy'nin alt menüsünde üç ana alan bulunur.</p>
-                <div class="feature-grid three">
-                    <div><span class="feature-symbol">⌂</span><h3>Ana Sayfa</h3><p>Günün programını görür, Hızlı Ekle seçeneklerine ulaşırsınız.</p></div>
-                    <div><span class="feature-symbol">▦</span><h3>Koleksiyonlar</h3><p>Derslerinizi, konu yapınızı ve içeriklerinizi yönetirsiniz.</p></div>
-                    <div><span class="feature-symbol">○</span><h3>Profil</h3><p>Adınızı ve hedefinizi görür; rehber, hatırlatıcı ve hesap bağlantılarına ulaşırsınız.</p></div>
-                </div>
-            </section>
-
-            <section class="guide-section searchable" id="koleksiyonlar" data-keywords="koleksiyon oluştur ders ünite konu alt konu düzenle sil sırala">
-                <span class="section-index">03</span><p class="section-kicker">Çalışma düzeni</p><h2>Koleksiyonlar</h2>
-                <p class="section-intro">Koleksiyon, bir ders veya çalışma alanı için kullandığınız ana klasördür. İçinde ünite, konu ve alt konu yapısı bulunabilir.</p>
-                <h3 class="subheading">Kendi koleksiyonunuzu oluşturma</h3>
-                <ol class="clean-steps"><li>Alt menüden <strong>Koleksiyonlar</strong> bölümünü açın.</li><li>Sağ üstteki <strong>ekle</strong> düğmesine dokunun.</li><li>Koleksiyon adını ve rengini belirleyin.</li><li>İsterseniz ünite, konu ve alt konuları ekleyip kaydedin.</li></ol>
-                <div class="callout"><span>Not</span><p>Bir koleksiyona içerik ekledikten sonra yapısını düzenleyebilirsiniz. Silmeden önce içindeki soruları, kartları, bilgileri ve kaynakları kontrol edin.</p></div>
-            </section>
-
-            <section class="guide-section searchable" id="hazir-koleksiyonlar" data-keywords="hazır koleksiyon ders konu yapı seç kaydet">
-                <span class="section-index">04</span><p class="section-kicker">Hızlı başlangıç</p><h2>Hazır Koleksiyonlar</h2>
-                <p class="section-intro">Balpy ile gelen hazır ders ve konu yapılarını Koleksiyonlar ekranından seçip çalışma alanınıza ekleyebilirsiniz.</p>
-                <ol class="clean-steps"><li>Alt menüden <strong>Koleksiyonlar</strong> bölümünü açın.</li><li>Boş ekran düğmesinden veya sağ üst menüden <strong>Hazır Koleksiyonları Kullan</strong> seçeneğine dokunun.</li><li>Eklemek istediğiniz koleksiyonları seçin.</li><li><strong>Kaydet</strong> düğmesine dokunun.</li></ol>
-                <div class="tip"><strong>Alternatif</strong><p>Hazır bir yapı kullanmak istemezseniz ekle düğmesiyle kendi koleksiyonunuzu oluşturabilirsiniz.</p></div>
-            </section>
-
-            <section class="guide-section searchable" id="icerik-ekleme" data-keywords="soru kart bilgi not ai yapay zeka içerik ekle hızlı ekle fotoğraf ses">
-                <span class="section-index">05</span><p class="section-kicker">İçerik üretme</p><h2>Soru, kart ve bilgi ekleme</h2>
-                <p class="section-intro">Ana Sayfa'daki Hızlı Ekle alanı en sık kullanılan içerik türlerini tek yerde toplar.</p>
-                <div class="feature-grid two">
-                    <div><span class="feature-symbol amber">?</span><h3>Soru</h3><p>Soru metni veya fotoğrafı, cevap ve çözüm ekleyin; ilgili koleksiyon ve konuyu seçin.</p></div>
-                    <div><span class="feature-symbol blue">▣</span><h3>Kart</h3><p>Ön ve arka yüz oluşturarak kısa bilgileri aktif hatırlama yöntemiyle çalışın.</p></div>
-                    <div><span class="feature-symbol green">i</span><h3>Bilgi</h3><p>Kısa notlarınızı başlık, açıklama, görsel veya sesle kaydedin.</p></div>
-                    <div><span class="feature-symbol violet">✦</span><h3>Ai İçerik</h3><p>Hazırladığınız yönergeyi kullanarak soru, kart ve bilgi taslaklarını oluşturup onaylayın.</p></div>
-                </div>
-                <div class="callout warning"><span>Dikkat</span><p>Kaydetmeden önce doğru koleksiyon ve konu seçildiğini kontrol edin. Ai tarafından hazırlanan taslakları mutlaka gözden geçirin.</p></div>
-            </section>
-
-            <section class="guide-section searchable" id="kaynaklar" data-keywords="pdf kaynak kamera fotoğraf sayfa kırp ekran görüntüsü bilgi soru kart">
-                <span class="section-index">06</span><p class="section-kicker">Kaynaklarla çalışma</p><h2>PDF ve kaynaklar</h2>
-                <p class="section-intro">Ders notu, kitap sayfası veya PDF dosyasını Balpy'ye kaynak olarak ekleyebilir; görüntülerken doğrudan çalışma içeriği çıkarabilirsiniz.</p>
-                <ol class="clean-steps"><li>Ana Sayfa → Hızlı Ekle → <strong>Kaynak</strong> yolunu açın.</li><li><strong>Kameradan Ekle</strong> veya <strong>PDF Seç</strong> yöntemini belirleyin.</li><li>Kaynağın ait olduğu koleksiyonu seçip kaydedin.</li><li>Kaynağı görüntülerken Bilgi, Soru, Kart veya Ai İçerik seçeneklerinden birini kullanın.</li></ol>
-                <p class="small-note">PDF görüntüleyicide sayfaya gitme, ayraç, fotoğraf düzenleme, ekran görüntüsü alma ve belirli sayfaları paylaşma araçları da bulunur.</p>
-            </section>
-
-            <section class="guide-section searchable" id="calisma" data-keywords="çalış tekrar soru kart bilgi bildim bilemedim ilerleme birleşik tekrar">
-                <span class="section-index">07</span><p class="section-kicker">Öğrenme</p><h2>Çalışma ve tekrar</h2>
-                <p class="section-intro">Bir koleksiyonu açtığınızda Bilgileri Çalış, Kartları Çalış ve Soruları Çalış seçeneklerinden size uygun olanı başlatabilirsiniz.</p>
-                <div class="instruction-list compact"><div><span>1</span><p>Çalışmak istediğiniz koleksiyonu ve gerekirse konuyu açın.</p></div><div><span>2</span><p>İçerik türünü ve çalışma kapsamını seçin.</p></div><div><span>3</span><p>Cevabınızı değerlendirin; <strong>Bildim</strong> veya <strong>Bilemedim</strong> seçimini doğru kullanın.</p></div><div><span>4</span><p>Oturumdan çıkmanız gerekirse daha sonra kaldığınız yerden devam edin.</p></div></div>
-            </section>
-
-            <section class="guide-section searchable" id="program" data-keywords="program haftalık günlük görev bildirim hatırlatma plan">
-                <span class="section-index">08</span><p class="section-kicker">Planlama</p><h2>Program ve bildirimler</h2>
-                <p class="section-intro">Ana Sayfa'daki günlük çalışma alanı, haftalık programınızdaki koleksiyonları ve görevleri takip etmenize yardımcı olur.</p>
-                <ul class="check-list"><li>Koleksiyonlarınızı haftanın günlerine dağıtın.</li><li>Günlük görevlerinizi tamamladıkça işaretleyin.</li><li>Profil → Hatırlatmaları Aç seçeneğiyle çalışma bildirimlerini yönetin.</li><li>Android bildirim izni kapalıysa cihaz ayarlarından Balpy'ye izin verin.</li></ul>
-            </section>
-
-            <section class="guide-section searchable" id="hesap" data-keywords="hesap profil giriş çıkış senkronizasyon veri gizlilik silme yerel cihaz eposta">
-                <span class="section-index">09</span><p class="section-kicker">Güvenlik ve saklama</p><h2>Profil, hesap ve veriler</h2>
-                <p class="section-intro">Profil ekranı kişisel bilgileriniz ile sık kullandığınız ayarları sade bir sırada gösterir. Üst çubuktaki üç nokta menüsünden profilinizi düzenleyebilir, yenileyebilir veya hesabınızdan çıkabilirsiniz.</p>
-                <div class="profile-outline" aria-label="Profil ekranı bölümlerinin sırası">
-                    <div class="profile-outline-head"><span>Profil</span><b>•••</b></div>
-                    <div class="profile-outline-identity"><strong>Baturalp</strong><span>YKS (Sayısal)</span></div>
-                    <div class="profile-outline-shortcuts"><span>Kullanım Rehberi</span></div>
-                    <ol><li>Çöp kutusu</li><li>Hatırlatıcılar</li><li>Hesap ve gizlilik</li></ol>
-                </div>
-                <h3 class="subheading">Hesap ve gizlilik bağlantıları</h3>
-                <ul class="check-list"><li><strong>Gizlilik Politikası</strong>, verilerin nasıl işlendiğini anlatan güncel web sayfasını açar.</li><li><strong>Hesap ve Veri Silme</strong>, silme kapsamını ve talep adımlarını gösteren web sayfasını açar.</li><li><strong>Destek ve iletişim</strong> satırına dokunduğunuzda destek e-posta adresi kopyalanır.</li></ul>
-                <div class="callout"><span>Önemli</span><p>Normal kullanıcıların soru, kart, bilgi, kaynak, PDF, görsel ve ses içeriklerinin önemli bölümü cihazda tutulur. Hesaptan çıkmadan veya uygulama verilerini temizlemeden önce saklamak istediğiniz içerikleri kontrol edin.</p></div>
-                <div class="legal-links"><a href="/gizlilik-politikasi/"><strong>Gizlilik Politikası</strong><span>Verilerin nasıl işlendiğini inceleyin →</span></a><a href="/hesap-silme/"><strong>Hesap ve Veri Silme</strong><span>Silme talebi adımlarını görün →</span></a></div>
-            </section>
-
-            <section class="guide-section searchable" id="sss" data-keywords="sık sorulan sorular internet ücret ücretsiz destek rehber">
-                <span class="section-index">10</span><p class="section-kicker">Yardım</p><h2>Sık sorulan sorular</h2>
-                <div class="faq-list">
-                    <details><summary>Hazır koleksiyonları nereden ekleyebilirim?</summary><p>Alt menüden Koleksiyonlar bölümünü açın ve Hazır Koleksiyonları Kullan seçeneğine dokunun.</p></details>
-                    <details><summary>Koleksiyonları web sitesinden indirmem gerekiyor mu?</summary><p>Hayır. Web sitesi yalnızca kullanım rehberidir. Hazır koleksiyon işlemleri uygulamanın Koleksiyonlar bölümünde yapılır.</p></details>
-                    <details><summary>Rehber önerisini kapattım, yeniden nasıl açarım?</summary><p>Alt menüden Profil'i açın ve Kullanım Rehberi seçeneğine dokunun.</p></details>
-                    <details><summary>Hazır koleksiyonlar neden görünmüyor?</summary><p>Profilinizde doğru çalışma düzeyinin seçili olduğunu kontrol edin ve Koleksiyonlar bölümünü yeniden açın.</p></details>
-                    <details><summary>Yardıma ihtiyacım var, nereye yazabilirim?</summary><p><a href="mailto:balpydigital.destek@gmail.com">balpydigital.destek@gmail.com</a> adresine ekran görüntüsü ve kısa bir açıklama gönderebilirsiniz.</p></details>
-                </div>
-            </section>
-
-            <div class="no-results" id="no-results" hidden><strong>Bu aramayla eşleşen başlık bulunamadı.</strong><p>Başka bir kelime deneyin veya destek ekibine yazın.</p></div>
-        </article>
-    </main>
-
-    <footer class="site-footer shell"><a class="brand footer-brand" href="/"><span class="brand-mark">🐝</span><span>Balpy<span>Digital</span></span></a><p>Balpy uygulamasının resmi kullanım ve destek merkezi.</p><nav><a href="/">Başlangıç</a><a href="/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/hesap-silme/">Hesap ve Veri Silme</a><a href="mailto:balpydigital.destek@gmail.com">İletişim</a></nav><small>© 2026 Balpy Digital. Tüm hakları saklıdır.</small></footer>
-    <script src="guide.js" defer></script>
+  <footer class="site-footer shell"><a class="brand" href="/"><img src="/assets/app-icon.png" alt="" width="38" height="38"><span><b>Balpy</b><small>Rehber</small></span></a><p>Balpy uygulamasının resmi kullanım ve destek merkezi.</p><nav aria-label="Alt menü"><a href="/">Başlangıç</a><a href="/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/hesap-silme/">Hesap ve Veri Silme</a><a href="mailto:balpydigital.destek@gmail.com">İletişim</a></nav><small>© 2026 Balpy. Tüm hakları saklıdır.</small></footer>
+  <script src="/rehber/guide.js" defer></script>
 </body>
 </html>
