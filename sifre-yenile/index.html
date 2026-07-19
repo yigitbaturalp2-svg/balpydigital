@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Şifre Yenile | Balpy</title>
+  <meta name="description" content="Balpy hesabınız için güvenli şifre yenileme sayfası.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#111827">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src https://abfsosyhworkxzgzqxlu.supabase.co; img-src 'self' data:; script-src 'self'; style-src 'self'; font-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'">
+  <link rel="canonical" href="https://balpydigital.com/sifre-yenile/">
+  <link rel="icon" href="/assets/app-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/sifre-yenile/reset-password.css">
+  <script src="/sifre-yenile/reset-password.js" defer></script>
+</head>
+<body class="reset-page">
+  <a class="skip-link" href="#reset-card">İçeriğe geç</a>
+
+  <header class="reset-header">
+    <a class="brand" href="/" aria-label="Balpy ana sayfa">
+      <img src="/assets/app-icon.png" alt="" width="42" height="42">
+      <span><b>Balpy</b><small>Hesap güvenliği</small></span>
+    </a>
+    <a class="reset-help-link" href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20şifre%20yenileme%20desteği">Yardım al</a>
+  </header>
+
+  <main class="reset-layout">
+    <section class="reset-intro" aria-labelledby="reset-intro-title">
+      <span class="reset-kicker">Balpy hesabın</span>
+      <h1 id="reset-intro-title">Şifreni güvenle yenile.</h1>
+      <p>Bağlantını doğrulayıp yeni şifreni yalnızca Balpy hesabına kaydederiz. Çalışma verilerin ve cihazındaki içeriklerin değişmez.</p>
+      <ul class="reset-assurances" aria-label="Güvenlik bilgileri">
+        <li><span aria-hidden="true">✓</span> Şifren en az 8 karakter olmalı</li>
+        <li><span aria-hidden="true">✓</span> Bağlantı yalnızca sınırlı süre geçerlidir</li>
+        <li><span aria-hidden="true">✓</span> Balpy senden eski şifreni istemez</li>
+      </ul>
+    </section>
+
+    <section class="reset-card" id="reset-card" aria-live="polite">
+      <div class="reset-brand-mobile" aria-hidden="true">
+        <img src="/assets/app-icon.png" alt="" width="52" height="52">
+      </div>
+
+      <div class="reset-panel" id="loading-panel">
+        <div class="reset-spinner" aria-hidden="true"></div>
+        <h2>Bağlantı doğrulanıyor</h2>
+        <p>Güvenli şifre yenileme oturumun hazırlanıyor.</p>
+      </div>
+
+      <div class="reset-panel" id="request-panel" hidden>
+        <div class="reset-icon reset-icon-lock" aria-hidden="true">✦</div>
+        <span class="reset-step">Şifremi unuttum</span>
+        <h2>Sıfırlama bağlantısı iste</h2>
+        <p>Balpy hesabında kullandığın e-posta adresini gir. Sana güvenli bir yenileme bağlantısı gönderelim.</p>
+
+        <form id="request-form" novalidate>
+          <div class="reset-field">
+            <label for="request-email">E-posta adresi</label>
+            <input id="request-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="100" placeholder="ornek@email.com" required>
+            <small class="field-error" id="request-email-error"></small>
+          </div>
+          <div class="form-message" id="request-message" role="alert" hidden></div>
+          <button class="reset-primary-button" id="request-submit" type="submit">
+            <span>Bağlantı gönder</span>
+            <span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+        <a class="reset-text-link" href="/rehber/">Balpy kullanım rehberine dön</a>
+      </div>
+
+      <div class="reset-panel" id="email-sent-panel" hidden>
+        <div class="reset-icon reset-icon-success" aria-hidden="true">✓</div>
+        <span class="reset-step">E-postanı kontrol et</span>
+        <h2>Bağlantı gönderildi</h2>
+        <p><strong id="sent-email"></strong> adresi bir Balpy hesabıyla eşleşiyorsa şifre yenileme e-postası birkaç dakika içinde ulaşacak.</p>
+        <div class="reset-note">E-posta görünmüyorsa spam ve gereksiz klasörlerini de kontrol et.</div>
+        <div class="form-message resend-message" id="resend-message" role="alert" hidden></div>
+        <button class="reset-secondary-button" id="resend-button" type="button" disabled>Tekrar gönder (60 sn)</button>
+        <button class="reset-link-button" id="change-email-button" type="button">E-posta adresini değiştir</button>
+      </div>
+
+      <div class="reset-panel" id="password-panel" hidden>
+        <div class="reset-icon reset-icon-lock" aria-hidden="true">✦</div>
+        <span class="reset-step">Son adım</span>
+        <h2>Yeni şifreni belirle</h2>
+        <p>Diğer hesaplarında kullanmadığın, en az 8 karakterlik yeni bir şifre oluştur.</p>
+
+        <form id="password-form" novalidate>
+          <div class="reset-field">
+            <label for="new-password">Yeni şifre</label>
+            <div class="password-input-wrap">
+              <input id="new-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required>
+              <button class="password-toggle" type="button" data-target="new-password" aria-label="Yeni şifreyi göster">Göster</button>
+            </div>
+            <small class="field-hint">8–128 karakter</small>
+            <small class="field-error" id="new-password-error"></small>
+          </div>
+
+          <div class="reset-field">
+            <label for="confirm-password">Yeni şifre tekrar</label>
+            <div class="password-input-wrap">
+              <input id="confirm-password" name="password-confirmation" type="password" autocomplete="new-password" minlength="8" maxlength="128" required>
+              <button class="password-toggle" type="button" data-target="confirm-password" aria-label="Şifre tekrarını göster">Göster</button>
+            </div>
+            <small class="field-error" id="confirm-password-error"></small>
+          </div>
+
+          <div class="form-message" id="password-message" role="alert" hidden></div>
+          <button class="reset-primary-button" id="password-submit" type="submit">
+            <span>Şifreyi güncelle</span>
+            <span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="reset-panel" id="invalid-panel" hidden>
+        <div class="reset-icon reset-icon-error" aria-hidden="true">!</div>
+        <span class="reset-step">Bağlantı kullanılamıyor</span>
+        <h2>Yeni bir bağlantı gerekli</h2>
+        <p id="invalid-message">Bu şifre yenileme bağlantısının süresi dolmuş veya bağlantı daha önce kullanılmış olabilir.</p>
+        <button class="reset-primary-button" id="new-link-button" type="button">
+          <span>Yeni bağlantı iste</span>
+          <span class="button-arrow" aria-hidden="true">→</span>
+        </button>
+        <a class="reset-text-link" href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20şifre%20yenileme%20desteği">Destek ekibine yaz</a>
+      </div>
+
+      <div class="reset-panel" id="success-panel" hidden>
+        <div class="reset-icon reset-icon-success" aria-hidden="true">✓</div>
+        <span class="reset-step">İşlem tamamlandı</span>
+        <h2>Şifren yenilendi</h2>
+        <p>Artık Balpy uygulamasına yeni şifrenle giriş yapabilirsin. Çalışma verilerin ve hesabın korunmaya devam ediyor.</p>
+        <div class="reset-note">Güvenliğin için bu sayfayı kapatabilirsin.</div>
+        <a class="reset-primary-button" href="/">
+          <span>Balpy ana sayfasına dön</span>
+          <span class="button-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <noscript>
+        <div class="reset-panel reset-noscript">
+          <h2>JavaScript gerekli</h2>
+          <p>Güvenli şifre yenileme işlemini tamamlamak için tarayıcında JavaScript'i etkinleştirip sayfayı yeniden aç.</p>
+        </div>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="reset-footer">
+    <span>© 2026 Balpy</span>
+    <nav aria-label="Yasal bağlantılar">
+      <a href="/gizlilik-politikasi/">Gizlilik</a>
+      <a href="/hesap-silme/">Hesap silme</a>
+    </nav>
+  </footer>
+</body>
+</html>
