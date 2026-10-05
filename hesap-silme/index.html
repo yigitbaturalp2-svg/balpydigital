@@ -1,78 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hesap ve Veri Silme | Balpy</title>
-    <meta name="description" content="Balpy hesabınızı veya hesabınıza bağlı verileri silmek için izlenecek adımlar.">
-    <link rel="canonical" href="https://balpydigital.com/hesap-silme/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../legal.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hesap ve Veri Silme | Balpy</title>
+  <meta name="description" content="Balpy hesabınızı veya hesabınıza bağlı verileri silmek için izlenecek adımlar.">
+  <link rel="canonical" href="https://balpydigital.com/hesap-silme/">
+  <meta name="theme-color" content="#090f1b">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Balpy">
+  <meta property="og:title" content="Hesap ve Veri Silme | Balpy">
+  <meta property="og:url" content="https://balpydigital.com/hesap-silme/">
+  <meta property="og:image" content="https://balpydigital.com/og.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0&display=block">
+  <link rel="stylesheet" href="/site.css">
+  <script src="/site.js" defer></script>
 </head>
-<body class="legal-page">
-    <div class="glow-effect"></div>
-    <div class="legal-container">
-        <header class="legal-header">
-            <a class="brand-link" href="/" aria-label="Balpy ana sayfa"><img src="/assets/app-icon.png" alt="" width="38" height="38"><span>Balpy</span></a>
-            <a class="back-link" href="/rehber/">← Kullanım rehberine dön</a>
-        </header>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <div class="backdrop" aria-hidden="true"></div>
 
-        <main class="legal-card">
-            <h1>Hesap ve Veri Silme</h1>
-            <p class="legal-meta">Balpy mobil uygulaması · Son güncelleme: 5 Ekim 2026</p>
-
-            <p>Balpy hesabınızın ve hesabınıza bağlı verilerin silinmesini talep edebilirsiniz. Hesabınızı kapatmadan yalnızca belirli kullanıcı içeriklerinizin veya buluttaki tüm kullanıcı içeriklerinizin silinmesini istemeniz de mümkündür.</p>
-
-            <div class="notice">
-                <p><strong>Talep adresi:</strong> <a href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20hesap%20silme%20talebi">balpydigital.destek@gmail.com</a></p>
-            </div>
-
-            <h2>Uygulama içinden talep</h2>
-            <ol>
-                <li>Balpy'de alt menüden <strong>Profil</strong>'i açın ve sağ üstteki <strong>dişli simgesine</strong> dokunarak Ayarlar'a girin.</li>
-                <li><strong>Gizlilik ve hesap</strong> bölümünde <strong>Hesap ve veri silme</strong> satırına dokunun.</li>
-                <li>Tüm hesabınızı mı (<strong>Hesap ve veriler</strong>) yoksa yalnızca belirli verilerinizi mi (<strong>Yalnız veriler</strong>) silmek istediğinizi seçin.</li>
-                <li><strong>E-posta taslağı oluştur</strong> düğmesine dokunun. Konu, talep türü, hesabınızın e-posta adresi ve hesap kimliği hazır olarak e-posta uygulamanızda açılır; e-postayı göndermeniz yeterlidir.</li>
-            </ol>
-
-            <h2>E-postayla talep</h2>
-            <p>Uygulamaya erişemiyorsanız talebinizi doğrudan e-postayla gönderebilirsiniz:</p>
-            <ol>
-                <li>Balpy hesabınızda kullandığınız e-posta hesabından <a href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20hesap%20silme%20talebi">balpydigital.destek@gmail.com</a> adresine e-posta gönderin.</li>
-                <li>E-posta konusuna <strong>Balpy hesap silme talebi</strong> yazın.</li>
-                <li>Balpy hesabınızda kullandığınız e-posta adresini belirtin.</li>
-                <li>Hesabınızın tamamını mı yoksa yalnızca belirli verilerinizi mi silmek istediğinizi açıkça yazın.</li>
-            </ol>
-            <p>Talebin hesap sahibinden geldiğini doğrulamak için ek doğrulama isteyebiliriz. Şifrenizi e-postayla göndermeyin; Balpy sizden şifrenizi istemez.</p>
-
-            <h2>Hesap silme kapsamı</h2>
-            <p>Hesap silme talebi doğrulanıp tamamlandığında Balpy sunucularında (Supabase) saklanan şu veriler silinir:</p>
-            <ul>
-                <li>Hesap kimliği, e-posta adresi ve profil bilgileri (görünen ad).</li>
-                <li>Buluta yedeklenen koleksiyonlar ve koleksiyon yapısı (üniteler ve bölümler).</li>
-                <li>Buluta yedeklenen sorular, çözümler, bilgi kartları, notlar ve Ai kılavuz şablonları.</li>
-                <li>Uygulama içinden gönderdiğiniz geri bildirimler.</li>
-                <li>YouTube oynatma listesi isteklerine ait günlük sayaç kayıtları.</li>
-            </ul>
-
-            <h2>Cihazdaki yerel veriler</h2>
-            <p>Kaynaklar (fotoğraflar, PDF dosyaları ve YouTube kaynakları), soru görselleri, çizimler, okuma ilerlemesi, çalışma planları, çalışma süresi kayıtları ve uygulama ayarları yalnızca cihazınızda saklanır ve sunucularımıza gönderilmez. Bu nedenle silme talebi bu verileri kapsamaz. Bunları kaldırmak için Balpy'yi cihazınızdan kaldırabilir veya Android ayarlarından Balpy'nin uygulama verilerini temizleyebilirsiniz.</p>
-
-            <h2>Hesabı kapatmadan veri silme</h2>
-            <p>Hesabınız açık kalırken yalnızca belirli verilerin ya da buluttaki tüm kullanıcı içeriklerinizin silinmesini talep edebilirsiniz. E-postanızda silinmesini istediğiniz veri türlerini mümkün olduğunca açık belirtin.</p>
-            <p>Sorularınızı, kartlarınızı ve notlarınızı uygulama içinden kendiniz de silebilirsiniz; çöp kutusundan kalıcı olarak sildiğiniz içerikler eşitleme sırasında buluttan da kaldırılır.</p>
-
-            <h2>Saklama süresi ve istisnalar</h2>
-            <p>Doğrulanmış talepler makul süre içinde işleme alınır. Yasal yükümlülükler, güvenlik, kötüye kullanımın önlenmesi veya uyuşmazlık çözümü için tutulması zorunlu sınırlı kayıtlar ilgili yükümlülük süresince saklanabilir. Yedeklerde kalan veriler, olağan yedekleme döngüsü içinde silinir.</p>
-
-            <h2>Yardım ve gizlilik</h2>
-            <p>Hesap veya veri silme konusunda yardım almak için <a href="mailto:balpydigital.destek@gmail.com">balpydigital.destek@gmail.com</a> adresine ulaşabilirsiniz. Kişisel verilerin nasıl işlendiği hakkında ayrıntılı bilgi için <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> sayfasını inceleyin.</p>
-        </main>
-
-        <footer class="legal-footer">&copy; 2026 Balpy. Tüm hakları saklıdır.</footer>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
+      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
+        <a href="/">Ana sayfa</a>
+        <a href="/rehber/">Rehber</a>
+        <a href="/gizlilik-politikasi/">Gizlilik</a>
+        <a href="/hesap-silme/" aria-current="page">Hesap silme</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
     </div>
+  </header>
+
+  <main id="main" class="legal">
+    <div class="wrap">
+      <article class="legal-card">
+              <h1>Hesap ve Veri Silme</h1>
+              <p class="legal-meta">Balpy mobil uygulaması · Son güncelleme: 5 Ekim 2026</p>
+
+              <p>Balpy hesabınızın ve hesabınıza bağlı verilerin silinmesini talep edebilirsiniz. Hesabınızı kapatmadan yalnızca belirli kullanıcı içeriklerinizin veya buluttaki tüm kullanıcı içeriklerinizin silinmesini istemeniz de mümkündür.</p>
+
+              <div class="notice">
+                  <p><strong>Talep adresi:</strong> <a href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20hesap%20silme%20talebi">balpydigital.destek@gmail.com</a></p>
+              </div>
+
+              <h2>Uygulama içinden talep</h2>
+              <ol>
+                  <li>Balpy'de alt menüden <strong>Profil</strong>'i açın ve sağ üstteki <strong>dişli simgesine</strong> dokunarak Ayarlar'a girin.</li>
+                  <li><strong>Gizlilik ve hesap</strong> bölümünde <strong>Hesap ve veri silme</strong> satırına dokunun.</li>
+                  <li>Tüm hesabınızı mı (<strong>Hesap ve veriler</strong>) yoksa yalnızca belirli verilerinizi mi (<strong>Yalnız veriler</strong>) silmek istediğinizi seçin.</li>
+                  <li><strong>E-posta taslağı oluştur</strong> düğmesine dokunun. Konu, talep türü, hesabınızın e-posta adresi ve hesap kimliği hazır olarak e-posta uygulamanızda açılır; e-postayı göndermeniz yeterlidir.</li>
+              </ol>
+
+              <h2>E-postayla talep</h2>
+              <p>Uygulamaya erişemiyorsanız talebinizi doğrudan e-postayla gönderebilirsiniz:</p>
+              <ol>
+                  <li>Balpy hesabınızda kullandığınız e-posta hesabından <a href="mailto:balpydigital.destek@gmail.com?subject=Balpy%20hesap%20silme%20talebi">balpydigital.destek@gmail.com</a> adresine e-posta gönderin.</li>
+                  <li>E-posta konusuna <strong>Balpy hesap silme talebi</strong> yazın.</li>
+                  <li>Balpy hesabınızda kullandığınız e-posta adresini belirtin.</li>
+                  <li>Hesabınızın tamamını mı yoksa yalnızca belirli verilerinizi mi silmek istediğinizi açıkça yazın.</li>
+              </ol>
+              <p>Talebin hesap sahibinden geldiğini doğrulamak için ek doğrulama isteyebiliriz. Şifrenizi e-postayla göndermeyin; Balpy sizden şifrenizi istemez.</p>
+
+              <h2>Hesap silme kapsamı</h2>
+              <p>Hesap silme talebi doğrulanıp tamamlandığında Balpy sunucularında (Supabase) saklanan şu veriler silinir:</p>
+              <ul>
+                  <li>Hesap kimliği, e-posta adresi ve profil bilgileri (görünen ad).</li>
+                  <li>Buluta yedeklenen koleksiyonlar ve koleksiyon yapısı (üniteler ve bölümler).</li>
+                  <li>Buluta yedeklenen sorular, çözümler, bilgi kartları, notlar ve Ai kılavuz şablonları.</li>
+                  <li>Uygulama içinden gönderdiğiniz geri bildirimler.</li>
+                  <li>YouTube oynatma listesi isteklerine ait günlük sayaç kayıtları.</li>
+              </ul>
+
+              <h2>Cihazdaki yerel veriler</h2>
+              <p>Kaynaklar (fotoğraflar, PDF dosyaları ve YouTube kaynakları), soru görselleri, çizimler, okuma ilerlemesi, çalışma planları, çalışma süresi kayıtları ve uygulama ayarları yalnızca cihazınızda saklanır ve sunucularımıza gönderilmez. Bu nedenle silme talebi bu verileri kapsamaz. Bunları kaldırmak için Balpy'yi cihazınızdan kaldırabilir veya Android ayarlarından Balpy'nin uygulama verilerini temizleyebilirsiniz.</p>
+
+              <h2>Hesabı kapatmadan veri silme</h2>
+              <p>Hesabınız açık kalırken yalnızca belirli verilerin ya da buluttaki tüm kullanıcı içeriklerinizin silinmesini talep edebilirsiniz. E-postanızda silinmesini istediğiniz veri türlerini mümkün olduğunca açık belirtin.</p>
+              <p>Sorularınızı, kartlarınızı ve notlarınızı uygulama içinden kendiniz de silebilirsiniz; çöp kutusundan kalıcı olarak sildiğiniz içerikler eşitleme sırasında buluttan da kaldırılır.</p>
+
+              <h2>Saklama süresi ve istisnalar</h2>
+              <p>Doğrulanmış talepler makul süre içinde işleme alınır. Yasal yükümlülükler, güvenlik, kötüye kullanımın önlenmesi veya uyuşmazlık çözümü için tutulması zorunlu sınırlı kayıtlar ilgili yükümlülük süresince saklanabilir. Yedeklerde kalan veriler, olağan yedekleme döngüsü içinde silinir.</p>
+
+              <h2>Yardım ve gizlilik</h2>
+              <p>Hesap veya veri silme konusunda yardım almak için <a href="mailto:balpydigital.destek@gmail.com">balpydigital.destek@gmail.com</a> adresine ulaşabilirsiniz. Kişisel verilerin nasıl işlendiği hakkında ayrıntılı bilgi için <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> sayfasını inceleyin.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-row">
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <nav class="footer-nav" aria-label="Alt menü">
+          <a href="/rehber/">Rehber</a>
+          <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+          <a href="/hesap-silme/">Hesap ve Veri Silme</a>
+          <a href="/sifre-yenile/">Şifre Yenile</a>
+          <a href="mailto:balpydigital.destek@gmail.com">İletişim</a>
+        </nav>
+      </div>
+      <p class="footer-note">© 2026 Balpy · balpydigital.destek@gmail.com</p>
+    </div>
+  </footer>
 </body>
 </html>
