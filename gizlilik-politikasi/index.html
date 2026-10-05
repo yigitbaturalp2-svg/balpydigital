@@ -22,9 +22,9 @@
 
         <main class="legal-card">
             <h1>Balpy Gizlilik Politikası</h1>
-            <p class="legal-meta">Son güncelleme: 18 Temmuz 2026</p>
+            <p class="legal-meta">Son güncelleme: 5 Ekim 2026</p>
 
-            <p>Bu Gizlilik Politikası, Balpy mobil uygulamasının kullanıcı verilerini nasıl işlediğini açıklar. Balpy; soru, kaynak, bilgi kartı, tekrar ve çalışma planı yönetimi için geliştirilen kişisel bir öğrenme uygulamasıdır.</p>
+            <p>Bu Gizlilik Politikası, Balpy mobil uygulamasının kullanıcı verilerini nasıl işlediğini açıklar. Balpy; soru, kaynak, bilgi kartı, tekrar ve çalışma planı yönetimi için geliştirilen kişisel bir öğrenme uygulamasıdır. Bu politika Google Play'de yayınlanan Balpy uygulaması için geçerlidir.</p>
 
             <h2>Veri sorumlusu ve iletişim</h2>
             <p>Geliştirici ve yayıncı: <strong>Balpy</strong></p>
@@ -34,10 +34,12 @@
             <p>Balpy, kullanılan özelliklere bağlı olarak aşağıdaki verileri işleyebilir:</p>
             <ul>
                 <li><strong>Hesap bilgileri:</strong> e-posta adresi, kullanıcı kimliği, oturum sağlayıcısı ve kimlik doğrulama bilgileri.</li>
-                <li><strong>Profil bilgileri:</strong> görünen ad, sınıf veya öğrenim seviyesi ve uygulama tercihleri.</li>
-                <li><strong>Kullanıcı içerikleri:</strong> sorular, çözümler, bilgi kartları, notlar, kaynaklar, koleksiyon ve konu yapıları, çalışma planları ve etiketler.</li>
-                <li><strong>Medya:</strong> kamera veya cihazdan eklenen görseller, içe aktarılan PDF dosyaları ve kaydedilen ses notları.</li>
-                <li><strong>Çalışma verileri:</strong> tekrar durumları, doğru ve yanlış çalışma kayıtları, tamamlanan görevler, hatırlatıcı zamanları ve ilerleme bilgileri.</li>
+                <li><strong>Profil bilgileri:</strong> görünen ad ve uygulamanın ilk kurulum adımlarının tamamlanıp tamamlanmadığı.</li>
+                <li><strong>Kullanıcı içerikleri:</strong> sorular, çözümler, bilgi kartları, notlar, kaynaklar, koleksiyon ve konu yapıları, çalışma planları ve Ai kılavuz şablonları.</li>
+                <li><strong>Medya:</strong> kamera veya cihazdan eklenen görseller, görseller üzerindeki çizimler ve içe aktarılan PDF dosyaları.</li>
+                <li><strong>Çalışma verileri:</strong> tekrar durumları, doğru ve yanlış çalışma kayıtları, tamamlanan görevler, çalışma süresi kayıtları, günlük çalışma hedefleri, hatırlatıcı zamanları ve ilerleme bilgileri.</li>
+                <li><strong>YouTube kaynakları:</strong> eklediğiniz YouTube video ve oynatma listesi bağlantıları ile bu videoların herkese açık başlığı, kanal adı ve kapak görseli bağlantısı. Ayrıntılar aşağıdaki "YouTube API Hizmetleri" bölümündedir.</li>
+                <li><strong>Geri bildirimler:</strong> uygulama içindeki "Geri bildirim gönder" formuyla gönderdiğiniz mesaj, mesaj türü (problem veya öneri), uygulama sürümü ve cihaz platformu (ör. Android). Geri bildirim hesabınızla ilişkilendirilerek saklanır.</li>
             </ul>
             <p>Balpy reklam amaçlı kullanıcı takibi yapmaz, reklam SDK'sı kullanmaz ve kullanıcı verilerini satmaz.</p>
 
@@ -47,40 +49,77 @@
                 <li>Hesap oluşturma, giriş, oturum ve profil işlemlerini yürütmek.</li>
                 <li>Kullanıcı içeriklerini, çalışma planlarını ve ilerleme durumunu saklamak.</li>
                 <li>Tekrar planlaması, hatırlatıcılar ve bildirimler gibi talep edilen özellikleri çalıştırmak.</li>
-                <li>Uygun hesaplarda bulut senkronizasyonu ve yedekleme sağlamak.</li>
-                <li>Güvenliği korumak, hataları gidermek ve kötüye kullanımı önlemek.</li>
+                <li>Bulut yedekleme ve cihazlar arası eşitleme sağlamak.</li>
+                <li>Gönderdiğiniz geri bildirimleri incelemek, hataları gidermek ve gerektiğinde size dönüş yapmak.</li>
+                <li>Güvenliği korumak ve kötüye kullanımı önlemek.</li>
             </ul>
 
             <h2>Yerel ve bulut saklama</h2>
-            <p>Uygulama içeriklerinin önemli bir bölümü cihazdaki yerel veritabanında ve uygulamaya ait dosya alanında tutulur. Hesap oluşturulduğunda e-posta adresi, kullanıcı kimliği ve profil bilgileri Supabase altyapısında işlenir. Koleksiyon ve konu yapısına ait bazı veriler de hesap senkronizasyonu kapsamında Supabase üzerinde saklanabilir.</p>
-            <p>Normal kullanıcıların soru, kart, bilgi, kaynak, PDF, görsel ve ses içerikleri varsayılan olarak cihazda tutulur. Uygulama sahibine ait yetkili yönetici hesabında çoklu cihaz yedekleme amacıyla soru, kart, bağımsız bilgi ve bunlara bağlı görsel veya ses dosyaları Supabase üzerinde ayrıca saklanabilir.</p>
+            <p>Balpy verilerin bir kısmını cihazdaki yerel veritabanında ve uygulamaya ait dosya alanında, bir kısmını da Supabase altyapısında saklar.</p>
+            <p><strong>Bulutta saklananlar:</strong> hesap ve profil bilgileri; koleksiyonlar ve koleksiyon yapısı (üniteler ve bölümler); soruların metinleri ve çözümleri; bilgi kartları; notlar; Ai kılavuz şablonları ve gönderdiğiniz geri bildirimler. Bu içerikler aynı hesapla giriş yapılan cihazlar arasında eşitlenir.</p>
+            <p><strong>Yalnızca cihazda saklananlar:</strong> kaynaklar (fotoğraflar, PDF dosyaları ve YouTube kaynakları), soru görselleri, görseller üzerindeki çizimler, okuma ilerlemesi, ayraçlar, çalışma planları, çalışma süresi kayıtları, hatırlatıcı tercihleri ve uygulama ayarları. Bu veriler sunucularımıza gönderilmez; uygulama silindiğinde ya da cihaz değiştirildiğinde taşınmaz.</p>
+            <p>Hesabınızdan çıkış yaptığınızda cihazdaki içerikleriniz silinmez; aynı hesapla yeniden giriş yaptığınızda kullanılmaya devam eder.</p>
 
             <h2>Hizmet sağlayıcılar</h2>
             <p>Uygulama işlevleri için aşağıdaki hizmet sağlayıcılar veri işleyebilir:</p>
             <ul>
-                <li><strong>Supabase:</strong> kimlik doğrulama, kullanıcı profili, veritabanı, dosya saklama ve senkronizasyon altyapısı.</li>
-                <li><strong>Google Play ve Android:</strong> uygulama dağıtımı, işletim sistemi izinleri, bildirimler ve ilgili cihaz hizmetleri.</li>
+                <li><strong>Supabase:</strong> kimlik doğrulama, kullanıcı profili, veritabanı, senkronizasyon ve sunucu fonksiyonları altyapısı.</li>
                 <li><strong>Google ile giriş:</strong> bu yöntem seçildiğinde hesap doğrulama ve oturum açma işlemleri.</li>
+                <li><strong>Google Play ve Android:</strong> uygulama dağıtımı, işletim sistemi izinleri, bildirimler ve ilgili cihaz hizmetleri.</li>
+                <li><strong>YouTube (Google LLC):</strong> eklediğiniz YouTube videolarının ve oynatma listelerinin herkese açık bilgilerini almak için.</li>
             </ul>
+            <p>Bu hizmet sağlayıcılar verileri yalnızca uygulama işlevlerinin sağlanması, güvenlik, depolama veya yasal yükümlülükler için işleyebilir.</p>
 
             <h2>Cihaz izinleri</h2>
             <ul>
                 <li><strong>Kamera:</strong> soru, kaynak veya bilgi kartı için görsel çekmek.</li>
-                <li><strong>Mikrofon:</strong> sesli açıklama veya ses notu kaydetmek.</li>
-                <li><strong>Bildirimler ve alarm:</strong> çalışma hatırlatıcılarını göstermek.</li>
+                <li><strong>Bildirimler:</strong> çalışma hatırlatıcılarını ve aktif çalışma sayacını göstermek.</li>
                 <li><strong>İnternet:</strong> hesap, kimlik doğrulama ve senkronizasyon özelliklerini sağlamak.</li>
             </ul>
-            <p>Kamera, mikrofon ve bildirim izinleri ilgili özellik gerektiğinde istenir ve cihaz ayarlarından değiştirilebilir.</p>
+            <p>Kamera ve bildirim izinleri ilgili özellik gerektiğinde istenir ve cihaz ayarlarından değiştirilebilir.</p>
+
+            <h2>Pano</h2>
+            <p>Balpy panoyu aşağıdaki durumlarda okur. Pano içeriği yalnızca cihaz üzerinde incelenir; bu inceleme için hiçbir sunucuya gönderilmez ve ayrıca saklanmaz.</p>
+            <ul>
+                <li>Android'de YouTube videosu ekleme ekranı açıldığında Balpy, panoda bir YouTube bağlantısı olup olmadığına bakar ve varsa yapıştırmayı önerir. Öneriye dokunmadığınız sürece ekrana yapıştırılmaz.</li>
+                <li>Ai Ayarları'ndaki "Panodan otomatik içe aktar" seçeneği açıksa (varsayılan olarak kapalıdır), bir Ai ekranından harici yapay zekâ uygulamasına geçip Balpy'ye döndüğünüzde Balpy panoda Balpy biçiminde bir yanıt olup olmadığına bakar. Varsa yanıtı ekrandaki taslaklara ekler; taslaklar ancak siz kaydettiğinizde içeriklerinize katılır. Balpy biçiminde olmayan pano içeriği yok sayılır.</li>
+                <li>Diğer ekranlarda pano yalnızca "Panodan yapıştır" ya da benzeri bir düğmeye dokunduğunuzda okunur.</li>
+            </ul>
+
+            <h2>Harici yapay zekâ uygulamaları</h2>
+            <p>Balpy kendi içinde bir yapay zekâ modeli çalıştırmaz ve içeriklerinizi herhangi bir yapay zekâ hizmetine kendiliğinden göndermez. Ai ekranlarında Balpy bir metin paketi hazırlar; bu paketi panoya kopyalamak, seçtiğiniz yapay zekâ uygulamasını (ör. ChatGPT, Gemini, Claude) açmak veya seçtiğiniz dosyaları o uygulamayla paylaşmak sizin dokunmanızla gerçekleşir. Bu uygulamalara aktardığınız içerik, ilgili hizmetin kendi şartlarına ve gizlilik politikasına tabidir.</p>
+            <p>Ai ayarlarında hangi yapay zekâ uygulamalarının cihazınızda yüklü olduğunu göstermek için Balpy, desteklediği uygulamaların cihazda bulunup bulunmadığını kontrol eder. Bu bilgi cihazda kalır ve hiçbir sunucuya gönderilmez.</p>
+
+            <h2>YouTube API Hizmetleri</h2>
+            <p>Balpy, eklediğiniz YouTube videolarının ve oynatma listelerinin bilgilerini almak için <strong>YouTube API Hizmetleri</strong>ni kullanır. Balpy'nin YouTube özelliklerini kullanarak <a href="https://www.youtube.com/t/terms">YouTube Hizmet Şartları</a>'nı kabul etmiş olursunuz. YouTube'un verileri nasıl işlediği <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>'nda açıklanmıştır.</p>
+            <p><strong>Balpy YouTube hesabınıza erişim istemez.</strong> YouTube ile giriş yapılmaz; YouTube hesabınızdaki özel listelere, izleme geçmişine veya abonelik bilgilerine erişilmez. Yalnızca herkese açık ya da liste dışı (bağlantıya sahip olanların görebildiği) videolar ve oynatma listeleri kullanılır.</p>
+            <p><strong>Hangi bilgiler alınır?</strong></p>
+            <ul>
+                <li>Video eklerken: videonun başlığı, kanal adı ve kapak görseli bağlantısı. Bu bilgi, önizleme göstermek için cihazınızdan YouTube'un herkese açık oEmbed hizmetine videonun bağlantısı gönderilerek alınır. Kapak görselleri gösterilirken de cihazınız YouTube'un görsel sunucularına bağlanır; bu bağlantılarda YouTube, her web isteğinde olduğu gibi IP adresiniz gibi teknik bilgileri görebilir.</li>
+                <li>Oynatma listesi eklerken: listenin adı, kanal adı, video sayısı ve listedeki (en fazla 200) videonun kimliği, başlığı, kanal adı ve kapak görseli bağlantısı.</li>
+            </ul>
+            <p><strong>Oynatma listesi nasıl alınır?</strong> Uygulama, oynatma listesinin kimliğini oturumunuzla birlikte Balpy'nin sunucusuna (Supabase üzerinde çalışan bir fonksiyon) gönderir. Sunucu listeyi Balpy'ye ait bir anahtarla YouTube Data API'den ister ve sonucu uygulamaya döndürür. YouTube'a kimliğiniz, e-posta adresiniz ya da hesap bilgileriniz gönderilmez.</p>
+            <p><strong>Nerede ve ne kadar saklanır?</strong></p>
+            <ul>
+                <li>Eklediğiniz videoların bağlantısı, başlığı, kanal adı ve kapak görseli bağlantısı, kaynaklarınızın bir parçası olarak cihazınızda saklanır. Kaynağı sildiğinizde bu bilgiler de silinir.</li>
+                <li>Sunucu, aynı listenin kısa sürede tekrar istenmesi durumunda YouTube'a tekrar gitmemek için oynatma listesinin herkese açık bilgilerini en fazla 24 saat önbellekte tutar. Bu önbellek hangi kullanıcının listeyi istediği bilgisini içermez.</li>
+                <li>Kötüye kullanımı önlemek için sunucu, kullanıcı hesabı başına günlük oynatma listesi isteği sayısını tutar. Bu sayaçta listenin kendisi yer almaz. Hesabınız silindiğinde sayaç kayıtları da silinir.</li>
+            </ul>
+            <p>YouTube bilgileri yalnızca kaynaklarınızı göstermek ve düzenlemek için kullanılır; reklam, profil çıkarma veya üçüncü taraflarla paylaşım amacıyla kullanılmaz. Bir videoyu açtığınızda video YouTube uygulamasında ya da tarayıcıda oynatılır ve orada YouTube'un kendi şartları ve gizlilik politikası geçerlidir.</p>
 
             <h2>Veri güvenliği</h2>
             <p>Supabase bağlantıları HTTPS üzerinden kurulur. Mobil uygulamada yalnızca yayımlanabilir istemci anahtarı kullanılır; sunucuya ait gizli anahtarlar uygulamaya dahil edilmez. Bulut verilerine erişim kimlik doğrulama ve veritabanı güvenlik kurallarıyla sınırlandırılır.</p>
 
             <h2>Saklama ve silme</h2>
-            <p>Veriler, uygulama özelliklerini sağlamak için gerekli olduğu veya kullanıcı tarafından silinmediği sürece saklanabilir. Hesabınızın, hesabınıza bağlı verilerin ya da yalnızca belirli içeriklerinizin silinmesini talep edebilirsiniz.</p>
-            <p>Ayrıntılı adımlar için <a href="/hesap-silme/">Hesap ve Veri Silme</a> sayfasını kullanın. Yasal yükümlülükler, güvenlik, kötüye kullanımın önlenmesi veya uyuşmazlık çözümü için tutulması gereken sınırlı kayıtlar daha uzun süre saklanabilir.</p>
+            <p>Veriler, uygulama özelliklerini sağlamak için gerekli olduğu veya sizin tarafınızdan silinmediği sürece saklanabilir. Hesabınızın, hesabınıza bağlı verilerin ya da yalnızca belirli içeriklerinizin silinmesini talep edebilirsiniz.</p>
+            <p>Uygulamada <strong>Profil → Ayarlar (dişli simgesi) → Gizlilik ve hesap → Hesap ve veri silme</strong> yolundan hesap bilgilerinizle hazırlanmış bir silme talebi e-postası oluşturabilirsiniz. Ayrıntılı adımlar <a href="/hesap-silme/">Hesap ve Veri Silme</a> sayfasındadır. Silme talebi buluttaki verileri kapsar; yalnızca cihazda saklanan içerikler uygulamayı cihazdan kaldırdığınızda silinir.</p>
+            <p>Yasal yükümlülükler, güvenlik, kötüye kullanımın önlenmesi veya uyuşmazlık çözümü için tutulması gereken sınırlı kayıtlar daha uzun süre saklanabilir.</p>
 
             <h2>Çocukların gizliliği</h2>
             <p>Balpy genel öğrenme ve çalışma amaçlıdır. Uygulama, hedef kitle ve çocuk güvenliğiyle ilgili yürürlükteki mağaza ve mevzuat gerekliliklerine uygun biçimde sunulmayı amaçlar. Çocuklara yönelik özel bir veri işleme faaliyeti uygulanması halinde gerekli ek izinler ve korumalar sağlanır.</p>
+
+            <h2>Kullanıcı tarafından eklenen içerikler</h2>
+            <p>Uygulamaya kendi kaynaklarınızı, PDF'lerinizi, görsellerinizi, notlarınızı veya YouTube bağlantılarınızı ekleyebilirsiniz. Eklediğiniz içeriklerden siz sorumlusunuz.</p>
 
             <h2>Politika değişiklikleri</h2>
             <p>Bu politika, uygulamanın özellikleri veya yasal gereklilikler değiştiğinde güncellenebilir. Güncel sürüm her zaman bu adreste yayınlanır ve sayfanın üst kısmındaki güncelleme tarihi değiştirilir.</p>
