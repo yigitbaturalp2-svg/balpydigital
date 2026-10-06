@@ -1,0 +1,7 @@
+{
+  "name": "balpy-web-guide",
+  "private": true,
+  "type": "module",
+  "scripts": { "build:guide": "node tool/build-guide.mjs" },
+  "devDependencies": { "marked": "17.0.5" }
+}
