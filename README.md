@@ -4,15 +4,16 @@ Balpy'nin kullanım rehberi `https://balpydigital.com/rehber/` adresindedir.
 Uygulama ilk giriş davetinden, Profil → Ayarlar → Balpy rehberi satırından
 ve AI ekranlarındaki yardım düğmelerinden bu siteye yönlendirir.
 
-YKS, KPSS, üniversite, tıp ve genel öğrenme sekmeleri; çalışma alanı,
-kaynak ve ihtiyaç sorularına göre başlangıç adımları ve örnek sohbet
-isteği sunar. Bu yönlendirme tarayıcıda çalışır; AI servisine veya bir
-veritabanına bağlanmaz. Yanıtlar saklanmaz ve kendiliğinden gönderilmez.
+Site, Balpy'yi hiç bilmeyen birine genel kullanımı öğretir; hedefe
+(sınav, bölüm vb.) göre ayrı yollar sunmaz. Ana sayfadaki "Dört adımda
+Balpy" ve rehberdeki "İlk adımlar" (`#ilk-adimlar`) temel akışı sırayla
+anlatır; her adım ilgili rehber bölümüne bağlanır. Uygulama `/` ve
+`/rehber/#ai` adreslerine bağlandığı için bu kimlikler korunur.
 
 `rehber/index.html` kısa kullanım anlatımlarını, `rehber/notes.json`
 12 bölüm ve 51 ayrıntılı notun kaynak metnini taşır. Ayrıntılı notlar
 HTML'de açılır başlıklarla bulunur ve JavaScript olmadan da okunabilir.
-`rehber/guide.js` başlangıç sorularını ve bölüm gönderimini,
+`rehber/guide.js` ayrıntılı not aramasını ve bölüm gönderimini,
 `rehber/guide.css` rehberin görünümünü yönetir.
 
 ## İçerik güncelleme

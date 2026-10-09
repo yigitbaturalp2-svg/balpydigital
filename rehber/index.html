@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Kullanım Rehberi | Balpy</title>
-  <meta name="description" content="YKS, KPSS, üniversite, tıp ve günlük öğrenme için Balpy rehberi. Hedefini seç; AI ile içerik hazırlama, XML aktarımı ve tekrar için sana uygun başlangıç yolunu bul.">
+  <meta name="description" content="Balpy'yi ilk kez kullananlar için adım adım rehber: koleksiyon açma, kaynak ekleme, kendi yapay zekânla not, kart ve soru hazırlama, çalışma ve aralıklı tekrar.">
   <link rel="canonical" href="https://balpydigital.com/rehber/">
   <meta name="theme-color" content="#090f1b">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balpy">
   <meta property="og:title" content="Balpy Kullanım Rehberi">
-  <meta property="og:description" content="Hedefini seç, sana uygun yolu bul. AI ile hazırla, Balpy'ye aktar, öğren ve tekrar et.">
+  <meta property="og:description" content="Koleksiyonunu aç, içeriğini ekle, çalış ve tekrar et. Balpy'yi adım adım öğren.">
   <meta property="og:url" content="https://balpydigital.com/rehber/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -49,53 +49,34 @@
       <div class="wrap">
         <div class="guide-intro">
           <div>
-            <span class="eyebrow">Balpy öğrenme rehberi</span>
-            <h1>Sen ne öğrenmek<br>istiyorsun?</h1>
-            <p class="section-lead">Hedefin farklıysa başlangıç yolun da farklı. Birkaç kısa soruyla Balpy'yi kendi derslerin, kaynakların ve ihtiyaçların için nasıl kullanabileceğini keşfet.</p>
-            <div class="guide-intro-links"><a class="text-link" href="#sana-gore">Bana uygun yolu bul <span class="ms" aria-hidden="true">arrow_downward</span></a><a href="#rehber-konulari">Doğrudan rehbere geç</a></div>
+            <span class="eyebrow">Balpy kullanım rehberi</span>
+            <h1>Balpy'yi adım<br>adım öğren</h1>
+            <p class="section-lead">Balpy'yi ilk kez açıyorsan buradan başla. Önce temel akışı birkaç dakikada öğren, sonra ihtiyacın olan ekranın bölümünü aç.</p>
+            <div class="guide-intro-links"><a class="text-link" href="#ilk-adimlar">İlk adımlardan başla <span class="ms" aria-hidden="true">arrow_downward</span></a><a href="#rehber-konulari">Doğrudan konulara geç</a></div>
           </div>
-          <div class="learning-map" aria-label="AI ile hazırla, XML'i aktar, Balpy'de öğren ve tekrar et">
-            <span class="map-caption">Kendi yapay zekânla, kendi hedefin için</span>
-            <div class="map-step tone-ai"><span class="badge"><span class="ms" aria-hidden="true">bolt</span></span><div><strong>AI ile hazırla</strong><span>Konuna ve kaynağına uygun içerik</span></div></div>
+          <div class="learning-map" aria-label="Koleksiyon aç, içeriğini ekle, çalış ve tekrar et">
+            <span class="map-caption">Balpy'de çalışma bu sırayla ilerler</span>
+            <div class="map-step tone-note"><span class="badge"><span class="ms" aria-hidden="true">collections_bookmark</span></span><div><strong>Koleksiyon aç</strong><span>Bir ders, kitap ya da konu için çalışma alanı</span></div></div>
             <div class="map-connector" aria-hidden="true"></div>
-            <div class="map-step tone-note"><span class="badge"><span class="ms" aria-hidden="true">move_to_inbox</span></span><div><strong>XML'i Balpy'ye aktar</strong><span>Taslağı incele, onayla ve kaydet</span></div></div>
+            <div class="map-step tone-ai"><span class="badge"><span class="ms" aria-hidden="true">bolt</span></span><div><strong>İçeriğini ekle</strong><span>Kaynağını koy; notu, kartı ve soruyu yapay zekâna hazırlat</span></div></div>
             <div class="map-connector" aria-hidden="true"></div>
-            <div class="map-step tone-card"><span class="badge"><span class="ms" aria-hidden="true">event_repeat</span></span><div><strong>Öğren ve tekrar et</strong><span>Notla anla, kartla hatırla, soruyla uygula</span></div></div>
+            <div class="map-step tone-card"><span class="badge"><span class="ms" aria-hidden="true">event_repeat</span></span><div><strong>Çalış ve tekrar et</strong><span>Kartı çevir, soruyu çöz; tekrar zamanını Balpy tutar</span></div></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="wrap path-finder" id="sana-gore" aria-labelledby="path-heading">
-      <div class="path-heading"><div><span class="eyebrow">Senin başlangıç yolun</span><h2 id="path-heading">Balpy'yi ne için kullanıyorsun?</h2></div><span class="chip tone-ai">3 kısa soru</span></div>
-      <div class="path-tabs" role="tablist" aria-label="Öğrenme amacı">
-        <button id="track-yks" type="button" role="tab" aria-selected="true" aria-controls="guide-path-panel" data-track="yks"><span class="ms" aria-hidden="true">school</span>YKS<small>TYT · AYT</small></button>
-        <button id="track-kpss" type="button" role="tab" aria-selected="false" aria-controls="guide-path-panel" tabindex="-1" data-track="kpss"><span class="ms" aria-hidden="true">account_balance</span>KPSS<small>Bilgi · Uygulama</small></button>
-        <button id="track-universite" type="button" role="tab" aria-selected="false" aria-controls="guide-path-panel" tabindex="-1" data-track="universite"><span class="ms" aria-hidden="true">local_library</span>Üniversite<small>Ders · Vize · Final</small></button>
-        <button id="track-tip" type="button" role="tab" aria-selected="false" aria-controls="guide-path-panel" tabindex="-1" data-track="tip"><span class="ms" aria-hidden="true">biotech</span>Tıp<small>Kavram · Mekanizma</small></button>
-        <button id="track-genel" type="button" role="tab" aria-selected="false" aria-controls="guide-path-panel" tabindex="-1" data-track="genel"><span class="ms" aria-hidden="true">auto_stories</span>Genel öğrenme<small>Ders · Dil · Kitap</small></button>
-      </div>
-      <div id="guide-path-panel" role="tabpanel" aria-labelledby="track-yks" tabindex="0">
-        <p class="track-description" id="track-description">TYT ve AYT konularını ders koleksiyonlarında düzenle; zorlandığın konu için AI ile not, kart veya soru hazırlat.</p>
-        <form id="path-form" hidden>
-          <div class="path-fields">
-            <label><span>1. Hangi alanda çalışıyorsun?</span><select id="path-stage" required><option value="">Bir alan seç</option></select></label>
-            <label><span>2. Elinde ne var?</span><select id="path-material" required><option value="">Kaynağını seç</option><option value="pdf">PDF, kitap veya ders slaytı</option><option value="video">Video veya ders kaydı</option><option value="notes">Kendi notlarım</option><option value="none">Henüz bir kaynağım yok</option></select></label>
-            <label><span>3. Şu an neye ihtiyacın var?</span><select id="path-need" required><option value="">İhtiyacını seç</option><option value="understand">Konuyu anlamak</option><option value="remember">Öğrendiklerimi hatırlamak</option><option value="practice">Soru ve uygulama yapmak</option><option value="plan">Çalışmamı düzenlemek</option></select></label>
-          </div>
-          <label class="subject-field" for="path-subject"><span>Ders veya konun <small>İsteğe bağlı</small></span><input id="path-subject" type="text" maxlength="120" placeholder="Örn. TYT Matematik · Problemler" autocomplete="off"></label>
-          <div class="path-form-footer"><p>Yanıtların bu sayfada kalır. Bir hesap açman gerekmez.</p><button class="button primary" type="submit">Bana uygun yolu göster <span class="ms" aria-hidden="true">arrow_forward</span></button></div>
-        </form>
-        <noscript><p class="callout">Kişisel başlangıç yolunu görmek için JavaScript'i açabilirsin. Aşağıdaki rehberin tamamı JavaScript olmadan da okunabilir.</p></noscript>
-      </div>
-      <div class="path-result" id="path-result" hidden>
-        <div class="path-result-head"><div><span class="eyebrow" id="result-kicker"></span><h3 id="result-heading" tabindex="-1">Başlangıç yolun</h3></div><button type="button" class="button ghost small" id="change-answers">Yanıtlarımı değiştir</button></div>
-        <p id="result-description"></p>
-        <ol class="steps tone-ai" id="result-steps"></ol>
-        <div class="task-example"><div><span class="eyebrow">Sohbete yazabileceğin istek</span><button class="button ghost small" id="copy-task" type="button">İsteği kopyala</button></div><p id="result-task"></p><small>Önce ilgili Balpy ekranının kılavuzunu ve seçtiğin bağlamı sohbetine gönder. Bu metin, kılavuzun ardından yazacağın istektir.</small></div>
-        <div class="recommended-topics" id="recommended-topics" aria-label="İlgili rehber bölümleri"></div>
-        <p class="action-status" id="task-status" role="status" aria-live="polite"></p>
-      </div>
+    <section class="wrap first-steps" id="ilk-adimlar" aria-labelledby="first-steps-heading">
+      <div class="first-steps-heading"><div><span class="eyebrow">Yeni başlıyorsan</span><h2 id="first-steps-heading">İlk adımlar</h2></div><span class="chip tone-amber">6 adım</span></div>
+      <p>Bu sıra, Balpy'yi hiç bilmeyen birinin ilk gününü anlatır. Her adımın altında, o işin ayrıntılı anlatıldığı bölümün bağlantısı var.</p>
+      <ol class="steps tone-amber">
+        <li><div><b>Koleksiyonunu aç</b><span>Alt menüden <strong>Koleksiyonlar</strong>'a gir. <strong>Kendin oluştur</strong> ile ad ve renk seç ya da <strong>Ai ile hazırla</strong> ile ünite, konu ve hedefleri yapay zekâna hazırlat. Yapıyı sonradan da kurabilirsin.</span><a class="text-link" href="#koleksiyon">Koleksiyon <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+        <li><div><b>Kaynağını ekle</b><span>İsteğe bağlı. <strong>Kaynaklar</strong> sekmesindeki <strong>Kaynak ekle</strong> ile PDF seç, kitap sayfasını fotoğrafla ya da YouTube videosu ekle. Kaynak, çalıştığın asıl materyaldir; kendiliğinden not ya da kart üretmez.</span><a class="text-link" href="#kaynaklar">Kaynaklar <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+        <li><div><b>Not, kart ve soru hazırlat</b><span><strong>Notlar</strong>, <strong>Kartlar</strong> ya da <strong>Sorular</strong> sekmesindeki düğmeyle Ai ekranını aç. <strong>Kılavuzu kopyala</strong>, kendi sohbet uygulamana (ChatGPT, Gemini, Claude…) yapıştır ve ne istediğini yaz.</span><a class="text-link" href="#ai">Ai ve XML <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+        <li><div><b>Yanıtı içe aktar ve kaydet</b><span>Yapay zekânın yanıtını kopyala, aynı Balpy ekranına dön ve <strong>İçe aktar</strong>'a bas. Taslakları incele, istemediğini çıkar, kalanı kaydet.</span><a class="text-link" href="#ai">Ai ve XML <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+        <li><div><b>Çalış</b><span>Kartlar ya da Sorular sekmesinde sağ üstteki <strong>Çalış</strong> düğmesiyle başla. Kartın yüzüne dokunup çevir, <strong>Hatırladım</strong> ya da <strong>Hatırlamadım</strong> de. Soruda şıkkı alttaki harf düğmelerinden seç.</span><a class="text-link" href="#kartlar">Kartlar ve sorular <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+        <li><div><b>Her gün Ana Sayfa'dan devam et</b><span>Tekrar zamanı gelen kart ve sorular Ana Sayfa'daki <strong>Günlük tekrar</strong>'da toplanır. Neyi ne zaman tekrar edeceğini Balpy senin cevaplarına göre hesaplar.</span><a class="text-link" href="#tekrar">Tekrar <span class="ms" aria-hidden="true">arrow_forward</span></a></div></li>
+      </ol>
     </section>
 
     <section class="wrap guide-library-heading" id="rehber-konulari">
@@ -112,11 +93,10 @@
 
     <div class="wrap guide-layout">
       <nav class="toc" aria-label="Rehber konuları">
-        <a href="#sana-gore"><span class="ms">route</span>Bana uygun yol</a>
+        <a href="#ilk-adimlar"><span class="ms">flag</span>İlk adımlar</a>
         <p>Başlarken</p>
-        <a href="#ai" class="tone-ai"><span class="ms">bolt</span>AI ve XML</a>
         <a href="#baslangic"><span class="ms">rocket_launch</span>İlk bakış</a>
-        <a href="#hizli-baslangic"><span class="ms">bolt</span>İlk 5 dakika</a>
+        <a href="#ai" class="tone-ai"><span class="ms">bolt</span>Ai ve XML</a>
         <p>Koleksiyon</p>
         <a href="#koleksiyon" class="tone-note"><span class="ms">collections_bookmark</span>Koleksiyon</a>
         <a href="#genel" class="tone-success"><span class="ms">bar_chart</span>Genel sekmesi</a>
@@ -138,44 +118,45 @@
       </nav>
 
       <div class="guide-content">
-        <article class="topic tone-ai" id="ai" data-keywords="ai yapay zeka xml chatgpt gemini claude kılavuz kopyala içe aktar onayla kılavuzlarım panodan otomatik düzeltme">
-          <div class="topic-head"><span class="badge"><span class="ms">bolt</span></span><div><small>Ai ve tekrar</small><h2>Ai ve XML sistemi</h2></div></div>
-          <p class="lead">Balpy'nin içinde yapay zekâ yoktur. Kullandığın sohbet yapay zekâsına (ChatGPT, Gemini, Claude…) içeriği Balpy'nin okuyabildiği biçimde, XML ile yazmasını söyler. XML'i senin yazman ya da anlaman gerekmez: yapay zekâ yazar, Balpy okur.</p>
-          <p>Önerilen başlangıç, ihtiyacın olan içeriği kendi yapay zekâna hazırlatmaktır. Koleksiyon yapısı, kaynak listesi, not, kart, çözümlü soru, hedef ve plan için ilgili Balpy ekranından bir paket alırsın. AI taslağı hazırlar; sen kontrol edip Balpy'de öğrenmeye ve tekrara geçersin.</p>
+        <article class="topic tone-ai" id="ai" data-keywords="ai yapay zeka xml chatgpt gemini claude kılavuz kopyala içe aktar onayla kılavuzlarım panodan otomatik düzeltme genel not kart soru">
+          <div class="topic-head"><span class="badge"><span class="ms">bolt</span></span><div><small>Başlarken</small><h2>Ai ve XML</h2></div></div>
+          <p class="lead">Balpy'nin içinde yapay zekâ yoktur. Kullandığın sohbet uygulamasına (ChatGPT, Gemini, Claude…) içeriği Balpy'nin okuyabildiği biçimde, XML ile yazmasını söyler. XML'i senin yazman ya da anlaman gerekmez: yapay zekâ yazar, Balpy okur.</p>
+          <p>İçeriği elle de ekleyebilirsin; ama not, kart ve soruları en hızlı yapay zekâna hazırlatırsın. Sen yalnız ne istediğini yazar, gelen taslağı kontrol edip kaydedersin.</p>
           <h3>Önce doğru ekranı aç</h3>
           <div class="table-wrap"><table>
             <thead><tr><th>İstediğin</th><th>Yol</th></tr></thead>
             <tbody>
-              <tr><td>Koleksiyon yapısı</td><td>Koleksiyonlar → sağ üstteki + → Ai ile hazırla</td></tr>
-              <tr><td>Not</td><td>Notlar sekmesi → sağ alttaki +</td></tr>
-              <tr><td>Kart</td><td>Kartlar sekmesi → sağ alttaki +</td></tr>
-              <tr><td>Soru</td><td>Sorular sekmesi → sağ alttaki + → Ai ile hazırla</td></tr>
-              <tr><td>Kaynak listesi</td><td>Kaynaklar sekmesi → sağ alttaki + → sağ üstteki Ai düğmesi</td></tr>
-              <tr><td>Hedef</td><td>Genel sekmesi → ünite kutusu → Ai ile hazırla</td></tr>
-              <tr><td>Günlük plan</td><td>Ana Sayfa → Görevler → Ai ile hazırla</td></tr>
-              <tr><td>Süre ve oturum planı</td><td>Çalışma planı → AI ile planla</td></tr>
+              <tr><td>Yeni koleksiyon, ünite ve hedefler</td><td>Koleksiyonlar → Diğer → Ai ile koleksiyon hazırla</td></tr>
+              <tr><td>Mevcut koleksiyonun yapısı ve hedefleri</td><td>Koleksiyonun Genel sekmesi → sağ üstteki Ai düğmesi</td></tr>
+              <tr><td>Not</td><td>Notlar sekmesi → Ai ile Not hazırla</td></tr>
+              <tr><td>Kart</td><td>Kartlar sekmesi → Ai ile kart hazırla</td></tr>
+              <tr><td>Soru</td><td>Sorular sekmesi → Soru ekle → Ai ile hazırla</td></tr>
+              <tr><td>Kaynak bağlantıları</td><td>Kaynaklar sekmesi → Kaynak ekle → Ai ile kaynak bul</td></tr>
+              <tr><td>Günlük görevler</td><td>Ana Sayfa → Görevler → Ai ile hazırla</td></tr>
+              <tr><td>Süre hedefleri ve oturumlar</td><td>Profil → dişli → Çalışma planı → AI ile planla</td></tr>
             </tbody>
           </table></div>
+          <p>Not, kart ve soru ekranının üstünde <strong>Genel</strong>, <strong>Not</strong>, <strong>Kart</strong> ve <strong>Soru</strong> seçimi vardır. Tek bir türü seçersen paket yalnız o türü anlatır; <strong>Genel</strong> üçünü birlikte hazırlatır.</p>
           <h3>Sonra dört adım</h3>
           <ol class="steps tone-ai">
-            <li><div><b>Kopyala</b><span>“Kılavuzu kopyala”ya bas. “Kopyala ve aç” altındaki düğmeler metni kopyalayıp o uygulamayı da açar.</span></div></li>
-            <li><div><b>İsteğini yaz</b><span>Metni sohbetine yapıştır, altına ne istediğini ekle: “Kuvvet konusunda, lise düzeyinde 5 kart hazırla.”</span></div></li>
-            <li><div><b>İçe aktar</b><span>Yanıtı kopyala, aynı Ai ekranına dön, “İçe aktar”a bas.</span></div></li>
-            <li><div><b>Onayla ve kaydet</b><span>Taslakları oku; istemediğinin “Onayla” işaretini kaldır, sonra “Onaylananları kaydet”e bas.</span></div></li>
+            <li><div><b>Kopyala</b><span><strong>Kılavuzu kopyala</strong>'ya bas. <strong>Kopyala ve aç</strong> altındaki düğmeler metni kopyalayıp o sohbet uygulamasını da açar.</span></div></li>
+            <li><div><b>İsteğini yaz</b><span>Metni sohbetine yapıştır, altına ne istediğini ekle: “Hücre zarı konusunda, başlangıç düzeyinde 5 kart hazırla.”</span></div></li>
+            <li><div><b>İçe aktar</b><span>Yanıtı kopyala, aynı Ai ekranına dön ve <strong>İçe aktar</strong>'a bas.</span></div></li>
+            <li><div><b>Onayla ve kaydet</b><span>Taslakları oku; istemediğinin onayını kaldır, sonra <strong>Onaylananları kaydet</strong>'e bas.</span></div></li>
           </ol>
-          <p class="result">Hangi ekrandan kopyaladıysan yanıtı oraya aktar. Not ekranının yanıtı not, kart ekranının yanıtı kart olur.</p>
+          <p class="result">Yanıtı, kılavuzu kopyaladığın ekrana aktar. Not ekranının yanıtı not, kart ekranının yanıtı kart olur.</p>
           <h3>Pakette neler var?</h3>
           <div class="defs">
             <div><dt>Biçim bilgisi</dt><dd>Balpy'nin anladığı XML yapısı. Kendiliğinden eklenir.</dd></div>
             <div><dt>Kayıt yeri</dt><dd>İçeriğin kaydedileceği koleksiyon ve konu.</dd></div>
-            <div><dt>Özel kılavuz</dt><dd>Kendi yazdığın talimatlar. “Kılavuzlarım”dan seçersen eklenir.</dd></div>
-            <div><dt>Bağlamlar</dt><dd>Balpy'deki bilgiler, ör. “Mevcut notlar”. Kapalı gelir; anahtarla açarsın, seçimin hatırlanır.</dd></div>
+            <div><dt>Özel kılavuz</dt><dd>Kendi yazdığın talimatlar. <strong>Kılavuzlarım</strong>'dan seçersen eklenir.</dd></div>
+            <div><dt>Bağlamlar</dt><dd>Balpy'deki bilgiler, ör. “Mevcut notlar”. Anahtarla açıp kapatırsın.</dd></div>
           </div>
           <h3>Ai ayarları</h3>
-          <p>Ai ekranlarının sağ üstündeki çark ya da Profil → dişli → <strong>Ai ayarları</strong>: tercih ettiğin yapay zekâ, “Kopyala ve aç”ta görünecek diğerleri ve <strong>Panodan otomatik içe aktar</strong>. Bu seçenek açıksa 3. adımda yanıtı kopyalayıp dönmen yeter.</p>
-          <div class="callout tone-ai"><span class="ms">build</span><div><b>Yanıt hatalıysa</b><p>Balpy “İçerik düzeltilmeli” penceresinde sorunları listeler. “Düzeltme metnini kopyala” ile listeyi aynı sohbete gönder, düzeltilmiş yanıtı yeniden içe aktar.</p></div></div>
+          <p>Ai ekranlarının sağ üstündeki çark ya da Profil → dişli → <strong>Ai ayarları</strong>: tercih ettiğin yapay zekâ, “Kopyala ve aç”ta görünecek diğerleri, <strong>Panodan otomatik içe aktar</strong> ve notlardaki grafik, şekil, diyagram gibi ek biçimler için <strong>İçerik zenginleştirme</strong>.</p>
+          <div class="callout tone-ai"><span class="ms">build</span><div><b>Yanıt hatalıysa</b><p>Balpy sorunları listeler. <strong>Düzeltme metnini kopyala</strong> ile listeyi aynı sohbete gönder, düzeltilmiş yanıtı yeniden içe aktar.</p></div></div>
           <div class="callout tone-error"><span class="ms">fact_check</span><div><b>Son kontrol sende</b><p>Yapay zekâ yanlış bilgi de üretebilir. Sayı, formül ve doğru cevapları kaydetmeden önce kontrol et.</p></div></div>
-        </article>
+</article>
         <article class="topic tone-amber" id="baslangic" data-keywords="başlangıç alt menü sekme ana sayfa sayaç koleksiyonlar profil">
           <div class="topic-head"><span class="badge"><span class="ms">rocket_launch</span></span><div><small>Başlarken</small><h2>İlk bakış</h2></div></div>
           <p class="lead">Balpy'de çalıştığın her şey koleksiyonlarda durur. Alt menüdeki dört sekme günü, süreni, koleksiyonlarını ve ilerlemeni gösterir.</p>
@@ -286,58 +267,59 @@ Seçtiğin sohbet uygulamasının ücretleri ve kullanım sınırları o hizmet 
 <li><strong>Ana Sayfa:</strong> Günlük tekrarlarını ve planındaki görevleri takip ettiğin bölüm.</li>
 <li><strong>Sayaç:</strong> Çalışma süreni ve günlük süre hedefini takip ettiğin bölüm.</li>
 <li><strong>Koleksiyonlar:</strong> Kaynaklarını, notlarını, kartlarını ve sorularını düzenlediğin bölüm.</li>
-<li><strong>Profil:</strong> Çalışma istatistiklerine ve ayarlara ulaştığın bölüm; Ayarlar’daki Balpy rehberi bu web sitesini açar.</li>
+<li><strong>Profil:</strong> Çalışma istatistiklerine ve ayarlara ulaştığın bölüm; Ayarlar’daki Balpy web sitesi satırı bu siteyi açar.</li>
 </ul>
 <blockquote>
 <p><strong>Konuyu ve öğrenme hedefini sen belirlersin.</strong> Yapay zekâ içerik hazırlamana, Balpy ise bu içerikle düzenli çalışmana yardımcı olur.</p>
 </blockquote>
 </div></details>
-<details class="note-detail"><summary>Hedeflerine göre bir çalışma düzeni</summary><div class="note-body"><blockquote>
-<p>Balpy’yi kendi ihtiyaçlarına göre kullanmak için önce <strong>ne öğrenmek istediğini</strong> ve <strong>hangi aşamada zorlandığını</strong> belirleyebilirsin.</p>
+<details class="note-detail"><summary>Nereden başlamalısın?</summary><div class="note-body"><blockquote>
+<p>Balpy’nin bütün araçlarını ilk gün kullanman gerekmez. <strong>Ne öğrenmek istediğini</strong> ve <strong>nerede zorlandığını</strong> bilmek, hangi araçla başlayacağını gösterir.</p>
 </blockquote>
-<h3>Öğrenme hedefine göre kullanım</h3>
+<h3>Ne için kullanabilirsin?</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>Hedefin</th>
-<th>Kullanabileceğin içerikler</th>
+<th>Ne öğreniyorsun?</th>
+<th>İşine yarayacak içerikler</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>YKS, KPSS veya bir ders sınavına hazırlanmak</td>
-<td>Ders koleksiyonları, konu notları ve sorular</td>
+<td>Bir okul ya da üniversite dersi</td>
+<td>Ders koleksiyonu, konu notları, kavram kartları ve sorular</td>
 </tr>
 <tr>
-<td>Tıp veya sağlık bilimleri derslerine çalışmak</td>
-<td>Kavram notları, terim kartları ve çalışma soruları</td>
-</tr>
-<tr>
-<td>Yabancı dil öğrenmek</td>
+<td>Yabancı dil</td>
 <td>Kelime kartları ve örnek cümleler içeren notlar</td>
 </tr>
 <tr>
-<td>Mesleki bilgilerini geliştirmek</td>
+<td>Okuduğun bir kitap</td>
+<td>Bölüm notları ve temel fikirleri hatırlatan kartlar</td>
+</tr>
+<tr>
+<td>Mesleğinle ilgili bir konu</td>
 <td>Kaynaklar, açıklayıcı notlar ve uygulama soruları</td>
 </tr>
 <tr>
-<td>Okuduğun bir kitabı daha iyi anlamak</td>
-<td>Bölüm notları ve temel fikirleri hatırlatan kartlar</td>
+<td>Merak ettiğin herhangi bir konu</td>
+<td>Kısa bir koleksiyon, birkaç not ve kart</td>
 </tr>
 </tbody></table></div>
+<p>Sınava hazırlanıyor olabilirsin, kendi merakın için öğreniyor da olabilirsin: araçlar aynıdır. Koleksiyonun adını ve kapsamını sen belirlersin.</p>
 <h3>Hangi içerikle başlamalısın?</h3>
-<p><strong>“Konuyu anlamakta zorlanıyorum.”</strong> Not hazırlama kılavuzunu gönderip AI’dan düzeyine uygun açıklamalar ve örnekler içeren bir not isteyebilirsin.</p>
-<p><strong>“Konuyu anlıyorum, ancak öğrendiklerimi unutuyorum.”</strong> Konudan veya mevcut notundan AI ile kart hazırlatıp XML yanıtını kaydedebilir, tekrar zamanı geldiğinde çalışabilirsin.</p>
-<p><strong>“Konuyu biliyorum, ama soru çözerken zorlanıyorum.”</strong> AI’a zorlandığın noktaya yönelik çözümlü sorular hazırlatabilir, Balpy’ye aktardıktan sonra kendin çözmeyi deneyebilirsin.</p>
-<p><strong>“Kaynaklarım dağınık.”</strong> Aynı konuya ait kaynaklarını bir koleksiyonda toplayabilir, ihtiyaç duydukça ünite ve konulara ayırabilirsin.</p>
+<p><strong>“Konuyu anlamakta zorlanıyorum.”</strong> Not ekranından kılavuzu gönderip düzeyine uygun açıklamalar ve örnekler içeren bir not iste.</p>
+<p><strong>“Konuyu anlıyorum, ama öğrendiklerimi unutuyorum.”</strong> Konudan ya da okuduğun nottan kart hazırlat; tekrar zamanı geldiğinde Ana Sayfa’dan çalış.</p>
+<p><strong>“Konuyu biliyorum, ama uygulamada zorlanıyorum.”</strong> Zorlandığın noktaya yönelik çözümlü sorular hazırlat; önce kendin çözmeyi dene.</p>
+<p><strong>“Kaynaklarım dağınık.”</strong> Aynı konunun PDF’lerini, fotoğraflarını ve videolarını bir koleksiyonda topla; gerektikçe ünite ve konulara ayır.</p>
 <p><strong>Örnek: Günde yarım saatin varsa</strong>
-Günde yarım saat ayırabilen bir öğrenci, <strong>Ai ile hazırla</strong> yoluyla bir koleksiyon yapısı hazırlatabilir. Ardından tek bir konu için AI’dan açıklayıcı not isteyip XML yanıtını Balpy’ye aktarır. Notu okuduktan sonra <strong>Kart hazırla</strong> veya <strong>Soru hazırla</strong> ile aynı anlatımdan alıştırmalar hazırlatabilir. Sonraki günlerde Balpy’nin tekrar zamanı gelen içeriklerini çalışır. Bu örneği kendi zamanına göre uyarlayabilirsin.</p>
+İlk gün bir koleksiyon aç ve tek bir konu için not hazırlat. Notu okuduktan sonra aynı nottan birkaç kart iste. Sonraki günlerde önce Ana Sayfa’daki <strong>Günlük tekrar</strong>’ı bitir, kalan sürede yeni bir konuya geç. Bu örneği kendi zamanına göre uyarlayabilirsin.</p>
 <h3>Yapay zekâdan sana uygun bir öneri almak</h3>
 <p>Web rehberindeki <strong>AI ile öğren</strong> düğmesinden bu bölümü seçip metni sohbetine kopyalayabilirsin. Yalnız seçilen bölüm gönderilir; diğer bölümleri ihtiyaç duydukça aynı sohbete eklersin.</p>
 <p><strong>Örnek: Sohbette sorabileceğin bir soru</strong>
-“Balpy’yi kendi hedeflerim için nasıl kullanabilirim? KPSS’ye hazırlanıyorum ve günde 45 dakika ayırabiliyorum. Tarih konularında öğrendiklerimi unutuyorum. Ders kitabım ve ders videolarım var. Nereden başlamalı, hangi içeriklerle çalışmalıyım?”</p>
-<p>Hedefini, konuyla ilgili bilgi düzeyini, ayırabildiğin zamanı ve elindeki kaynakları belirtmen, daha somut bir öneri almanı kolaylaştırır. Rehber kişisel kayıtlarını içermez; kendi durumunu sohbette sen anlatırsın.</p>
+“Balpy’yi nasıl kullanmalıyım? İngilizce öğreniyorum ve günde 30 dakika ayırabiliyorum. Kelimeleri çabuk unutuyorum. Elimde bir kitap ve birkaç video var. Nereden başlamalı, hangi içeriklerle çalışmalıyım?”</p>
+<p>Ne öğrendiğini, ne kadar bildiğini, ayırabildiğin zamanı ve elindeki kaynakları belirtmen daha somut bir öneri almanı kolaylaştırır. Rehber kişisel kayıtlarını içermez; kendi durumunu sohbette sen anlatırsın.</p>
 <blockquote>
-<p><strong>Bütün araçları aynı anda kullanman gerekmez.</strong> Önce ihtiyacına uygun içerikle başlayabilir, çalışma alanını zamanla geliştirebilirsin.</p>
+<p><strong>Bütün araçları aynı anda kullanman gerekmez.</strong> Bir koleksiyon ve tek bir konuyla başla, çalışma alanını zamanla geliştir.</p>
 </blockquote>
 </div></details>
 <details class="note-detail"><summary>Kaynak, not, kart ve soru</summary><div class="note-body"><blockquote>
@@ -371,7 +353,7 @@ Günde yarım saat ayırabilen bir öğrenci, <strong>Ai ile hazırla</strong> y
 <h3>Kaynaklar ve notlar</h3>
 <p><strong>Kaynak</strong>, çalıştığın asıl materyaldir. Bir PDF belgesi, kitap sayfasının fotoğrafı veya YouTube videosu olabilir.</p>
 <p><strong>Not</strong>, konuyu açıklayan metindir. Bir kaynağı özetleyebilir, bir kavramı anlatabilir, farklı kavramları karşılaştırabilir veya bir çözümün mantığını açıklayabilir.</p>
-<p>Notlarda başlıklar, özet ve uyarı kutuları, tanımlar, tablolar, dokunarak açabileceğin gizli cevaplar, formüller ve etkileşimli anlatımlar bulunabilir. Bu web rehberi kullanım yolunu anlatır; hazırladığın öğrenme notları Balpy’nin not okuyucusunda açılır.</p>
+<p>Notlarda başlıklar, özet ve uyarı kutuları, tanımlar, tablolar, dokununca açılan ek açıklamalar, formüller ve etkileşimli anlatımlar bulunabilir. Bu web rehberi kullanım yolunu anlatır; hazırladığın öğrenme notları Balpy’nin not okuyucusunda açılır.</p>
 <h3>Kartlar ve sorular</h3>
 <p><strong>Kartın ön yüzünde</strong> bir soru veya hatırlaman gereken bilgi, <strong>arka yüzünde</strong> ise cevap bulunur. Önce cevabı düşünür, ardından kartı çevirerek kontrol edersin.</p>
 <p><strong>Soru</strong>, bilgiyi kullanarak bir sonuca ulaşmanı gerektirir. Kendi kitabındaki soruları fotoğraf çekerek ekleyebilir veya yapay zekâya yeni sorular hazırlatabilirsin.</p>
@@ -409,16 +391,20 @@ Konuya ait bir PDF sayfasını <strong>kaynak</strong> olarak ekleyebilirsin. Ku
 <td><strong>Hatırlamadım</strong></td>
 </tr>
 <tr>
-<td>Soruyu çözebildin</td>
-<td><strong>Doğru Yaptım</strong> veya <strong>Bildim</strong></td>
+<td>Seçenekli soruda şıkkı seçtin</td>
+<td>Balpy doğru ya da yanlış olduğunu kendisi kaydeder</td>
 </tr>
 <tr>
-<td>Soruyu çözemedin</td>
-<td><strong>Yanlış Yaptım</strong> veya <strong>Bilemedim</strong></td>
+<td>Açık uçlu soruyu çözebildin</td>
+<td><strong>Doğru yaptım</strong></td>
+</tr>
+<tr>
+<td>Açık uçlu soruyu çözemedin</td>
+<td><strong>Yanlış yaptım</strong></td>
 </tr>
 </tbody></table></div>
 <p>Hatırladığın kartın veya bildiğin sorunun seviyesi yükselir ve tekrar aralığı uzar. Hatırlayamadığın ya da bilemediğin içerik daha düşük bir seviyeye döner ve daha erken tekrar edilir. Balpy bu düzeni senin değerlendirmene göre belirler.</p>
-<p>Soru değerlendirme düğmelerinin adı, çalışmayı açtığın ekrana göre değişebilir. Her iki durumda da çözümü görmeden önceki denemeni değerlendirirsin.</p>
+<p>Açık uçlu soruda sonucu, çözüme bakmadan önceki denemene göre belirtirsin. İpuçlarına ya da çözüme bakmak sonucu kendiliğinden kaydetmez.</p>
 <h3>Tekrar aralıkları</h3>
 <p>Kart ve sorular için temel tekrar aralıkları yaklaşık <strong>1, 3, 7, 15 ve 30 gündür</strong>. Her süre, ilgili seviyedeki çalışmadan bir sonraki tekrara kadar geçen zamanı anlatır. Örneğin yedi günlük aralık, içeriğin yaklaşık bir hafta sonra yeniden çalışılacağı anlamına gelir.</p>
 <p>Bu süreler sabit değildir; içeriğin çalışma geçmişine göre biraz değişebilir.</p>
@@ -434,28 +420,24 @@ Son seviyede de hatırladığın kart veya bildiğin soru, <strong>Tamamlandı</
 <!-- END DETAILS: intro -->
 </article>
 
-        <article class="topic tone-amber" id="hizli-baslangic" data-keywords="hızlı başlangıç ilk koleksiyon kur başla">
-          <div class="topic-head"><span class="badge"><span class="ms">bolt</span></span><div><small>Başlarken</small><h2>İlk 5 dakika</h2></div></div>
-          <ol class="steps tone-amber">
-            <li><div><b>Çalışma alanını AI ile hazırlat</b><span>Koleksiyonlar → sağ üstteki <strong>+</strong> → <strong>Ai ile hazırla</strong>. Kılavuzu sohbetine gönder, dersine uygun koleksiyon ve konu yapısı iste. Gelen XML'i aynı ekranda inceleyip kaydet. Yapıyı elle de kurabilirsin.</span></div></li>
-            <li><div><b>Konuya gir</b><span>Koleksiyonda <strong>Konular</strong> düğmesinden bir konu seç. Sekmelerin üstünde yolun görünür: TYT Fizik › Mekanik › Kuvvet.</span></div></li>
-            <li><div><b>Bir konu için içerik hazırlat</b><span>Notlar veya Kartlar sekmesindeki <strong>+</strong> ile AI ekranını aç. Güncel kılavuzu gönderip konuna veya kaynağına uygun içerik iste. XML'i içe aktar, kontrol et ve kaydet.</span></div></li>
-            <li><div><b>Çalış</b><span>Sağ üstteki <strong>Çalış</strong> (oynat) düğmesiyle başla. Ertesi günler tekrar zamanı gelenler Ana Sayfa'da toplanır.</span></div></li>
-          </ol>
-        </article>
-
-        <article class="topic tone-note" id="koleksiyon" data-keywords="koleksiyon ünite konu alt konu sekme çalış konular paylaş içe aktar sırala düzenle sil">
+        <article class="topic tone-note" id="koleksiyon" data-keywords="koleksiyon ünite konu alt konu hedef sekme çalış konular paylaş içe aktar sırala düzenle sil">
           <div class="topic-head"><span class="badge"><span class="ms">collections_bookmark</span></span><div><small>Koleksiyon</small><h2>Koleksiyon</h2></div></div>
-          <p class="lead">Koleksiyon; bir ders, sınav ya da kitap için açtığın çalışma alanıdır. Kaynakların, notların, kartların ve soruların burada toplanır.</p>
+          <p class="lead">Koleksiyon; bir ders, kitap, dil ya da merak ettiğin herhangi bir konu için açtığın çalışma alanıdır. Kaynakların, notların, kartların ve soruların burada toplanır.</p>
+          <h3>Koleksiyon açmak</h3>
+          <ul>
+            <li><strong>Kendin oluştur:</strong> Adı ve rengi seçersin; ünite, konu ve hedefleri istersen hemen, istersen sonra eklersin.</li>
+            <li><strong>Ai ile hazırla:</strong> Konunu yapay zekâna anlatırsın; ünite, konu ve hedefler taslak olarak gelir, sen düzenleyip kaydedersin.</li>
+          </ul>
+          <p>Koleksiyonların varsa aynı seçenekler Koleksiyonlar sayfasının <strong>Diğer</strong> menüsündedir: <strong>Koleksiyon ekle</strong> ve <strong>Ai ile koleksiyon hazırla</strong>.</p>
           <h3>Ünite, konu, alt konu</h3>
           <div class="defs">
-            <div><dt>Ünite</dt><dd>En geniş bölüm. Örnek: Mekanik.</dd></div>
-            <div><dt>Konu</dt><dd>Ünitenin altı. Örnek: Kuvvet.</dd></div>
-            <div><dt>Alt konu</dt><dd>Daha dar parça. Örnek: Sürtünme.</dd></div>
+            <div><dt>Ünite</dt><dd>En geniş bölüm. Örnek: Hücre.</dd></div>
+            <div><dt>Konu</dt><dd>Ünitenin altı. Örnek: Hücre zarı.</dd></div>
+            <div><dt>Alt konu</dt><dd>Daha dar parça. Örnek: Madde geçişleri.</dd></div>
           </div>
-          <p style="margin-top: 10px">Bölümler zorunlu değildir; yapıyı sonradan da kurabilirsin.</p>
+          <p style="margin-top: 10px">Bölümler zorunlu değildir. Hedefleri ünitelere bağladığın için hedef takibi yapacaksan en az bir ünite gerekir.</p>
           <h3>Beş sekme</h3>
-          <p>Koleksiyona girince üstte yazısız, beş ikonlu bir şerit görürsün. Kart ve soru ikonunun üstündeki sayı, bugün süresi gelenlerdir.</p>
+          <p>Koleksiyona girince üstte beş ikonlu bir şerit görürsün. Kart ve soru ikonunun üstündeki sayı, bugün tekrar zamanı gelenlerdir.</p>
           <div class="icon-row">
             <div class="tone-success"><span class="ms">bar_chart</span>Genel</div>
             <div class="tone-source"><span class="ms">menu_book</span>Kaynaklar</div>
@@ -465,19 +447,19 @@ Son seviyede de hatırladığın kart veya bildiğin soru, <strong>Tamamlandı</
           </div>
           <h3>Sağ üstteki düğmeler</h3>
           <ul>
-            <li><strong>Çalış</strong> (oynat): Açık sekmedeki kart veya soruları çalıştırır. Önce kaç içerik, hangi tür ve hangi sıra olacağını seçersin; tekrar zamanı gelenler varsa yalnız onlar seçili gelir.</li>
-            <li><strong>Konular</strong> (çizgili liste): Bir ünite ya da konu seçersin; sekmeler yalnız onu gösterir.</li>
-            <li><strong>Diğer</strong> (üç nokta): Çalışma seansı hazırla, Sırala, Koleksiyonu düzenle, Koleksiyonu sil.</li>
+            <li><strong>Çalış</strong> (oynat): Açık sekmedeki kart veya soruları çalıştırır. Önce içerik sayısını, türünü ve sırasını seçersin.</li>
+            <li><strong>Konular</strong> (çizgili liste): Bir ünite ya da konu seçersin; sekme yalnız onun içeriğini gösterir.</li>
+            <li><strong>Diğer</strong> (üç nokta): Sırala, Koleksiyonu paylaş, Koleksiyonu düzenle, Koleksiyonu sil.</li>
           </ul>
-          <p class="result">Önce konuya gir, sonra ekle.</p>
-          <div class="callout tone-info"><span class="ms">ios_share</span><div><b>Paylaşma</b><p>Koleksiyonlar sayfasındaki paylaş düğmesi koleksiyonu dosya olarak gönderir. Gelen dosyayı içe aktar düğmesiyle ya da dosyaya dokunarak açarsın.</p></div></div>
+          <p class="result">Önce konuya gir, sonra ekle: eklediğin içerik seçili konuya kaydedilir.</p>
+          <div class="callout tone-info"><span class="ms">ios_share</span><div><b>Paylaşma</b><p>Koleksiyonu dosya olarak gönderebilirsin. Karşı taraf dosyaya dokunarak ya da Koleksiyonlar → Diğer → <strong>Koleksiyon içe aktar</strong> ile açar; koleksiyon onda ayrı bir koleksiyon olarak eklenir.</p></div></div>
         <!-- BEGIN DETAILS: collection -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
 <details class="note-detail"><summary>Koleksiyon nedir, nasıl düzenlenir?</summary><div class="note-body"><blockquote>
 <p><strong>Koleksiyon</strong>, bir öğrenme hedefiyle ilgili kaynakları, notları, kartları ve soruları topladığın çalışma alanıdır. Koleksiyonun adını ve kapsamını sen belirlersin.</p>
 </blockquote>
 <h3>Bir koleksiyon neyi kapsayabilir?</h3>
-<p>Bir ders, sınav, kitap, dil veya mesleki konu için koleksiyon oluşturabilirsin. Örneğin “TYT Matematik”, “İngilizce Kelimeler” ve “Okuduğum Kitaplar” farklı çalışma alanları olabilir. Bunlar örnek adlardır; cihazında hazır bulunan koleksiyonlar değildir.</p>
+<p>Bir ders, sınav, kitap, dil veya mesleki konu için koleksiyon oluşturabilirsin. Örneğin “Biyoloji”, “İngilizce Kelimeler” ve “Okuduğum Kitaplar” farklı çalışma alanları olabilir. Bunlar örnek adlardır; cihazında hazır bulunan koleksiyonlar değildir.</p>
 <p>Birbiriyle ilişkili içerikleri aynı koleksiyonda tutmak, çalışırken kaynak ile açıklama ve alıştırma arasında geçiş yapmanı kolaylaştırır. Bir PDF eklediğinde belge kaynaklarda, açıklayıcı metin eklediğinde notlarda, hatırlama içeriği eklediğinde kartlarda, alıştırma eklediğinde sorularda görünür.</p>
 <h3>Koleksiyon, ünite ve konu</h3>
 <div class="table-wrap"><table>
@@ -491,22 +473,22 @@ Son seviyede de hatırladığın kart veya bildiğin soru, <strong>Tamamlandı</
 <tbody><tr>
 <td><strong>Koleksiyon</strong></td>
 <td>Çalışma alanının tamamını kapsar.</td>
-<td>TYT Matematik</td>
+<td>Biyoloji</td>
 </tr>
 <tr>
 <td><strong>Ünite</strong></td>
 <td>Alanı ana bölümlere ayırır.</td>
-<td>Sayılar</td>
+<td>Hücre</td>
 </tr>
 <tr>
 <td><strong>Konu</strong></td>
 <td>Ünitenin belirli bir bölümünü gösterir.</td>
-<td>Bölünebilme</td>
+<td>Hücre zarı</td>
 </tr>
 <tr>
 <td><strong>Alt konu</strong></td>
 <td>Gerekiyorsa konuyu daha küçük parçalara ayırır.</td>
-<td>Bölünebilme kuralları</td>
+<td>Madde geçişleri</td>
 </tr>
 </tbody></table></div>
 <p>İçerikleri koleksiyon geneline veya yapının belirli bir bölümüne bağlayabilirsin. Böylece aynı konuya ait PDF’leri, notları, kartları ve soruları birlikte bulursun. Üniteler ve konular öğrenme alanını düzenler; hedefler ise o alanda yapmak istediğin çalışmaları ifade eder.</p>
@@ -522,47 +504,47 @@ Koleksiyonu yalnızca bir adla oluşturup ilk içeriğini ekleyebilirsin. Ünite
 <p>Koleksiyon oluşturmak için <strong>Koleksiyonlar</strong> bölümünden başlayabilirsin. Hiç koleksiyonun yoksa uygulama başlangıçta bu bölümü açar.</p>
 </blockquote>
 <h3>Önerilen başlangıç: AI ile koleksiyon hazırlatmak</h3>
-<p>Boş koleksiyon ekranındaki <strong>Ai ile hazırla</strong> düğmesi veya koleksiyon listesindeki yapay zekâ düğmesi, koleksiyon hazırlama ekranını açar. Buradaki kılavuzu harici sohbete gönderip öğrenme alanını, düzeyini ve istediğin ünite veya konu yapısını anlatırsın. AI’ın XML yanıtını aynı ekranda <strong>İçe aktar</strong> ile açar, oluşan koleksiyon taslağını inceler ve onaylarsın.</p>
+<p>Boş koleksiyon ekranındaki <strong>Ai ile hazırla</strong> düğmesi ya da Koleksiyonlar sayfasındaki <strong>Diğer → Ai ile koleksiyon hazırla</strong>, koleksiyon hazırlama ekranını açar. Buradaki kılavuzu harici sohbete gönderip öğrenme alanını, düzeyini, istediğin ünite ve konu yapısını ve varsa hedeflerini anlatırsın. AI’ın XML yanıtını aynı ekranda <strong>İçe aktar</strong> ile açar; koleksiyon, ünite ve hedef taslağını inceler, düzenler ve kaydedersin.</p>
 <p><strong>Örnek: AI ile şöyle başlayabilirsin</strong>
 “Başlangıç düzeyinde İngilizce çalışacağım. Bu kılavuza uygun bir koleksiyon yapısı hazırla; günlük yaşam ve iş hayatını ayrı ünitelerde görmek istiyorum.”</p>
-<p>Bu istek bir örnektir; kendi alanını sen yazarsın. Yapıyı kaydettikten sonra <strong>Ai ile içerik hazırla</strong> ile ilk notunu, kartlarını veya sorularını hazırlatabilirsin. Koleksiyon yapısını hazırlatmak, bütün konuların içeriklerini aynı anda üretmez.</p>
+<p>Bu istek bir örnektir; kendi alanını sen yazarsın. Yapıyı kaydettikten sonra Notlar, Kartlar ya da Sorular sekmesindeki ekleme düğmesiyle ilk notunu, kartlarını veya sorularını hazırlatabilirsin. Koleksiyon yapısını hazırlatmak, bütün konuların içeriklerini aynı anda üretmez.</p>
 <h3>Kendin oluşturmak</h3>
 <p>Adı ve yapıyı kendin belirlemek istediğinde boş ekrandaki <strong>Kendin oluştur</strong> düğmesini kullanabilirsin. Koleksiyonların zaten varsa sağ üstteki <strong>Diğer</strong> menüsünden <strong>Koleksiyon ekle</strong> seçeneğine ulaşabilirsin.</p>
 <p><strong>İlk koleksiyonunu oluştur</strong></p>
 <ul>
 <li>Bir ad yaz: Çalışma alanını kolayca tanıyacağın bir ad seç. Aynı ada sahip ikinci bir koleksiyon oluşturulamaz.</li>
 <li>Bir renk seç: Koleksiyonunu listede ayırt etmek için renk belirle.</li>
-<li>Yapıyı ekle: İstersen Üniteler ve konular bölümünde ana bölümleri oluştur. Bu adımı sonraya bırakabilirsin.</li>
+<li>Yapıyı ekle: İstersen Üniteler, konular ve hedefler bölümünde ana bölümleri ve hedefleri oluştur. Bu adımı sonraya bırakabilirsin.</li>
 <li>Koleksiyonu oluştur: Bilgileri kontrol edip Koleksiyonu oluştur düğmesine dokun.</li>
 </ul>
 <p>Koleksiyon adı, çalışmanın hangi alanla ilgili olduğunu anlatır. Renk görsel ayrım sağlar; bir öğrenme yöntemi veya öncelik belirlemez.</p>
 <h3>İlk içeriğini eklemek</h3>
-<p>Yeni çalışma alanında <strong>İlk içeriğini ekle</strong> bölümünden ilerleyebilirsin.</p>
+<p>Koleksiyon oluşunca içine girersin. Her sekmenin kendi ekleme düğmesi vardır:</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>Seçenek</th>
-<th>Açtığı çalışma</th>
+<th>Sekme</th>
+<th>Ekleme düğmesi</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>Kaynak ekle</strong></td>
-<td>PDF, fotoğraf veya video ekleme</td>
+<td><strong>Kaynaklar</strong></td>
+<td>Kaynak ekle: PDF, fotoğraf veya YouTube videosu</td>
 </tr>
 <tr>
-<td><strong>Ai ile içerik hazırla</strong></td>
-<td>Not, kart veya soru hazırlama</td>
+<td><strong>Notlar</strong></td>
+<td>Ai ile Not hazırla</td>
 </tr>
 <tr>
-<td><strong>Soru ekle</strong></td>
-<td>Kitabından ya da defterinden soru fotoğrafı ekleme</td>
+<td><strong>Kartlar</strong></td>
+<td>Ai ile kart hazırla</td>
 </tr>
 <tr>
-<td><strong>Üniteleri düzenle · İsteğe bağlı</strong></td>
-<td>Koleksiyonun bölüm yapısını düzenleme</td>
+<td><strong>Sorular</strong></td>
+<td>Soru ekle: fotoğraf çek ya da Ai ile hazırla</td>
 </tr>
 </tbody></table></div>
-<p>İlk olarak bir kaynak ekleyebilir veya doğrudan konu notu ve alıştırma hazırlayabilirsin. Kaynak eklemek, not ya da soru eklemenin ön koşulu değildir.</p>
+<p>İlk olarak bir kaynak ekleyebilir ya da doğrudan konu notu ve alıştırma hazırlayabilirsin. Kaynak eklemek, not ya da soru eklemenin ön koşulu değildir.</p>
 <p><strong>Örnek: Başlangıç için küçük bir alan</strong>
 “İngilizce Kelimeler” adlı bir koleksiyon oluşturup ilk kartlarını ekleyebilirsin. Daha sonra “Günlük yaşam” ve “İş hayatı” gibi üniteler ekleyerek içeriği ayırabilirsin.</p>
 </div></details>
@@ -634,20 +616,20 @@ Konular menüsünden başka bir bölüm seçmek, kayıtları o bölüme taşıma
 <!-- END DETAILS: collection -->
 </article>
 
-        <article class="topic tone-success" id="genel" data-keywords="genel sekmesi ilerleme ünite hedef rozet bugün çözümsüz günlük tekrar">
+        <article class="topic tone-success" id="genel" data-keywords="genel sekmesi ilerleme ünite hedef süresi gelen çözümsüz konuya git bu konuyu çalış görev">
           <div class="topic-head"><span class="badge"><span class="ms">bar_chart</span></span><div><small>Koleksiyon</small><h2>Genel sekmesi</h2></div></div>
-          <p class="lead">Koleksiyonun özetidir: ne kadar ilerlediğini ve hangi ünitede ne iş olduğunu gösterir. Burada her zaman koleksiyonun tamamı görünür.</p>
+          <p class="lead">Koleksiyonun özetidir: hedeflerinde ne kadar ilerlediğini ve hangi ünitede ne iş beklediğini gösterir. Burada her zaman koleksiyonun tamamı görünür.</p>
           <h3>Üniteler</h3>
-          <p>Her ünite bir kutudur. Kutuya dokununca açılır:</p>
+          <p>Her ünite bir kutudur. Kutuyu açınca konuları ve o ünitenin durumu görünür:</p>
           <ul>
-            <li><strong>Bugün 5:</strong> Tekrar zamanı gelenler. Dokununca hemen çalışırsın.</li>
-            <li><strong>Çözümsüz 3:</strong> Çözülmemiş sorular. Dokununca Sorular sekmesine gidersin.</li>
-            <li><strong>İçeriğe git:</strong> O ünitenin içeriğine geçer.</li>
-            <li><strong>Çalış:</strong> Ünitenin bütün kart ve sorularını başlatır.</li>
+            <li><strong>Süresi gelen:</strong> Bugün tekrar edilecek kart ve sorular.</li>
+            <li><strong>Çözümsüz:</strong> Çözümü henüz eklenmemiş sorular.</li>
+            <li><strong>Bu konuyu çalış:</strong> O konunun kart ve sorularını başlatır.</li>
           </ul>
           <h3>Hedefler</h3>
-          <p>Açılan ünite kutusunun altında o ünitenin hedefleri durur. Bitirdiğin hedefi işaretlersin; ilerleme halkası dolar. Hedefleri elle ekleyebilir ya da “Ai ile hazırla” ile hazırlatabilirsin.</p>
-          <div class="callout tone-success"><span class="ms">tips_and_updates</span><div><b>Her gün buradan başla</b><p>Bugün rozetleri neyi tekrar edeceğini, Çözümsüz rozetleri nerede eksik kaldığını gösterir.</p></div></div>
+          <p>Hedef, bir ünitede neyi bitirmek istediğini yazdığın kayıttır: “Hücre zarındaki madde geçişlerini açıklayabilmek” gibi. Ünitenin hedeflerini <strong>Ai ile ekle</strong> ya da <strong>Manuel ekle</strong> ile eklersin. Bitirdiğinde işaretlersin; Genel durum kartındaki ilerleme dolar.</p>
+          <p>Bir hedefin altından <strong>Konuya git</strong> ile ilgili konuya geçebilir, <strong>Ai ile görev hazırla</strong> ile o hedef için bugünün görevlerini hazırlatabilirsin.</p>
+          <div class="callout tone-success"><span class="ms">tips_and_updates</span><div><b>İlerleme bir puan değildir</b><p>Yüzde, işaretlediğin hedeflerin oranıdır. PDF okumak ya da kart çalışmak hedefi kendiliğinden tamamlamaz; hedefi sen işaretlersin.</p></div></div>
         <!-- BEGIN DETAILS: overview -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
 <details class="note-detail"><summary>Genel sekmesi ve ilerleme bilgileri</summary><div class="note-body"><blockquote>
@@ -688,21 +670,22 @@ Konular menüsünden başka bir bölüm seçmek, kayıtları o bölüme taşıma
 </tbody></table></div>
 <p>Bir PDF’yi okuduğunda hedefin kendiliğinden tamamlanmaz. Bir hedefi tamamlandı olarak işaretlediğinde o ünitedeki bütün kartlar öğrenilmiş sayılmaz. Her bilgi farklı bir çalışmayı takip eder.</p>
 <h3>Ünitelerin içindeki durum</h3>
-<p>Üniteleri açarak hedeflerini ve ilgili içeriklere geçiş seçeneklerini görebilirsin. <strong>İçeriğe git</strong> bağlantısı, ünitenin içeriğine ulaşmanı sağlar. Henüz içerik bulunmuyorsa <strong>İçerik ekle</strong> seçeneğiyle başlayabilirsin.</p>
+<p>Bir üniteyi açtığında konularını, hedeflerini ve her konunun durumunu görürsün: <strong>Süresi gelen</strong> tekrarlar, <strong>Çözümsüz</strong> sorular ve içerik sayıları. <strong>Bu konuyu çalış</strong>, o konunun kart ve sorularını başlatır.</p>
 <h3>Yapı veya hedef yoksa</h3>
-<p>Ünite yapın yoksa içerikler koleksiyon genelinde izlenir. Konu bazında ilerlemek ve ünite hedefleri kullanmak için <strong>Ai ile hazırla</strong> ile yapı taslağı hazırlatabilirsin. Yapı var ama hedef yoksa <strong>Ai ile Hedefler</strong> üzerinden ünitelerine uygun hedefler isteyebilirsin. Adları ve hedef metinlerini kendin yazmak istediğinde manuel araçları da kullanabilirsin.</p>
+<p>Ünite yapın yoksa içerikler koleksiyon genelinde izlenir. Konu bazında ilerlemek ve ünite hedefleri kullanmak için <strong>Ai ile hazırla</strong> ile yapı taslağı hazırlatabilirsin. Yapı var ama hedef yoksa Genel sekmesinin sağ üstündeki Ai düğmesiyle ünitelerine uygun hedefler isteyebilirsin. Adları ve hedef metinlerini kendin yazmak istediğinde manuel araçları da kullanabilirsin.</p>
 <blockquote>
 <p><strong>İlerleme yüzdesi bir öğrenme puanı değildir; belirlediğin hedeflerin tamamlanma oranıdır.</strong></p>
 </blockquote>
 </div></details>
-<details class="note-detail"><summary>Yapay zekâ ile hedef hazırlamak</summary><div class="note-body"><blockquote>
-<p><strong>Ai ile Hedefler</strong> ekranında, bir ünite veya koleksiyonun tamamı için hedef taslağı hazırlatabilirsin. Taslakta hangi hedeflerin uygun olduğuna sen karar verirsin.</p>
+<details class="note-detail"><summary>Yapay zekâ ile yapı ve hedef hazırlamak</summary><div class="note-body"><blockquote>
+<p>Koleksiyonun ünitelerini, konularını ve hedeflerini tek bir Ai ekranında hazırlatırsın. Taslakta hangi hedeflerin uygun olduğuna sen karar verirsin.</p>
 </blockquote>
-<h3>AI ile hedeflerden içeriğe ilerlemek</h3>
-<p>Genel sekmesindeki hedef hazırlama aracından <strong>Ai ile Hedefler</strong> ekranını aç. Ünite yapını ve gerekli bağlamı kılavuzla birlikte sohbete gönderip çalışmak istediğin hedefleri belirt. AI’ın XML yanıtını aynı ekranda içe aktararak önizle ve kaydet. Ardından hedef menüsündeki <strong>Ai ile not</strong>, <strong>Ai ile kart</strong> veya <strong>Ai ile soru</strong> ile o hedefe yönelik içerik hazırlatabilirsin. Hedeflerini ve içeriklerini tek tek elle yazman gerekmez.</p>
-<h3>Kapsamı belirlemek</h3>
-<p>Tek ünite için hazırlama ile koleksiyonun bütün üniteleri için hazırlama farklı kapsamlardır. Ekranda seçilen kapsamı ve kayıt yerini kontrol et. Tek bir ünitenin hedeflerini geliştirmek istediğinde bütün koleksiyonu değiştiren bir istek yazmana gerek yoktur.</p>
-<p>Hedeflerin doğru ünitelere bağlanması için ünite veya koleksiyon yapısı paket içinde bulunur. Ekranın zorunlu tuttuğu yapı bilgisi korunur. Mevcut hedefler gibi seçilebilir bağlamlar ise, göndermek istediğin bilgiye göre pakete eklenir.</p>
+<h3>Ekranı açmak</h3>
+<ul>
+<li>Yeni koleksiyon için: Koleksiyonlar → <strong>Diğer → Ai ile koleksiyon hazırla</strong>, ya da boş ekrandaki <strong>Ai ile hazırla</strong>.</li>
+<li>Mevcut koleksiyon için: koleksiyonun <strong>Genel</strong> sekmesindeyken sağ üstteki Ai düğmesi. Mevcut yapı ve hedefler pakete kendiliğinden girer.</li>
+</ul>
+<p>Kılavuzu sohbetine gönderip ne istediğini yazarsın. AI’ın XML yanıtını aynı ekranda içe aktarınca koleksiyon, ünite, konu ve hedef taslağını görürsün. Değişiklikler <strong>Kaydet</strong>’e basana kadar koleksiyonuna yazılmaz.</p>
 <h3>Kılavuz, tercih ve görev</h3>
 <div class="table-wrap"><table>
 <thead>
@@ -713,7 +696,7 @@ Konular menüsünden başka bir bölüm seçmek, kayıtları o bölüme taşıma
 </thead>
 <tbody><tr>
 <td><strong>Balpy’nin temel kılavuzu</strong></td>
-<td>Hedeflerin kabul edilen biçimini, alanlarını ve kayıt ilişkilerini</td>
+<td>Yapının ve hedeflerin kabul edilen biçimini</td>
 </tr>
 <tr>
 <td><strong>Seçtiğin özel kılavuz</strong></td>
@@ -721,47 +704,50 @@ Konular menüsünden başka bir bölüm seçmek, kayıtları o bölüme taşıma
 </tr>
 <tr>
 <td><strong>Sohbette yazdığın istek</strong></td>
-<td>Şimdi hangi hedeflerin hazırlanacağını ve ne istediğini</td>
+<td>Şimdi neyin hazırlanacağını ve ne istediğini</td>
 </tr>
 </tbody></table></div>
-<p>Özel kılavuz seçmek zorunlu değildir. Bir özel kılavuz seçmediğinde paketine hazır bir yöntem eklenmez. Öğrenme konusunu ve görevi sohbet uygulamanda sen belirtirsin.</p>
+<p>Özel kılavuz seçmek zorunlu değildir. Öğrenme konusunu ve görevi sohbet uygulamanda sen belirtirsin.</p>
 <p><strong>Örnek: Kendi isteğini yazmak</strong>
-“Bu koleksiyon yapısına göre başlangıç düzeyinde çalışacağım hedefler hazırla. Sayılar ünitesinde hangi kavramları açıklayabilmem ve hangi soru türlerini çözebilmem gerektiğini ayrı hedefler olarak görmek istiyorum. Mevcut hedeflerle aynı olanları ayrıca belirt.”</p>
-<p>Bu metni kullanmak zorunda değilsin. Hedefinin sınava hazırlık, mesleki gelişim veya kitap okuma olduğunu söyleyerek isteği kendi durumuna uyarlayabilirsin.</p>
+“Bu koleksiyon yapısına göre başlangıç düzeyinde hedefler hazırla. Hücre ünitesinde hangi kavramları açıklayabilmem gerektiğini ayrı hedefler olarak görmek istiyorum. Mevcut hedeflerle aynı olanları ekleme.”</p>
+<p>Bu metni kullanmak zorunda değilsin; isteği kendi konuna ve düzeyine göre yazarsın.</p>
 <h3>Yanıtı kontrol etmek</h3>
-<p>Yanıtı aynı hazırlama ekranında içe aktardıktan sonra hedeflerin doğru üniteye bağlı olup olmadığına, metinlerin anlaşılır olup olmadığına ve gereksiz tekrarlar bulunup bulunmadığına bak. Ekranda gösterilen ekleme veya değişiklikleri inceleyip kaydet.</p>
-<p>Biçim hatası varsa hata açıklaması ve düzeltme için gerekli bilgileri harici sohbete taşıyabilirsin. Düzeltme paketinin yanında neyin düzeltilmesini istediğini kendi mesajında belirtirsin. Düzeltme almak, değişikliği kendiliğinden kaydetmez.</p>
+<p>Yanıtta bulunmayan mevcut hedefler korunur; yanıt yalnız eklediği, değiştirdiği ya da açıkça sildiği hedefleri etkiler. Kaydetmeden önce hedeflerin doğru üniteye bağlı olduğuna, metinlerin anlaşılır olduğuna ve gereksiz tekrar bulunmadığına bak.</p>
+<p>Biçim hatası varsa Balpy sorunları listeler; düzeltme metnini aynı sohbete gönderip yeni yanıtı içe aktarırsın. Düzeltme almak, değişikliği kendiliğinden kaydetmez.</p>
 <blockquote>
-<p><strong>Yapay zekâ hedef taslağı hazırlayabilir; hedefin sana uygunluğunu ve tamamlanma durumunu sen belirlersin.</strong></p>
+<p><strong>Yapay zekâ taslak hazırlar; hedefin sana uygunluğunu ve tamamlanma durumunu sen belirlersin.</strong></p>
 </blockquote>
 </div></details>
 <details class="note-detail"><summary>Hedef eklemek ve tamamlamak</summary><div class="note-body"><blockquote>
 <p><strong>Hedef</strong>, bir ünitede neyi tamamlamak istediğini açıkça ifade eden kayıttır. Hedefi kendin ekleyebilir, değiştirebilir ve çalışma sonucuna göre tamamlandı olarak işaretleyebilirsin.</p>
 </blockquote>
 <h3>Hedefi nasıl yazabilirsin?</h3>
-<p>“Matematik çalış” gibi geniş bir ifade yerine, bitirdiğinde ne yaptığını anlayabileceğin bir hedef seçebilirsin. “Bölünebilme kurallarını örneklerle açıklayabilmek” veya “Kaynağın ilk bölümündeki soruları çözmek” farklı türde hedeflerdir. Bunlar uygulamanın zorunlu tuttuğu yöntemler değil, hedef yazımı örnekleridir.</p>
-<p>Bir hedefin tamamlanma ölçütünü sen belirlersin. Okuma, açıklama yapma veya soru çözme gibi çalışmalar için hedef kullanabilirsin. Balpy, hedefin içeriğini okuyarak kendiliğinden başarı kararı vermez.</p>
+<p>“Biyoloji çalış” gibi geniş bir ifade yerine, bitirdiğinde ne yaptığını anlayabileceğin bir hedef seçebilirsin. “Hücre zarındaki madde geçişlerini örneklerle açıklayabilmek” veya “Kaynağın ilk bölümündeki soruları çözmek” farklı türde hedeflerdir. Bunlar hedef yazımı örnekleridir, zorunlu yöntemler değildir.</p>
+<p>Bir hedefin tamamlanma ölçütünü sen belirlersin. Balpy, hedefin içeriğini okuyarak kendiliğinden başarı kararı vermez.</p>
+<h3>Hedef eklemek</h3>
+<p>Hedefler koleksiyonun yapısıyla birlikte düzenlenir:</p>
 <p><strong>Bir üniteye hedef ekle</strong></p>
 <ul>
-<li>Üniteyi aç: Koleksiyonun Genel sekmesinde çalışacağın üniteyi seç.</li>
-<li>Hedef ekle: Ünite hedefleri bölümündeki Hedef ekle düğmesine dokun.</li>
-<li>Hedefi yaz: Yapmak istediğin çalışmayı, sonradan kolayca anlayacağın bir cümleyle belirt.</li>
-<li>Sonucu işaretle: Çalışmayı bitirdiğinde hedefin tamamlanma işaretini değiştir. Gerekirse yeniden tamamlanmadı durumuna alabilirsin.</li>
+<li>Düzenleme ekranını aç: Koleksiyonun içinde <strong>Diğer → Koleksiyonu düzenle</strong>. Ünitesinde hiç hedef yoksa Genel sekmesindeki <strong>Manuel ekle</strong> de aynı işe yarar.</li>
+<li>Hedefi yaz: Ünitenin altındaki <strong>Hedef ekle</strong> ile yapmak istediğin çalışmayı, sonradan kolayca anlayacağın bir cümleyle yaz. İstersen hedefi bir veya birkaç konuya bağla.</li>
+<li>Kaydet: Değişiklikler <strong>Kaydet</strong>’e basınca uygulanır.</li>
 </ul>
+<p>Hedefleri yapay zekâna hazırlatmak için Genel sekmesinin sağ üstündeki Ai düğmesini ya da ünitedeki <strong>Ai ile ekle</strong>’yi kullanırsın.</p>
+<h3>Tamamlamak</h3>
+<p>Genel sekmesinde hedefin yanındaki kutuyu işaretlersin; Genel durum kartındaki ilerleme dolar. Yanlışlıkla işaretlediysen geri alabilirsin. Tamamlanan hedefler ayrı bir başlık altında toplanır.</p>
 <h3>Düzenlemek ve silmek</h3>
-<p>Hedefin menüsündeki <strong>Düzenle</strong> seçeneğiyle metnini değiştirebilirsin. <strong>Sil</strong> seçeneği hedef kaydını kaldırır. Hedefi silmek ile tamamlandı olarak işaretlemek farklıdır: biri takip listesini değiştirir, diğeri yaptığın çalışmayı gösterir.</p>
-<h3>Hedeften içerik hazırlamak</h3>
-<p>Hedef menüsündeki <strong>Ai ile not</strong>, <strong>Ai ile kart</strong> ve <strong>Ai ile soru</strong> seçenekleri, hedefle ilgili içerik hazırlama ekranını açar. Örneğin bir kavramı açıklama hedefinden not, terimleri hatırlama hedefinden kart veya problem çözme hedefinden soru hazırlatabilirsin.</p>
-<p>Hedefin ilgili bilgileri hazırlama ekranına bağlam olarak taşınır. Ne tür bir anlatım veya alıştırma istediğini yine harici sohbette sen yazarsın. İçeriği kaydetmen, hedefi otomatik olarak tamamlamaz.</p>
+<p>Hedefin <strong>Düzenle</strong> seçeneği düzenleme ekranını açar; metni değiştirebilir, başka üniteye taşıyabilir ya da silebilirsin. Hedefi silmek ile tamamlandı olarak işaretlemek farklıdır: biri takip listesini değiştirir, diğeri yaptığın çalışmayı gösterir.</p>
+<h3>Hedeften görev hazırlamak</h3>
+<p>Hedefin altındaki <strong>Ai ile görev hazırla</strong>, o hedef için bugünün görevlerini hazırlatır; <strong>Konuya git</strong> ilgili konuyu açar. Görevi tamamlamak hedefi kendiliğinden tamamlamaz.</p>
 <p><strong>İpucu: Hedef ve içerik birbirini tamamlar</strong>
 Hedef “neyi tamamlayacağım?” sorusunu, not, kart ve soru ise “bunun için neyle çalışacağım?” sorusunu yanıtlar.</p>
 </div></details>
 <details class="note-detail"><summary>Hedefler ve tekrarlarla günlük çalışma</summary><div class="note-body"><blockquote>
 <p>Genel sekmesini, <strong>nerede kaldığını görmek ve sıradaki çalışmanı seçmek</strong> için kullanabilirsin. Hedeflere bakmak ile günlük tekrar yapmak birbirini tamamlar.</p>
 </blockquote>
-<h3>Günlük tekrar satırı</h3>
-<p>Genel durum kartında tekrar zamanı gelen kart ve sorular varsa günlük tekrar bağlantısı görünür. Bu bağlantı, bekleyen içerikleri çalışmana yardımcı olur. <strong>Bugün süresi gelen tekrar yok</strong> ifadesi, bugünkü tekrar kuyruğunda içerik bulunmadığını anlatır; koleksiyonunda hiç içerik olmadığı anlamına gelmez.</p>
-<p><strong>Henüz çalışılacak kart ya da soru yok</strong> ifadesi ise tekrar yapılabilecek içerik bulunmadığını belirtir. Yalnızca kaynak veya not eklenmiş bir koleksiyonda günlük tekrar oluşmaması beklenen bir durumdur.</p>
+<h3>Konu satırlarındaki tekrar bilgisi</h3>
+<p>Bir üniteyi açtığında her konunun satırında <strong>Süresi gelen</strong> ve <strong>Çözümsüz</strong> sayıları görünür. <strong>Bu konuyu çalış</strong>, o konunun kart ve sorularını başlatır. Koleksiyonun bütün tekrarları için Kartlar ya da Sorular sekmesinin sağ üstündeki <strong>Günlük tekrar</strong> düğmesini kullanırsın.</p>
+<p>Bir konuyu çalışmak istediğinde <strong>Bu konuda süresi gelen tekrar yok</strong> yazısı, bugünkü tekrar kuyruğunda o konudan içerik olmadığını anlatır; konunun boş olduğu anlamına gelmez. <strong>Bu konuda çalışılacak kart ya da soru yok</strong> ise konuda hiç kart ya da soru bulunmadığını belirtir. Yalnız kaynak veya not eklenmiş bir konuda tekrar oluşmaması beklenen bir durumdur.</p>
 <h3>Hedeflere bakarak devam etmek</h3>
 <p>Tamamlamadığın hedefi bulup ilgili üniteyi açabilirsin. Önce kaynak inceleyebilir, bir açıklama notu okuyabilir, ardından kart veya soru çalışabilirsin. Bu sırayı uygulamak zorunlu değildir; o gün ihtiyacın olan çalışmayı sen seçersin.</p>
 <p><strong>Bir günlük kullanım örneği</strong>
@@ -782,23 +768,26 @@ Süreleri ve içerik miktarını kendi ihtiyacına göre belirlersin.</p>
 <!-- END DETAILS: overview -->
 </article>
 
-        <article class="topic tone-source" id="kaynaklar" data-keywords="kaynak pdf fotoğraf video youtube oynatma listesi drive arama transkript kaldığın yerden kalite">
+        <article class="topic tone-source" id="kaynaklar" data-keywords="kaynak pdf fotoğraf video youtube seri oynatma listesi transkript bağlantı kopyala drive arama kaldığın yerden kalite">
           <div class="topic-head"><span class="badge"><span class="ms">menu_book</span></span><div><small>Koleksiyon</small><h2>Kaynaklar</h2></div></div>
-          <p class="lead">Kaynak, çalıştığın asıl materyaldir: PDF, fotoğraf ya da YouTube videosu. Kaynaklar okunur, tekrar edilmez.</p>
+          <p class="lead">Kaynak, çalıştığın asıl materyaldir: PDF, fotoğraf ya da YouTube videosu. Kaynaklar okunur ya da izlenir; tekrar listesine girmez.</p>
           <h3>Kaynak ekleme</h3>
+          <p>Kaynaklar sekmesindeki <strong>Kaynak ekle</strong> üç yol sunar:</p>
           <div class="defs">
-            <div><dt>PDF</dt><dd>Telefondan bir veya birkaç PDF seç; Balpy sayfaları aktarır. Aktarma kalitesini Ayarlar → İçerik'ten değiştirebilirsin.</dd></div>
-            <div><dt>Fotoğraf</dt><dd>Kitap sayfasını ya da tahtayı çek, gerekirse kırp.</dd></div>
-            <div><dt>Video</dt><dd>YouTube videosu veya oynatma listesi ekle.</dd></div>
+            <div><dt>PDF Seç</dt><dd>Telefondan bir veya birkaç PDF seç; Balpy sayfaları aktarır. Aktarma kalitesini Ayarlar → İçerik'ten değiştirebilirsin.</dd></div>
+            <div><dt>Kameradan Ekle</dt><dd>Kitap sayfasını ya da tahtayı çek, gerekirse kırp.</dd></div>
+            <div><dt>YouTube Videosu</dt><dd>Video bağlantısı ya da oynatma listesi yapıştır; videolar bir seri olarak eklenir.</dd></div>
           </div>
-          <p style="margin-top: 10px">Kaynak ekle ekranının sağ üstündeki <strong>Ai ile kaynak bul</strong> düğmesi video serisi ve PDF bağlantılarını yapay zekâya buldurur.</p>
+          <p style="margin-top: 10px">Aynı ekranın sağ üstündeki <strong>Ai ile kaynak bul</strong>, video ve PDF bağlantılarını yapay zekâna buldurur.</p>
           <h3>Sekmede neler var?</h3>
           <ul>
-            <li><strong>Kaldığın yerden:</strong> Son okuduğun kaynağa ve sayfaya döner.</li>
             <li><strong>Süzgeçler:</strong> Tümü, PDF'ler, Fotoğraflar, Videolar.</li>
-            <li><strong>Arama:</strong> Kaynak adlarında, PDF metninde ve transkripti alınmış videolarda arar.</li>
+            <li><strong>Kaynak Ara:</strong> Kaynak adlarında, PDF metninde ve transkripti olan videolarda arar.</li>
             <li><strong>Ünitelere göre diz:</strong> Kaynakları bölümlere göre gruplar.</li>
           </ul>
+          <h3>Video serileri</h3>
+          <p>Seride her video bir karttır. Küçük resme dokununca video YouTube'da açılır; kartın kendisine dokununca videonun Balpy sayfası açılır. Videoyu izleyince sağdaki yuvarlağa dokunup tamamlandı olarak işaretlersin; seri, kaldığın videodan açılır.</p>
+          <p>Videodan not, kart ya da soru hazırlatmak için videonun <strong>transkripti</strong>, yani konuşmanın yazılı hâli gerekir. Video sayfasında <strong>Panodan yapıştır</strong> ya da <strong>Dosya ekle</strong> ile eklersin. Transkripti başka bir araçtan alacaksan, aynı karttaki bağlantı satırına dokunarak videonun adresini tek seferde kopyalayabilirsin.</p>
           <p class="result">Bir PDF sayfasından ya da video transkriptinden Ai ile not, kart veya soru hazırlatabilirsin.</p>
           <div class="callout tone-warning"><span class="ms">cloud_off</span><div><b>Drive'daki PDF</b><p>Dosya telefonda değil Drive'daysa internete bağlan ya da Drive'da “Çevrimdışı kullanılabilir” yap.</p></div></div>
           <div class="callout tone-info"><span class="ms">smartphone</span><div><b>Kaynaklar cihazında kalır</b><p>PDF, fotoğraf ve video kaynakları hesabına yedeklenmez. Telefon değiştirirken ya da uygulamayı silerken bunu hesaba kat.</p></div></div>
@@ -867,19 +856,42 @@ Sayfayı okundu olarak işaretlemek, kart seviyesini yükseltmez, soru çözmü�
 </blockquote>
 <h3>Video ve seri</h3>
 <p>Tek bir video ekleyebilir veya ilişkili videoları bir seri içinde düzenleyebilirsin. Bir dersin bölümlerini aynı seride tutmak, izlerken sıralamayı ve tamamlanan bölümleri takip etmene yardımcı olur.</p>
-<p>Video kartına dokunmak YouTube bağlantısını açar. İzleme, YouTube veya cihazının uygun uygulaması üzerinden gerçekleşir. Balpy’de video ekranı; kaydı, tamamlanma durumunu ve varsa transkriptten hazırlanacak içeriği yönetmene yarar.</p>
+<p>Seride her video bir karttır. <strong>Küçük resme</strong> dokununca video YouTube’da açılır; izleme YouTube ya da cihazının uygun uygulaması üzerinden olur. <strong>Kartın kendisine</strong> dokununca videonun Balpy sayfası açılır: transkript, tamamlanma durumu ve videodan hazırlanan içerikler buradadır. Bu sayfada <strong>Önceki video</strong> ve <strong>Sonraki video</strong> ile seride gezinirsin.</p>
+<p>Videoyu izleyince kartın sağındaki yuvarlağa dokunup tamamlandı olarak işaretlersin. Seriyi yeniden açtığında liste, tamamlanmamış ilk videodan başlar. Serinin başlığında kaç videonun metninin hazır olduğu, kaçının işlendiği ve kaçının izlendiği yazar.</p>
 <h3>Transkript nedir?</h3>
 <ul>
 <li><strong>Transkript:</strong> Videoda söylenenlerin yazıya dökülmüş hâli.</li>
 <li><strong>Video bağlantısı:</strong> Videoya ulaşmayı sağlayan adres; tek başına bütün konuşma metnini taşımaz.</li>
 </ul>
-<p>Bir videoyu eklemek, transkriptinin de mutlaka hazır olduğu anlamına gelmez. Metin hazır değilse transkript ekleme araçlarını kullanırsın. Video veya seri ekranında metni bulunan kayıtları görebilirsin.</p>
+<p>Bir videoyu eklemek, transkriptinin de hazır olduğu anlamına gelmez. Her kartın altında metin durumu yazar:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Durum</th>
+<th>Anlamı</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Metin yok</strong></td>
+<td>Videonun transkripti eklenmemiş</td>
+</tr>
+<tr>
+<td><strong>Metin hazır · işlenmedi</strong></td>
+<td>Transkript var, ama ondan henüz içerik hazırlanmadı</td>
+</tr>
+<tr>
+<td><strong>İşlendi</strong></td>
+<td>Transkriptten içerik hazırlandı</td>
+</tr>
+</tbody></table></div>
 <h3>Transkript ile çalışmak</h3>
 <p><strong>Transkripti incele</strong> seçeneğiyle metni açabilir, metin içinde arama yapabilir ve içeriği kontrol edebilirsin. Transkript yanlış videoya aitse veya eksikse hazırlanacak not ve alıştırmalar da bundan etkilenir. İçerik hazırlamadan önce başlığın ve metnin doğru kaynağa ait olduğunu incele.</p>
 <p><strong>Videodan içerik hazırla</strong> veya <strong>Transkriptlerle içerik hazırla</strong> seçenekleriyle, mevcut transkriptlerden not, kart veya soru hazırlama ekranına geçebilirsin. Bir seride birden fazla video seçtiğinde yalnızca hazırlama ekranında kapsama giren metinler kullanılır.</p>
 <p>Kılavuzu ve transkripti sohbete gönderip videodaki anlatımı açıklayıcı notlara veya alıştırmalara dönüştürmesini isteyebilirsin. XML yanıtını Balpy’ye aktardıktan sonra notları okur, kart ve soruları çalışırsın; videodaki bilgileri elle yeniden yazman gerekmez.</p>
 <h3>Metin eklemek ve izleme durumunu değiştirmek</h3>
-<p>Serinin <strong>Transkript işlemleri</strong> menüsünde hızlı bağlantılar, dosyalardan transkript ekleme ve AI ile XML olarak ekleme gibi yollar bulunur. Video ekranında mevcut transkripti değiştirme veya silme işlemlerine ulaşabilirsin. Ekleyeceğin metnin hangi videoya bağlanacağını kontrol et.</p>
+<p>Tek bir videoya transkript eklemek için videonun sayfasını aç: <strong>Transkript ekle</strong> kartındaki <strong>Panodan yapıştır</strong> ya da <strong>Dosya ekle</strong> (.srt, .vtt veya .txt) ile eklersin. Transkripti başka bir araçtan alacaksan, aynı karttaki bağlantı satırına dokunarak videonun adresini tek seferde kopyalayabilirsin. Mevcut transkripti değiştirme ve silme video sayfasının menüsündedir.</p>
+<p>Birçok videoya birden eklemek için serinin <strong>Transkript işlemleri</strong> menüsünü kullanırsın: <strong>Hızlı bağlantılar</strong>, <strong>Dosyalardan transkript ekle</strong> ve <strong>Ai ile XML olarak ekle</strong>. Ekleyeceğin metnin hangi videoya bağlanacağını kontrol et.</p>
+<p>Bir videoya uzun basınca seçim açılır. Seçtiğin videoları birlikte tamamlandı olarak işaretleyebilir, <strong>Transkriptlerle içerik hazırla</strong> ile metinlerinden içerik hazırlatabilir ya da seriden kaldırabilirsin. Serinin menüsündeki <strong>İşlenmemiş metinlerle içerik hazırla</strong>, henüz kullanılmamış bütün transkriptleri tek pakette toplar.</p>
 <p><strong>Tamamlandı olarak işaretle</strong>, videonun izleme durumunu değiştirir. Transkript eklenmiş olması videoyu izlediğin anlamına gelmez; videoyu tamamlandı olarak işaretlemek de kart veya soru tekrarını tamamlamaz.</p>
 <blockquote>
 <p><strong>Bağlantı videoya götürür; transkript, videonun anlatımını not ve alıştırma hazırlamada kullanmanı sağlar.</strong></p>
@@ -908,21 +920,21 @@ Sayfayı okundu olarak işaretlemek, kart seviyesini yükseltmez, soru çözmü�
 <!-- END DETAILS: sources -->
 </article>
 
-        <article class="topic tone-note" id="notlar" data-keywords="not grup okuma ekranı kart yap nottan kart çıkar formül tablo gizli metin ai ile düzenle">
+        <article class="topic tone-note" id="notlar" data-keywords="not grup okuma ekranı hızlı erişim gizli metin formül tablo nottan kart ai ile düzenle">
           <div class="topic-head"><span class="badge"><span class="ms">sticky_note_2</span></span><div><small>Koleksiyon</small><h2>Notlar</h2></div></div>
           <p class="lead">Not, bir konuyu okuyup anlamak için yazılmış metindir. Notlar gruplar hâlinde durur; gruba ait olmayanlar “Grupsuz” altındadır.</p>
           <h3>Not ekleme</h3>
-          <p>Notlar sekmesinde sağ alttaki <strong>+</strong> (Ai ile Not hazırla) not Ai ekranını açar. Onayladığın notlar bulunduğun konuya kaydedilir. Grup menüsündeki <strong>Ai ile düzenle</strong> gruptaki notları birlikte yapay zekâya düzelttirir.</p>
+          <p>Notlar sekmesindeki <strong>Ai ile Not hazırla</strong> not ekranını açar. Onayladığın notlar bulunduğun konuya ve seçtiğin not grubuna kaydedilir.</p>
           <h3>Okuma ekranı</h3>
           <ul>
-            <li>Notlar arasında sağa-sola kaydırarak geçersin; üstteki “3 / 12” sayısı içindekileri açar.</li>
-            <li>Sağdaki Ai düğmesi üç yol açar: Notu düzenle, Soru hazırla, Kart hazırla.</li>
-            <li>Bir cümleyi seçip <strong>Kart yap</strong> dersen o cümle karta dönüşür.</li>
-            <li>Nottaki tanım ve tablolardan yeni kart adayı çıkarsa üstte “+3” gibi bir düğme belirir.</li>
+            <li>Aynı gruptaki notlar arasında sağa-sola kaydırarak geçersin.</li>
+            <li>Sol üstteki <strong>Hızlı erişim</strong> notları ve başlıkları listeler, başlıkta arama yaparsın. Yanındaki kısayollar bu nottan hazırlanmış kart ve sorulara götürür.</li>
+            <li>Sağ üstteki Ai düğmesi üç yol açar: <strong>Notu düzenle</strong>, <strong>Soru hazırla</strong>, <strong>Kart hazırla</strong>.</li>
+            <li>Üç nokta menüsünde düzenleme, gizli metinleri hepsini birden açma ya da kapama ve silme vardır.</li>
           </ul>
           <h3>Notta neler olabilir?</h3>
-          <p>Başlık, özet kutusu, madde, tablo, formül, kutular, grafik ve adım adım anlatım. Gizli metin dokununca açılır.</p>
-          <div class="callout tone-note"><span class="ms">info</span><div><b>Not okunur, ezberlenmez</b><p>Notlar tekrar listesine girmez. Hatırlamak istediğini karta, çözmek istediğini soruya çevir.</p></div></div>
+          <p>Başlık, özet, madde, tanım, tablo, formül, Önemli / Dikkat / Örnek / İpucu kutuları ve adım adım anlatım. <strong>İçerik zenginleştirme</strong> açıksa kod, grafik, geometrik şekil, sayı doğrusu, akış şeması, zaman çizelgesi ve ders diyagramları da. Gizlenebilir metin, dokununca açılan ek açıklamadır.</p>
+          <div class="callout tone-note"><span class="ms">info</span><div><b>Not okunur, tekrar edilmez</b><p>Notlar tekrar listesine girmez. Hatırlamak istediğini karta, uygulamak istediğini soruya çevir. Kartlar sekmesindeki <strong>Nottan hazırla</strong> nottaki tanım ve tablolardan kart adayları çıkarır.</p></div></div>
         <!-- BEGIN DETAILS: notes -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
 <details class="note-detail"><summary>Not nedir, nasıl hazırlanır?</summary><div class="note-body"><blockquote>
@@ -950,34 +962,35 @@ Sayfayı okundu olarak işaretlemek, kart seviyesini yükseltmez, soru çözmü�
 <td>Kaynağa dayanan bölüm anlatımı</td>
 </tr>
 <tr>
-<td>Çözümün mantığını anlamak</td>
-<td>Gerekçeleriyle açıklanan çözüm adımları</td>
+<td>Bir süreci sırasıyla anlamak</td>
+<td>Adım adım anlatım</td>
 </tr>
 </tbody></table></div>
 <h3>Not hazırlamak</h3>
 <p>Koleksiyonun <strong>Notlar</strong> sekmesinde <strong>Ai ile Not hazırla</strong> seçeneğini kullanabilirsin. Koleksiyon, kayıt yeri ve gönderilecek bağlamı kontrol ederek kılavuzu harici sohbet uygulamana taşırsın. Konuyu, düzeyini ve neyi anlamak istediğini kendi mesajında belirtirsin.</p>
-<p>Bir PDF sayfasından, video transkriptinden veya ünite hedefinden de not hazırlama ekranına geçebilirsin. Bu yollar ilgili materyali bağlam olarak kullanmanı sağlar; bütün koleksiyonunun otomatik olarak gönderildiği anlamına gelmez.</p>
+<p>Bir PDF sayfasından, video transkriptinden veya not hazırlama görevinden de not hazırlama ekranına geçebilirsin. Bu yollar ilgili materyali bağlam olarak kullanmanı sağlar; bütün koleksiyonunun otomatik olarak gönderildiği anlamına gelmez.</p>
 <p><strong>Örnek: Anlatım isteği</strong>
 “Bu kılavuza ve kaynak metnine göre olasılık konusunu açıklayan notlar hazırla. Konuya yeni başlıyorum. Örnek uzay ile olay kavramlarını karıştırıyorum; bu ayrımı örneklerle anlamak istiyorum.”</p>
 <p>İstek örneğini ihtiyacına göre değiştirebilirsin. Kullanım rehberini göndermek ile not hazırlama kılavuzunu göndermek farklıdır: biri uygulamayı anlatır, diğeri uygulamaya aktarılabilecek içeriğin biçimini açıklar.</p>
 <h3>İçe aktarmak ve kaydetmek</h3>
 <p>AI’ın XML yanıtını kopyalayıp aynı hazırlama ekranındaki <strong>İçe aktar</strong> aracını kullanırsın. Balpy yanıtı not taslaklarına dönüştürür; başlıkları ve anlatımları ayrı ayrı elle girmen gerekmez. Notların başlığını, anlatımını, örneklerini, görünümünü ve kayıt yerini önizlemede incelersin. Uygun bulduğun sonucu kaydettiğinde Notlar sekmesinde görünür.</p>
+<p>Not yalnız konu anlatımıdır: alıştırma sorusu, çözümlü örnek ya da ön/arka yüzlü kart düzeni not gövdesine konmaz. Aynı konudan ayrıca kart ve soru hazırlatırsın; bunlar nottan bağlantılı ayrı içerikler olarak kaydedilir.</p>
 <p>Notların grup adı, ilgili anlatımları birlikte bulmanı sağlar. Gruplar ünite yapısıyla aynı değildir; bir üniteye bağlı birden fazla not grubu olabilir.</p>
 </div></details>
 <details class="note-detail"><summary>Not okuyucusunu kullanmak</summary><div class="note-body"><blockquote>
 <p>Not okuyucusu, uzun anlatımları <strong>sayfalar, başlıklar ve görsel bloklar</strong> üzerinden incelemeni sağlar. Bu web rehberindeki anlatım, uygulamada oluşturduğun notların okuyucusunu açıklar.</p>
 </blockquote>
 <h3>Bir grubu okumak</h3>
-<p>Not grubunu açtığında içindeki notlar arasında geçebilirsin. Üstteki <strong>3 / 12</strong> gibi bir konum bilgisi, grubun kaçıncı notunda olduğunu gösterir. Bu sayı okuma notunun sıra bilgisidir; kart seviyesi veya öğrenme puanı değildir.</p>
-<p>Konum alanına veya <strong>Hızlı erişim</strong> düğmesine dokunarak not listesine ve bulunduğun notun başlıklarına ulaşabilirsin. Uzun bir anlatımda baştan sona kaydırmak yerine ihtiyacın olan bölümü seçersin.</p>
+<p>Not grubunu açtığında içindeki notlar arasında geçebilirsin. Üstteki <strong>3 / 12</strong> gibi bir konum bilgisi, grubun kaçıncı notunda olduğunu gösterir. Notlar arasında sağa-sola kaydırarak geçersin. Bu sayı okuma notunun sıra bilgisidir; kart seviyesi veya öğrenme puanı değildir.</p>
+<p>Sol üstteki <strong>Hızlı erişim</strong> düğmesiyle not listesine ve bulunduğun notun başlıklarına ulaşabilir, başlıklar arasında arama yapabilirsin. Uzun bir anlatımda baştan sona kaydırmak yerine ihtiyacın olan bölümü seçersin.</p>
 <h3>Başlık ve blokları takip etmek</h3>
 <p>Özet bölümü notun ana fikrini, başlıklar konunun parçalarını, tanım satırları kavramların anlamını gösterir. Tablolar karşılaştırma yapmayı; adım ve akış blokları işlem sırasını ya da ilişkileri takip etmeyi kolaylaştırır.</p>
 <p><strong>Önemli, İpucu, Dikkat ve Örnek</strong> kutularının işlevleri farklıdır. Örnek kutusundaki anlatımı genel bir kural gibi okumak yerine, hangi kavramı somutlaştırdığına bakabilirsin. Formül bulunan notlarda sembollerin neyi temsil ettiğini çevresindeki açıklamadan izlersin.</p>
-<h3>Gizli cevaplar</h3>
-<p>Notta gizli metin bulunuyorsa üzerine dokunarak açabilirsin. Önce kendin düşünmek, sonra cevabı görmek için kullanılabilir. <strong>Not işlemleri</strong> menüsündeki gizli metinleri gösterme seçeneği, bu içeriklerin bulunduğu notlarda görünür.</p>
-<p>Gizli cevabı açmak, kart veya soru değerlendirmesi değildir. Not içinde kendini yoklamak yararlı olabilir; ancak günlük tekrar seviyesini değiştiren çalışma, kart veya soru oturumunda yapılır.</p>
+<h3>Gizlenebilir metin</h3>
+<p>Notta gizlenmiş bir parça varsa üzerine dokunarak açarsın. Gizlenebilir metin, ana anlatımı bölmemesi için katlanmış <strong>ek açıklamadır</strong>: bir ayrıntı, bir örneğin devamı ya da ikinci bir açıklama. <strong>Not işlemleri</strong> menüsündeki <strong>Gizli metinleri göster</strong> ve <strong>Gizli metinleri kapat</strong>, hepsini birden açıp kapatır.</p>
+<p>Gizli bir parçayı açmak çalışma sonucu değildir. Bir bilgiyi cevaba bakmadan hatırlamayı denemek istiyorsan onu karta, uygulamak istiyorsan soruya çevir; tekrar seviyesini değiştiren çalışma kart ve soru oturumunda yapılır.</p>
 <h3>Notla ilişkili alıştırmalar</h3>
-<p>Nottan hazırlanmış kart ve sorular varsa okuyucudaki ilgili kısayollarla bunlara ulaşabilirsin. Böylece açıklamayı okuduktan sonra aynı konu üzerinde hatırlama veya uygulama yaparsın. Bir notta henüz alıştırma yoksa bu kısayolların bulunmaması, notun eksik kaydedildiği anlamına gelmez.</p>
+<p>Nottan hazırlanmış kart ve sorular varsa sol üstteki <strong>Kartlar</strong> ve <strong>Sorular</strong> kısayollarıyla bunlara ulaşabilirsin. Böylece açıklamayı okuduktan sonra aynı konu üzerinde hatırlama veya uygulama yaparsın. Bir notta henüz alıştırma yoksa bu kısayolların bulunmaması, notun eksik kaydedildiği anlamına gelmez.</p>
 <p><strong>İpucu: Gerektiği kadar oku</strong>
 Not grubunu bir seferde bitirmek zorunda değilsin. Anlamadığın başlığa dönebilir, bir örneği yeniden inceleyebilir veya okuduğun bölümden kart ve soru hazırlayarak devam edebilirsin.</p>
 <blockquote>
@@ -1016,8 +1029,8 @@ Not grubunu bir seferde bitirmek zorunda değilsin. Anlamadığın başlığa d�
 <td>Formül ve bağıntıları okunabilir biçimde sunar.</td>
 </tr>
 <tr>
-<td>Gizli metin</td>
-<td>Cevabı düşünmeden görmeni engelleyen açılır bir bölüm oluşturur.</td>
+<td>Gizlenebilir metin</td>
+<td>Ek açıklamayı ana anlatımı bölmeden, dokununca açılan bir parçada tutar.</td>
 </tr>
 <tr>
 <td>Adımlar ve akışlar</td>
@@ -1045,18 +1058,16 @@ Başlığın, tablonun ve vurgunun konuyu açıklaması gerekir. Her cümlenin v
 <p>Başlıkların sırasını, tanımların doğruluğunu, örneklerin anlaşılır olmasını ve formüllerin görünümünü incele. Özellikle kaynak metnine dayanan bir notta, hazırlanan anlatımın kaynakla uyuştuğunu kontrol et. Güzel görünüm ile doğru içerik birlikte değerlendirilir.</p>
 </div></details>
 <details class="note-detail"><summary>Notu geliştirmek, kart ve soru hazırlamak</summary><div class="note-body"><blockquote>
-<p>Bir notu geliştirebilir veya içindeki bilgileri kart ve soruya dönüştürebilirsin. <strong>Notu düzenlemek</strong> ile <strong>yeni alıştırma eklemek</strong> farklı işlemlerdir.</p>
+<p>Bir notu geliştirebilir veya içindeki bilgileri kart ve soruya dönüştürebilirsin. Notu düzenlemek ile yeni alıştırma eklemek farklı işlemlerdir.</p>
 </blockquote>
 <h3>Notu düzenlemek</h3>
 <p>Okuyucunun yapay zekâ menüsündeki <strong>Notu düzenle</strong> veya not işlemlerindeki <strong>Düzenle</strong>, düzenleme ekranına götürür. Mevcut notu kılavuzuyla birlikte harici sohbete gönderir, istediğin değişikliği belirtir ve gelen yanıtı önizlersin. Örneğin eksik açıklamayı genişletmesini, yanlış örneği değiştirmesini veya Türkçeyi düzeltmesini isteyebilirsin.</p>
 <p>Düzenleme ekranında <strong>Bu not</strong> ile <strong>not grubu</strong> kapsamını ayırt et. Tek not düzenlemek bir anlatıma yöneliktir; grup düzenlemek birden fazla notu etkiler. Grup yanıtındaki eklenen, değiştirilen veya kaldırılacak notları ve onay ekranını incele. Eksik dönen bir grup yanıtını bütün anlatımların korunmuş olduğu varsayımıyla kaydetme.</p>
 <h3>Yapay zekâ ile alıştırma hazırlamak</h3>
 <p>Okuyucunun yapay zekâ menüsündeki <strong>Kart hazırla</strong> ve <strong>Soru hazırla</strong> seçenekleri, notu ilgili hazırlama ekranına taşır. Kılavuzu ve not bağlamını sohbete göndererek temel kavramları hatırlatan kartlar veya bilgiyi kullanmayı gerektiren sorular isteyebilirsin. AI’ın XML yanıtını içe aktarıp alıştırmaların cevabını ve kayıt yerini kontrol ederek kaydedersin. Açıklamayı okuduktan sonra bu alıştırmaları çalışır, sonraki günlerde günlük tekrarlarıyla devam edersin.</p>
-<h3>Seçtiğin metinden kart</h3>
-<p>Notta bir metni seçip <strong>Kart yap</strong> işlemini kullanabilirsin. Açılan taslakta ön ve arka yüzü kontrol edersin. <strong>Kartı ekle</strong> ile onaylamadan seçim kendiliğinden koleksiyonuna kaydedilmez. Özellikle ön yüzün cevabı açık etmediğine ve arka yüzün neyi açıkladığının belli olduğuna bak.</p>
-<h3>Nottan kart çıkar</h3>
-<p><strong>Not işlemleri → Nottan kart çıkar</strong>, cihazdaki çıkarma aracıyla notun yapısından kart adayları oluşturur. Tanım ve benzeri bölümlerden bulunan adaylar, harici yapay zekâ yanıtı değildir. Önizlemede uygun olanları seçip kaydedersin; her adayın çalışma açısından yararlı olması beklenmez.</p>
-<p>Notun tanımı ile daha önce çıkarılmış kartın cevabı farklılaşırsa okuyucu gözden geçirme seçeneği sunabilir. Bu karşılaştırmada <strong>Mevcut kartı koru</strong> veya <strong>Kartı güncelle</strong> kararını sen verirsin. Her not değişikliği bütün alıştırmaları otomatik olarak yeniden yazmaz.</p>
+<h3>Nottan hazırla</h3>
+<p>Kartlar sekmesinin sağ üstündeki <strong>Nottan hazırla</strong>, cihazdaki çıkarma aracıyla notun yapısından kart adayları oluşturur. Tanım ve benzeri bölümlerden bulunan adaylar, harici yapay zekâ yanıtı değildir. Önizlemede uygun olanları seçip kaydedersin; her adayın çalışma açısından yararlı olması beklenmez.</p>
+<p>Notun tanımı ile daha önce çıkarılmış kartın cevabı farklılaşırsa Balpy gözden geçirme seçeneği sunabilir. Bu karşılaştırmada <strong>Mevcut kartı koru</strong> veya <strong>Kartı güncelle</strong> kararını sen verirsin. Her not değişikliği bütün alıştırmaları otomatik olarak yeniden yazmaz.</p>
 <blockquote>
 <p><strong>Açıklamayı geliştirmek için düzenle; hatırlamak için kart, uygulamak için soru hazırla.</strong></p>
 </blockquote>
@@ -1065,20 +1076,20 @@ Başlığın, tablonun ve vurgunun konuyu açıklaması gerekir. Her cümlenin v
 <!-- END DETAILS: notes -->
 </article>
 
-        <article class="topic tone-card" id="kartlar" data-keywords="kart flashcard hatırladım hatırlamadım seviye boşluk doldurma karşılaştırma formül günlük tekrar">
+        <article class="topic tone-card" id="kartlar" data-keywords="kart flashcard çevir hatırladım hatırlamadım seviye boşluk doldurma karşılaştırma formül ipucu püf noktası günlük tekrar nottan hazırla">
           <div class="topic-head"><span class="badge"><span class="ms">style</span></span><div><small>Koleksiyon</small><h2>Kartlar</h2></div></div>
-          <p class="lead">Kart, cevabı görmeden hatırlamayı denemek içindir. Ön yüzde soru, arka yüzde cevap vardır.</p>
+          <p class="lead">Kart, cevabı görmeden hatırlamayı denemek içindir. Ön yüzde hatırlanacak şey, arka yüzde cevabı vardır.</p>
           <h3>Kart ekleme</h3>
           <ul>
-            <li>Kartlar sekmesinde sağ alttaki <strong>+</strong> (Ai ile kart hazırla).</li>
-            <li>Not okurken bir cümleyi seçip <strong>Kart yap</strong>.</li>
-            <li>Not okuma ekranındaki Ai düğmesinden <strong>Kart hazırla</strong>.</li>
-            <li>Not okuma ekranındaki “+3” düğmesi ya da <strong>Nottan kart çıkar</strong>.</li>
+            <li>Kartlar sekmesindeki <strong>Ai ile kart hazırla</strong>.</li>
+            <li>Not okurken Ai düğmesinden <strong>Kart hazırla</strong>.</li>
+            <li>Kartlar sekmesinin sağ üstündeki <strong>Nottan hazırla</strong>: bir notun tanım ve tablolarından kart adayları çıkar, beğendiklerini eklersin.</li>
           </ul>
           <h3>Sekmede neler var?</h3>
-          <p>En üstte <strong>Günlük tekrar</strong> bölümü vardır; süresi gelen kartlar buradadır. Diğer kartlar seviyelerine göre gruplanır: Yeni, Seviye 1–5 ve Tamamlandı. Ai ile üretilip henüz çalışılmamış kartlar <strong>Ai</strong> başlığı altında durur.</p>
+          <p>En üstte <strong>Günlük tekrar</strong> bölümü vardır; süresi gelen kartlar buradadır. Diğer kartlar seviyelerine göre gruplanır: Yeni, Seviye 1–5 ve Tamamlandı.</p>
           <h3>Çalışma</h3>
-          <p>Önce cevabı hatırlamaya çalış, sonra kartı çevir ve “Hatırladım” ya da “Hatırlamadım” de. Temel kartın yanında boşluk doldurma, karşılaştırma, formül, örnek / karşı örnek ve hatayı düzelt biçimleri de vardır; hiçbirinde yazman gerekmez.</p>
+          <p>Önce cevabı hatırlamaya çalış. Sonra kartın yüzüne dokunup çevir ve <strong>Hatırladım</strong> ya da <strong>Hatırlamadım</strong> de. Takılırsan kartın ipuçlarına bakabilirsin; bu, cevabını kendiliğinden kaydetmez.</p>
+          <p>Temel kartın yanında boşluk doldurma, karşılaştırma, formül, örnek / karşı örnek ve hatayı düzelt biçimleri de vardır; hiçbirinde yazman gerekmez.</p>
           <div class="callout tone-card"><span class="ms">tips_and_updates</span><div><b>Bir karta bir bilgi</b><p>Kısa kartlar daha iyi hatırlanır. Uzun açıklamayı nota, çözüm isteyeni soruya bırak.</p></div></div>
         <!-- BEGIN DETAILS: flashcards -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
@@ -1155,17 +1166,12 @@ Başlığın, tablonun ve vurgunun konuyu açıklaması gerekir. Her cümlenin v
 <td>Notu kullanarak AI’a kart hazırlatırsın.</td>
 </tr>
 <tr>
-<td><strong>Kart yap</strong></td>
-<td>Notta seçtiğin metinden</td>
-<td>Ön ve arka yüz taslağını kontrol edip eklersin.</td>
-</tr>
-<tr>
-<td><strong>Nottan kart çıkar</strong></td>
-<td>Not işlemleri menüsünden</td>
-<td>Cihazda çıkarılan adaylardan uygun olanları seçersin.</td>
+<td><strong>Nottan hazırla</strong></td>
+<td>Kartlar sekmesinin sağ üstünden</td>
+<td>Bir notun yapısından çıkarılan adaylardan uygun olanları seçersin.</td>
 </tr>
 </tbody></table></div>
-<p>Kaynak veya hedef üzerinden de kart hazırlama ekranına ulaşabilirsin. Bu yollar hazırlamada kullanılacak bağlamı değiştirir; kartın çalışma ve tekrar davranışı aynı temel düzene dayanır.</p>
+<p>Bir kaynak ya da kart hazırlama görevi üzerinden de kart hazırlama ekranına ulaşabilirsin. Bu yollar hazırlamada kullanılacak bağlamı değiştirir; kartın çalışma ve tekrar davranışı aynı temel düzene dayanır.</p>
 <h3>Yapay zekâya istek yazmak</h3>
 <p>Kart hazırlama ekranında kılavuzu ve gönderilecek bağlamı kontrol et. Harici sohbette konuyu, bilgi düzeyini ve özellikle hatırlamak istediğin bilgileri belirt. Kayıt yerinin doğru koleksiyon ve konu olduğunu incele.</p>
 <p><strong>Örnek: Kart isteği</strong>
@@ -1186,7 +1192,7 @@ Başlığın, tablonun ve vurgunun konuyu açıklaması gerekir. Her cümlenin v
 <ul>
 <li>Ön yüzü oku: Hangi bilginin sorulduğunu anla.</li>
 <li>Cevabı düşün: Kartı çevirmeden önce cevabı kendi zihninde kur. İhtiyaç duyarsan ipucunu aç.</li>
-<li>Kartı çevir: Arka yüzdeki cevabı kendi cevabınla karşılaştır.</li>
+<li>Kartı çevir: Kartın yüzüne dokun; arka yüzdeki cevabı kendi cevabınla karşılaştır. Kartın içinde kaydırmak ya da ipuçlarını açmak kartı çevirmez.</li>
 <li>Sonucunu seç: Hatırladıysan Hatırladım, hatırlayamadıysan Hatırlamadım düğmesini kullan.</li>
 </ul>
 <p>Bir cevabı gördükten sonra tanımak ile görmeden hatırlamak farklıdır. Değerlendirmeyi kartı çevirmeden önceki cevabına göre yapman, tekrar düzeninin ihtiyacını daha iyi yansıtmasını sağlar.</p>
@@ -1270,22 +1276,28 @@ Sorun bilginin unutulması olabilir; ancak belirsiz ön yüz, aşırı uzun ceva
 <!-- END DETAILS: flashcards -->
 </article>
 
-        <article class="topic tone-question" id="sorular" data-keywords="soru fotoğraf çek ipucu çözüm bildim bilemedim çözümsüz süresi geldi">
+        <article class="topic tone-question" id="sorular" data-keywords="soru fotoğraf çek şık harf doğru yaptım yanlış yaptım ipucu çözüm çözümsüz süresi geldi">
           <div class="topic-head"><span class="badge"><span class="ms">quiz</span></span><div><small>Koleksiyon</small><h2>Sorular</h2></div></div>
           <p class="lead">Soru, konuyu gerçekten uygulayabildiğini sınar. Kart hatırlatır, soru çözdürür.</p>
           <h3>Soru ekleme</h3>
+          <p>Sorular sekmesindeki <strong>Soru ekle</strong> iki yol sunar:</p>
           <div class="defs">
             <div><dt>Fotoğraf Çek</dt><dd>Kitaptaki ya da defterdeki soruyu çek. Birkaç soruyu tek seferde ekleyebilirsin.</dd></div>
-            <div><dt>Ai ile hazırla</dt><dd>Seçenekli veya açık uçlu soruları yapay zekâya hazırlat; istersen ipucu ve çözüm adımları da eklenir.</dd></div>
+            <div><dt>Ai ile hazırla</dt><dd>Seçenekli veya açık uçlu soruları yapay zekâna hazırlat; ipucu ve çözüm adımları da gelir.</dd></div>
           </div>
           <h3>Etiketler</h3>
           <ul>
             <li><strong>Süresi geldi:</strong> Bugün tekrar edilecek.</li>
-            <li><strong>Çözümsüz:</strong> Çözümü henüz eklenmemiş soru.</li>
+            <li><strong>Çözümsüz:</strong> Çözümü henüz eklenmemiş soru. Çalışırken <strong>Çözüm ekle</strong> ile tamamlarsın.</li>
             <li><strong>Yeni:</strong> Hiç çalışılmamış.</li>
           </ul>
           <h3>Çözme</h3>
-          <p>Önce soruyu çöz; takılırsan <strong>İpucu</strong>, sonra <strong>Çözümü göster</strong>. Sonunda “Bildim” ya da “Bilemedim” de.</p>
+          <ul>
+            <li><strong>Seçenekli soru:</strong> Şıkları oku, cevabını alttaki harf düğmelerinden seç. Balpy doğru mu yanlış mı olduğunu kendisi kaydeder.</li>
+            <li><strong>Açık uçlu soru:</strong> Kendi cevabını düşün, sonra <strong>Doğru yaptım</strong> ya da <strong>Yanlış yaptım</strong> ile değerlendir.</li>
+            <li>Takılırsan <strong>İpuçları ve çözüm</strong>'e bak. Bakmak cevaplamanı engellemez, sonucu da kendiliğinden kaydetmez.</li>
+          </ul>
+          <p>Oturumun sonunda bir özet görürsün; yanlışlarınla hemen bir tur daha yapabilirsin. Bu ek tur seviyeleri değiştirmez.</p>
           <div class="callout tone-question"><span class="ms">fact_check</span><div><b>Ai sorusunu kontrol et</b><p>Yapay zekânın verdiği doğru cevabı ve çözümdeki hesapları kaydetmeden önce kontrol et.</p></div></div>
         <!-- BEGIN DETAILS: questions -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
@@ -1318,12 +1330,12 @@ Sorun bilginin unutulması olabilir; ancak belirsiz ön yüz, aşırı uzun ceva
 <p><strong>Ai ile soru hazırla</strong>, kendi hedeflerine uygun alıştırma taslakları hazırlatmanı sağlar. Konuyu ve istediğin çalışmayı harici sohbette sen belirlersin.</p>
 </blockquote>
 <h3>Nereden başlayabilirsin?</h3>
-<p>Sorular sekmesindeki ekleme ekranında <strong>Ai ile hazırla</strong> seçeneğini kullanabilirsin. Bir notun <strong>Soru hazırla</strong> menüsü, bir kaynak çalışması veya hedefin <strong>Ai ile soru</strong> seçeneği de ilgili bağlamla hazırlama ekranını açar.</p>
-<p>Koleksiyonu, kayıt yerini ve kullanılacak içerikleri kontrol et. Kaynak metni, mevcut not veya hedef bilgisi pakete girmişse model bunlara dayanabilir. Kullanım rehberinin kendisi cihazındaki bu kayıtları taşımaz.</p>
+<p>Sorular sekmesindeki ekleme ekranında <strong>Ai ile hazırla</strong> seçeneğini kullanabilirsin. Bir notun <strong>Soru hazırla</strong> menüsü, bir kaynak çalışması veya soru hazırlama görevindeki <strong>AI ile soru hazırla</strong> da ilgili bağlamla hazırlama ekranını açar.</p>
+<p>Koleksiyonu, kayıt yerini ve kullanılacak içerikleri kontrol et. Kaynak metni, mevcut not veya görev bilgisi pakete girmişse model bunlara dayanabilir. Kullanım rehberinin kendisi cihazındaki bu kayıtları taşımaz.</p>
 <h3>Sohbette isteğini belirtmek</h3>
 <p>Kılavuz, kabul edilen soru biçimini açıklar. Öğrenme konun, düzeyin, soru miktarı ve anlatım tercihlerin ise senin isteğindir. Sürekli kullandığın bir özel kılavuz varsa ayrıca seçebilirsin; seçmediğinde pakete varsayılan bir çalışma yöntemi eklenmez.</p>
 <p><strong>Örnek: Uygulama sorusu isteği</strong>
-“Bu kılavuza ve notlara göre bölünebilme konusunda alıştırmalar hazırla. Kuralları biliyorum ama hangi kuralı kullanacağımı seçmekte zorlanıyorum. Cevapların yanında kullanılan kuralı açıklayan çözümler de istiyorum.”</p>
+“Bu kılavuza ve notlara göre yüzde hesabı konusunda alıştırmalar hazırla. Formülü biliyorum ama hangi değerin neye oranlandığını karıştırıyorum. Cevapların yanında adım adım açıklayan çözümler de istiyorum.”</p>
 <p>Bu istek bir kullanım örneğidir. Kendi seviyene ve zorlandığın noktaya göre farklı bir görev yazabilirsin. Yapay zekânın hazırladığı içerik, doğruluğu incelenmesi gereken bir taslaktır.</p>
 <h3>İçe aktarma ve önizleme</h3>
 <p>AI’ın XML yanıtını kopyalayıp aynı hazırlama ekranında <strong>İçe aktar</strong> kullan. Soru metinlerinin yeterli bilgi içerdiğini, seçeneklerin birbirinden ayrıldığını, doğru cevabın tutarlı olduğunu ve çözümün soruyla uyuştuğunu incele. Çalışmak istediğin koleksiyon ve konuya kaydet. Ardından cevaplara bakmadan çözmeyi dene; sonucunu değerlendirdiğinde sorular Balpy’nin tekrar düzenine katılır.</p>
@@ -1338,7 +1350,7 @@ Sorun bilginin unutulması olabilir; ancak belirsiz ön yüz, aşırı uzun ceva
 <p><strong>Çözüm</strong>, cevabını karşılaştırabileceğin ve nasıl sonuca ulaşıldığını inceleyebileceğin bilgidir. Çözümü eklemek ile soruyu doğru çözmüş olmak farklıdır.</p>
 </blockquote>
 <h3>Çözüm eklemek</h3>
-<p>Çözümü bulunmayan soruyu açıp <strong>Çözüm ekle</strong> seçeneğine geçebilirsin. Fotoğraf sorusunda doğru cevabı belirleyebilir ve çözüm görselini hazırlayabilirsin. Soru veya çözüm fotoğrafını düzenleme araçlarıyla inceleyip değiştirebilirsin.</p>
+<p>Çözümü bulunmayan soruyu açıp <strong>Çözüm ekle</strong> seçeneğine geçebilirsin. Fotoğraf sorusunda doğru cevabı belirleyebilir ve çözüm fotoğrafı ekleyebilirsin. Soru veya çözüm fotoğrafını düzenleme araçlarıyla inceleyip değiştirebilirsin.</p>
 <p>Metin sorusunda da doğru cevap ve açıklama alanları kullanılır. Sorunun türüne göre seçenekler ve doğru cevap alanı farklı olabilir. Çözümü kaydetmeden önce soru metni ile cevabın birbirine uyduğuna bak.</p>
 <h3>İpucu ve çözüm adımları</h3>
 <p><strong>İpucu Ekle</strong>, çözümün bir parçasını düşünmene yardım edecek bilgiler içindir. <strong>Çözüm Adımları Ekle</strong>, sonuca nasıl ulaşıldığını daha ayrıntılı açıklamana yarar. Bir formülün veya işlemin neden kullanıldığını bu alanlarda anlatabilirsin.</p>
@@ -1362,7 +1374,7 @@ Sorun bilginin unutulması olabilir; ancak belirsiz ön yüz, aşırı uzun ceva
 <td>İşlem sırasını ve çözümün gerekçesini açıklar.</td>
 </tr>
 <tr>
-<td><strong>Çözüm görseli</strong></td>
+<td><strong>Çözüm fotoğrafı</strong></td>
 <td>Fotoğraf sorusunun görsel çözümünü sunar.</td>
 </tr>
 </tbody></table></div>
@@ -1375,7 +1387,7 @@ Sorun bilginin unutulması olabilir; ancak belirsiz ön yüz, aşırı uzun ceva
 Doğru şık, kullanılan değerler, işlem sırası ve çözümün sorudaki koşullara uygunluğu birlikte kontrol edilir. Görsel bir çözümün okunabilir olması kadar, gerçekten o soruya ait olması da önemlidir.</p>
 </div></details>
 <details class="note-detail"><summary>Soru çalışması ve tekrar durumları</summary><div class="note-body"><blockquote>
-<p>Soru çalışmasında önce <strong>kendin çözmeyi denersin</strong>, ardından çözümü açıp kendi sonucunu değerlendirirsin. Bu değerlendirme tekrar düzenine yansır.</p>
+<p>Soru çalışmasında önce <strong>kendin çözmeyi denersin</strong>, sonra cevabını verirsin. Bu sonuç tekrar düzenine yansır.</p>
 </blockquote>
 <h3>Listedeki durumlar</h3>
 <div class="table-wrap"><table>
@@ -1410,8 +1422,24 @@ Doğru şık, kullanılan değerler, işlem sırası ve çözümün sorudaki ko�
 <h3>Çalışmayı başlatmak</h3>
 <p>Sorular sekmesindeki <strong>Günlük tekrar</strong> veya <strong>Çalış</strong> düğmesini kullanabilirsin. Oturum öncesinde konu kapsamını, içerik sayısını, <strong>Sırayla / Karışık</strong> seçimini ve <strong>Yalnız süresi gelenler</strong> ayarını kontrol et. Dar bir konu veya yalnız tekrar filtresi seçildiğinde bazı soruların sıraya girmemesi beklenen bir durumdur.</p>
 <h3>Denemek, ipucu ve çözüm</h3>
-<p>Soru metnini veya görselini inceleyip kendi çözümünü kur. İpucu varsa ihtiyaç duyduğunda açabilirsin. <strong>Çözümü göster</strong> ile doğru cevabı ve açıklama adımlarını incele. Çözümü açmak kendi başına doğru ya da yanlış sonucu kaydetmez.</p>
-<p>Çalışma ekranında <strong>Doğru Yaptım / Yanlış Yaptım</strong>, bazı soru çözme ekranlarında ise <strong>Bildim / Bilemedim</strong> değerlendirmeleri kullanılır. Sonucu, çözümü görmeden önceki denemene göre belirtirsin. Doğru cevabı okuduktan sonra anlamış olman ile onu bağımsız çözmüş olman aynı değildir.</p>
+<p>Soru metnini veya görselini inceleyip kendi çözümünü kur. Sorunun yüzüne dokununca ön ve arka yüz arasında geçersin; takılırsan <strong>İpuçları ve çözüm</strong>’e bakabilirsin. Bakmak cevaplamanı engellemez ve kendi başına doğru ya da yanlış sonucu kaydetmez.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Soru türü</th>
+<th>Cevabı nasıl verirsin?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Seçenekli</strong></td>
+<td>Şık metinlerini okursun; cevabını alttaki harf düğmelerinden seçersin. Balpy doğru mu yanlış mı olduğunu kendisi kaydeder.</td>
+</tr>
+<tr>
+<td><strong>Açık uçlu</strong></td>
+<td>Cevabını düşünür ya da yazarsın; sonra <strong>Doğru yaptım</strong> veya <strong>Yanlış yaptım</strong> ile değerlendirirsin.</td>
+</tr>
+</tbody></table></div>
+<p>Açık uçlu soruda sonucu, çözüme bakmadan önceki denemene göre belirtirsin. Doğru cevabı okuduktan sonra anlamış olman ile onu bağımsız çözmüş olman aynı değildir.</p>
 <h3>Tekrar düzeni</h3>
 <p>Doğru çalışılan soruda seviye yükselir ve aralık uzar; yanlış çalışılan soruda seviye düşebilir ve daha erken tekrar planlanır. Temel aralıklar yaklaşık <strong>1, 3, 7, 15 ve 30 gündür</strong>. Bunlar ilgili çalışmadan sonraki bekleme süreleridir ve geçmişine göre biraz değişebilir.</p>
 <p>Son basamak tamamlandığında soru <strong>Tamamlandı</strong> durumuna geçer, silinmez ve günlük tekrar kuyruğundan çıkar. Aynı oturumdaki yanlışları yeniden görme turu ise pekiştirmeye yöneliktir; aynı sonuç için seviyeyi ikinci kez değiştirmez.</p>
@@ -1643,8 +1671,37 @@ Bu sıra bir kullanım örneğidir; kendi ihtiyaçlarına göre değiştirebilir
 </tbody></table></div>
 <p>Aynı amaç için üçü birlikte kullanılabilir. Örneğin bir konuya ait öğrenme hedefin olabilir; bugünkü görevinde o konunun kaynağını okumayı planlayabilir, Sayaç’ta buna ayıracağın süreyi belirleyebilirsin. Birini oluşturmak diğerlerini kendiliğinden oluşturmaz.</p>
 <h3>Görev türleri</h3>
-<p><strong>Normal görev</strong>, kitap okuma, video izleme, deneme çözme veya uygulama dışında yaptığın çalışmalar için kullanılabilir. Ne yapacağını ve kapsamını açıklamaya yazarsın; normal görevin tamamlanmasını sen işaretlersin.</p>
-<p><strong>Sayaç görevi</strong>, belirli bir çalışma süresini tamamlamaya yöneliktir. Göreve bağlı kaydedilmiş çalışma süreleri hedefe ulaştığında tamamlanma durumu hesaplanır. Ekrandaki hedef süre ile gerçekten kaydedilen süreyi ayrı inceleyebilirsin.</p>
+<p>Görev düzenleyicisindeki <strong>Görev türü</strong>, görevin nasıl tamamlanacağını belirler:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tür</th>
+<th>Ne için?</th>
+<th>Ne zaman tamamlanır?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Çalışma</strong></td>
+<td>Okuma, video izleme, deneme çözme ya da uygulama dışındaki işler</td>
+<td>Tamamlandığını sen işaretlersin</td>
+</tr>
+<tr>
+<td><strong>Sayaç</strong></td>
+<td>Belirli bir süre çalışmak</td>
+<td>Göreve bağlı kaydedilen süre hedefe ulaşınca</td>
+</tr>
+<tr>
+<td><strong>Tekrar</strong></td>
+<td>Koleksiyonun (ünite seçiliyse o ünitenin) süresi gelen kart ve soruları</td>
+<td>Bekleyen tekrarlar bitince</td>
+</tr>
+<tr>
+<td><strong>Not / Kart / Soru hazırlama</strong></td>
+<td>Yeni içerik hazırlamak</td>
+<td>Tamamlandığını sen işaretlersin</td>
+</tr>
+</tbody></table></div>
+<p><strong>Çalışma</strong> görevinde ne yapacağını ve kapsamını açıklamaya yazarsın. <strong>Sayaç</strong> görevinde ekrandaki hedef süre ile gerçekten kaydedilen süreyi ayrı görürsün.</p>
 <p><strong>Not hazırlama, Kart hazırlama ve Soru hazırlama</strong>, yeni içerik oluşturma işlerini planlamanı sağlar. Bu türler ilgili koleksiyon ve bölümle birlikte hazırlama ekranına yönlendirir. İçerik hazırlamak, hazırlanan alıştırmaları çalıştığın anlamına gelmez.</p>
 <h3>Koleksiyonsuz görev</h3>
 <p>Genel bir işi, uygun görev türüyle bir koleksiyona bağlamadan da planlayabilirsin. Ancak koleksiyona içerik ekleyen not, kart ve soru hazırlama görevlerinde kayıt yapılacak çalışma alanı gerekir. Görev türü seçimi, hangi alanların gerekli olduğunu etkiler.</p>
@@ -1689,7 +1746,7 @@ Bu sıra bir kullanım örneğidir; kendi ihtiyaçlarına göre değiştirebilir
 <h3>Koleksiyon ve konu</h3>
 <p>Bir koleksiyon seçtiğinde varsa <strong>Ünite veya konu (isteğe bağlı)</strong> alanıyla kapsamı daraltabilirsin. Genel bir görevde <strong>Genel (Koleksiyonsuz)</strong> kullanım mümkündür. İçerik hazırlama türlerinde ise koleksiyon seçimi, üretilen kaydın nereye ekleneceğini belirler.</p>
 <h3>Görev türü ve süre</h3>
-<p>Normal görev ile Sayaç görevi farklıdır. Süreye bağlı tamamlanma istiyorsan <strong>Sayaç görevi</strong> seçip <strong>Süre hedefi</strong> belirtirsin. Normal görevin açıklamasına “30 dakika” yazmak, onu kendiliğinden sayaç görevi yapmaz.</p>
+<p><strong>Çalışma</strong> türü ile <strong>Sayaç</strong> türü farklıdır. Süreye bağlı tamamlanma istiyorsan <strong>Sayaç</strong> türünü seçip <strong>Süre hedefi</strong> belirtirsin. Çalışma görevinin açıklamasına “30 dakika” yazmak, onu kendiliğinden sayaç görevi yapmaz. Süresi gelen kart ve soruları bitirmeyi görev yapmak istiyorsan <strong>Tekrar</strong> türünü seçersin.</p>
 <h3>Öncelik payı</h3>
 <p><strong>Öncelik payı (Görev çarpanı)</strong>, görevin günlük görev ilerlemesindeki katkısıdır. Daha büyük pay, çalışmanın kendiliğinden daha uzun süreceği veya daha fazla içerik oluşturulacağı anlamına gelmez. Süre, soru adedi ve görev payı farklı bilgilerdir.</p>
 <h3>Kaydetmeden önce</h3>
@@ -1699,8 +1756,8 @@ Bu sıra bir kullanım örneğidir; kendi ihtiyaçlarına göre değiştirebilir
 <p>Görevlerini tamamlayabilir, uygun bir güne taşıyabilir veya o gün yapmayacağın görevi atlayabilirsin. <strong>Tamamlamak, atlamak, tarihi değiştirmek ve silmek</strong> aynı işlem değildir.</p>
 </blockquote>
 <h3>Görevi açmak ve tamamlamak</h3>
-<p>Görev kartını açarak açıklamasını ve ilgili araçlarını inceleyebilirsin. Koleksiyona bağlı normal görev, ilgili çalışma alanına götürebilir. İçerik hazırlama görevleri, not, kart veya soru hazırlama ekranını açar; görev açıklaması bu işlemde bağlam olarak kullanılabilir.</p>
-<p>Tamamlama işaretini değiştirerek yaptığın işi belirtebilirsin. Değişiklik yapılabilen kayıtlarda <strong>Tamamlamayı geri al</strong> ile sonucu yeniden düzenlersin. Göreve bağlı içerikler varsa <strong>Görev içerikleri</strong> bölümünden bunlara ulaşabilirsin.</p>
+<p>Görev kartını açarak açıklamasını ve ilgili araçlarını inceleyebilirsin. Koleksiyona bağlı <strong>Çalışma</strong> görevi ilgili çalışma alanına, <strong>Tekrar</strong> görevi süresi gelen tekrarlara götürür. İçerik hazırlama görevleri, not, kart veya soru hazırlama ekranını açar; görev açıklaması bu işlemde bağlam olarak kullanılabilir.</p>
+<p>Tamamlama işaretini değiştirerek yaptığın işi belirtebilirsin. Değişiklik yapılabilen kayıtlarda <strong>Tamamlamayı geri al</strong> ile sonucu yeniden düzenlersin. Göreve bağlı içerikler varsa görevin <strong>Bağlı içerikler</strong> ya da <strong>Hazırlanan içerikler</strong> bölümünden bunlara ulaşabilirsin.</p>
 <h3>Görev seçenekleri</h3>
 <div class="table-wrap"><table>
 <thead>
@@ -1783,13 +1840,14 @@ Bir bildirimin görünmesi, görevin yapıldığı veya sayacın başlatıldığ
         <article class="topic tone-success" id="sayac" data-keywords="sayaç kronometre geri sayım pomodoro süre hedef günlük hedef çalışma planı oturum bildirim">
           <div class="topic-head"><span class="badge"><span class="ms">timer</span></span><div><small>Günün</small><h2>Sayaç</h2></div></div>
           <p class="lead">Çalıştığın süreyi tutar. Oturumu bir koleksiyona ya da genel çalışmaya bağlarsın; süre günlük hedefine eklenir.</p>
+          <p>Modu ekranın üstündeki çubuktan seçersin; altındaki çiplerde o moda uygun hazır seçenekler ve her modda <strong>Özel</strong> vardır. Özel, istediğin değeri yazabileceğin bir pencere açar.</p>
           <div class="defs">
-            <div><dt>Kronometre</dt><dd>Serbest akış: ilerledikçe sayar, dilediğinde bitirirsin.</dd></div>
-            <div><dt>Geri sayım</dt><dd>Bir süre seçersin; bitince uyarı gelir.</dd></div>
-            <div><dt>Pomodoro</dt><dd>25 dakika odak, 5 dakika mola; her dört odakta bir 15 dakika uzun mola.</dd></div>
+            <div><dt>Geri sayım</dt><dd>25, 45, 60 veya 90 dakika ya da özel süre; bitince uyarı gelir.</dd></div>
+            <div><dt>Kronometre</dt><dd>Serbest akış: ilerledikçe sayar, dilediğinde bitirirsin. İstersen 30, 60, 90 dakikada ya da özel bir sürede bir kez hatırlatır; kronometre durmaz.</dd></div>
+            <div><dt>Pomodoro</dt><dd>Klasik 25·5, Derin 50·10, 52·17 veya 90·20 düzeni. Özel'de odak, kısa mola, uzun mola, uzun mola sıklığı ve tur sayısını ayarlarsın; tur sınırsız da olabilir.</dd></div>
           </div>
           <h3>Günlük hedef ve çalışma planı</h3>
-          <p>Hedefini sayaçtaki hedef şeridinden ya da Profil → dişli → <strong>Çalışma planı</strong> ile değiştirirsin. Temel günlük hedefin yanında belirli günlere ayrı hedef koyabilirsin. Unuttuğun bir çalışmayı <strong>Bugüne süre ekle</strong> ile sonradan kaydedersin.</p>
+          <p>Hedefini sayacın üstündeki hedef şeridine dokunarak ya da Profil → dişli → <strong>Çalışma planı</strong> ile değiştirirsin. Temel günlük hedefin yanında belirli günlere ayrı hedef koyabilirsin. Unuttuğun bir çalışmayı <strong>Bugüne süre ekle</strong> ile sonradan kaydedersin.</p>
           <div class="callout tone-info"><span class="ms">notifications</span><div><b>Bitiş uyarısı gelmiyorsa</b><p>Profil → dişli → Bildirimler'de <strong>Sayaç uyarıları</strong> açık mı ve Balpy'nin bildirim izni var mı, kontrol et.</p></div></div>
         <!-- BEGIN DETAILS: timer -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
@@ -1823,10 +1881,36 @@ Bir bildirimin görünmesi, görevin yapıldığı veya sayacın başlatıldığ
 </tbody></table></div>
 <p>Bu modlar öğrenme içeriğinin türünü değiştirmez. Aynı notu Kronometre ile okuyabilir, soru çözmeyi Geri Sayım ile sınırlandırabilir veya bir kaynağı Pomodoro düzeninde çalışabilirsin.</p>
 <h3>Mod ve süre seçmek</h3>
-<p><strong>Sayaç ayarları → Mod ve süre</strong> yolundan uygun modu ve oturum süresini seçebilirsin. Ekrandaki mod seçim araçları da aynı amaçla kullanılır. Aktif bir oturum veya mola varken mod ayarı kullanılamayabilir; mevcut oturumu bitirdikten sonra yeni düzeni seçersin.</p>
+<p>Modu sayaç ekranının üstündeki çubuktan seçersin. Altındaki çipler o moda göre değişir ve her birinde <strong>Özel</strong> vardır; Özel, istediğin değeri yazabileceğin bir pencere açar.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Hazır seçenekler</th>
+<th>Özel ile</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Geri Sayım</strong></td>
+<td>25, 45, 60, 90 dk</td>
+<td>1–480 dakika arası herhangi bir süre</td>
+</tr>
+<tr>
+<td><strong>Kronometre</strong></td>
+<td>Hatırlatma yok, 30, 60, 90 dk</td>
+<td>5–480 dakika arası bir hatırlatma</td>
+</tr>
+<tr>
+<td><strong>Pomodoro</strong></td>
+<td>Klasik 25·5, Derin 50·10, 52·17, 90·20</td>
+<td>Odak, kısa mola, uzun mola, uzun mola sıklığı ve tur sayısı</td>
+</tr>
+</tbody></table></div>
+<p>Açık bir oturum veya mola varken çipler gizlenir; yeni düzeni oturumu bitirdikten sonra seçersin.</p>
+<p><strong>Kronometre hatırlatması</strong> bir hedef değildir. Seçtiğin sürede bir kez bildirim gelir, kronometre saymaya devam eder. Duraklattığın süre hesaba girmez.</p>
 <p>Oturum için seçtiğin süre, <strong>günlük süre hedefinden</strong> farklıdır. Örneğin günlük hedefin 90 dakika, bir geri sayım oturumun 30 dakika olabilir. Bir oturumu bitirmek bütün günlük hedefin tamamlandığı anlamına gelmez.</p>
 <h3>Pomodoro düzeni</h3>
-<p>Pomodoro’da odak süresi, kısa mola, uzun mola ve uzun molanın sıklığı bulunur. Hazır düzenler veya özel süreler kullanabilirsin. Tur sayısı seçeneğiyle çalışma dizisini sınırlandırabilir veya sunulan sınırsız seçeneği kullanabilirsin.</p>
+<p>Pomodoro’da odak süresi, kısa mola, uzun mola ve uzun molanın sıklığı bulunur. Hazır düzen çipine dokunmak süreleri değiştirir, tur sayını korur. Çiplerin altındaki özet satırı (“25 dk odak · 5 dk mola · 4 tur”) ya da <strong>Özel</strong>, <strong>Pomodoro düzeni</strong> penceresini açar: süreleri ve tur sayısını orada ayarlar, setin toplam süresini önceden görürsün. <strong>Sınırsız</strong> açıkken set, sen bitirene kadar sürer.</p>
 <p>Hazır düzenlerden birini seçmek, o sürelerin her kullanıcı için en uygun olduğu anlamına gelmez. Bölümün uzunluğunu, yorgunluğunu ve o günkü işini dikkate alarak süreyi değiştirebilirsin.</p>
 <h3>Süre ölçmek neyi gösterir?</h3>
 <p>Sayaç, çalışma olarak kaydettiğin zamanı gösterir. Bu süre tek başına dikkatini, içerik doğruluğunu veya öğrendiğin bilgi miktarını ölçmez. Bir saati kaydetmiş olmak ile konunun tamamını öğrenmiş olmak ayrı sonuçlardır.</p>
@@ -1861,7 +1945,7 @@ Sayaç açık kaldığı için geçen bir süreyi gerçekten çalışmış sayma
 <p><strong>Günlük süre hedefi</strong>, bir çalışma gününde ne kadar süre kaydetmek istediğini belirtir. <strong>Oturum hedefi</strong> ise tek bir çalışma bölümünün süresidir.</p>
 </blockquote>
 <h3>Günlük hedefe ulaşmak</h3>
-<p>Sayaç ekranındaki hedef alanından veya <strong>Sayaç ayarları → Günlük hedef ve plan</strong> yolundan <strong>Çalışma planı</strong> ekranına ulaşırsın. Profil’deki günlük hedef bağlantıları ve Ayarlar’daki Çalışma planı da aynı hedef düzenine gider.</p>
+<p>Sayaç ekranının üstündeki hedef şeridine dokunarak <strong>Çalışma planı</strong> ekranına ulaşırsın. Profil’deki günlük hedef bağlantıları ve Ayarlar’daki Çalışma planı da aynı hedef düzenine gider.</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -1976,172 +2060,128 @@ Bir ders kitabını 40 dakika çalıştığını düşün. Bu süreyi manuel ekl
 <p>Balpy’nin çalışma günü 04.00’te değişir. Sayaç kaydı, oturumun başlangıcına veya bağlı olduğu plan gününe göre belirlenir. Manuel kayıtta ise seçtiğin güne dikkat edersin.</p>
 <p>Sayacın <strong>İçerik ekle</strong> kısayollarından Kaynak, Soru, Kart, Not veya AI hazırlama ekranlarına geçebilirsin. İçeriğin kayıt yeri bu ekranlarda ayrıca seçilir. Sayaçta bulunmak, içeriği kendiliğinden belirli bir koleksiyona kaydetmez.</p>
 <h3>Kayıtları yorumlamak</h3>
-<p>Süre kayıtları Profil’deki toplam çalışma, ortalamalar ve çalışma takvimine katkı verir. Bir göreve bağlı sayaç çalışması, ilgili süre görevinin ilerlemesinde kullanılabilir. Süre eklemek bütün kartları, soruları veya ünite hedeflerini tamamlamaz.</p>
+<p>Süre kayıtları Profil’deki toplam çalışma, ortalamalar ve çalışma takvimine katkı verir. Bir göreve bağlı sayaç çalışması, ilgili <strong>Sayaç</strong> görevinin ilerlemesinde kullanılabilir. Süre eklemek bütün kartları, soruları veya ünite hedeflerini tamamlamaz.</p>
 </div></details>
 </div>
 <!-- END DETAILS: timer -->
 </article>
 
-        <article class="topic tone-info" id="profil" data-keywords="profil istatistik çalışma süresi hedef koleksiyon dağılımı oturum geçmişi">
+        <article class="topic tone-info" id="profil" data-keywords="profil istatistik çalışma süresi seri ritim hedef öğrenme doğru oranı zayıf noktalar koleksiyonlar yaklaşan tekrar oturum">
           <div class="topic-head"><span class="badge"><span class="ms">person</span></span><div><small>Günün</small><h2>Profil</h2></div></div>
-          <p class="lead">Profil, çalışmanın özetidir. Üstten dönem seçersin; kartlar o döneme göre güncellenir.</p>
+          <p class="lead">Profil, çalışmanın özetidir. Üstten <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ya da <strong>Tümü</strong>'nü seçersin; kartlar o döneme göre güncellenir.</p>
           <ul>
-            <li><strong>Çalışma süresi:</strong> Toplam süre, kayıtlı oturumlar ve bugünün hedefe göre durumu. Buradan süre ekleyebilirsin.</li>
-            <li><strong>Hedef ve çalışma:</strong> Dönemdeki hedef, çalışılan süre ve hedefe ulaşılan günler.</li>
-            <li><strong>Günlük çalışma süreleri:</strong> Her gün için çubuk ve o günün hedef çizgisi.</li>
-            <li><strong>Plan ilerlemesi</strong> ve <strong>Koleksiyon dağılımı</strong>.</li>
-            <li><strong>Oturum geçmişi:</strong> Oturumu yeniden adlandır, süresini düzelt ya da sil.</li>
+            <li><strong>Toplam çalışma:</strong> Dönemdeki süre, çalıştığın gün sayısı, kesintisiz gün serin ve günlük ortalaman. Önceki dönemle karşılaştırma ve oturum listesi de buradadır; unuttuğun bir çalışmayı buradan ekleyebilirsin.</li>
+            <li><strong>Çalışma ritmi:</strong> Günlere göre süren ve günlük hedef çizgin. Haftada çubuklar, 30 günde takvim görünür.</li>
+            <li><strong>Öğrenme:</strong> Kart ve soru cevaplarının doğru oranı.</li>
+            <li><strong>Zayıf noktalar:</strong> Doğru oranı düşük koleksiyonlar. <strong>Tekrar et</strong> hâlâ yanlış olan öğeleri tek oturumda açar.</li>
+            <li><strong>Koleksiyonlar:</strong> Sürenin koleksiyonlara dağılımı ve her birinin doğru oranı.</li>
+            <li><strong>Yaklaşan tekrar:</strong> Bugün ve önümüzdeki 7 gün kaç tekrarın beklediği.</li>
           </ul>
+          <p>Sağ üstteki dişli Ayarlar'ı açar.</p>
         <!-- BEGIN DETAILS: statistics -->
 <div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail"><summary>Dönem seçimi ve temel göstergeler</summary><div class="note-body"><blockquote>
-<p><strong>Profil → İstatistikler</strong>, kaydettiğin çalışma sürelerini, oturumlarını, günlük süre hedeflerini ve plan görevlerini gösterir. Sayılar seçtiğin döneme göre hesaplanır.</p>
+<details class="note-detail"><summary>Dönem seçimi ve Toplam çalışma</summary><div class="note-body"><blockquote>
+<p><strong>Profil</strong> ekranı, kaydettiğin çalışma sürelerini ve kart-soru cevaplarını özetler. Bütün sayılar üstte seçtiğin döneme göre hesaplanır.</p>
 </blockquote>
 <h3>Dönem seçmek</h3>
-<p><strong>Bugün</strong>, <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ve <strong>Son 8 hafta</strong> seçeneklerinden birini seçebilirsin. Aynı kayıtlar farklı dönemlerde farklı kapsamla gösterilir. Bu hafta ile Son 30 gün toplamının eşit olması beklenmez.</p>
-<p>Henüz gelmemiş günler için çalışma süresi kaydı yoktur. Gelecekteki görevler plan görünümünde yer alabilir; gerçekleşmiş çalışma toplamına eklenmez. Ekranın tarih aralığını okuyarak hangi günleri değerlendirdiğini görürsün.</p>
-<h3>Temel göstergeler</h3>
+<p>Üstte üç seçenek vardır: <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ve <strong>Tümü</strong>. Başlığın altındaki tarih aralığı hangi günlerin hesaba girdiğini gösterir. “Tümü”, ilk çalışma kaydından bugüne kadar olan dönemi kapsar.</p>
+<p>Henüz gelmemiş günler için çalışma süresi kaydı yoktur. Bu hafta henüz bitmediyse kalan günler ortalamayı düşürmez.</p>
+<h3>Toplam çalışma kartı</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Gösterge</th>
-<th>Hesaplamanın anlamı</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Toplam çalışma</strong></td>
-<td>Döneme giren kayıtlı oturum sürelerinin toplamı</td>
-</tr>
-<tr>
-<td><strong>Günlük ortalama</strong></td>
-<td>Süre toplamının dönemde bugüne kadar geçen bütün günlere bölümü</td>
-</tr>
-<tr>
-<td><strong>Çalışılan gün</strong></td>
-<td>Çalışma süresi kaydedilmiş günlerin sayısı</td>
-</tr>
-<tr>
-<td><strong>Oturum ortalaması</strong></td>
-<td>Süre toplamının kayıtlı oturum sayısına bölümü</td>
-</tr>
-<tr>
-<td><strong>En uzun seri</strong></td>
-<td>Seçili dönemde art arda süre kaydedilmiş en uzun gün dizisi</td>
-</tr>
-</tbody></table></div>
-<h3>Günlük ortalama</h3>
-<p>Günlük ortalama yalnız çalıştığın günleri kullanmaz. Çalışma kaydı olmayan geçmiş günler de ortalamaya girer. Bu, düzeninin dönem boyunca nasıl sürdüğünü görmeni sağlar.</p>
-<p><strong>Örnek: İki ayrı ortalama</strong>
-Yedi gün içinde iki oturumda toplam 90 dakika kaydettiğini düşün. Günlük ortalama yaklaşık 13 dakika, oturum ortalaması ise 45 dakikadır. İki değer aynı soruya cevap vermez: biri günlere, diğeri oturumlara bakar.</p>
-<h3>Önceki dönemle karşılaştırmak</h3>
-<p>Ekrandaki önceki dönem karşılaştırması, karşılık gelen geçmiş tarih aralığına dayanır. Bu hafta henüz bitmediyse gelecekteki günler yapılmış çalışma gibi sayılmaz. Daha düşük toplam, tek başına daha az öğrendiğini göstermez; çalışma kapsamı ve kayıt düzenin de değişmiş olabilir.</p>
-<h3>Hangi kayıtlar süre toplamına girer?</h3>
-<p>Sayaçla ölçülen ve manuel eklenen oturumlar süre toplamına katkı verir. Uygulamayı açmak, bir nota bakmak veya görev başlığı oluşturmak tek başına çalışma süresi eklemez.</p>
-<blockquote>
-<p><strong>Önce dönemi seç, sonra toplamın ve ortalamanın hangi kayıtlara dayandığını yorumla.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail"><summary>Çalışma ritmi ve takvimini okumak</summary><div class="note-body"><blockquote>
-<p><strong>Çalışma ritmi</strong> ve <strong>Çalışma takvimi</strong>, kayıtlı sürenin günlere nasıl dağıldığını gösterir. Grafiğin yoğunluğu bir öğrenme başarı puanı değildir.</p>
-</blockquote>
-<h3>Çalışma ritmi</h3>
-<p>Grafikte çalışma sürelerini ve kayıtlı süre hedeflerini karşılaştırabilirsin. <strong>Gün</strong> ile <strong>Hafta</strong> görünümü, veriyi hangi aralıklarla toplu inceleyeceğini belirler. Bir sütuna dokunarak ilgili günün veya haftanın ayrıntısını seçebilirsin. Önceki ve sonraki gün/hafta düğmeleriyle de seçimi değiştirebilirsin; üstteki dönem seçimi grafiğin toplam kapsamını belirler.</p>
-<p><strong>Çalışma</strong>, gerçekleşen kayıtlı süredir. <strong>Hedef</strong>, ilgili gün veya aralığın kayıtlı süre beklentisidir. <strong>Hedefe ulaşıldı</strong>, gerçekleşen sürenin bu beklentiyi karşıladığını gösterir. Daha uzun çalışma, her zaman daha verimli öğrenme demek değildir.</p>
-<h3>Çalışma takvimi</h3>
-<p>Takvimde bir günü seçerek o güne ait çalışma süresini ve varsa süre hedefini inceleyebilirsin. Çalışma bulunmayan geçmiş gün, gelecek gün ve hedef kaydı bulunmayan gün aynı durum değildir.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Takvim bilgisi</th>
 <th>Anlamı</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>Çalışma süresi</strong></td>
-<td>Seçili güne yazılmış oturumların toplamı</td>
+<td><strong>Toplam süre</strong></td>
+<td>Döneme giren sayaç ve elle eklenen oturumların toplamı</td>
 </tr>
 <tr>
-<td><strong>Hedefe ulaşıldı</strong></td>
-<td>O günün kayıtlı süre hedefinin karşılandığı</td>
+<td><strong>gün çalışıldı</strong></td>
+<td>Dönemde süre kaydı olan günlerin sayısı / geçen gün sayısı</td>
 </tr>
 <tr>
-<td><strong>Bu gün için hedef kaydı yok</strong></td>
-<td>O gün için karşılaştırılacak süre hedefinin bilinmediği</td>
+<td><strong>gün seri</strong></td>
+<td>Bugüne (bugün henüz çalışmadıysan düne) kadar kesintisiz çalıştığın gün sayısı</td>
 </tr>
 <tr>
-<td><strong>Gelecek gün</strong></td>
-<td>Henüz gerçekleşmiş çalışma verisi bulunmayan tarih</td>
+<td><strong>günlük ort.</strong></td>
+<td>Toplam sürenin dönemde geçen gün sayısına bölümü</td>
 </tr>
 </tbody></table></div>
-<p>Hedef kaydı olmayan bir gün, otomatik olarak başarısız gün kabul edilmez. Hedef geçmişi bilinmediğinde uygulama geçmişe yeni bir hedef uydurmaz.</p>
-<h3>Çalışılan gün ve seri</h3>
-<p>Bir güne süre kaydetmek, o günün çalışma günleri içinde görünmesini sağlar. <strong>En uzun seri</strong>, seçili dönemde art arda süre kaydedilen günleri izler. Seriyi sürdürmek ile günlük süre hedefine ulaşmak farklıdır; kısa bir çalışma günü seriye katkı verebilir ama süre hedefini karşılamayabilir.</p>
-<h3>Grafikte beklenmeyen durum varsa</h3>
-<p>Önce dönem seçimini, oturumun çalışma gününü ve kaydedilen süresini kontrol et. Gece 04.00 sınırı nedeniyle takvimdeki gün ile çalışma günü farklı olabilir. Hatalı veya çift kayıt, grafiği de etkiler; düzeltmeyi oturum kaydı üzerinden yaparsın.</p>
+<p>Seri dönemden bağımsızdır: “şu an kaç gündür çalışıyorum?” sorusunu cevaplar. Gün henüz bitmediği için bugün çalışmamış olman seriyi bozmaz.</p>
+<h3>Önceki dönemle karşılaştırma</h3>
+<p>Bu hafta ve Son 30 gün seçiliyken toplam sürenin altında önceki dönemle karşılaştırma görünür. Aynı sayıda gün karşılaştırılır: haftanın üçüncü günündeysen geçen haftanın ilk üç günüyle kıyaslanır. Daha düşük bir toplam, tek başına daha az öğrendiğini göstermez.</p>
+<h3>Oturumlar ve süre eklemek</h3>
+<p><strong>Oturumlar</strong> satırı dönemdeki oturum listesini açar; buradan bir oturumu yeniden adlandırır, süresini düzeltir ya da silersin. Kartın sağ üstündeki <strong>+</strong> ile uygulama dışında yaptığın bir çalışmayı sonradan eklersin.</p>
 <blockquote>
-<p><strong>Grafikler, hangi günlerde ne kadar çalıştığını görmeni sağlar; öğrenme sonucunu içerik çalışmalarıyla birlikte değerlendirirsin.</strong></p>
+<p><strong>Önce dönemi seç, sonra toplamın hangi kayıtlara dayandığını yorumla.</strong></p>
 </blockquote>
 </div></details>
-<details class="note-detail"><summary>Hedef günleri, görevler ve koleksiyon dağılımı</summary><div class="note-body"><blockquote>
-<p><strong>Hedef günleri</strong> süre hedefini, <strong>Planın görünümü</strong> ise günlük görev durumlarını gösterir. Koleksiyonun öğrenme hedefleri ayrı bir takip alanıdır.</p>
+<details class="note-detail"><summary>Çalışma ritmi ve günlük hedef</summary><div class="note-body"><blockquote>
+<p><strong>Çalışma ritmi</strong> kartı, sürenin günlere nasıl dağıldığını ve günlük hedefine ne sıklıkla ulaştığını gösterir.</p>
 </blockquote>
-<h3>Hedef günleri</h3>
-<p>Bu bölüm, hedefi kayıtlı günlerde ne kadar süre çalıştığını ve kaç gün hedefe ulaştığını gösterir. Karşılaştırmada o güne ait hedef kullanılır. Bugünkü süre hedefini değiştirmek geçmişteki bütün günleri yeni hedefle değerlendirmez.</p>
-<p>Hedef kaydı olmayan günler, hedefe ulaşıldı oranına sanki sıfır hedefi varmış gibi dahil edilmez. Böylece hedef belirlemediğin günler oranı yapay biçimde yükseltmez.</p>
-<h3>Planın görünümü</h3>
+<h3>Döneme göre görünüm</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>Durum</th>
-<th>Neyi gösterir?</th>
+<th>Dönem</th>
+<th>Görünüm</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>Tamamlanan</strong></td>
-<td>Tamamlandı durumundaki günlük görevleri</td>
+<td><strong>Bu hafta</strong></td>
+<td>Her gün için bir çubuk ve o günün hedef çizgisi</td>
 </tr>
 <tr>
-<td><strong>Bugün bekleyen</strong></td>
-<td>Bugünün tamamlanmamış ve atlanmamış görevlerini</td>
+<td><strong>Son 30 gün</strong></td>
+<td>Günlerin renk yoğunluğuyla gösterildiği takvim</td>
 </tr>
 <tr>
-<td><strong>Geçmişten kalan</strong></td>
-<td>Önceki günlerin bekleyen görevlerini</td>
-</tr>
-<tr>
-<td><strong>Gelecek günler</strong></td>
-<td>İleri tarihe planlanmış bekleyen görevleri</td>
-</tr>
-<tr>
-<td><strong>Atlanan</strong></td>
-<td>Atlandı olarak işaretlenen görevleri</td>
+<td><strong>Tümü</strong></td>
+<td>Haftalık toplamların çubukları</td>
 </tr>
 </tbody></table></div>
-<p>Bu sayılar seçili döneme giren plan kayıtlarına dayanır. Bir görevin atlanması, başarıyla tamamlandığı anlamına gelmez. Geçmişten kalan görevi bugüne taşıdığında tarih kapsamı ve görev durumunun görünümü değişebilir.</p>
-<p><strong>Bugünün görevleri</strong> bağlantısı, mevcut günlük işlere dönmeni sağlar. İstatistikte bir sayıyı görmek ile görevi tamamlamak farklı işlemlerdir; çalışma durumunu görev ekranında değiştirirsin.</p>
-<h3>Koleksiyon dağılımı</h3>
-<p><strong>Koleksiyon dağılımı</strong>, kayıtlardaki çalışma alanı bağlantıları üzerinden süre ve plan görevlerini karşılaştırır. Bir koleksiyonda görev bulunması, mutlaka o koleksiyona bağlı süre kaydı bulunduğu anlamına gelmez.</p>
-<p><strong>Genel çalışma</strong>, belirli bir koleksiyonla ilişkilendirilmemiş kayıtları gösterir. Bu kayıtlar kaybolmuş değildir; toplam çalışma içinde yer alabilir. Koleksiyonun kaynak sayısı veya not uzunluğu, süre payına kendiliğinden dönüşmez.</p>
-<p><strong>Önemli: Dağılımı öğrenme oranı gibi okuma</strong>
-Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiğini kanıtlamaz. Zorlandığın bir konu daha fazla süre almış olabilir. Süreyi, görev durumunu ve koleksiyon hedeflerini birlikte inceleyebilirsin.</p>
-</div></details>
-<details class="note-detail"><summary>Oturum dengesi ve sonuçları yorumlamak</summary><div class="note-body"><blockquote>
-<p>İstatistikler, <strong>çalışma düzenini gözden geçirmek</strong> için kullanılır. Kayıtların anlamını bilmek, yalnızca toplam süreyi büyütmekten daha yararlı bir değerlendirme sağlar.</p>
+<p>Bir çubuğa ya da takvim gününe dokununca o günün süresini ve hedefini görürsün; çubuk grafikte görevlerin kaçının tamamlandığı da yazar.</p>
+<h3>Hedefe ulaşılan günler</h3>
+<p>Kartın sağ üstündeki bayrak, hedefe ulaştığın gün sayısını “4/6” biçiminde gösterir. Paydada yalnız hedefi bilinen geçmiş günler vardır. Hedef kaydı olmayan günler sıfır hedefli sayılmaz; böylece oran yapay olarak yükselmez.</p>
+<p>Her gün kendi hedefiyle ölçülür. Bugünkü hedefini değiştirmek geçmiş günleri yeni hedefle değerlendirmez.</p>
+<h3>Beklenmeyen bir durum varsa</h3>
+<p>Gece 04.00’ten önce yaptığın çalışma bir önceki güne sayılır; takvimdeki gün ile çalışma günü bu yüzden farklı görünebilir. Hatalı ya da çift kaydı oturum listesinden düzeltirsin.</p>
+<blockquote>
+<p><strong>Ritim, ne kadar düzenli çalıştığını gösterir; ne kadar öğrendiğini kart ve soru sonuçların gösterir.</strong></p>
 </blockquote>
-<h3>Oturum dengesi</h3>
-<p>Bu bölümde <strong>Sayaçla ölçülen</strong> ve <strong>Elle eklenen</strong> süreleri ayrı görebilirsin. Her ikisi toplamına katkı verir; ancak kayıt yöntemleri farklıdır. Sayaç oturumu zamanla ölçülür, manuel oturum ise senin bildirdiğin süreye dayanır.</p>
-<p>Manuel eklenen sürenin fazla olması kendiliğinden kötü bir durum değildir. Kitap, ders veya uygulama dışındaki çalışmalarını bu yolla kaydetmiş olabilirsin. Önemli olan aynı çalışmayı iki kez eklememek ve süreyi doğru güne yazmaktır.</p>
-<h3>Odak değerlendirmesi</h3>
-<p>Oturumlarında odak değerlendirmesi varsa <strong>Odaklandım</strong>, <strong>İdare eder</strong> ve <strong>Dağınıktı</strong> durumları gösterilebilir. Bu değerlendirmeler senin verdiğin bilgidir; uygulamanın dikkatini bağımsız olarak ölçtüğü anlamına gelmez. Değerlendirme olmayan oturumlar için kendiliğinden bir odak sonucu üretilmez.</p>
-<h3>Düzenini gözden geçirmek</h3>
-<p>Bir dönemi incelerken çalıştığın günleri, ortalama oturum uzunluğunu, hedefe ulaşılan günleri ve görev birikimini birlikte düşünebilirsin. Birkaç uzun oturum ile kısa ama düzenli çalışmalar, aynı süre toplamına sahip olsa da farklı düzenlerdir.</p>
-<p><strong>Örnek: Kendine sorabileceğin sorular</strong>
-“Hangi günlerde süre kaydediyorum? Uzun oturumlarımı sürdürebiliyor muyum? Görevlerim sık sık sonraki güne mi kalıyor? Süre hedefimi gerçek ayırabildiğim zamana göre mi belirledim?”</p>
+</div></details>
+<details class="note-detail"><summary>Öğrenme ve zayıf noktalar</summary><div class="note-body"><blockquote>
+<p><strong>Öğrenme</strong> kartı kart ve soru cevaplarının doğru oranını, <strong>Zayıf noktalar</strong> kartı ise zorlandığın koleksiyonları gösterir.</p>
+</blockquote>
+<h3>Öğrenme kartı</h3>
+<p>Dönemdeki cevapların ne kadarının doğru olduğunu yüzde olarak görürsün; altında sorular (<strong>doğru</strong>) ve kartlar (<strong>hatırlandı</strong>) ayrı ayrı yazar. Önceki dönem varsa oranın nasıl değiştiği de görünür.</p>
+<p>Aynı kart ya da soru aynı gün birkaç kez çalışıldıysa yalnız o günün <strong>ilk</strong> cevabı sayılır. Yanlışlarla yapılan ek tur, oranı şişirmez.</p>
+<h3>Zayıf noktalar</h3>
+<p>Bu kart, dönemde en az 5 cevabı olan ve doğru oranı %80’in altında kalan koleksiyonları listeler; en zayıftan başlayarak en fazla üç tane. Her satırda koleksiyonun doğru oranı ve son cevabı hâlâ yanlış olan öğe sayısı yazar.</p>
+<p><strong>Tekrar et</strong>, o koleksiyonda son cevabı yanlış olan kart ve soruları tek bir oturumda açar. Sonradan doğru cevapladığın öğe bu listeden çıkar.</p>
+<p>Silinmiş koleksiyonların geçmişi bu kartta görünmez; o çalışmanın süresi ise genel toplamda kalır.</p>
+<p><strong>Önemli: Oran bir not değildir</strong>
+Az cevapla hesaplanan oran rastlantıya açıktır; bu yüzden 5 cevaptan azı zayıf nokta sayılmaz. Oranı, hangi konuya geri dönmen gerektiğini görmek için kullan.</p>
+</div></details>
+<details class="note-detail"><summary>Koleksiyonlar ve yaklaşan tekrar</summary><div class="note-body"><blockquote>
+<p><strong>Koleksiyonlar</strong> kartı sürenin koleksiyonlara dağılımını, <strong>Yaklaşan tekrar</strong> kartı ise önündeki günlerin tekrar yükünü gösterir.</p>
+</blockquote>
+<h3>Koleksiyonlar kartı</h3>
+<p>Halka, dönemdeki toplam sürenin koleksiyonlara nasıl dağıldığını gösterir. Altındaki her satırda koleksiyonun süresi, süre payı ve doğru oranı yazar; böylece çok çalışıp az bildiğin bir koleksiyonu tek bakışta görürsün.</p>
+<p><strong>Genel çalışma</strong>, bir koleksiyona bağlanmadan kaydettiğin oturumları gösterir. Yalnız soru çözdüğün, süre kaydetmediğin koleksiyon da listede yer alır; satırında “Süre kaydı yok” yazar. İlk beşten fazla koleksiyon varsa liste düğmeyle genişler.</p>
+<p><strong>Önemli: Süre payı öğrenme oranı değildir</strong>
+Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiğini göstermez. Zorlandığın bir konu daha çok süre almış olabilir. Süreyi doğru oranıyla birlikte oku.</p>
+<h3>Yaklaşan tekrar</h3>
+<p>Bugün kaç kart ve sorunun tekrar beklediğini ve önümüzdeki 7 günün her biri için tekrar sayısını görürsün. Yoğun bir gün görüyorsan o günden önce biraz fazladan çalışarak yükü dağıtabilirsin.</p>
 <h3>Yapay zekâ ile yorumlamak</h3>
-<p>Bu rehber bölümünü göndererek göstergelerin anlamını sorabilirsin. Kendi verini yorumlatmak istediğinde seçtiğin tarih aralığını, ilgili toplamları ve çalışma koşullarını ayrıca belirtmen gerekir. Kullanım rehberi hesabındaki istatistikleri otomatik olarak göndermez.</p>
-<p>Örneğin “Son yedi günde üç gün çalıştım; toplam iki saat kaydettim, ama görevlerimin yarısı bekliyor” gibi bir açıklama, konuşmayı somutlaştırır. Bu, canlı verilere doğrudan erişim sağlamaz; senin paylaştığın bilgiye dayanır.</p>
-<h3>Sonuçların sınırı</h3>
-<p>Süre artışı, seri veya görev tamamlama tek başına öğrenme garantisi değildir. Öğrendiğini hatırlama, açıklama ve uygulama çalışmalarında da değerlendirirsin. İstatistikleri daha uygun hedef ve çalışma düzeni seçmek için kullanabilirsin.</p>
+<p>Bu rehber bölümünü göndererek göstergelerin anlamını sorabilirsin. Kendi verini yorumlatmak istediğinde seçtiğin dönemi ve ilgili sayıları sohbette ayrıca belirtirsin; rehber hesabındaki istatistikleri kendiliğinden göndermez.</p>
+<blockquote>
+<p><strong>İstatistikleri, daha uygun hedef ve çalışma düzeni seçmek için kullan.</strong></p>
+</blockquote>
 </div></details>
 </div>
 <!-- END DETAILS: statistics -->
@@ -2157,8 +2197,8 @@ Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiği
               <tr><td>Çalışma</td><td>Çalışma planı (bugünün hedefi) · Bildirimler</td></tr>
               <tr><td>Yapay zekâ</td><td>Ai ayarları</td></tr>
               <tr><td>İçerik</td><td>PDF içe aktarma kalitesi · Çöp kutusu</td></tr>
-              <tr><td>Yardım</td><td>Balpy rehberi · Geri bildirim gönder</td></tr>
-              <tr><td>Gizlilik ve hesap</td><td>Gizlilik Politikası · Hesap ve veri silme</td></tr>
+              <tr><td>Yardım</td><td>Balpy web sitesi · Geri bildirim gönder</td></tr>
+              <tr><td>Gizlilik ve hesap</td><td>Gizlilik Politikası · YouTube ve gizlilik · Hesap ve veri silme</td></tr>
               <tr><td>En altta</td><td>Çıkış yap ve uygulama sürümü</td></tr>
             </tbody>
           </table></div>
@@ -2174,10 +2214,10 @@ Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiği
 <p><strong>Profil</strong>, çalışma geçmişini incelediğin ve uygulama ayarlarına ulaştığın ana bölümdür. Rehber ve yardım araçlarını da buradan açabilirsin.</p>
 </blockquote>
 <h3>Profil’in düzeni</h3>
-<p>Profil’de <strong>İstatistikler</strong> bölümünü, dönem seçimini ve çalışma göstergelerini görürsün. Sağ üstteki <strong>Ayarlar</strong> düğmesi; hesap bilgileri, çalışma tercihleri, yapay zekâ araçları, içerik seçenekleri ve yardım bağlantılarını açar.</p>
-<p>İlk girişte <strong>Balpy’yi keşfet</strong> diyaloğu web rehberine göz atmanı önerir. <strong>Web rehberine göz at</strong> ile bu siteyi tarayıcıda açabilir veya <strong>Daha sonra</strong> ile uygulamaya devam edebilirsin. Davet aynı kullanıcı için cihazda bir kez gösterilir. Daha sonra <strong>Profil → Ayarlar → Yardım → Balpy rehberi</strong> yolundan bu siteye ulaşabilirsin.</p>
+<p>Profil’de dönem seçimini ve çalışma göstergelerini görürsün. Sağ üstteki <strong>Ayarlar</strong> düğmesi; hesap bilgileri, çalışma tercihleri, yapay zekâ araçları, içerik seçenekleri ve yardım bağlantılarını açar.</p>
+<p>İlk girişte <strong>Balpy’yi keşfet</strong> penceresi bu siteye göz atmanı önerir. <strong>Web sitemize göz at</strong> ile siteyi tarayıcıda açabilir veya <strong>Daha sonra</strong> ile uygulamaya devam edebilirsin. Davet aynı kullanıcı için cihazda bir kez gösterilir. Sonradan <strong>Profil → Ayarlar → Yardım → Balpy web sitesi</strong> yolundan bu siteye ulaşabilirsin.</p>
 <h3>Rehberin bölümlerini kullanmak</h3>
-<p>Web rehberinde kullanım amacını ve ihtiyacını seçerek bir başlangıç yolu görebilir, aramayla ilgili ekranı bulabilir veya ayrıntılı not başlıklarını açabilirsin. <strong>AI ile öğren</strong> penceresinden yalnız seçilen bölümü sohbetine kopyalarsın. Rehberde okundu işareti ve tamamlama takibi yoktur.</p>
+<p>Web rehberinde <strong>İlk adımlar</strong> ile temel akışı sırayla öğrenebilir, aramayla ilgili ekranı bulabilir veya ayrıntılı not başlıklarını açabilirsin. <strong>AI ile öğren</strong> penceresinden yalnız seçilen bölümü sohbetine kopyalarsın. Rehberde okundu işareti ve tamamlama takibi yoktur.</p>
 <h3>Ayarlar bölümleri</h3>
 <div class="table-wrap"><table>
 <thead>
@@ -2200,7 +2240,7 @@ Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiği
 </tr>
 <tr>
 <td><strong>Yardım</strong></td>
-<td>Balpy rehberi ve geri bildirim</td>
+<td>Balpy web sitesi ve geri bildirim</td>
 </tr>
 <tr>
 <td><strong>Gizlilik ve hesap</strong></td>
@@ -2272,7 +2312,7 @@ Yanıtın okunup önizlemeye alınması ile kayıtların uygulanması ayrı aşa
 <p>Yardım ve hesap araçları, rehbere dönmeni, sorun bildirmeyi ve hesapla ilgili işlemleri başlatmanı sağlar. Bir bağlantıyı açmak ile talebi göndermek farklı aşamalardır.</p>
 </blockquote>
 <h3>Rehberi kullanmak</h3>
-<p><strong>Profil → Ayarlar → Yardım → Balpy rehberi</strong> bu web sitesini tarayıcıda açar. İhtiyacın olan bölümü seçip okuyabilir veya <strong>AI ile öğren</strong> penceresinden yalnız o bölümü kopyalayabilirsin. Diğer bölümleri ihtiyaç duydukça aynı sohbete eklersin.</p>
+<p><strong>Profil → Ayarlar → Yardım → Balpy web sitesi</strong> bu siteyi tarayıcıda açar. İhtiyacın olan bölümü seçip okuyabilir veya <strong>AI ile öğren</strong> penceresinden yalnız o bölümü kopyalayabilirsin. Diğer bölümleri ihtiyaç duydukça aynı sohbete eklersin.</p>
 <h3>Bölüm bölüm öğrenmek</h3>
 <p>Webde <strong>AI ile öğren</strong> düğmesine basıp <strong>Göndereceğin bölüm</strong> alanından seçim yaparsın. Her gönderim yalnız seçtiğin bölümün kullanım bilgisini içerir. Bölümün altındaki <strong>Bu bölümü AI ile öğren</strong> düğmesi, o bölüm seçili olarak aynı pencereyi açar. Önce okumak zorunda değilsin.</p>
 <p><strong>Bölümü kopyala</strong> ile metni sohbetine yapıştırabilir veya <strong>Kopyala ve ChatGPT&#39;yi aç</strong>, Gemini ve Claude düğmeleriyle sohbeti açabilirsin. <strong>Bölümü indir</strong> yalnız seçilen bölümü bir metin dosyasına kaydeder. Ardından hedefini, düzeyini, zamanını veya sorunu yazarsın. AI kullanım yolunu küçük adımlarla anlatır; hazır olduğunda <strong>devam</strong> yazabilirsin.</p>
@@ -2302,8 +2342,8 @@ Yanıtın okunup önizlemeye alınması ile kayıtların uygulanması ayrı aşa
           <div class="topic-head"><span class="badge"><span class="ms">cloud_done</span></span><div><small>Hesap</small><h2>Verilerin</h2></div></div>
           <p class="lead">İçeriklerinin bir kısmı hesabına yedeklenir ve aynı hesapla giriş yaptığın cihazlarda eşitlenir; bir kısmı yalnız telefonunda durur.</p>
           <div class="grid two" style="margin-top: 16px">
-            <div class="data-box tone-info"><h3><span class="ms">cloud_done</span>Hesabına yedeklenenler</h3><ul><li>Koleksiyonlar ve ünite yapısı</li><li>Sorular ve çözümleri</li><li>Kartlar ve notlar</li><li>Ai kılavuzların</li></ul></div>
-            <div class="data-box tone-source"><h3><span class="ms">smartphone</span>Yalnızca cihazında kalanlar</h3><ul><li>Kaynaklar: PDF, fotoğraf, video</li><li>Soru görselleri ve çizimler</li><li>Okuma ilerlemesi ve ayraçlar</li><li>Çalışma planı, süre kayıtları, ayarlar</li></ul></div>
+            <div class="data-box tone-info"><h3><span class="ms">cloud_done</span>Hesabına yedeklenenler</h3><ul><li>Koleksiyonlar ve ünite yapısı</li><li>Sorular ve çözümleri</li><li>Kartlar ve notlar</li><li>Kart ve soruların tekrar seviyeleri</li><li>Ai kılavuzların</li></ul></div>
+            <div class="data-box tone-source"><h3><span class="ms">smartphone</span>Yalnızca cihazında kalanlar</h3><ul><li>Kaynaklar: PDF, fotoğraf, video</li><li>Soru görselleri ve çizimler</li><li>Okuma ilerlemesi ve ayraçlar</li><li>Ünite hedefleri ve günlük görevler</li><li>Çalışma planı, süre kayıtları, ayarlar</li><li>Kart ve soru cevap geçmişi (Profil istatistikleri)</li></ul></div>
           </div>
           <h3>Çıkış yapınca</h3>
           <p>Bu cihazdaki içeriklerin silinmez; aynı hesapla yeniden girince kaldığın yerden devam edersin.</p>
@@ -2316,7 +2356,7 @@ Yanıtın okunup önizlemeye alınması ile kayıtların uygulanması ayrı aşa
           <div class="faq">
             <details><summary>Balpy'de yapay zekâ ücreti var mı?<span class="ms">add</span></summary><p>Balpy kendi içinde yapay zekâ çalıştırmaz. Zaten kullandığın sohbet uygulamasıyla çalışırsın; o hizmetin kendi koşulları geçerlidir.</p></details>
             <details><summary>Bildirim gelmiyor, ne yapmalıyım?<span class="ms">add</span></summary><p>Profil → dişli → Bildirimler'de Tüm hatırlatmalar ve ilgili tür açık mı bak. Üstte “Bildirim izni kapalı” yazıyorsa “İzni aç”a dokun. Hatırlatmalar işletim sisteminin zamanlamasına göre birkaç dakika gecikebilir.</p></details>
-            <details><summary>Telefon değiştirirsem içeriklerim gelir mi?<span class="ms">add</span></summary><p>Koleksiyonlar, sorular, kartlar, notlar ve Ai kılavuzları aynı hesapla girince gelir. PDF, fotoğraf ve video kaynakları ile çalışma kayıtları yalnız eski telefonda kalır.</p></details>
+            <details><summary>Telefon değiştirirsem içeriklerim gelir mi?<span class="ms">add</span></summary><p>Koleksiyonlar ve ünite yapısı, sorular, kartlar, notlar, kartların ve soruların tekrar seviyeleri ve Ai kılavuzları aynı hesapla girince gelir. PDF, fotoğraf ve video kaynakları, ünite hedefleri, günlük görevler, süre kayıtları ve Profil istatistiklerinin dayandığı cevap geçmişi yalnız eski telefonda kalır.</p></details>
             <details><summary>Sildiğim soruyu geri alabilir miyim?<span class="ms">add</span></summary><p>Evet. Kaynak, soru ve kartlar Profil → dişli → Çöp kutusu'nda bekler. Notlar çöp kutusuna düşmez.</p></details>
             <details><summary>Şifremi unuttum.<span class="ms">add</span></summary><p>Giriş ekranındaki “Şifremi unuttum” ya da <a class="text-link" href="/sifre-yenile/">Şifre Yenile</a> sayfasından bağlantı iste.</p></details>
             <details><summary>Bir sorun buldum, nereye yazayım?<span class="ms">add</span></summary><p>Profil → dişli → Geri bildirim gönder. Ya da ekran görüntüsüyle <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a> adresine yaz.</p></details>
