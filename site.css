@@ -238,6 +238,7 @@ ol.steps, ul.steps { padding: 0; }
 .checks li { list-style: none; display: grid; grid-template-columns: 28px 1fr; gap: 10px; color: var(--text-2); }
 .checks li .ms { color: var(--tone, var(--success)); font-size: 22px; }
 .checks li b { color: var(--text); font-weight: 600; }
+.checks .text-link .ms { color: inherit; font-size: 18px; }
 
 /* Veri kutuları */
 .data-box { padding: 24px; border: 1px solid var(--line-soft); border-radius: var(--radius-l); background: var(--surface); }
@@ -285,7 +286,7 @@ ol.steps, ul.steps { padding: 0; }
 .topic-head .badge { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 15px; background: color-mix(in srgb, var(--tone, var(--amber)) 15%, transparent); color: var(--tone, var(--amber)); }
 .topic-head .badge .ms { font-size: 26px; }
 .topic-head small { display: block; color: var(--text-3); font-size: 13px; font-weight: 600; }
-.topic-head h2 { font-size: clamp(25px, 3vw, 32px); }
+.topic-head h1, .topic-head h2 { font-size: clamp(25px, 3vw, 32px); }
 .topic > .lead { padding: 14px 18px; border-left: 3px solid var(--tone, var(--amber)); border-radius: 0 12px 12px 0; background: var(--surface-2); color: var(--text); font-size: 17px; }
 .topic h3 { margin: 26px 0 10px; font-size: 19px; }
 .topic p, .topic li { color: var(--text-2); font-size: 16px; }
@@ -320,7 +321,6 @@ ol.steps, ul.steps { padding: 0; }
 .faq summary .ms { color: var(--text-3); transition: transform .2s; }
 .faq details[open] summary .ms { transform: rotate(45deg); }
 .faq details p { padding: 0 18px 16px; }
-.hidden-by-search { display: none !important; }
 
 /* Yasal sayfalar */
 .legal { padding: clamp(32px, 6vw, 64px) 0 24px; }
@@ -346,7 +346,6 @@ ol.steps, ul.steps { padding: 0; }
   .grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid.three { grid-template-columns: 1fr; }
   .guide-layout { grid-template-columns: 1fr; }
-  .toc { display: none; }
   .cta { grid-template-columns: 1fr; text-align: left; }
 }
 @media (max-width: 760px) {
@@ -370,7 +369,13 @@ ol.steps, ul.steps { padding: 0; }
 }
 @media (max-width: 480px) {
   .how-steps { grid-template-columns: 1fr; }
-  .grid.four { grid-template-columns: 1fr; }
+  /* Telefonda dört içerik kartı iki sütunda kalır; sayfa gereksiz uzamaz. */
+  .grid.four { gap: 10px; }
+  .grid.four .card { padding: 16px; }
+  .grid.four .card .icon { width: 40px; height: 40px; margin-bottom: 12px; }
+  .grid.four .card h3 { font-size: 18px; }
+  .grid.four .card p { font-size: 14px; }
+  .hero-mark { display: none; }
   .phone { padding: 9px; border-radius: 38px; }
   .screen { border-radius: 30px; min-height: 520px; }
 }

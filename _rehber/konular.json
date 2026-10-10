@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "ilk-adimlar",
+    "group": "Başlarken",
+    "title": "İlk adımlar",
+    "icon": "flag",
+    "tone": "tone-amber",
+    "notes": null,
+    "summary": "Balpy'yi ilk kez açıyorsan ilk gününü altı adımda kur.",
+    "keywords": "ilk adımlar başlangıç yeni kullanıcı nasıl başlarım sıra"
+  },
+  {
+    "slug": "baslangic",
+    "group": "Başlarken",
+    "title": "İlk bakış",
+    "icon": "rocket_launch",
+    "tone": "tone-amber",
+    "notes": "intro",
+    "summary": "Alt menüdeki dört sekme ve her birinin ne işe yaradığı.",
+    "keywords": "başlangıç alt menü sekme ana sayfa sayaç koleksiyonlar profil"
+  },
+  {
+    "slug": "ai",
+    "group": "Başlarken",
+    "title": "Ai ve XML",
+    "icon": "bolt",
+    "tone": "tone-ai",
+    "notes": null,
+    "summary": "Not, kart ve soruyu kendi yapay zekâna hazırlatıp içe aktar.",
+    "keywords": "ai yapay zeka xml chatgpt gemini claude kılavuz kopyala içe aktar onayla kılavuzlarım panodan otomatik düzeltme genel not kart soru"
+  },
+  {
+    "slug": "koleksiyon",
+    "group": "Koleksiyonun içinde",
+    "title": "Koleksiyon",
+    "icon": "collections_bookmark",
+    "tone": "tone-note",
+    "notes": "collection",
+    "summary": "Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur.",
+    "keywords": "koleksiyon ünite konu alt konu hedef sekme çalış konular paylaş içe aktar sırala düzenle sil"
+  },
+  {
+    "slug": "genel",
+    "group": "Koleksiyonun içinde",
+    "title": "Genel sekmesi",
+    "icon": "bar_chart",
+    "tone": "tone-success",
+    "notes": "overview",
+    "summary": "Koleksiyonda ilerlemeni, hedeflerini ve bekleyen işleri gör.",
+    "keywords": "genel sekmesi ilerleme ünite hedef süresi gelen çözümsüz konuya git bu konuyu çalış görev"
+  },
+  {
+    "slug": "kaynaklar",
+    "group": "Koleksiyonun içinde",
+    "title": "Kaynaklar",
+    "icon": "menu_book",
+    "tone": "tone-source",
+    "notes": "sources",
+    "summary": "PDF, fotoğraf ve YouTube videolarını ekle, kaldığın yerden devam et.",
+    "keywords": "kaynak pdf fotoğraf video youtube seri oynatma listesi transkript bağlantı kopyala drive arama kaldığın yerden kalite"
+  },
+  {
+    "slug": "notlar",
+    "group": "Koleksiyonun içinde",
+    "title": "Notlar",
+    "icon": "sticky_note_2",
+    "tone": "tone-note",
+    "notes": "notes",
+    "summary": "Konuyu anlatan notları ekle, grupla ve okuma ekranında oku.",
+    "keywords": "not grup okuma ekranı hızlı erişim gizli metin formül tablo nottan kart ai ile düzenle"
+  },
+  {
+    "slug": "kartlar",
+    "group": "Koleksiyonun içinde",
+    "title": "Kartlar",
+    "icon": "style",
+    "tone": "tone-card",
+    "notes": "flashcards",
+    "summary": "Kartla hatırla: çevir, Hatırladım ya da Hatırlamadım de.",
+    "keywords": "kart flashcard çevir hatırladım hatırlamadım seviye boşluk doldurma karşılaştırma formül ipucu püf noktası günlük tekrar nottan hazırla"
+  },
+  {
+    "slug": "sorular",
+    "group": "Koleksiyonun içinde",
+    "title": "Sorular",
+    "icon": "quiz",
+    "tone": "tone-question",
+    "notes": "questions",
+    "summary": "Soruları fotoğrafla ekle ya da hazırlat; ipucu ve çözümle çalış.",
+    "keywords": "soru fotoğraf çek şık harf doğru yaptım yanlış yaptım ipucu çözüm çözümsüz süresi geldi"
+  },
+  {
+    "slug": "tekrar",
+    "group": "Her gün",
+    "title": "Tekrar ve seviyeler",
+    "icon": "event_repeat",
+    "tone": "tone-success",
+    "notes": null,
+    "summary": "Seviyeler ve tekrar aralıkları: neyin ne zaman geri geleceği.",
+    "keywords": "tekrar aralıklı seviye tamamlandı 1 3 7 15 30 gün hatırladım bildim"
+  },
+  {
+    "slug": "ana-sayfa",
+    "group": "Her gün",
+    "title": "Ana Sayfa ve plan",
+    "icon": "home",
+    "tone": "tone-amber",
+    "notes": "home",
+    "summary": "Günün tekrarı, kaldığın yer ve bugünün görevleri tek ekranda.",
+    "keywords": "ana sayfa plan görev günlük tekrar yeni içerikler kaldığın yerden ai ile plan manuel bugüne al hatırlatma"
+  },
+  {
+    "slug": "planlama",
+    "group": "Her gün",
+    "title": "Planlama ve görevler",
+    "icon": "event_note",
+    "tone": "tone-amber",
+    "notes": "planning",
+    "summary": "Günlük görevlerini ve çalışma süresi planını hazırla.",
+    "keywords": "planlama görev günlük plan ai hazırlama saat hatırlatma kaynak çalışma süresi"
+  },
+  {
+    "slug": "sayac",
+    "group": "Her gün",
+    "title": "Sayaç",
+    "icon": "timer",
+    "tone": "tone-success",
+    "notes": "timer",
+    "summary": "Kronometre, geri sayım ya da Pomodoro ile çalışma süreni tut.",
+    "keywords": "sayaç kronometre geri sayım pomodoro süre hedef günlük hedef çalışma planı oturum bildirim"
+  },
+  {
+    "slug": "profil",
+    "group": "Her gün",
+    "title": "Profil",
+    "icon": "person",
+    "tone": "tone-info",
+    "notes": "statistics",
+    "summary": "Çalışma süren, doğru oranın, zayıf noktaların ve ilerlemen.",
+    "keywords": "profil istatistik çalışma süresi seri ritim hedef öğrenme doğru oranı zayıf noktalar koleksiyonlar yaklaşan tekrar oturum"
+  },
+  {
+    "slug": "ayarlar",
+    "group": "Hesap ve destek",
+    "title": "Ayarlar",
+    "icon": "settings",
+    "tone": null,
+    "notes": "settings",
+    "summary": "Bildirimler, Ai ayarları, çöp kutusu ve geri bildirim.",
+    "keywords": "ayarlar dişli bildirim çalışma planı ai ayarları pdf kalitesi çöp kutusu rehber geri bildirim gizlilik hesap silme çıkış"
+  },
+  {
+    "slug": "veriler",
+    "group": "Hesap ve destek",
+    "title": "Verilerin",
+    "icon": "cloud_done",
+    "tone": "tone-info",
+    "notes": null,
+    "summary": "Hangi içeriğin hesabına yedeklendiği, hangisinin cihazda kaldığı.",
+    "keywords": "veri yedek senkron bulut cihaz çıkış telefon değiştirme silme gizlilik"
+  },
+  {
+    "slug": "sss",
+    "group": "Hesap ve destek",
+    "title": "Sık sorulanlar",
+    "icon": "help",
+    "tone": null,
+    "notes": null,
+    "summary": "Bildirim, telefon değiştirme, şifre ve destekle ilgili sorular.",
+    "keywords": "sık sorulan sorular destek internet şifre unuttum bildirim gelmiyor telefon değiştirme"
+  }
+]
