@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://balpydigital.com/sitemap.xml

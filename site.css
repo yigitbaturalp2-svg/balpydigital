@@ -5,6 +5,9 @@
 @font-face { font-family: "Outfit"; src: url("/assets/fonts/outfit-600.woff") format("woff"); font-weight: 600; font-display: swap; }
 @font-face { font-family: "Outfit"; src: url("/assets/fonts/outfit-700.woff") format("woff"); font-weight: 700; font-display: swap; }
 @font-face { font-family: "Outfit"; src: url("/assets/fonts/outfit-800.woff") format("woff"); font-weight: 800; font-display: swap; }
+/* İkonlar Google'a istek gitmeden buradan yüklenir. Dosya yalnız sitede kullanılan
+   ikonları içerir (Apache 2.0); yeni bir ikon eklenirse dosya o adla yeniden indirilmelidir. */
+@font-face { font-family: "Material Symbols Rounded"; src: url("/assets/fonts/material-symbols-rounded.woff2") format("woff2"); font-weight: 400 600; font-display: block; }
 
 :root {
   color-scheme: dark;
@@ -141,6 +144,7 @@ h1, h2, h3, h4 { line-height: 1.15; letter-spacing: -.02em; font-weight: 700; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 28px; color: var(--text-3); font-size: 14px; }
 .hero-meta span { display: inline-flex; align-items: center; gap: 6px; }
 .hero-meta .ms { font-size: 18px; color: var(--text-2); }
+.hero-meta .chip .ms { color: inherit; }
 
 /* Etiketler */
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border: 1px solid color-mix(in srgb, var(--tone, var(--text-3)) 55%, transparent); border-radius: 999px; background: color-mix(in srgb, var(--tone, var(--text-3)) 14%, transparent); color: var(--tone, var(--text-2)); font-size: 13px; font-weight: 600; }
