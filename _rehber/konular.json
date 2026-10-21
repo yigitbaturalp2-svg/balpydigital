@@ -147,17 +147,17 @@
     "tone": null,
     "notes": "settings",
     "summary": "Bildirimler, Ai ayarları, çöp kutusu ve geri bildirim.",
-    "keywords": "ayarlar dişli bildirim çalışma planı ai ayarları pdf kalitesi çöp kutusu rehber geri bildirim gizlilik hesap silme çıkış"
+    "keywords": "ayarlar dişli bildirim çalışma planı ai ayarları pdf kalitesi çöp kutusu rehber gizlilik hesap silme çıkış"
   },
   {
     "slug": "veriler",
     "group": "Hesap ve destek",
     "title": "Verilerin",
-    "icon": "cloud_done",
+    "icon": "smartphone",
     "tone": "tone-info",
     "notes": null,
-    "summary": "Hangi içeriğin hesabına yedeklendiği, hangisinin cihazda kaldığı.",
-    "keywords": "veri yedek senkron bulut cihaz çıkış telefon değiştirme silme gizlilik"
+    "summary": "İçeriklerinin nerede durduğu ve telefon değiştirince ne olduğu.",
+    "keywords": "veri yedek bulut cihaz yerel çıkış telefon değiştirme silme gizlilik"
   },
   {
     "slug": "sss",

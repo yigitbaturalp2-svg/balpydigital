@@ -41,7 +41,7 @@
     <div class="wrap">
       <article class="legal-card">
               <h1>Balpy Gizlilik Politikası</h1>
-              <p class="legal-meta">Son güncelleme: 7 Ekim 2026</p>
+              <p class="legal-meta">Son güncelleme: 21 Ekim 2026</p>
 
               <p>Bu Gizlilik Politikası, Balpy mobil uygulamasının kullanıcı verilerini nasıl işlediğini açıklar. Balpy; soru, kaynak, bilgi kartı, tekrar ve çalışma planı yönetimi için geliştirilen kişisel bir öğrenme uygulamasıdır. Bu politika Google Play'de yayınlanan Balpy uygulaması için geçerlidir.</p>
 
@@ -53,12 +53,11 @@
               <p>Balpy, kullanılan özelliklere bağlı olarak aşağıdaki verileri işleyebilir:</p>
               <ul>
                   <li><strong>Hesap bilgileri:</strong> e-posta adresi, kullanıcı kimliği, oturum sağlayıcısı ve kimlik doğrulama bilgileri.</li>
-                  <li><strong>Profil bilgileri:</strong> görünen ad ve uygulamanın ilk kurulum adımlarının tamamlanıp tamamlanmadığı.</li>
+                  <li><strong>Profil bilgileri:</strong> görünen ad. Görünen ad cihazınızda saklanır; ayrıca hesabınızın kimlik doğrulama bilgilerine eklenir.</li>
                   <li><strong>Kullanıcı içerikleri:</strong> sorular, çözümler, bilgi kartları, notlar, kaynaklar, koleksiyon ve konu yapıları, çalışma planları ve Ai kılavuz şablonları.</li>
                   <li><strong>Medya:</strong> kamera veya cihazdan eklenen görseller, görseller üzerindeki çizimler ve içe aktarılan PDF dosyaları.</li>
                   <li><strong>Çalışma verileri:</strong> tekrar durumları, doğru ve yanlış çalışma kayıtları, tamamlanan görevler, çalışma süresi kayıtları, günlük çalışma hedefleri, hatırlatıcı zamanları ve ilerleme bilgileri.</li>
                   <li><strong>YouTube kaynakları:</strong> eklediğiniz YouTube video ve oynatma listesi bağlantıları ile bu videoların herkese açık başlığı, kanal adı ve kapak görseli bağlantısı. Ayrıntılar aşağıdaki "YouTube API Hizmetleri" bölümündedir.</li>
-                  <li><strong>Geri bildirimler:</strong> uygulama içindeki "Geri bildirim gönder" formuyla gönderdiğiniz mesaj; hesabınızın kimliği ve e-posta adresi; uygulama sürümü, cihaz platformu (ör. Android), cihaz modeli, işletim sistemi sürümü, cihaz dili, mesaj zamanı ve geri bildirim kayıt kimliği. Mesaj hesabınızla ilişkilendirilerek Supabase'de saklanır; Resend üzerinden Balpy'nin destek kutusuna iletilir. Yanıt adresi hesabınızın e-posta adresidir. İnternet yokken gönderdiğiniz geri bildirim, bağlantı kurulana kadar cihazınızda bekler.</li>
               </ul>
               <p>Balpy reklam amaçlı kullanıcı takibi yapmaz, reklam SDK'sı kullanmaz ve kullanıcı verilerini satmaz.</p>
 
@@ -68,36 +67,32 @@
                   <li>Hesap oluşturma, giriş, oturum ve profil işlemlerini yürütmek.</li>
                   <li>Kullanıcı içeriklerini, çalışma planlarını ve ilerleme durumunu saklamak.</li>
                   <li>Tekrar planlaması, hatırlatıcılar ve bildirimler gibi talep edilen özellikleri çalıştırmak.</li>
-                  <li>Bulut yedekleme ve cihazlar arası eşitleme sağlamak.</li>
-                  <li>Gönderdiğiniz geri bildirimleri incelemek, hataları gidermek ve gerektiğinde size dönüş yapmak.</li>
                   <li>Güvenliği korumak ve kötüye kullanımı önlemek.</li>
               </ul>
 
-              <h2>Yerel ve bulut saklama</h2>
-              <p>Balpy verilerin bir kısmını cihazdaki yerel veritabanında ve uygulamaya ait dosya alanında, bir kısmını da Supabase altyapısında saklar.</p>
-              <p><strong>Bulutta saklananlar:</strong> hesap ve profil bilgileri; koleksiyonlar ve koleksiyon yapısı (üniteler ve bölümler); soruların metinleri ve çözümleri; bilgi kartları; notlar; Ai kılavuz şablonları ve gönderdiğiniz geri bildirimler. Öğrenme içerikleri aynı hesapla giriş yapılan cihazlar arasında eşitlenir. Geri bildirimlerin e-posta kopyaları ayrıca destek kutusunda saklanır.</p>
-              <p><strong>Yalnızca cihazda saklananlar:</strong> kaynaklar (fotoğraflar, PDF dosyaları ve YouTube kaynakları), soru görselleri, görseller üzerindeki çizimler, okuma ilerlemesi, ayraçlar, çalışma planları, çalışma süresi kayıtları, hatırlatıcı tercihleri ve uygulama ayarları. Bu veriler sunucularımıza gönderilmez; uygulama silindiğinde ya da cihaz değiştirildiğinde taşınmaz.</p>
+              <h2>Yerel saklama</h2>
+              <p>Balpy içeriklerinizi yalnızca cihazınızdaki yerel veritabanında ve uygulamaya ait dosya alanında saklar; buluta yedeklemez ve cihazlar arasında eşitlemez.</p>
+              <p><strong>Sunucuda saklananlar:</strong> yalnızca hesabınız (e-posta adresi, kullanıcı kimliği, giriş bilgileri ve görünen ad) ile aşağıda açıklanan YouTube oynatma listesi aktarımına ait kayıtlar. Koleksiyonlarınız, notlarınız, sorularınız, bilgi kartlarınız ve diğer içerikleriniz sunucularımıza gönderilmez.</p>
+              <p><strong>Cihazda saklananlar:</strong> koleksiyonlar ve koleksiyon yapısı, sorular ve çözümleri, bilgi kartları, notlar, Ai kılavuz şablonları, kaynaklar (fotoğraflar, PDF dosyaları ve YouTube kaynakları), görseller ve çizimler, okuma ilerlemesi, ayraçlar, görevler ve çalışma planları, çalışma süresi kayıtları, hatırlatıcı tercihleri ve uygulama ayarları. Bu veriler uygulama silindiğinde, uygulama verileri temizlendiğinde ya da cihaz değiştirildiğinde taşınmaz.</p>
               <p>Hesabınızdan çıkış yaptığınızda cihazdaki içerikleriniz silinmez; aynı hesapla yeniden giriş yaptığınızda kullanılmaya devam eder.</p>
 
               <h2>Hizmet sağlayıcılar</h2>
               <p>Uygulama işlevleri için aşağıdaki hizmet sağlayıcılar veri işleyebilir:</p>
               <ul>
-                  <li><strong>Supabase:</strong> kimlik doğrulama, kullanıcı profili, veritabanı, senkronizasyon ve sunucu fonksiyonları altyapısı.</li>
-                  <li><strong>Resend:</strong> geri bildirim e-postalarını Balpy'nin destek kutusuna ulaştırmak için; mesaj, hesap e-posta adresi, uygulama sürümü, platform, cihaz modeli, işletim sistemi sürümü, dil, mesaj zamanı ve geri bildirim kayıt kimliği bu hizmet üzerinden iletilir.</li>
-                  <li><strong>Gmail (Google):</strong> destek, geri bildirim, hesap ve veri silme yazışmalarını <a href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a> kutusunda almak ve yanıtlamak için.</li>
+                  <li><strong>Supabase:</strong> kimlik doğrulama (hesap ve oturum) ve YouTube oynatma listesi aktarımını yapan sunucu fonksiyonu.</li>
+                  <li><strong>Gmail (Google):</strong> destek ve hesap silme yazışmalarını <a href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a> kutusunda almak ve yanıtlamak için.</li>
                   <li><strong>Google ile giriş:</strong> bu yöntem seçildiğinde hesap doğrulama ve oturum açma işlemleri.</li>
                   <li><strong>Google Play ve Android:</strong> uygulama dağıtımı, işletim sistemi izinleri, bildirimler ve ilgili cihaz hizmetleri.</li>
                   <li><strong>YouTube (Google LLC):</strong> eklediğiniz YouTube videolarının ve oynatma listelerinin herkese açık bilgilerini almak için.</li>
               </ul>
               <p>Bu hizmet sağlayıcılar verileri yalnızca uygulama işlevlerinin sağlanması, güvenlik, depolama veya yasal yükümlülükler için işleyebilir.</p>
-              <p><strong>Geri bildirim e-postalarının saklanması:</strong> Resend, mesaj içeriği ve teslim günlüklerini ABD'de saklar. Gönderim bölgesinin İrlanda olması, bu kayıtların Avrupa'da saklandığı anlamına gelmez. Kullanılan standart planlarda e-posta ve günlük verilerinin saklama süresi 30 gündür; yedekleri 7 gün tutulur. Daha erken silme talepleri hizmet sağlayıcı aracılığıyla yürütülür. Ayrıntılar <a href="https://resend.com/security/gdpr">Resend'in veri saklama açıklamasında</a> bulunur.</p>
-              <p>Destek kutusundaki yazışmalar, talebinizi incelemek ve yanıtlamak için gerekli olduğu sürece saklanabilir. Hesap veya geri bildirim silme talebiniz, bu e-posta kopyalarını da kapsar.</p>
+              <p>Destek kutusundaki yazışmalar, talebinizi incelemek ve yanıtlamak için gerekli olduğu sürece saklanabilir. Hesap silme talebiniz, bu e-posta kopyalarını da kapsar.</p>
 
               <h2>Cihaz izinleri</h2>
               <ul>
                   <li><strong>Kamera:</strong> soru, kaynak veya bilgi kartı için görsel çekmek.</li>
                   <li><strong>Bildirimler:</strong> çalışma hatırlatıcılarını ve aktif çalışma sayacını göstermek.</li>
-                  <li><strong>İnternet:</strong> hesap, kimlik doğrulama ve senkronizasyon özelliklerini sağlamak.</li>
+                  <li><strong>İnternet:</strong> hesap ve kimlik doğrulama, YouTube bilgileri ve bağlantılı kaynaklar için.</li>
               </ul>
               <p>Kamera ve bildirim izinleri ilgili özellik gerektiğinde istenir ve cihaz ayarlarından değiştirilebilir.</p>
 
@@ -133,11 +128,11 @@
               <p>YouTube bilgileri kaynaklarınızı göstermek ve düzenlemek için kullanılır; reklam veya profil çıkarma amacıyla kullanılmaz. Harici yapay zekâ için seçtiğiniz video bağlamını içeren paket, videonun başlığını, kanal adını, bağlantısını ve eklediğiniz transkripti içerebilir. Balpy bu paketi kendiliğinden göndermez; başka bir hizmete aktardığınız içerik, o hizmetin şartlarına ve gizlilik politikasına tabidir. Bir videoyu açtığınızda video YouTube uygulamasında ya da tarayıcıda oynatılır ve orada YouTube'un kendi şartları ve gizlilik politikası geçerlidir.</p>
 
               <h2>Veri güvenliği</h2>
-              <p>Supabase bağlantıları HTTPS üzerinden kurulur. Mobil uygulamada yalnızca yayımlanabilir istemci anahtarı kullanılır; sunucuya ait gizli anahtarlar uygulamaya dahil edilmez. Bulut verilerine erişim kimlik doğrulama ve veritabanı güvenlik kurallarıyla sınırlandırılır.</p>
+              <p>Supabase bağlantıları HTTPS üzerinden kurulur. Mobil uygulamada yalnızca yayımlanabilir istemci anahtarı kullanılır; sunucuya ait gizli anahtarlar uygulamaya dahil edilmez. Hesap bilgilerine erişim kimlik doğrulama ve güvenlik kurallarıyla sınırlandırılır.</p>
 
               <h2>Saklama ve silme</h2>
-              <p>Veriler, uygulama özelliklerini sağlamak için gerekli olduğu veya sizin tarafınızdan silinmediği sürece saklanabilir. Hesabınızın, hesabınıza bağlı verilerin ya da yalnızca belirli içeriklerinizin silinmesini talep edebilirsiniz.</p>
-              <p>Uygulamada <strong>Profil → Ayarlar (dişli simgesi) → Gizlilik ve hesap → Hesap ve veri silme</strong> yolundan hesap bilgilerinizle hazırlanmış bir silme talebi e-postası oluşturabilirsiniz. Ayrıntılı adımlar <a href="/hesap-silme/">Hesap ve Veri Silme</a> sayfasındadır. Silme talebi buluttaki verileri kapsar; yalnızca cihazda saklanan içerikler uygulamayı cihazdan kaldırdığınızda silinir.</p>
+              <p>Veriler, uygulama özelliklerini sağlamak için gerekli olduğu veya sizin tarafınızdan silinmediği sürece saklanabilir. Hesabınızın silinmesini talep edebilirsiniz; cihazınızdaki içerikleri uygulama içinden kendiniz silebilirsiniz.</p>
+              <p>Uygulamada <strong>Profil → Ayarlar (dişli simgesi) → Gizlilik ve hesap → Hesap ve veri silme</strong> yolundan hesap bilgilerinizle hazırlanmış bir silme talebi e-postası oluşturabilirsiniz. Ayrıntılı adımlar <a href="/hesap-silme/">Hesap ve Veri Silme</a> sayfasındadır. Silme talebi sunucudaki hesabınızı ve YouTube oynatma listesi istek sayaçlarınızı kapsar; cihazınızdaki içerikler uygulamayı cihazdan kaldırdığınızda ya da uygulama verilerini temizlediğinizde silinir.</p>
               <p>Yasal yükümlülükler, güvenlik, kötüye kullanımın önlenmesi veya uyuşmazlık çözümü için tutulması gereken sınırlı kayıtlar daha uzun süre saklanabilir.</p>
 
               <h2>Çocukların gizliliği</h2>
