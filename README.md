@@ -9,8 +9,8 @@ Uygulama şu adreslere bağlanır; değiştirilmez:
 
 | Adres | Kullanan |
 | --- | --- |
-| `/` | Ayarlar → Balpy web sitesi, boş koleksiyon ekranı |
-| `/rehber/`, `/rehber/#ai` | Ai ekranlarının yardım bağlantısı |
+| `/` | Ayarlar → Balpy web sitesi; Koleksiyonlar boş ekranı → Kullanımı öğren |
+| `/rehber/#ai` | Ai ayarları → Web sitemizden oku (`/rehber/ai/` sayfasına yönlenir) |
 | `/gizlilik-politikasi/` | Ayarlar, Play Console |
 | `/hesap-silme/` | Ayarlar, Play Console |
 | `/sifre-yenile/` | Supabase şifre sıfırlama yönlendirmesi |
