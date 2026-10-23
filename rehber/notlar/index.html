@@ -3,268 +3,207 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Notlar | Balpy Rehberi</title>
-  <meta name="description" content="Konuyu anlatan notları ekle, grupla ve okuma ekranında oku.">
+  <title>Notlar ve not okuyucusu | Balpy Rehberi</title>
+  <meta name="description" content="Konu anlatımını oku, notlar arasında gezin, hızlı indeksle başlığa atla, nottan kart ve soru hazırla.">
   <link rel="canonical" href="https://balpydigital.com/rehber/notlar/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="Notlar | Balpy Rehberi">
-  <meta property="og:description" content="Konuyu anlatan notları ekle, grupla ve okuma ekranında oku.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Notlar ve not okuyucusu | Balpy Rehberi">
+  <meta property="og:description" content="Konu anlatımını oku, notlar arasında gezin, hızlı indeksle başlığa atla, nottan kart ve soru hazırla.">
   <meta property="og:url" content="https://balpydigital.com/rehber/notlar/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4M12 17h.01"/></symbol><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note" aria-current="page"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Koleksiyonun içinde</span></nav>
-        <article class="topic tone-note" id="notlar">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">sticky_note_2</span></span><div><small>Koleksiyonun içinde</small><h1>Notlar</h1></div></div>
-<p class="lead">Not, bir konuyu okuyup anlamak için yazılmış metindir. Notlar gruplar hâlinde durur; gruba ait olmayanlar “Grupsuz” altındadır.</p>
-<h3>Not ekleme</h3>
-<p>Notlar sekmesindeki <strong>Ai ile Not hazırla</strong> not ekranını açar. Onayladığın notlar bulunduğun konuya ve seçtiğin not grubuna kaydedilir.</p>
-<h3>Okuma ekranı</h3>
-<ul>
-  <li>Aynı gruptaki notlar arasında sağa-sola kaydırarak geçersin.</li>
-  <li>Sol üstteki <strong>Hızlı erişim</strong> notları ve başlıkları listeler, başlıkta arama yaparsın. Yanındaki kısayollar bu nottan hazırlanmış kart ve sorulara götürür.</li>
-  <li>Sağ üstteki Ai düğmesi üç yol açar: <strong>Notu düzenle</strong>, <strong>Soru hazırla</strong>, <strong>Kart hazırla</strong>.</li>
-  <li>Üç nokta menüsünde düzenleme, gizli metinleri hepsini birden açma ya da kapama ve silme vardır.</li>
-</ul>
-<h3>Notta neler olabilir?</h3>
-<p>Başlık, özet, madde, tanım, tablo, formül, Önemli / Dikkat / Örnek / İpucu kutuları ve adım adım anlatım. <strong>İçerik zenginleştirme</strong> açıksa kod, grafik, geometrik şekil, sayı doğrusu, akış şeması, zaman çizelgesi ve ders diyagramları da. Gizlenebilir metin, dokununca açılan ek açıklamadır.</p>
-<div class="callout tone-note"><span class="ms">info</span><div><b>Not okunur, tekrar edilmez</b><p>Notlar tekrar listesine girmez. Hatırlamak istediğini karta, uygulamak istediğini soruya çevir. Kartlar sekmesindeki <strong>Nottan hazırla</strong> nottaki tanım ve tablolardan kart adayları çıkarır.</p></div></div>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="not-nedir-nasil-hazirlanir"><summary>Not nedir, nasıl hazırlanır?</summary><div class="note-body"><blockquote>
-<p><strong>Not</strong>, bir konuyu açıklayan ve bağlantıları anlamanı sağlayan okuma içeriğidir. Kaynağın özeti olabileceği gibi, bir kavramın ayrıntılı anlatımı da olabilir.</p>
-</blockquote>
-<h3>Not ne zaman işe yarar?</h3>
-<p>Bir konunun nedenini anlamakta, iki kavramı ayırmakta veya bir çözümün mantığını takip etmekte zorlanıyorsan açıklayıcı bir not kullanabilirsin. Not, yalnızca kısa bir hatırlatma değildir; örnekler, karşılaştırmalar ve adım adım anlatımlar içerebilir.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>İhtiyaç</th>
-<th>Hazırlayabileceğin not</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Bir konuyu ilk kez öğrenmek</td>
-<td>Kavramları ve örnekleri açıklayan giriş anlatımı</td>
-</tr>
-<tr>
-<td>Kavramları karıştırmak</td>
-<td>Benzerlikleri ve farkları gösteren karşılaştırma</td>
-</tr>
-<tr>
-<td>Bir kaynağı düzenli çalışmak</td>
-<td>Kaynağa dayanan bölüm anlatımı</td>
-</tr>
-<tr>
-<td>Bir süreci sırasıyla anlamak</td>
-<td>Adım adım anlatım</td>
-</tr>
-</tbody></table></div>
-<h3>Not hazırlamak</h3>
-<p>Koleksiyonun <strong>Notlar</strong> sekmesinde <strong>Ai ile Not hazırla</strong> seçeneğini kullanabilirsin. Koleksiyon, kayıt yeri ve gönderilecek bağlamı kontrol ederek kılavuzu harici sohbet uygulamana taşırsın. Konuyu, düzeyini ve neyi anlamak istediğini kendi mesajında belirtirsin.</p>
-<p>Bir PDF sayfasından, video transkriptinden veya not hazırlama görevinden de not hazırlama ekranına geçebilirsin. Bu yollar ilgili materyali bağlam olarak kullanmanı sağlar; bütün koleksiyonunun otomatik olarak gönderildiği anlamına gelmez.</p>
-<p><strong>Örnek: Anlatım isteği</strong>
-“Bu kılavuza ve kaynak metnine göre olasılık konusunu açıklayan notlar hazırla. Konuya yeni başlıyorum. Örnek uzay ile olay kavramlarını karıştırıyorum; bu ayrımı örneklerle anlamak istiyorum.”</p>
-<p>İstek örneğini ihtiyacına göre değiştirebilirsin. Kullanım rehberini göndermek ile not hazırlama kılavuzunu göndermek farklıdır: biri uygulamayı anlatır, diğeri uygulamaya aktarılabilecek içeriğin biçimini açıklar.</p>
-<h3>İçe aktarmak ve kaydetmek</h3>
-<p>Ai’ın XML yanıtını kopyalayıp aynı hazırlama ekranındaki <strong>İçe aktar</strong> aracını kullanırsın. Balpy yanıtı not taslaklarına dönüştürür; başlıkları ve anlatımları ayrı ayrı elle girmen gerekmez. Notların başlığını, anlatımını, örneklerini, görünümünü ve kayıt yerini önizlemede incelersin. Uygun bulduğun sonucu kaydettiğinde Notlar sekmesinde görünür.</p>
-<p>Not yalnız konu anlatımıdır: alıştırma sorusu, çözümlü örnek ya da ön/arka yüzlü kart düzeni not gövdesine konmaz. Aynı konudan ayrıca kart ve soru hazırlatırsın; bunlar nottan bağlantılı ayrı içerikler olarak kaydedilir.</p>
-<p>Notların grup adı, ilgili anlatımları birlikte bulmanı sağlar. Gruplar ünite yapısıyla aynı değildir; bir üniteye bağlı birden fazla not grubu olabilir.</p>
-</div></details>
-<details class="note-detail" id="not-okuyucusunu-kullanmak"><summary>Not okuyucusunu kullanmak</summary><div class="note-body"><blockquote>
-<p>Not okuyucusu, uzun anlatımları <strong>sayfalar, başlıklar ve görsel bloklar</strong> üzerinden incelemeni sağlar. Bu web rehberindeki anlatım, uygulamada oluşturduğun notların okuyucusunu açıklar.</p>
-</blockquote>
-<h3>Bir grubu okumak</h3>
-<p>Not grubunu açtığında içindeki notlar arasında geçebilirsin. Üstteki <strong>3 / 12</strong> gibi bir konum bilgisi, grubun kaçıncı notunda olduğunu gösterir. Notlar arasında sağa-sola kaydırarak geçersin. Bu sayı okuma notunun sıra bilgisidir; kart seviyesi veya öğrenme puanı değildir.</p>
-<p>Sol üstteki <strong>Hızlı erişim</strong> düğmesiyle not listesine ve bulunduğun notun başlıklarına ulaşabilir, başlıklar arasında arama yapabilirsin. Uzun bir anlatımda baştan sona kaydırmak yerine ihtiyacın olan bölümü seçersin.</p>
-<h3>Başlık ve blokları takip etmek</h3>
-<p>Özet bölümü notun ana fikrini, başlıklar konunun parçalarını, tanım satırları kavramların anlamını gösterir. Tablolar karşılaştırma yapmayı; adım ve akış blokları işlem sırasını ya da ilişkileri takip etmeyi kolaylaştırır.</p>
-<p><strong>Önemli, İpucu, Dikkat ve Örnek</strong> kutularının işlevleri farklıdır. Örnek kutusundaki anlatımı genel bir kural gibi okumak yerine, hangi kavramı somutlaştırdığına bakabilirsin. Formül bulunan notlarda sembollerin neyi temsil ettiğini çevresindeki açıklamadan izlersin.</p>
-<h3>Gizlenebilir metin</h3>
-<p>Notta gizlenmiş bir parça varsa üzerine dokunarak açarsın. Gizlenebilir metin, ana anlatımı bölmemesi için katlanmış <strong>ek açıklamadır</strong>: bir ayrıntı, bir örneğin devamı ya da ikinci bir açıklama. <strong>Not işlemleri</strong> menüsündeki <strong>Gizli metinleri göster</strong> ve <strong>Gizli metinleri kapat</strong>, hepsini birden açıp kapatır.</p>
-<p>Gizli bir parçayı açmak çalışma sonucu değildir. Bir bilgiyi cevaba bakmadan hatırlamayı denemek istiyorsan onu karta, uygulamak istiyorsan soruya çevir; tekrar seviyesini değiştiren çalışma kart ve soru oturumunda yapılır.</p>
-<h3>Notla ilişkili alıştırmalar</h3>
-<p>Nottan hazırlanmış kart ve sorular varsa sol üstteki <strong>Kartlar</strong> ve <strong>Sorular</strong> kısayollarıyla bunlara ulaşabilirsin. Böylece açıklamayı okuduktan sonra aynı konu üzerinde hatırlama veya uygulama yaparsın. Bir notta henüz alıştırma yoksa bu kısayolların bulunmaması, notun eksik kaydedildiği anlamına gelmez.</p>
-<p><strong>İpucu: Gerektiği kadar oku</strong>
-Not grubunu bir seferde bitirmek zorunda değilsin. Anlamadığın başlığa dönebilir, bir örneği yeniden inceleyebilir veya okuduğun bölümden kart ve soru hazırlayarak devam edebilirsin.</p>
-<blockquote>
-<p><strong>Notu okumak anlamaya yöneliktir; bilgiyi hatırlama ve uygulama çalışmasını kart ve sorularla sürdürürsün.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="gorsel-anlatimlar-ve-anlasilir-icerik"><summary>Görsel anlatımlar ve anlaşılır içerik</summary><div class="note-body"><blockquote>
-<p>Balpy notları yalnızca düz metinden oluşmaz. <strong>Görsel anlatım</strong>, konunun yapısını daha açık göstermeye yardımcı olur; doğru açıklamanın yerini almaz.</p>
-</blockquote>
-<h3>Desteklenen anlatım biçimleri</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Biçim</th>
-<th>Anlatımdaki işlevi</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Başlık ve kısa özet</td>
-<td>Konunun bölümlerini ve ana fikrini gösterir.</td>
-</tr>
-<tr>
-<td>Tanım satırları</td>
-<td>Kavramları açıklamalarıyla birlikte sunar.</td>
-</tr>
-<tr>
-<td>Tablo</td>
-<td>Birden fazla kavramı aynı ölçütler üzerinden karşılaştırır.</td>
-</tr>
-<tr>
-<td>Örnek ve uyarı kutuları</td>
-<td>Açıklamayı, örneği ve dikkat edilmesi gereken noktayı ayırır.</td>
-</tr>
-<tr>
-<td>Matematiksel gösterim</td>
-<td>Formül ve bağıntıları okunabilir biçimde sunar.</td>
-</tr>
-<tr>
-<td>Gizlenebilir metin</td>
-<td>Ek açıklamayı ana anlatımı bölmeden, dokununca açılan bir parçada tutar.</td>
-</tr>
-<tr>
-<td>Adımlar ve akışlar</td>
-<td>İşlemin sırasını veya kavramların bağlantılarını gösterir.</td>
-</tr>
-</tbody></table></div>
-<h3>Bir açıklama örneği</h3>
-<ul>
-<li><strong>Aktif hatırlama:</strong> Bir bilgiyi cevaba bakmadan hatırlamaya çalışma.</li>
-<li><strong>Aralıklı tekrar:</strong> Öğrenilen bilgiyi farklı zamanlarda yeniden çalışma.</li>
-</ul>
-<p>Bu iki kavram aynı değildir. Aktif hatırlama <strong>çalışmayı nasıl yaptığını</strong>, aralıklı tekrar ise <strong>ne zaman yeniden yaptığını</strong> anlatır. Balpy’de bir kartı çevirmeden önce cevabı düşünmen ilkine, tekrar zamanı geldiğinde kartı yeniden çalışman ikincisine örnektir.</p>
-<p><strong>Açıklamadan uygulamaya</strong></p>
-<ul>
-<li>Kavramı oku: Tanımı ve ne anlama geldiğini incele.</li>
-<li>Örneği takip et: Kavramın gerçek bir durumda nasıl kullanıldığını gör.</li>
-<li>Kendin açıkla: Metne bakmadan kendi cümlenle anlatmayı dene.</li>
-<li>Alıştırmayla devam et: İhtiyacına göre kart veya soru hazırla.</li>
-</ul>
-<h3>Görünümü isteğine bağlamak</h3>
-<p>Harici sohbette karşılaştırmalı anlatım, açıklayıcı örnekler veya adım adım çözüm isteyebilirsin. Yapay zekânın Balpy’ye uygun biçimi kullanması için güncel not hazırlama kılavuzunu gönderirsin. Bu sayfada aktarım işaretlerini ezberlemen gerekmez.</p>
-<p><strong>Dikkat: Çok biçim kullanmak her zaman iyi anlatım sağlamaz</strong>
-Başlığın, tablonun ve vurgunun konuyu açıklaması gerekir. Her cümlenin vurgulandığı, sembollerin açıklanmadığı veya örneğin kuraldan ayrılmadığı bir notu önizlemede fark edip düzelttirebilirsin.</p>
-<h3>Kaydetmeden önce</h3>
-<p>Başlıkların sırasını, tanımların doğruluğunu, örneklerin anlaşılır olmasını ve formüllerin görünümünü incele. Özellikle kaynak metnine dayanan bir notta, hazırlanan anlatımın kaynakla uyuştuğunu kontrol et. Güzel görünüm ile doğru içerik birlikte değerlendirilir.</p>
-</div></details>
-<details class="note-detail" id="notu-gelistirmek-kart-ve-soru-hazirlamak"><summary>Notu geliştirmek, kart ve soru hazırlamak</summary><div class="note-body"><blockquote>
-<p>Bir notu geliştirebilir veya içindeki bilgileri kart ve soruya dönüştürebilirsin. Notu düzenlemek ile yeni alıştırma eklemek farklı işlemlerdir.</p>
-</blockquote>
-<h3>Notu düzenlemek</h3>
-<p>Okuyucunun yapay zekâ menüsündeki <strong>Notu düzenle</strong> veya not işlemlerindeki <strong>Düzenle</strong>, düzenleme ekranına götürür. Mevcut notu kılavuzuyla birlikte harici sohbete gönderir, istediğin değişikliği belirtir ve gelen yanıtı önizlersin. Örneğin eksik açıklamayı genişletmesini, yanlış örneği değiştirmesini veya Türkçeyi düzeltmesini isteyebilirsin.</p>
-<p>Düzenleme ekranında <strong>Bu not</strong> ile <strong>not grubu</strong> kapsamını ayırt et. Tek not düzenlemek bir anlatıma yöneliktir; grup düzenlemek birden fazla notu etkiler. Grup yanıtındaki eklenen, değiştirilen veya kaldırılacak notları ve onay ekranını incele. Eksik dönen bir grup yanıtını bütün anlatımların korunmuş olduğu varsayımıyla kaydetme.</p>
-<h3>Yapay zekâ ile alıştırma hazırlamak</h3>
-<p>Okuyucunun yapay zekâ menüsündeki <strong>Kart hazırla</strong> ve <strong>Soru hazırla</strong> seçenekleri, notu ilgili hazırlama ekranına taşır. Kılavuzu ve not bağlamını sohbete göndererek temel kavramları hatırlatan kartlar veya bilgiyi kullanmayı gerektiren sorular isteyebilirsin. Ai’ın XML yanıtını içe aktarıp alıştırmaların cevabını ve kayıt yerini kontrol ederek kaydedersin. Açıklamayı okuduktan sonra bu alıştırmaları çalışır, sonraki günlerde günlük tekrarlarıyla devam edersin.</p>
-<h3>Nottan hazırla</h3>
-<p>Kartlar sekmesinin sağ üstündeki <strong>Nottan hazırla</strong>, cihazdaki çıkarma aracıyla notun yapısından kart adayları oluşturur. Tanım ve benzeri bölümlerden bulunan adaylar, harici yapay zekâ yanıtı değildir. Önizlemede uygun olanları seçip kaydedersin; her adayın çalışma açısından yararlı olması beklenmez.</p>
-<p>Notun tanımı ile daha önce çıkarılmış kartın cevabı farklılaşırsa Balpy gözden geçirme seçeneği sunabilir. Bu karşılaştırmada <strong>Mevcut kartı koru</strong> veya <strong>Kartı güncelle</strong> kararını sen verirsin. Her not değişikliği bütün alıştırmaları otomatik olarak yeniden yazmaz.</p>
-<blockquote>
-<p><strong>Açıklamayı geliştirmek için düzenle; hatırlamak için kart, uygulamak için soru hazırla.</strong></p>
-</blockquote>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-source" href="/rehber/kaynaklar/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Kaynaklar</b></a><a class="pager-link next tone-card" href="/rehber/kartlar/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Kartlar</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Koleksiyon ve içerikler</span></nav>
+      <header class="doc-head">
+        <h1>Notlar ve not okuyucusu</h1>
+        <p class="doc-lead">Konu anlatımını oku, notlar arasında gezin, hızlı indeksle başlığa atla, nottan kart ve soru hazırla.</p>
+        <div class="doc-tools"><span>3 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 6 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#not-nasil-olusur">Not nasıl oluşur?</a></li><li><a href="#not-okuyucusu">Not okuyucusu</a></li><li><a href="#notla-baglantili-kart-ve-sorular">Notla bağlantılı kart ve sorular</a></li><li><a href="#notu-gelistirmek">Notu geliştirmek</a></li><li><a href="#nottan-kart-ve-soru-hazirlamak">Nottan kart ve soru hazırlamak</a></li><li><a href="#not-silmek">Not silmek</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Not, bir konunun anlatımıdır: kavramlar, nedenler, örnekler ve bağlantılar. Kart ve sorudan farklı olarak puanlanmaz; okursun, gerektiğinde geri dönersin. Notun içinde soru, çözümlü örnek ya da ön/arka yüzlü kart bulunmaz; bunları aynı konudan ayrıca hazırlarsın.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="not-nasil-olusur">Not nasıl oluşur?<a class="anchor" href="#not-nasil-olusur" aria-label="“Not nasıl oluşur?” bölümüne bağlantı">#</a></h2>
+<p>Notları Ai ile hazırlatırsın: Ai ekranında <strong>Not</strong> ya da not, kart ve soruyu birlikte hazırlatan <strong>Genel</strong> seçimiyle. Bir PDF sayfasından, transkriptten ya da bir görevden açtığın hazırlama ekranı o materyali bağlam olarak kullanır. <a href="/rehber/ai/">Ai ile içerik hazırlama</a></p>
+<p>Her notun bir başlığı ve isteğe bağlı bir <strong>grup</strong> adı vardır. Aynı konuda aynı grup adını taşıyan notlar art arda okunan bir seri olur; örneğin “Üslü sayılar” grubunda tanım, kurallar ve sık yapılan hatalar ayrı notlar olabilir. Grup, koleksiyonun ünite ve konu yapısının yerine geçmez.</p>
+
+<h2 id="not-okuyucusu">Not okuyucusu<a class="anchor" href="#not-okuyucusu" aria-label="“Not okuyucusu” bölümüne bağlantı">#</a></h2>
+<ul>
+  <li>Bir not grubunu açtığında notlar arasında sağa ve sola kaydırarak geçersin. Üstteki “3 / 12” gibi bilgi, grubun kaçıncı notunda olduğunu gösterir.</li>
+  <li>Grubun son notundan sonra gezinme, notların gerçek sırasını izler.</li>
+  <li>Notta başka bir nota bağlantı varsa dokununca o not açılır.</li>
+  <li>Not bir kaynağa bağlıysa ilgili PDF sayfasına ya da videoya tek dokunuşla dönersin.</li>
+</ul>
+
+<h3 id="hizli-indeks">Hızlı indeks<a class="anchor" href="#hizli-indeks" aria-label="“Hızlı indeks” bölümüne bağlantı">#</a></h3>
+<p>Uzun bir notta baştan sona kaydırmak yerine hızlı indeksi kullanırsın. Ekranın altındaki tutamaktan yukarı çekerek açar, aşağı çekerek kapatırsın. Hızlı indeks notun başlıklarını ve ara başlıklarını numaralı olarak listeler; bir başlığa dokununca oraya gidersin. Notun içinde kaydırmak hızlı indeksi açmaz.</p>
+
+<h3 id="gizlenebilir-metin">Gizlenebilir metin<a class="anchor" href="#gizlenebilir-metin" aria-label="“Gizlenebilir metin” bölümüne bağlantı">#</a></h3>
+<p>Notta kapalı duran bir parça varsa üzerine dokunarak açarsın, yeniden dokunarak kapatırsın. Gizlenebilir metin, ana anlatımı bölmesin diye katlanmış bir ek açıklamadır; bir ayrıntı, bir örneğin devamı ya da ikinci bir anlatım. Notun menüsündeki <strong>Gizli metinleri göster</strong> hepsini birden açar.</p>
+<p>Gizli bir parçayı açmak bir çalışma sonucu değildir. Bir bilgiyi cevaba bakmadan hatırlamayı denemek istiyorsan onu karta, uygulamak istiyorsan soruya çevir.</p>
+
+<h3 id="adim-adim-anlatim">Adım adım anlatım<a class="anchor" href="#adim-adim-anlatim" aria-label="“Adım adım anlatım” bölümüne bağlantı">#</a></h3>
+<p>Beş ve daha fazla adımlı anlatımlarda <strong>Tüm adımlar</strong> ile <strong>Adım adım</strong> arasında seçim yaparsın. Adım adım kipinde önceki ve sonraki oklarıyla ortadaki adım seçici hep aynı yerde durur; sayfa adımlar arasında yer değiştirmez. Ortadaki adım sayısına dokunarak istediğin adıma atlarsın.</p>
+
+<h2 id="notla-baglantili-kart-ve-sorular">Notla bağlantılı kart ve sorular<a class="anchor" href="#notla-baglantili-kart-ve-sorular" aria-label="“Notla bağlantılı kart ve sorular” bölümüne bağlantı">#</a></h2>
+<p>Nottan hazırlanmış kart ve sorular nota bağlı kalır. Not okuyucusundan bu içeriklere, kart ve sorulardan da geldikleri nota geçersin. Çalışırken bir kartta takılırsan <strong>Notlara bak</strong> kartın geldiği notu, biliniyorsa ilgili başlığından açar. <a href="/rehber/tekrar/#oturum-sirasinda">Oturum sırasında</a></p>
+
+<h2 id="notu-gelistirmek">Notu geliştirmek<a class="anchor" href="#notu-gelistirmek" aria-label="“Notu geliştirmek” bölümüne bağlantı">#</a></h2>
+<p>Not okuyucusunun Ai menüsündeki <strong>Ai ile düzenle</strong> ile notu ya da bulunduğu grubu, kılavuzuyla birlikte sohbetine gönderirsin. İstediğin değişikliği yazarsın: eksik bir açıklamayı genişletmek, bir örneği değiştirmek, anlatıma tablo ya da grafik eklemek, Türkçeyi düzeltmek.</p>
+<ul>
+  <li><strong>Tek not:</strong> Yalnız o notun anlatımı değişir.</li>
+  <li><strong>Grup:</strong> Birden çok not etkilenir. Önizlemede eklenecek, değişecek ve kaldırılacak notları ayrı ayrı görürsün; onaylamadığın değişiklik uygulanmaz.</li>
+</ul>
+<div class="callout warn" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>Eksik dönen grup yanıtı</p>
+  <p>Ai bir grubu düzenlerken bazı notları yanıtına yazmamış olabilir. Kaydetmeden önce önizlemede kaldırılacak olarak görünen notları kontrol et.</p>
+</div>
+
+<h2 id="nottan-kart-ve-soru-hazirlamak">Nottan kart ve soru hazırlamak<a class="anchor" href="#nottan-kart-ve-soru-hazirlamak" aria-label="“Nottan kart ve soru hazırlamak” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Ai ile</dt><dd>Not okuyucusunun Ai menüsündeki <strong>Kart hazırla</strong> ve <strong>Soru hazırla</strong>. Not, bağlam olarak pakete girer; hazırlanan içerik nota bağlanır.</dd></div>
+  <div><dt>Tanımdan kart</dt><dd>Ai kullanmadan, not okuyucusunda bir tanım satırını (terim ve anlamı) tek dokunuşla karta çevirirsin. Terim ön yüze, anlamı arka yüze yazılır; not başlığı ipucu olur. Karta çevrilmiş tanım işaretli görünür, istersen kartı oradan kaldırırsın.</dd></div>
+</dl>
+
+<h2 id="not-silmek">Not silmek<a class="anchor" href="#not-silmek" aria-label="“Not silmek” bölümüne bağlantı">#</a></h2>
+<p>Not grupları silindiğinde içindeki notlar kalıcı olarak silinir; notlar çöp kutusuna düşmez. Silme onayında kaç notun silineceği yazar. Nottan hazırlanmış kartlar ve sorular ayrı içeriklerdir; not silindiğinde onlar silinmez.</p>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/kaynaklar/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Kaynaklar: kitap, PDF, fotoğraf, video</b></a><a class="next" href="/rehber/kartlar/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Kartlar</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Notlar%20ve%20not%20okuyucusu">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#not-nasil-olusur">Not nasıl oluşur?</a></li><li><a href="#not-okuyucusu">Not okuyucusu</a></li><li><a href="#notla-baglantili-kart-ve-sorular">Notla bağlantılı kart ve sorular</a></li><li><a href="#notu-gelistirmek">Notu geliştirmek</a></li><li><a href="#nottan-kart-ve-soru-hazirlamak">Nottan kart ve soru hazırlamak</a></li><li><a href="#not-silmek">Not silmek</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Notlar</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Notlar ve not okuyucusu” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

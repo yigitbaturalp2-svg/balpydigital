@@ -1,0 +1,218 @@
+{
+  "groups": [
+    {
+      "title": "Başlarken",
+      "description": "Balpy'yi ilk kez açıyorsan buradan başla.",
+      "pages": [
+        {
+          "slug": "baslangic",
+          "title": "Balpy'ye genel bakış",
+          "nav": "Genel bakış",
+          "icon": "compass",
+          "tone": "amber",
+          "summary": "Balpy'nin ne işe yaradığı, dört içerik türü ve uygulamanın bölümleri tek sayfada.",
+          "keywords": "nedir tanıtım genel bakış içerik türleri kaynak not kart soru alt menü ana sayfa sayaç koleksiyonlar profil yks kpss"
+        },
+        {
+          "slug": "ilk-adimlar",
+          "title": "İlk adımlar",
+          "icon": "flag",
+          "tone": "amber",
+          "summary": "Hesaptan ilk tekrara kadar ilk gününü sırayla kur.",
+          "keywords": "başlangıç yeni kullanıcı nasıl başlarım ilk gün ilk koleksiyon kurulum giriş hesap"
+        }
+      ]
+    },
+    {
+      "title": "Ai ile çalışma",
+      "description": "Balpy'nin en güçlü yanı: içeriği kendi Ai sohbetinde hazırlat, Balpy'de önizleyip kaydet.",
+      "pages": [
+        {
+          "slug": "ai",
+          "title": "Ai ile içerik hazırlama",
+          "nav": "Ai ve XML'e giriş",
+          "icon": "spark",
+          "tone": "ai",
+          "summary": "Paketi kopyala, isteğini yaz, yanıtı içe aktar, önizleyip kaydet: dört adımlık köprü.",
+          "keywords": "yapay zeka xml chatgpt gemini claude kılavuzu kopyala kopyala ve aç içe aktar onayla kaydet taslak düzeltme"
+        },
+        {
+          "slug": "ai-ekranlari",
+          "title": "Hangi ekranda ne hazırlanır?",
+          "nav": "Ai ekranları",
+          "icon": "grid",
+          "tone": "ai",
+          "summary": "Koleksiyondan sayaca kadar her Ai ekranının işi, nereden açıldığı ve neyi kaydettiği.",
+          "keywords": "ai ekranları koleksiyon hedef görev plan kaynak kitap içindekiler transkript çalışma modu sayaç challenge haftalık program"
+        },
+        {
+          "slug": "ai-kilavuzlari",
+          "title": "Kılavuzlar, bağlam ve düzeltme",
+          "nav": "Kılavuzlar ve bağlam",
+          "icon": "list",
+          "tone": "ai",
+          "summary": "Temel kılavuz, Önerilen kılavuz ve Kılavuzlarım; pakete ne girer, hatalı yanıt nasıl düzeltilir.",
+          "keywords": "temel kılavuz önerilen kılavuz kılavuzlarım özel kılavuz bağlam eklenecekler düzeltme metni içerik zenginleştirme kılavuz sıralaması"
+        },
+        {
+          "slug": "not-bloklari",
+          "title": "Notlarda zengin anlatım",
+          "nav": "Zengin anlatım",
+          "icon": "sigma",
+          "tone": "formula",
+          "summary": "Formül, tablo, grafik, geometri, devre, harita ve daha fazlası: Ai'dan isteyebileceğin anlatım biçimleri.",
+          "keywords": "formül latex tablo grafik fonksiyon geometri diyagram devre kuvvet optik hücre venn periyodik tablo türkiye haritası zaman çizelgesi akış adım adım gizli metin kod"
+        }
+      ]
+    },
+    {
+      "title": "Koleksiyon ve içerikler",
+      "description": "Çalışma alanını kur; kaynak, not, kart ve soruyla doldur.",
+      "pages": [
+        {
+          "slug": "koleksiyon",
+          "title": "Koleksiyon ve konu yapısı",
+          "nav": "Koleksiyon",
+          "icon": "folder",
+          "tone": "note",
+          "summary": "Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur, içindekilerden konuya gir.",
+          "keywords": "koleksiyon ünite konu alt konu içindekiler defter konu sayfası düzenle sil yapı"
+        },
+        {
+          "slug": "hedefler",
+          "title": "Hedefler ve hedef görevleri",
+          "nav": "Hedefler",
+          "icon": "target",
+          "tone": "success",
+          "summary": "Ünitede neye ulaşacağını hedefle, oraya götüren adımları görev olarak yaz; ilerleme görevlerden hesaplanır.",
+          "keywords": "hedef hedef görevi yol haritası ilerleme tamamlama ünite hedefleri görevleri gör konuya git"
+        },
+        {
+          "slug": "kaynaklar",
+          "title": "Kaynaklar: kitap, PDF, fotoğraf, video",
+          "nav": "Kaynaklar",
+          "icon": "book",
+          "tone": "source",
+          "summary": "Kitabını içindekileriyle, PDF'ini, fotoğrafını ve YouTube videolarını ekle; kaldığın yerden oku, izle, içerik hazırla.",
+          "keywords": "kaynak kitap içindekiler pdf fotoğraf youtube video oynatma listesi seri transkript video anı drive arama sayfa tamamla"
+        },
+        {
+          "slug": "notlar",
+          "title": "Notlar ve not okuyucusu",
+          "nav": "Notlar",
+          "icon": "note",
+          "tone": "note",
+          "summary": "Konu anlatımını oku, notlar arasında gezin, hızlı indeksle başlığa atla, nottan kart ve soru hazırla.",
+          "keywords": "not okuyucu not grubu hızlı indeks gizli metin not bağlantısı notu geliştir kart çıkar adım adım"
+        },
+        {
+          "slug": "kartlar",
+          "title": "Kartlar",
+          "icon": "cards",
+          "tone": "card",
+          "summary": "Ön yüzde istem, arka yüzde karşılık: kart türleri, ipuçları ve Hatırladım / Hatırlamadım.",
+          "keywords": "kart bilgi kartı flashcard çevir hatırladım hatırlamadım boşluk doldurma karşılaştırma formül ters kart ipucu püf noktası kaydırma"
+        },
+        {
+          "slug": "sorular",
+          "title": "Sorular",
+          "icon": "question",
+          "tone": "question",
+          "summary": "Şıklı ya da açık uçlu soru, ipucu ve çözüm adımları; fotoğrafla soru ekleme ve çözümsüz sorular.",
+          "keywords": "soru çoktan seçmeli şık harf açık uçlu klasik doğru yaptım yanlış yaptım ipucu çözüm adımları fotoğraf çözümsüz çözüm ekle"
+        }
+      ]
+    },
+    {
+      "title": "Çalışma düzeni",
+      "description": "Her gün ne çalışacağını, neyi ne zaman tekrar edeceğini ve ne kadar süre ayırdığını takip et.",
+      "pages": [
+        {
+          "slug": "tekrar",
+          "title": "Çalışma oturumu ve aralıklı tekrar",
+          "nav": "Çalışma ve tekrar",
+          "icon": "repeat",
+          "tone": "success",
+          "summary": "Çalışmayı başlat, notlara bak, oturumu bitir; kart ve sorular 1, 3, 7, 15 ve 30 gün arayla geri gelir.",
+          "keywords": "tekrar aralıklı tekrar seviye 1 3 7 15 30 gün çalış oturum özet yanlışları tekrarla pekiştir tamamlandı günlük tekrar 04.00"
+        },
+        {
+          "slug": "calisma-modlari",
+          "title": "Çalışma modları",
+          "icon": "layers",
+          "tone": "success",
+          "summary": "Konu sayfasına kendi çalışma kutularını kur: yanlışlar, zayıflar, uzun süredir bakılmayanlar…",
+          "keywords": "çalışma modu mod kur kutu zayıf yanlış yeni süresi gelen uzun süredir bakılmayan yıldızlı blok karışık"
+        },
+        {
+          "slug": "ana-sayfa",
+          "title": "Ana Sayfa",
+          "icon": "home",
+          "tone": "amber",
+          "summary": "Günlük tekrar, yeni içerikler, çözümsüz sorular, kaldığın yer ve günün görevleri tek ekranda.",
+          "keywords": "ana sayfa günlük tekrar yeni içerikler çözümsüz sorular kaldığın yerden görevler gün şeridi bekleyen çalışman yok"
+        },
+        {
+          "slug": "planlama",
+          "title": "Günlük görevler ve plan",
+          "nav": "Görevler ve plan",
+          "icon": "calendar",
+          "tone": "amber",
+          "summary": "Görev ekle, önerilerden seç ya da Ai ile planla; ana görev, hatırlatma, haftalık program ve görev çalışması.",
+          "keywords": "görev günlük plan ana görev önem bonus ai ile planla görev önerileri hatırlatma haftalık program başla süre tut görevi tamamladın mı bugüne al"
+        },
+        {
+          "slug": "sayac",
+          "title": "Sayaç ve Challenge",
+          "nav": "Sayaç",
+          "icon": "timer",
+          "tone": "success",
+          "summary": "Geri sayım, kronometre, Pomodoro ve Challenge; günlük hedef, oturum kayıtları ve elle çalışma ekleme.",
+          "keywords": "sayaç geri sayım kronometre pomodoro challenge günlük hedef mola tur oturum bugünkü oturumlar çalışma ekle sayaç ayarları"
+        },
+        {
+          "slug": "profil",
+          "title": "Profil ve istatistikler",
+          "nav": "Profil",
+          "icon": "chart",
+          "tone": "info",
+          "summary": "Toplam süre, seri, çalışma ritmi, doğru oranı, zayıf noktalar ve yaklaşan tekrar yükü.",
+          "keywords": "profil istatistik toplam çalışma seri ritim alışkanlık öğrenme doğru oranı zayıf noktalar koleksiyonlar yaklaşan tekrar"
+        }
+      ]
+    },
+    {
+      "title": "Hesap ve destek",
+      "description": "Ayarlar, verilerin nerede durduğu ve sık sorulanlar.",
+      "pages": [
+        {
+          "slug": "ayarlar",
+          "title": "Ayarlar ve bildirimler",
+          "nav": "Ayarlar",
+          "icon": "sliders",
+          "summary": "Bildirimler, Ai ayarları, PDF kalitesi, çöp kutusu, gizlilik ve hesap işlemleri.",
+          "keywords": "ayarlar dişli bildirim izin günlük özet sayaç uyarıları ai ayarları tercih edilen yapay zeka panodan otomatik pdf kalitesi çöp kutusu çıkış"
+        },
+        {
+          "slug": "veriler",
+          "title": "Verilerin ve gizlilik",
+          "nav": "Verilerin",
+          "icon": "phone",
+          "tone": "info",
+          "summary": "İçeriklerin yalnız telefonunda durur. Telefon değiştirince, çıkış yapınca ve hesabı silince ne olur?",
+          "keywords": "veri yedek bulut cihaz yerel telefon değiştirme çıkış hesap silme gizlilik pano youtube"
+        },
+        {
+          "slug": "sss",
+          "title": "Sık sorulanlar",
+          "icon": "info",
+          "summary": "Ücret, Ai, bildirim, telefon değiştirme, şifre ve destekle ilgili kısa cevaplar.",
+          "keywords": "sık sorulan sorular sss destek ücret iphone android google play şifre unuttum bildirim gelmiyor xml hatası"
+        }
+      ]
+    }
+  ],
+  "redirects": {
+    "genel": "hedefler"
+  }
+}

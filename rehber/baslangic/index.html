@@ -3,375 +3,217 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>İlk bakış | Balpy Rehberi</title>
-  <meta name="description" content="Alt menüdeki dört sekme ve her birinin ne işe yaradığı.">
+  <title>Balpy&#39;ye genel bakış | Balpy Rehberi</title>
+  <meta name="description" content="Balpy&#39;nin ne işe yaradığı, dört içerik türü ve uygulamanın bölümleri tek sayfada.">
   <link rel="canonical" href="https://balpydigital.com/rehber/baslangic/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="İlk bakış | Balpy Rehberi">
-  <meta property="og:description" content="Alt menüdeki dört sekme ve her birinin ne işe yaradığı.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Balpy&#39;ye genel bakış | Balpy Rehberi">
+  <meta property="og:description" content="Balpy&#39;nin ne işe yaradığı, dört içerik türü ve uygulamanın bölümleri tek sayfada.">
   <meta property="og:url" content="https://balpydigital.com/rehber/baslangic/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber" aria-current="page"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Başlarken</span></nav>
-        <article class="topic tone-amber" id="baslangic">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">rocket_launch</span></span><div><small>Başlarken</small><h1>İlk bakış</h1></div></div>
-<p class="lead">Balpy'de çalıştığın her şey koleksiyonlarda durur. Alt menüdeki dört sekme günü, süreni, koleksiyonlarını ve ilerlemeni gösterir.</p>
-<div class="icon-row">
-  <div class="tone-amber"><span class="ms">home</span>Ana Sayfa</div>
-  <div class="tone-success"><span class="ms">play_circle</span>Sayaç</div>
-  <div class="tone-note"><span class="ms">collections_bookmark</span>Koleksiyonlar</div>
-  <div class="tone-info"><span class="ms">person</span>Profil</div>
-</div>
-<div class="defs" style="margin-top: 16px">
-  <div><dt>Ana Sayfa</dt><dd>Günün tekrarı, kaldığın yerden okuma, yeni içerikler ve bugünün görevleri.</dd></div>
-  <div><dt>Sayaç</dt><dd>Kronometre, geri sayım ya da Pomodoro ile çalışma süresi ve günlük hedef.</dd></div>
-  <div><dt>Koleksiyonlar</dt><dd>Ders, sınav ya da kitap için açtığın çalışma alanları.</dd></div>
-  <div><dt>Profil</dt><dd>Çalışma istatistiklerin. Sağ üstteki dişli Ayarlar'ı açar.</dd></div>
-</div>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="balpy-nin-amaci-ve-sundugu-olanaklar"><summary>Balpy’nin amacı ve sunduğu olanaklar</summary><div class="note-body"><blockquote>
-<p><strong>Balpy</strong>, kaynaklarını, notlarını, kartlarını ve sorularını bir araya getiren kişisel bir öğrenme uygulamasıdır.</p>
-</blockquote>
-<h3>Balpy’yi Ai ile kullanmak</h3>
-<p>Önerilen başlangıç, çalışmak istediğin alanı <strong>Ai ile hazırlamak ve XML yanıtını Balpy’ye aktarmaktır</strong>. Koleksiyon yapısını, açıklayıcı notları, hatırlama kartlarını, çözümlü soruları ve çalışma planlarını harici sohbet uygulamana hazırlatabilirsin. Böylece içerikleri tek tek yazmak yerine sana uygun taslakları inceleyip Balpy’de kaydedersin.</p>
-<p><strong>Balpy kılavuzu ve seçtiğin bağlam → sohbetteki isteğin → Ai’ın XML yanıtı → Balpy’de önizleme ve kayıt → okuma, çalışma ve tekrar.</strong> Bu akış Balpy’nin öğrenme araçlarını Ai ile hazırlanan içeriğe bağlar. XML’i senin yazman gerekmez; ilgili hazırlama ekranından aldığın güncel kılavuz, Ai’a kullanılacak biçimi açıklar.</p>
-<h3>Fiyat-performans hedefimiz</h3>
-<p>Balpy’nin hedefi, <strong>fiyat-performans açısından en iyi eğitim aracı</strong> olmaktır. Kaynaklarını düzenleme, konuları anlama ve bilgilerini tekrar etme araçlarını bir arada sunar. Böylece öğrenmeye ayırdığın zamanı ve bütçeyi daha verimli kullanmana yardımcı olmayı amaçlar.</p>
-<p>Balpy ile bir sınava hazırlanabilir, derslerine çalışabilir, mesleki bilgilerini geliştirebilir veya okuduğun bir kitabı daha iyi anlayabilirsin. Ne öğrenmek istediğine sen karar verirsin; Balpy bu hedefe yönelik çalışma düzenini kurmana yardımcı olur.</p>
-<h3>Temel kavramlar</h3>
-<ul>
-<li><strong>Kişisel öğrenme:</strong> İçeriği ve çalışma düzenini kendi hedeflerine, düzeyine ve ihtiyaçlarına göre belirleme.</li>
-<li><strong>Koleksiyon:</strong> Bir ders, sınav, kitap veya öğrenme hedefi için oluşturduğun çalışma alanı.</li>
-<li><strong>Aktif hatırlama:</strong> Bir bilgiyi cevaba bakmadan hatırlamaya çalışma.</li>
-<li><strong>Aralıklı tekrar:</strong> Kart ve soruları, çalışma sonuçlarına göre belirlenen aralıklarla yeniden çalışma.</li>
-<li><strong>Yapay zekâ ile çalışma:</strong> Balpy’nin kılavuzuyla harici sohbette içerik hazırlatma, XML yanıtını içe aktarma ve kaydedilen içerikle çalışma.</li>
-</ul>
-<p><strong>Öğrenme süreci</strong>
-İçeriği Ai ile hazırlatabilir, ardından kendi öğrenme çalışmanı yapabilirsin.</p>
-<ul>
-<li>Ai ile hazırla: İlgili ekranın kılavuzunu gönder, konuya veya kaynağına uygun içerik iste.</li>
-<li>XML’i içe aktar: Yanıtı Balpy’de önizle, kontrol et ve kaydet.</li>
-<li>Konuyu anla: Kaynağı ve Ai ile hazırlanan notları incele.</li>
-<li>Hatırla ve uygula: Nottan Ai ile kart ve soru hazırlat; cevaplara bakmadan çalış.</li>
-<li>Öğrendiklerini tekrar et: Tekrar zamanı gelen kart ve soruları yeniden çalış.</li>
-</ul>
-<p><strong>Önemli: İçerik ve çalışma kararları sana aittir</strong>
-Hangi içerikleri kullanacağını sen seçersin. Yapay zekânın hazırladığı yanıtları sen incelersin ve çalışma sonucunu sen değerlendirirsin. Kaynak eklediğinde kendiliğinden not oluşmaz; not okuduğunda kart veya soru çalışmış sayılmazsın.</p>
-<blockquote>
-<p><strong>Kaynağı incele, notla konuyu anla, kartla hatırla, soruyla uygula.</strong> Balpy, öğrenmenin bu farklı aşamalarını bir araya getirir.</p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="yapay-zeka-ve-xml-ile-onerilen-kullanim"><summary>Yapay zekâ ve XML ile önerilen kullanım</summary><div class="note-body"><blockquote>
-<p><strong>Ai ile hazırla, XML ile Balpy’ye aktar, kendi içeriğinle öğren ve tekrar et.</strong> Balpy’nin önerilen kullanımının merkezinde bu akış vardır.</p>
-</blockquote>
-<h3>Ai ile neler yapabilirsin?</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>İhtiyacın</th>
-<th>Ai ile hazırlatabileceğin içerik</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Bir ders veya öğrenme alanı kurmak</td>
-<td>Koleksiyon, ünite ve konu yapısı</td>
-</tr>
-<tr>
-<td>Neyi tamamlayacağını belirlemek</td>
-<td>Ünite hedefleri</td>
-</tr>
-<tr>
-<td>Uygun materyal bulmak</td>
-<td>Kaynak bağlantıları</td>
-</tr>
-<tr>
-<td>Konuyu anlamak</td>
-<td>Konuya, PDF sayfasına veya video transkriptine dayalı notlar</td>
-</tr>
-<tr>
-<td>Bilgiyi hatırlamak ve uygulamak</td>
-<td>Not veya kaynaktan kartlar ve çözümlü sorular</td>
-</tr>
-<tr>
-<td>Çalışmayı düzenlemek</td>
-<td>Günlük görevler, süre hedefleri ve oturum planı</td>
-</tr>
-</tbody></table></div>
-<p>Her iş için ilgili Ai hazırlama ekranını kullanırsın. İlk gün bütün bunları hazırlatman gerekmez. Örneğin bir koleksiyon ve tek konunun notlarıyla başlayıp okuduğun nottan kart ve soru hazırlatarak ilerleyebilirsin. Manuel ekleme ve düzenleme seçeneklerini de ihtiyacın olduğunda kullanabilirsin.</p>
-<h3>Kılavuzdan kayda giden yol</h3>
-<p><strong>Ai ile hazırlama ve XML ile aktarma</strong></p>
-<ul>
-<li>Ekranı ve bağlamı seç: Yapacağın işin Ai hazırlama ekranını aç. Kayıt yerini, kaynak metnini ve pakete girecek bilgileri kontrol et.</li>
-<li>Kılavuzu gönder: Kılavuzu kopyala veya Kopyala ve aç ile harici sohbete taşı. Balpy kılavuzu, bu ekranın kabul ettiği XML biçimini açıklar.</li>
-<li>İsteğini yaz: Konunu, düzeyini ve ne hazırlatmak istediğini sohbette belirt. Varsa Kılavuzlarım’dan seçtiğin özel kılavuz tekrar eden tercihlerini taşır.</li>
-<li>XML yanıtını içe aktar: Ai’ın yanıtını kopyala. Balpy’ye dönüp aynı hazırlama ekranında İçe aktar kullan.</li>
-<li>Önizle ve kaydet: İçeriği ve kayıt yerini incele. Uygun bulduğun taslağı onaylayarak kaydet; ardından okuyup çalışmaya başla.</li>
-</ul>
-<p><strong>XML</strong>, Ai yanıtını Balpy’nin anlayabildiği kayıtlara dönüştüren aktarım biçimidir. Başlıklar, içerik türleri ve ilgili alanlar bu biçimde gelir; bunları senin tek tek yazman gerekmez. Yanıtı içe aktarmak, kaydetmek ve hazırlanan içerikle çalışmak ayrı adımlardır.</p>
-<p><strong>Örnek: Ai ile şöyle kullanabilirsin</strong>
-Olasılık çalışıyorsan koleksiyonunun <strong>Notlar → Ai ile Not hazırla</strong> ekranından kılavuzu gönderip “Örnek uzay ve olay kavramlarını yeni başlayan biri için örneklerle açıklayan notlar hazırla” yazabilirsin. XML yanıtını aynı ekranda içe aktarıp notları kaydedersin. Notu okuduktan sonra okuyucunun <strong>Kart hazırla</strong> ve <strong>Soru hazırla</strong> araçlarıyla bu anlatımdan alıştırmalar hazırlatabilir, Balpy’de çalışıp sonraki günlerde tekrar edebilirsin.</p>
-<h3>Rehberi konuşmaktan içerik hazırlamaya</h3>
-<p><strong>Ai ile öğren</strong>, seçtiğin rehber bölümünü açıklar; içerik üretimi için gereken XML şemasını göndermez. Ai sana uygun kullanım yolunu anlattığında ilgili hazırlama ekranını açıp güncel kılavuzu ve bağlamı <strong>aynı sohbete</strong> gönderebilirsin. Sonra kendi isteğini yazarsın. Böylece rehberde konuştuğun öneriyi Balpy’ye kaydedebileceğin içeriğe dönüştürürsün.</p>
-<h3>Neden Balpy’nin içinde bir sohbet yapay zekâsı yok?</h3>
-<p>Uygulama içinde yapay zekâ hizmeti sunmak, her içerik üretiminde ek maliyet doğurur. Balpy bu maliyeti yönetmek için <strong>ChatGPT, Gemini ve Claude gibi gelişmiş sohbet uygulamalarıyla birlikte çalışmayı</strong> tercih eder.</p>
-<p>Böylece kullanacağın yapay zekâ hizmetini sen seçersin. Balpy ise hazırladığın içerikleri düzenleme, okuma ve tekrar etme araçlarını sunar. Bu yaklaşım, fiyat-performans hedefimizi destekler. Gelişmiş sohbet uygulamalarıyla uyumumuzu artırmak için çalışıyoruz.</p>
-<p><strong>Önemli: Yapay zekâ hizmetlerinin kendi koşulları vardır</strong>
-Seçtiğin sohbet uygulamasının ücretleri ve kullanım sınırları o hizmet tarafından belirlenir. Balpy ile birlikte kullanılması, hizmetin ücretsiz veya sınırsız olduğu anlamına gelmez.</p>
-<h3>Uygulamanın dört ana bölümü</h3>
-<ul>
-<li><strong>Ana Sayfa:</strong> Günlük tekrarlarını ve planındaki görevleri takip ettiğin bölüm.</li>
-<li><strong>Sayaç:</strong> Çalışma süreni ve günlük süre hedefini takip ettiğin bölüm.</li>
-<li><strong>Koleksiyonlar:</strong> Kaynaklarını, notlarını, kartlarını ve sorularını düzenlediğin bölüm.</li>
-<li><strong>Profil:</strong> Çalışma istatistiklerine ve ayarlara ulaştığın bölüm; Ayarlar’daki Balpy web sitesi satırı bu siteyi açar.</li>
-</ul>
-<blockquote>
-<p><strong>Konuyu ve öğrenme hedefini sen belirlersin.</strong> Yapay zekâ içerik hazırlamana, Balpy ise bu içerikle düzenli çalışmana yardımcı olur.</p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="nereden-baslamalisin"><summary>Nereden başlamalısın?</summary><div class="note-body"><blockquote>
-<p>Balpy’nin bütün araçlarını ilk gün kullanman gerekmez. <strong>Ne öğrenmek istediğini</strong> ve <strong>nerede zorlandığını</strong> bilmek, hangi araçla başlayacağını gösterir.</p>
-</blockquote>
-<h3>Ne için kullanabilirsin?</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Ne öğreniyorsun?</th>
-<th>İşine yarayacak içerikler</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Bir okul ya da üniversite dersi</td>
-<td>Ders koleksiyonu, konu notları, kavram kartları ve sorular</td>
-</tr>
-<tr>
-<td>Yabancı dil</td>
-<td>Kelime kartları ve örnek cümleler içeren notlar</td>
-</tr>
-<tr>
-<td>Okuduğun bir kitap</td>
-<td>Bölüm notları ve temel fikirleri hatırlatan kartlar</td>
-</tr>
-<tr>
-<td>Mesleğinle ilgili bir konu</td>
-<td>Kaynaklar, açıklayıcı notlar ve uygulama soruları</td>
-</tr>
-<tr>
-<td>Merak ettiğin herhangi bir konu</td>
-<td>Kısa bir koleksiyon, birkaç not ve kart</td>
-</tr>
-</tbody></table></div>
-<p>Sınava hazırlanıyor olabilirsin, kendi merakın için öğreniyor da olabilirsin: araçlar aynıdır. Koleksiyonun adını ve kapsamını sen belirlersin.</p>
-<h3>Hangi içerikle başlamalısın?</h3>
-<p><strong>“Konuyu anlamakta zorlanıyorum.”</strong> Not ekranından kılavuzu gönderip düzeyine uygun açıklamalar ve örnekler içeren bir not iste.</p>
-<p><strong>“Konuyu anlıyorum, ama öğrendiklerimi unutuyorum.”</strong> Konudan ya da okuduğun nottan kart hazırlat; tekrar zamanı geldiğinde Ana Sayfa’dan çalış.</p>
-<p><strong>“Konuyu biliyorum, ama uygulamada zorlanıyorum.”</strong> Zorlandığın noktaya yönelik çözümlü sorular hazırlat; önce kendin çözmeyi dene.</p>
-<p><strong>“Kaynaklarım dağınık.”</strong> Aynı konunun PDF’lerini, fotoğraflarını ve videolarını bir koleksiyonda topla; gerektikçe ünite ve konulara ayır.</p>
-<p><strong>Örnek: Günde yarım saatin varsa</strong>
-İlk gün bir koleksiyon aç ve tek bir konu için not hazırlat. Notu okuduktan sonra aynı nottan birkaç kart iste. Sonraki günlerde önce Ana Sayfa’daki <strong>Günlük tekrar</strong>’ı bitir, kalan sürede yeni bir konuya geç. Bu örneği kendi zamanına göre uyarlayabilirsin.</p>
-<h3>Yapay zekâdan sana uygun bir öneri almak</h3>
-<p>Web rehberindeki <strong>Ai ile öğren</strong> düğmesinden bu bölümü seçip metni sohbetine kopyalayabilirsin. Yalnız seçilen bölüm gönderilir; diğer bölümleri ihtiyaç duydukça aynı sohbete eklersin.</p>
-<p><strong>Örnek: Sohbette sorabileceğin bir soru</strong>
-“Balpy’yi nasıl kullanmalıyım? İngilizce öğreniyorum ve günde 30 dakika ayırabiliyorum. Kelimeleri çabuk unutuyorum. Elimde bir kitap ve birkaç video var. Nereden başlamalı, hangi içeriklerle çalışmalıyım?”</p>
-<p>Ne öğrendiğini, ne kadar bildiğini, ayırabildiğin zamanı ve elindeki kaynakları belirtmen daha somut bir öneri almanı kolaylaştırır. Rehber kişisel kayıtlarını içermez; kendi durumunu sohbette sen anlatırsın.</p>
-<blockquote>
-<p><strong>Bütün araçları aynı anda kullanman gerekmez.</strong> Bir koleksiyon ve tek bir konuyla başla, çalışma alanını zamanla geliştir.</p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="kaynak-not-kart-ve-soru"><summary>Kaynak, not, kart ve soru</summary><div class="note-body"><blockquote>
-<p>Balpy’de <strong>kaynak, not, kart ve soru</strong> olmak üzere dört içerik türü vardır. Her biri öğrenmenin farklı bir aşamasında sana yardımcı olur.</p>
-</blockquote>
-<h3>Dört içerik türünün işlevi</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>İçerik</th>
-<th>Ne için kullanılır?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Kaynak</strong></td>
-<td>Çalışacağın PDF’leri, fotoğrafları ve video bağlantılarını bir arada tutmak için.</td>
-</tr>
-<tr>
-<td><strong>Not</strong></td>
-<td>Konunun mantığını anlamak, açıklamaları ve örnekleri okumak için.</td>
-</tr>
-<tr>
-<td><strong>Kart</strong></td>
-<td>Bir bilgiyi cevaba bakmadan hatırlamaya çalışmak için.</td>
-</tr>
-<tr>
-<td><strong>Soru</strong></td>
-<td>Öğrendiğin bilgiyi uygulamak ve çözüm pratiği yapmak için.</td>
-</tr>
-</tbody></table></div>
-<h3>Kaynaklar ve notlar</h3>
-<p><strong>Kaynak</strong>, çalıştığın asıl materyaldir. Bir PDF belgesi, kitap sayfasının fotoğrafı veya YouTube videosu olabilir.</p>
-<p><strong>Not</strong>, konuyu açıklayan metindir. Bir kaynağı özetleyebilir, bir kavramı anlatabilir, farklı kavramları karşılaştırabilir veya bir çözümün mantığını açıklayabilir.</p>
-<p>Notlarda başlıklar, özet ve uyarı kutuları, tanımlar, tablolar, dokununca açılan ek açıklamalar, formüller ve etkileşimli anlatımlar bulunabilir. Bu web rehberi kullanım yolunu anlatır; hazırladığın öğrenme notları Balpy’nin not okuyucusunda açılır.</p>
-<h3>Kartlar ve sorular</h3>
-<p><strong>Kartın ön yüzünde</strong> bir soru veya hatırlaman gereken bilgi, <strong>arka yüzünde</strong> ise cevap bulunur. Önce cevabı düşünür, ardından kartı çevirerek kontrol edersin.</p>
-<p><strong>Soru</strong>, bilgiyi kullanarak bir sonuca ulaşmanı gerektirir. Kendi kitabındaki soruları fotoğraf çekerek ekleyebilir veya yapay zekâya yeni sorular hazırlatabilirsin.</p>
-<p><strong>Örnek: Kuvvet konusunu çalışırken</strong>
-Konuya ait bir PDF sayfasını <strong>kaynak</strong> olarak ekleyebilirsin. Kuvvet ile ivme arasındaki ilişkiyi açıklayan bir <strong>not</strong> okuyabilir, temel bağıntıyı bir <strong>kartla</strong> hatırlamaya çalışabilir ve ivme hesaplamayı gerektiren bir <strong>soru</strong> çözebilirsin.</p>
-<h3>Hangi içerikler için tekrar günü belirlenir?</h3>
-<ul>
-<li><strong>Kaynaklar ve notlar:</strong> İhtiyaç duyduğunda açıp okuduğun veya izlediğin içeriklerdir; günlük tekrar listesine girmez.</li>
-<li><strong>Kartlar ve sorular:</strong> Çalışma sonucuna göre bir sonraki tekrar günü belirlenen içeriklerdir.</li>
-</ul>
-<blockquote>
-<p><strong>Anlamak için not, hatırlamak için kart, uygulamak için soru kullanabilirsin.</strong> Kaynaklar ise çalıştığın asıl materyali bir arada tutar.</p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="aktif-hatirlama-ve-aralikli-tekrar"><summary>Aktif hatırlama ve aralıklı tekrar</summary><div class="note-body"><blockquote>
-<p><strong>Aralıklı tekrar</strong>, kart ve soruları farklı günlerde yeniden çalışarak öğrendiklerini pekiştirmene yardımcı olur.</p>
-</blockquote>
-<h3>Cevaba bakmadan hatırlamak</h3>
-<p>Okuduğun bir cevap sana tanıdık gelebilir. Ancak bu, aynı bilgiyi cevaba bakmadan hatırlayabildiğin anlamına gelmeyebilir.</p>
-<p>Kartı çevirmeden önce cevabı düşünmek veya bir sorunun çözümünü açmadan önce kendin denemek, <strong>aktif hatırlama</strong> çalışmasıdır. Böylece hangi bilgileri hatırladığını, hangilerini yeniden çalışman gerektiğini görebilirsin.</p>
-<h3>Çalışma sonucunu nasıl değerlendirirsin?</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Çalışma sonucun</th>
-<th>Seçeceğin düğme</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Kartın cevabını hatırladın</td>
-<td><strong>Hatırladım</strong></td>
-</tr>
-<tr>
-<td>Kartın cevabını hatırlayamadın</td>
-<td><strong>Hatırlamadım</strong></td>
-</tr>
-<tr>
-<td>Seçenekli soruda şıkkı seçtin</td>
-<td>Balpy doğru ya da yanlış olduğunu kendisi kaydeder</td>
-</tr>
-<tr>
-<td>Açık uçlu soruyu çözebildin</td>
-<td><strong>Doğru yaptım</strong></td>
-</tr>
-<tr>
-<td>Açık uçlu soruyu çözemedin</td>
-<td><strong>Yanlış yaptım</strong></td>
-</tr>
-</tbody></table></div>
-<p>Hatırladığın kartın veya bildiğin sorunun seviyesi yükselir ve tekrar aralığı uzar. Hatırlayamadığın ya da bilemediğin içerik daha düşük bir seviyeye döner ve daha erken tekrar edilir. Balpy bu düzeni senin değerlendirmene göre belirler.</p>
-<p>Açık uçlu soruda sonucu, çözüme bakmadan önceki denemene göre belirtirsin. İpuçlarına ya da çözüme bakmak sonucu kendiliğinden kaydetmez.</p>
-<h3>Tekrar aralıkları</h3>
-<p>Kart ve sorular için temel tekrar aralıkları yaklaşık <strong>1, 3, 7, 15 ve 30 gündür</strong>. Her süre, ilgili seviyedeki çalışmadan bir sonraki tekrara kadar geçen zamanı anlatır. Örneğin yedi günlük aralık, içeriğin yaklaşık bir hafta sonra yeniden çalışılacağı anlamına gelir.</p>
-<p>Bu süreler sabit değildir; içeriğin çalışma geçmişine göre biraz değişebilir.</p>
-<p><strong>Önemli: “Tamamlandı” ne anlama gelir?</strong>
-Son seviyede de hatırladığın kart veya bildiğin soru, <strong>Tamamlandı</strong> durumuna geçer ve günlük tekrar listesinden çıkar. İçerik silinmez. Bu durum, bilginin artık hiç unutulmayacağını veya konunun tamamını öğrendiğini göstermez.</p>
-<h3>Günlük tekrarlarına nereden ulaşırsın?</h3>
-<p><strong>Ana Sayfa</strong> üzerinden tekrar zamanı gelen kart ve sorularını çalışabilirsin. Koleksiyon içinde de <strong>Günlük tekrar</strong> bölümünde bekleyen içeriklerini görebilirsin.</p>
-<blockquote>
-<p>Balpy tekrar zamanlarını takip eder. <strong>Cevabı görmeden denemen ve kendi sonucunu doğru değerlendirmen</strong>, bu düzenin sana yardımcı olmasını sağlar.</p>
-</blockquote>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-amber" href="/rehber/ilk-adimlar/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>İlk adımlar</b></a><a class="pager-link next tone-ai" href="/rehber/ai/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Ai ve XML</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Başlarken</span></nav>
+      <header class="doc-head">
+        <h1>Balpy&#39;ye genel bakış</h1>
+        <p class="doc-lead">Balpy&#39;nin ne işe yaradığı, dört içerik türü ve uygulamanın bölümleri tek sayfada.</p>
+        <div class="doc-tools"><span>3 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 7 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#balpy-ne-ise-yarar">Balpy ne işe yarar?</a></li><li><a href="#dort-icerik-turu">Dört içerik türü</a></li><li><a href="#uygulamanin-dort-bolumu">Uygulamanın dört bölümü</a></li><li><a href="#koleksiyonun-ici">Koleksiyonun içi</a></li><li><a href="#ai-koprusu">Ai köprüsü</a></li><li><a href="#verilerin-nerede-durur">Verilerin nerede durur?</a></li><li><a href="#buradan-devam-et">Buradan devam et</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Balpy, çalıştığın içerikleri tek yerde toplayıp düzenlediğin, öğrendiğin ve tekrar ettiğin bir dijital defterdir. Öncelikle YKS ve KPSS'ye hazırlanan öğrenciler için tasarlandı; bir okul dersi, yabancı dil, okuduğun bir kitap ya da mesleki bir konu için de aynı şekilde çalışır.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="balpy-ne-ise-yarar">Balpy ne işe yarar?<a class="anchor" href="#balpy-ne-ise-yarar" aria-label="“Balpy ne işe yarar?” bölümüne bağlantı">#</a></h2>
+<p>Basılı kitap ve sınıf çalışması sana anlatımı ve soruyu verir; neyi unuttuğunu, neye geri dönmen gerektiğini ve hangi konuda takıldığını takip etmek ise sana kalır. Balpy bu takibi üstlenir:</p>
+<ul>
+  <li>Kaynaklarını, notlarını, kartlarını ve sorularını ders ve konu yapısına göre bir <strong>koleksiyonda</strong> toplar.</li>
+  <li>Kart ve soruları cevaplarına göre <strong>aralıklı tekrar</strong> ile sana geri getirir.</li>
+  <li>Hedeflerini adımlara böler, günün <strong>görevlerini</strong> ve çalışma <strong>süreni</strong> takip eder.</li>
+  <li>İçerik hazırlama işini, zaten kullandığın <strong>Ai sohbetine</strong> (ChatGPT, Gemini, Claude…) devretmeni sağlar.</li>
+</ul>
+
+<h2 id="dort-icerik-turu">Dört içerik türü<a class="anchor" href="#dort-icerik-turu" aria-label="“Dört içerik türü” bölümüne bağlantı">#</a></h2>
+<p>Balpy'de her içeriğin ayrı bir işi vardır. Bu ayrım, neyi okuduğunu, neyi hatırladığını ve neyi gerçekten çözebildiğini ayrı ayrı görmeni sağlar.</p>
+<dl class="defs">
+  <div><dt>Kaynak</dt><dd>Çalıştığın asıl materyal: kitap, PDF, fotoğraf ya da YouTube videosu. Okunur, izlenir; tekrar listesine girmez.</dd></div>
+  <div><dt>Not</dt><dd>Konu anlatımı. Başlıklar, formüller, tablolar, grafikler ve diyagramlarla konuyu açıklar. Okunur; puanlanmaz.</dd></div>
+  <div><dt>Kart</dt><dd>Kısa hatırlama. Ön yüzde istem, arka yüzde karşılığı bulunur. Sonuç <strong>Hatırladım</strong> ya da <strong>Hatırlamadım</strong> ile kaydedilir.</dd></div>
+  <div><dt>Soru</dt><dd>Uygulama ve değerlendirme. Şıklı ya da açık uçlu olur; ipucu ve çözüm adımları taşır.</dd></div>
+</dl>
+<div class="callout note" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Her tür kendi yerinde</p>
+  <p>Notun içinde soru, çözümlü örnek ya da ön/arka yüzlü kart bulunmaz. Aynı konudan ayrı kartlar ve sorular hazırlarsın; bunlar geldikleri nota bağlı kalır, çalışırken tek dokunuşla o nota dönebilirsin.</p>
+</div>
+
+<h2 id="uygulamanin-dort-bolumu">Uygulamanın dört bölümü<a class="anchor" href="#uygulamanin-dort-bolumu" aria-label="“Uygulamanın dört bölümü” bölümüne bağlantı">#</a></h2>
+<p>Alt menüde dört sekme vardır:</p>
+<dl class="defs">
+  <div><dt>Ana Sayfa</dt><dd>Günün tekrarı, ilk kez çalışılacak içerikler, çözüm bekleyen sorular, kaldığın yer ve bugünün görevleri. İlk koleksiyonunu oluşturunca açılır.</dd></div>
+  <div><dt>Sayaç</dt><dd>Çalışma süreni ölçer: geri sayım, kronometre, Pomodoro ve Challenge. Koleksiyonun olmasa da kullanılır.</dd></div>
+  <div><dt>Koleksiyonlar</dt><dd>Çalışma alanların. Her koleksiyonun ünite ve konu yapısı, içerikleri, hedefleri ve görevleri buradadır.</dd></div>
+  <div><dt>Profil</dt><dd>Çalışma süren, serin, doğru oranın, zayıf noktaların ve yaklaşan tekrar yükün. Sağ üstteki dişli <strong>Ayarlar</strong>'ı açar.</dd></div>
+</dl>
+
+<h2 id="koleksiyonun-ici">Koleksiyonun içi<a class="anchor" href="#koleksiyonun-ici" aria-label="“Koleksiyonun içi” bölümüne bağlantı">#</a></h2>
+<p>Bir koleksiyonu açtığında bir kitabın içindekiler sayfası gibi bir liste görürsün: en üstte konuya bağlanmamış içerikler için <strong>Genel</strong>, altında açılıp kapanan üniteler ve onların konuları. Konu satırlarında tekrar bekleyen, yeni ve çözüm bekleyen içerik sayıları yazar.</p>
+<p>Bir konuya girince o konunun “defter sayfası” açılır: notların önizlemeleri, her notun bağlı kaynakları, kartları ve soruları, konuya ait diğer içerikler ve kayıtlı çalışma modların. Ayrıntılar <a href="/rehber/koleksiyon/">Koleksiyon ve konu yapısı</a> sayfasında.</p>
+
+<h2 id="ai-koprusu">Ai köprüsü<a class="anchor" href="#ai-koprusu" aria-label="“Ai köprüsü” bölümüne bağlantı">#</a></h2>
+<p>Balpy'nin en güçlü yanı Ai ile içerik hazırlamadır; ancak Balpy'nin içinde bir yapay zekâ yoktur. Bunun yerine her Ai ekranı, Balpy'nin kabul ettiği XML biçimini ve senin seçtiğin bağlamı içeren bir paket hazırlar. Paketi kendi sohbetine yapıştırır, ne istediğini yazarsın; gelen yanıtı Balpy önizler, sen onaylayınca kaydeder.</p>
+<ol class="flow">
+  <li><span class="chip tone-amber where">Balpy</span><b>Paketi kopyala</b><span>Biçim bilgisi ve seçtiğin bağlam.</span></li>
+  <li><span class="chip tone-ai where">Ai sohbetin</span><b>İsteğini yaz</b><span>Konu, düzey, adet, üslup senin.</span></li>
+  <li><span class="chip tone-ai where">Ai sohbetin</span><b>Yanıtı kopyala</b><span>Yanıt Balpy'nin XML biçimindedir.</span></li>
+  <li><span class="chip tone-amber where">Balpy</span><b>Önizle ve kaydet</b><span>Taslakları incele, onayla.</span></li>
+</ol>
+<p>XML'i senin yazman ya da anlaman gerekmez. Ayrıntılı anlatım: <a href="/rehber/ai/">Ai ile içerik hazırlama</a>.</p>
+
+<h2 id="verilerin-nerede-durur">Verilerin nerede durur?<a class="anchor" href="#verilerin-nerede-durur" aria-label="“Verilerin nerede durur?” bölümüne bağlantı">#</a></h2>
+<p>Koleksiyonların ve bütün içeriklerin yalnız telefonunda saklanır; buluta yedeklenmez, cihazlar arasında eşitlenmez. Hesabın yalnız giriş yapmak içindir. Telefon değiştirmeden önce <a href="/rehber/veriler/">Verilerin ve gizlilik</a> sayfasını oku.</p>
+
+<h2 id="buradan-devam-et">Buradan devam et<a class="anchor" href="#buradan-devam-et" aria-label="“Buradan devam et” bölümüne bağlantı">#</a></h2>
+<div class="link-cards">
+  <a class="link-card tone-amber" href="/rehber/ilk-adimlar/"><span class="badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg></span><b>İlk adımlar</b><span>İlk gününü sırayla kur.</span></a>
+  <a class="link-card tone-ai" href="/rehber/ai/"><span class="badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg></span><b>Ai ile içerik hazırlama</b><span>Dört adımlık köprü.</span></a>
+  <a class="link-card tone-success" href="/rehber/tekrar/"><span class="badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg></span><b>Aralıklı tekrar</b><span>Neyin ne zaman geri geldiği.</span></a>
+</div>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><span></span><a class="next" href="/rehber/ilk-adimlar/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>İlk adımlar</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Balpy'ye%20genel%20bak%C4%B1%C5%9F">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#balpy-ne-ise-yarar">Balpy ne işe yarar?</a></li><li><a href="#dort-icerik-turu">Dört içerik türü</a></li><li><a href="#uygulamanin-dort-bolumu">Uygulamanın dört bölümü</a></li><li><a href="#koleksiyonun-ici">Koleksiyonun içi</a></li><li><a href="#ai-koprusu">Ai köprüsü</a></li><li><a href="#verilerin-nerede-durur">Verilerin nerede durur?</a></li><li><a href="#buradan-devam-et">Buradan devam et</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>İlk bakış</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Balpy&#39;ye genel bakış” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

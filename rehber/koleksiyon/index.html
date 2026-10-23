@@ -3,308 +3,227 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Koleksiyon | Balpy Rehberi</title>
-  <meta name="description" content="Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur.">
+  <title>Koleksiyon ve konu yapısı | Balpy Rehberi</title>
+  <meta name="description" content="Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur, içindekilerden konuya gir.">
   <link rel="canonical" href="https://balpydigital.com/rehber/koleksiyon/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="Koleksiyon | Balpy Rehberi">
-  <meta property="og:description" content="Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Koleksiyon ve konu yapısı | Balpy Rehberi">
+  <meta property="og:description" content="Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur, içindekilerden konuya gir.">
   <meta property="og:url" content="https://balpydigital.com/rehber/koleksiyon/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4M12 17h.01"/></symbol><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note" aria-current="page"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Koleksiyonun içinde</span></nav>
-        <article class="topic tone-note" id="koleksiyon">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">collections_bookmark</span></span><div><small>Koleksiyonun içinde</small><h1>Koleksiyon</h1></div></div>
-<p class="lead">Koleksiyon; bir ders, kitap, dil ya da merak ettiğin herhangi bir konu için açtığın çalışma alanıdır. Kaynakların, notların, kartların ve soruların burada toplanır.</p>
-<h3>Koleksiyon açmak</h3>
-<ul>
-  <li><strong>Kendin oluştur:</strong> Adı ve rengi seçersin; ünite, konu ve hedefleri istersen hemen, istersen sonra eklersin.</li>
-  <li><strong>Ai ile hazırla:</strong> Konunu yapay zekâna anlatırsın; ünite, konu ve hedefler taslak olarak gelir, sen düzenleyip kaydedersin.</li>
-</ul>
-<p>Koleksiyonların varsa aynı seçenekler Koleksiyonlar sayfasının <strong>Diğer</strong> menüsündedir: <strong>Koleksiyon ekle</strong> ve <strong>Ai ile koleksiyon hazırla</strong>.</p>
-<h3>Ünite, konu, alt konu</h3>
-<div class="defs">
-  <div><dt>Ünite</dt><dd>En geniş bölüm. Örnek: Hücre.</dd></div>
-  <div><dt>Konu</dt><dd>Ünitenin altı. Örnek: Hücre zarı.</dd></div>
-  <div><dt>Alt konu</dt><dd>Daha dar parça. Örnek: Madde geçişleri.</dd></div>
-</div>
-<p style="margin-top: 10px">Bölümler zorunlu değildir. Hedefleri ünitelere bağladığın için hedef takibi yapacaksan en az bir ünite gerekir.</p>
-<h3>Beş sekme</h3>
-<p>Koleksiyona girince üstte beş ikonlu bir şerit görürsün. Kart ve soru ikonunun üstündeki sayı, bugün tekrar zamanı gelenlerdir.</p>
-<div class="icon-row">
-  <div class="tone-success"><span class="ms">bar_chart</span>Genel</div>
-  <div class="tone-source"><span class="ms">menu_book</span>Kaynaklar</div>
-  <div class="tone-note"><span class="ms">sticky_note_2</span>Notlar</div>
-  <div class="tone-card"><span class="ms">style</span>Kartlar</div>
-  <div class="tone-question"><span class="ms">quiz</span>Sorular</div>
-</div>
-<h3>Sağ üstteki düğmeler</h3>
-<ul>
-  <li><strong>Çalış</strong> (oynat): Açık sekmedeki kart veya soruları çalıştırır. Önce içerik sayısını, türünü ve sırasını seçersin.</li>
-  <li><strong>Konular</strong> (çizgili liste): Bir ünite ya da konu seçersin; sekme yalnız onun içeriğini gösterir.</li>
-  <li><strong>Diğer</strong> (üç nokta): Sırala, Koleksiyonu paylaş, Koleksiyonu düzenle, Koleksiyonu sil.</li>
-</ul>
-<p class="result">Önce konuya gir, sonra ekle: eklediğin içerik seçili konuya kaydedilir.</p>
-<div class="callout tone-info"><span class="ms">ios_share</span><div><b>Paylaşma</b><p>Koleksiyonu dosya olarak gönderebilirsin. Karşı taraf dosyaya dokunarak ya da Koleksiyonlar → Diğer → <strong>Koleksiyon içe aktar</strong> ile açar; koleksiyon onda ayrı bir koleksiyon olarak eklenir.</p></div></div>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="koleksiyon-nedir-nasil-duzenlenir"><summary>Koleksiyon nedir, nasıl düzenlenir?</summary><div class="note-body"><blockquote>
-<p><strong>Koleksiyon</strong>, bir öğrenme hedefiyle ilgili kaynakları, notları, kartları ve soruları topladığın çalışma alanıdır. Koleksiyonun adını ve kapsamını sen belirlersin.</p>
-</blockquote>
-<h3>Bir koleksiyon neyi kapsayabilir?</h3>
-<p>Bir ders, sınav, kitap, dil veya mesleki konu için koleksiyon oluşturabilirsin. Örneğin “Biyoloji”, “İngilizce Kelimeler” ve “Okuduğum Kitaplar” farklı çalışma alanları olabilir. Bunlar örnek adlardır; cihazında hazır bulunan koleksiyonlar değildir.</p>
-<p>Birbiriyle ilişkili içerikleri aynı koleksiyonda tutmak, çalışırken kaynak ile açıklama ve alıştırma arasında geçiş yapmanı kolaylaştırır. Bir PDF eklediğinde belge kaynaklarda, açıklayıcı metin eklediğinde notlarda, hatırlama içeriği eklediğinde kartlarda, alıştırma eklediğinde sorularda görünür.</p>
-<h3>Koleksiyon, ünite ve konu</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Yapı</th>
-<th>İşlevi</th>
-<th>Örnek</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Koleksiyon</strong></td>
-<td>Çalışma alanının tamamını kapsar.</td>
-<td>Biyoloji</td>
-</tr>
-<tr>
-<td><strong>Ünite</strong></td>
-<td>Alanı ana bölümlere ayırır.</td>
-<td>Hücre</td>
-</tr>
-<tr>
-<td><strong>Konu</strong></td>
-<td>Ünitenin belirli bir bölümünü gösterir.</td>
-<td>Hücre zarı</td>
-</tr>
-<tr>
-<td><strong>Alt konu</strong></td>
-<td>Gerekiyorsa konuyu daha küçük parçalara ayırır.</td>
-<td>Madde geçişleri</td>
-</tr>
-</tbody></table></div>
-<p>İçerikleri koleksiyon geneline veya yapının belirli bir bölümüne bağlayabilirsin. Böylece aynı konuya ait PDF’leri, notları, kartları ve soruları birlikte bulursun. Üniteler ve konular öğrenme alanını düzenler; hedefler ise o alanda yapmak istediğin çalışmaları ifade eder.</p>
-<p><strong>Önemli: Yapının tamamını baştan kurman gerekmez</strong>
-Koleksiyonu yalnızca bir adla oluşturup ilk içeriğini ekleyebilirsin. Ünite ve konu yapısını daha sonra düzenleyebilirsin. Hedefleri üniteler üzerinden takip etmek istediğinde ünite yapısına ihtiyaç duyarsın.</p>
-<h3>Nasıl bir kapsam seçebilirsin?</h3>
-<p>Çalışma alanı büyüdüğünde içerikleri bulmak zorlaşıyorsa ünite ve konular ekleyebilirsin. Birbirinden bağımsız amaçların varsa bunlar için ayrı koleksiyonlar oluşturabilirsin. Her küçük bilgi için yeni koleksiyon açmak yerine, birlikte çalışacağın bilgileri aynı alan içinde düzenlemek daha anlaşılır bir yapı sağlayabilir.</p>
-<blockquote>
-<p><strong>Koleksiyon çalışma alanını, ünite ve konular içeriğin yerini, hedefler ise yapacağın çalışmayı gösterir.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="ilk-koleksiyonunu-olusturmak"><summary>İlk koleksiyonunu oluşturmak</summary><div class="note-body"><blockquote>
-<p>Koleksiyon oluşturmak için <strong>Koleksiyonlar</strong> bölümünden başlayabilirsin. Hiç koleksiyonun yoksa uygulama başlangıçta bu bölümü açar.</p>
-</blockquote>
-<h3>Önerilen başlangıç: Ai ile koleksiyon hazırlatmak</h3>
-<p>Boş koleksiyon ekranındaki <strong>Ai ile hazırla</strong> düğmesi ya da Koleksiyonlar sayfasındaki <strong>Diğer → Ai ile koleksiyon hazırla</strong>, koleksiyon hazırlama ekranını açar. Buradaki kılavuzu harici sohbete gönderip öğrenme alanını, düzeyini, istediğin ünite ve konu yapısını ve varsa hedeflerini anlatırsın. Ai’ın XML yanıtını aynı ekranda <strong>İçe aktar</strong> ile açar; koleksiyon, ünite ve hedef taslağını inceler, düzenler ve kaydedersin.</p>
-<p><strong>Örnek: Ai ile şöyle başlayabilirsin</strong>
-“Başlangıç düzeyinde İngilizce çalışacağım. Bu kılavuza uygun bir koleksiyon yapısı hazırla; günlük yaşam ve iş hayatını ayrı ünitelerde görmek istiyorum.”</p>
-<p>Bu istek bir örnektir; kendi alanını sen yazarsın. Yapıyı kaydettikten sonra Notlar, Kartlar ya da Sorular sekmesindeki ekleme düğmesiyle ilk notunu, kartlarını veya sorularını hazırlatabilirsin. Koleksiyon yapısını hazırlatmak, bütün konuların içeriklerini aynı anda üretmez.</p>
-<h3>Kendin oluşturmak</h3>
-<p>Adı ve yapıyı kendin belirlemek istediğinde boş ekrandaki <strong>Kendin oluştur</strong> düğmesini kullanabilirsin. Koleksiyonların zaten varsa sağ üstteki <strong>Diğer</strong> menüsünden <strong>Koleksiyon ekle</strong> seçeneğine ulaşabilirsin.</p>
-<p><strong>İlk koleksiyonunu oluştur</strong></p>
-<ul>
-<li>Bir ad yaz: Çalışma alanını kolayca tanıyacağın bir ad seç. Aynı ada sahip ikinci bir koleksiyon oluşturulamaz.</li>
-<li>Bir renk seç: Koleksiyonunu listede ayırt etmek için renk belirle.</li>
-<li>Yapıyı ekle: İstersen Üniteler, konular ve hedefler bölümünde ana bölümleri ve hedefleri oluştur. Bu adımı sonraya bırakabilirsin.</li>
-<li>Koleksiyonu oluştur: Bilgileri kontrol edip Koleksiyonu oluştur düğmesine dokun.</li>
-</ul>
-<p>Koleksiyon adı, çalışmanın hangi alanla ilgili olduğunu anlatır. Renk görsel ayrım sağlar; bir öğrenme yöntemi veya öncelik belirlemez.</p>
-<h3>İlk içeriğini eklemek</h3>
-<p>Koleksiyon oluşunca içine girersin. Her sekmenin kendi ekleme düğmesi vardır:</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Sekme</th>
-<th>Ekleme düğmesi</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Kaynaklar</strong></td>
-<td>Kaynak ekle: PDF, fotoğraf veya YouTube videosu</td>
-</tr>
-<tr>
-<td><strong>Notlar</strong></td>
-<td>Ai ile Not hazırla</td>
-</tr>
-<tr>
-<td><strong>Kartlar</strong></td>
-<td>Ai ile kart hazırla</td>
-</tr>
-<tr>
-<td><strong>Sorular</strong></td>
-<td>Soru ekle: fotoğraf çek ya da Ai ile hazırla</td>
-</tr>
-</tbody></table></div>
-<p>İlk olarak bir kaynak ekleyebilir ya da doğrudan konu notu ve alıştırma hazırlayabilirsin. Kaynak eklemek, not ya da soru eklemenin ön koşulu değildir.</p>
-<p><strong>Örnek: Başlangıç için küçük bir alan</strong>
-“İngilizce Kelimeler” adlı bir koleksiyon oluşturup ilk kartlarını ekleyebilirsin. Daha sonra “Günlük yaşam” ve “İş hayatı” gibi üniteler ekleyerek içeriği ayırabilirsin.</p>
-</div></details>
-<details class="note-detail" id="sekmeler-konular-ve-icerik-gruplari"><summary>Sekmeler, konular ve içerik grupları</summary><div class="note-body"><blockquote>
-<p>Koleksiyon içinde <strong>Genel, Kaynaklar, Notlar, Kartlar ve Sorular</strong> olmak üzere beş sekme bulunur. Her sekme aynı çalışma alanının farklı bir işini üstlenir.</p>
-</blockquote>
-<h3>Hangi sekmede ne yaparsın?</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Sekme</th>
-<th>Temel kullanım</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Genel</strong></td>
-<td>Üniteleri, hedefleri, hedef ilerlemesini ve günlük tekrar durumunu takip etme</td>
-</tr>
-<tr>
-<td><strong>Kaynaklar</strong></td>
-<td>PDF, fotoğraf ve videoları toplama, inceleme ve içerik hazırlamada kullanma</td>
-</tr>
-<tr>
-<td><strong>Notlar</strong></td>
-<td>Açıklamaları okuma ve bu açıklamalardan alıştırma hazırlama</td>
-</tr>
-<tr>
-<td><strong>Kartlar</strong></td>
-<td>Bilgileri cevaba bakmadan hatırlama ve tekrar etme</td>
-</tr>
-<tr>
-<td><strong>Sorular</strong></td>
-<td>Soru çözme, çözüm ekleme ve tekrar yapma</td>
-</tr>
-</tbody></table></div>
-<p>Kart ve soru sekmelerindeki tekrar sayıları, <strong>bugün tekrar zamanı gelen içerikleri</strong> gösterir. Bu sayıları koleksiyonundaki bütün kart veya soruların toplamı gibi okumamalısın.</p>
-<h3>Konular ile kapsamı daraltmak</h3>
-<p>Koleksiyonunda bölüm yapısı varsa içerik sekmelerindeki <strong>Konular</strong> düğmesiyle bir ünite veya konu seçebilirsin. Bu seçim, listede hangi içerikleri göreceğini belirler. Koleksiyon genelini seçtiğinde bütün alanı, belirli bir konuyu seçtiğinde o bölüme ait içerikleri incelersin.</p>
-<p><strong>Genel</strong> sekmesi koleksiyonun tamamını gösterir. Bir içerik sekmesinde konu seçmiş olman, Genel sekmesindeki toplam hedef ilerlemesini o konuyla sınırlamaz.</p>
-<p><strong>Önemli: Görünümü daraltmak ile içerik taşımak farklıdır</strong>
-Konular menüsünden başka bir bölüm seçmek, kayıtları o bölüme taşımaz. İçeriğin bağlı olduğu yeri değiştirmek için ilgili içeriğin taşıma veya ünite değiştirme işlemini kullanırsın. Yeni içerik hazırlarken de kayıt yerini ayrıca kontrol edersin.</p>
-<h3>İçerik grupları ve sıralama</h3>
-<p>Bir sekmedeki içerik grubu, aynı tür kayıtları birlikte gösterir. Örneğin bir ünitenin içinde birden fazla not grubu bulunabilir. <strong>Grup</strong>, koleksiyonun ünite ve konu yapısının yerine geçmez; içerikleri kendi sekmesinde düzenlemeye yarar.</p>
-<p>Desteklenen sekmelerde <strong>Diğer → Sırala</strong> yoluyla sıralama düzenine geçebilirsin. Ekrandaki <strong>Basılı tutup sürükle</strong> açıklamasına göre sıralamayı değiştirir, <strong>Bitti</strong> ile düzenlemeyi sonlandırırsın.</p>
-<blockquote>
-<p><strong>Önce koleksiyonu, sonra gerekirse konuyu, ardından yapacağın işe uygun sekmeyi seç.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="koleksiyonu-gelistirmek-ve-paylasmak"><summary>Koleksiyonu geliştirmek ve paylaşmak</summary><div class="note-body"><blockquote>
-<p>Koleksiyonun yapısını değiştirebilir, içeriklerini geliştirebilir ve paylaşım araçlarıyla taşıyabilirsin. Her işlemin hangi alanı etkilediğini önceden görmek önemlidir.</p>
-</blockquote>
-<h3>Adı, rengi ve yapıyı düzenlemek</h3>
-<p>Koleksiyon içindeki <strong>Diğer → Koleksiyonu düzenle</strong> yolunu kullanarak düzenleme ekranını açarsın. Adı, rengi, üniteleri ve konuları buradan yönetebilirsin. Değişikliklerini <strong>Kaydet</strong> ile uygularsın.</p>
-<p>Yapıyı planlarken anlaşılır adlar kullanmak, hem kendin içerik bulurken hem de yapay zekâya kayıt yerini anlatırken işini kolaylaştırır. Birden fazla “Genel” veya birbirine çok benzeyen konu adı yerine, konunun alanını açıkça gösteren adlar seçebilirsin.</p>
-<h3>Yapay zekâya nasıl anlatırsın?</h3>
-<p>Koleksiyon hazırlama veya düzenleme ekranının kılavuzu, Balpy’nin kabul ettiği koleksiyon yapısını açıklar. Mevcut bir yapıyı düzenlerken ekranın sağladığı güncel yapıyı kullanırsın. Kullanım rehberi, cihazındaki gerçek koleksiyon adlarını veya bölüm listesini içermez.</p>
-<p><strong>Örnek: Sohbette yazabileceğin istek</strong>
-“Bu kılavuza göre başlangıç düzeyinde İngilizce çalışacağım bir koleksiyon yapısı hazırla. Günlük konuşma ve iş hayatı alanlarını ayrı ünitelerde görmek istiyorum. Önce yapıyı inceleyip Balpy’de kaydedeceğim.”</p>
-<p>Bu bir istek örneğidir. Kendi konunu ve tercihlerini sohbette sen yazarsın; Balpy öğrenme konunu senin yerine seçmez. Yanıtı içe aktarırken adları, bölüm ilişkilerini ve yapılacak değişiklikleri incele. Yapı taslağını onaylamak ile öğrenme içeriği hazırlatmak ayrı işlemlerdir.</p>
-<h3>Paylaşma ve içe aktarma</h3>
-<p>Koleksiyon listesindeki <strong>Diğer</strong> menüsünde <strong>Koleksiyon içe aktar</strong> ve <strong>Koleksiyonları paylaş</strong> seçenekleri bulunur. Koleksiyon içindeki <strong>Koleksiyonu paylaş</strong> seçeneği ise bulunduğun çalışma alanına yöneliktir. Paylaşılacak veya içe alınacak kapsamı işlem ekranında kontrol edersin.</p>
-<h3>Silme</h3>
-<p><strong>Koleksiyonu sil</strong>, bir çalışma alanını kaldırma işlemidir. Yalnızca adını değiştirmek, görünümü daraltmak veya bir konuyu düzenlemek istediğinde düzenleme araçlarını kullanırsın. Silme işleminin onay ekranındaki kapsamı okuyarak karar verirsin.</p>
-<blockquote>
-<p><strong>Koleksiyonu kurmak başlangıçtır.</strong> İçeriği ekledikçe yapıyı ihtiyacına göre geliştirebilir, hedeflerini ve tekrarlarını bu alan üzerinden takip edebilirsin.</p>
-</blockquote>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-ai" href="/rehber/ai/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Ai ve XML</b></a><a class="pager-link next tone-success" href="/rehber/genel/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Genel sekmesi</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Koleksiyon ve içerikler</span></nav>
+      <header class="doc-head">
+        <h1>Koleksiyon ve konu yapısı</h1>
+        <p class="doc-lead">Ders, sınav ya da kitap için çalışma alanı aç; ünite ve konuları kur, içindekilerden konuya gir.</p>
+        <div class="doc-tools"><span>3 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 8 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#koleksiyon-acmak">Koleksiyon açmak</a></li><li><a href="#unite-konu-ve-alt-konu">Ünite, konu ve alt konu</a></li><li><a href="#icindekiler-sayfasi">İçindekiler sayfası</a></li><li><a href="#konu-sayfasi">Konu sayfası</a></li><li><a href="#ust-cubuktaki-dugmeler">Üst çubuktaki düğmeler</a></li><li><a href="#yapi-kurulmamissa">Yapı kurulmamışsa</a></li><li><a href="#koleksiyonu-duzenlemek">Koleksiyonu düzenlemek</a></li><li><a href="#koleksiyon-silmek">Koleksiyon silmek</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Koleksiyon; bir ders, sınav, kitap ya da öğrenme hedefi için açtığın çalışma alanıdır. “TYT Matematik”, “KPSS Tarih” ya da “İngilizce Kelimeler” ayrı koleksiyonlar olabilir. Kaynakların, notların, kartların, soruların, hedeflerin ve görevlerin bu alanın içinde, konu yapısına göre durur.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="koleksiyon-acmak">Koleksiyon açmak<a class="anchor" href="#koleksiyon-acmak" aria-label="“Koleksiyon açmak” bölümüne bağlantı">#</a></h2>
+<p>Hiç koleksiyonun yoksa <strong>Koleksiyonlar</strong> sekmesi “Nasıl başlamak istersin?” diye sorar:</p>
+<dl class="defs">
+  <div><dt>Ai ile hazırla</dt><dd>Ne çalışacağını Ai'a tarif edersin; koleksiyon adı, üniteler, konular ve istersen hedefler taslak olarak gelir. Düzenleyip kaydedersin.</dd></div>
+  <div><dt>Manuel hazırla</dt><dd>Adı ve rengi seçer, üniteleri ve konuları kendin eklersin.</dd></div>
+  <div><dt>Kullanımı öğren</dt><dd>Bu web sitesini tarayıcıda açar.</dd></div>
+</dl>
+<p>Koleksiyonların varsa Koleksiyonlar üst çubuğundaki <strong>Koleksiyon ekle</strong> aynı seçenekleri açar. Aynı adla ikinci bir koleksiyon açılmaz. Ünite ve hedef hazırlamak isteğe bağlıdır; yalnız bir adla başlayıp yapıyı sonra kurabilirsin.</p>
+
+<h2 id="unite-konu-ve-alt-konu">Ünite, konu ve alt konu<a class="anchor" href="#unite-konu-ve-alt-konu" aria-label="“Ünite, konu ve alt konu” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Ünite</dt><dd>En geniş bölüm. Örnek: Sayılar ve cebir.</dd></div>
+  <div><dt>Konu</dt><dd>Ünitenin bir parçası. Örnek: Üslü sayılar.</dd></div>
+  <div><dt>Alt konu</dt><dd>Gerekirse konuyu daha da böler. Örnek: Negatif üs.</dd></div>
+</dl>
+<p>İçerikler koleksiyonun herhangi bir seviyesine bağlanabilir. Bir konuya eklediğin içerik, o konunun yanında üst ünitenin ve koleksiyonun çalışmasına da girer; aynı içerik kopyalanmaz. Hedefler ünitelere bağlandığı için hedef ve plan kullanacaksan en az bir ünite gerekir.</p>
+<div class="callout tip" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"/></svg>Anlaşılır adlar seç</p>
+  <p>Konu adları hem senin içerik bulmanı hem Ai'ın kayıt yerini doğru seçmesini kolaylaştırır. Birden çok “Genel tekrar” ya da “Karışık” yerine konunun neyi kapsadığını söyleyen adlar kullan.</p>
+</div>
+
+<h2 id="icindekiler-sayfasi">İçindekiler sayfası<a class="anchor" href="#icindekiler-sayfasi" aria-label="“İçindekiler sayfası” bölümüne bağlantı">#</a></h2>
+<p>Bir koleksiyonu açtığında karşına bir kitabın içindekiler sayfası gibi bir liste çıkar:</p>
+<ul>
+  <li><strong>Genel:</strong> Hiçbir konuya bağlanmamış içerikler ve koleksiyonun genel kaynakları, örneğin kitaplar.</li>
+  <li><strong>Üniteler:</strong> Açılıp kapanan başlıklar. <strong>Konuları aç</strong> ve <strong>Konuları kapat</strong> ile hepsini birden açar ya da kapatırsın.</li>
+  <li><strong>Konu satırları:</strong> Yalnız sıfırdan büyük sayılar yazar: tekrar bekleyen, yeni ve çözüm bekleyen içerikler ile açık görevler. Sayıya dokunmak ilgili işe, başlığa dokunmak konunun sayfasına götürür.</li>
+  <li><strong>Kaldığın yer:</strong> Son çalıştığın yere dönüş.</li>
+</ul>
+
+<h2 id="konu-sayfasi">Konu sayfası<a class="anchor" href="#konu-sayfasi" aria-label="“Konu sayfası” bölümüne bağlantı">#</a></h2>
+<p>Bir konuya girdiğinde o konunun “defter sayfası” açılır:</p>
+<ul>
+  <li><strong>Notlar:</strong> Notların önizlemeleri ve her notun bağlı kaynakları, kartları ve soruları. Notun kaynak bağı ilgili PDF sayfasını ya da videoyu açar.</li>
+  <li><strong>Kartlar ve sorular:</strong> Konudaki kart ve soruların önizlemesi; uzun listeler “… kart daha” bağlantısıyla tamamı açılır.</li>
+  <li><strong>Kaynaklar:</strong> Konuya bağlı kaynak grupları.</li>
+  <li><strong>Çalışma modları:</strong> Kendi kurduğun çalışma kutuları. <a href="/rehber/calisma-modlari/">Çalışma modları</a></li>
+  <li><strong>İçerik ekle:</strong> Buradan eklediğin ya da Ai ile hazırlattığın içerik doğrudan bu konuya kaydedilir.</li>
+</ul>
+<p>Uzun listelerin tamamı, arama ve toplu düzenleme için <span class="path"><span>Koleksiyon seçenekleri</span><span>Tüm içerikler</span></span> arşivini kullanırsın.</p>
+
+<h2 id="ust-cubuktaki-dugmeler">Üst çubuktaki düğmeler<a class="anchor" href="#ust-cubuktaki-dugmeler" aria-label="“Üst çubuktaki düğmeler” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Kaynak ekle</dt><dd>Kitap, PDF, fotoğraf ya da YouTube kaynağı ekler. <a href="/rehber/kaynaklar/">Kaynaklar</a></dd></div>
+  <div><dt>Çalışma ve içerikler</dt><dd>Bulunduğun kapsamda çalışmayı başlatır: not, kart ve soru seçip sayısını ve sırasını ayarlarsın ya da zamanı gelen kart ve sorularla devam edersin. <a href="/rehber/tekrar/">Çalışma oturumu</a></dd></div>
+  <div><dt>Koleksiyon seçenekleri</dt><dd><strong>Ai ile içerik hazırla</strong>, <strong>Tüm içerikler</strong> ve <strong>Koleksiyonu düzenle</strong>.</dd></div>
+</dl>
+
+<h2 id="yapi-kurulmamissa">Yapı kurulmamışsa<a class="anchor" href="#yapi-kurulmamissa" aria-label="“Yapı kurulmamışsa” bölümüne bağlantı">#</a></h2>
+<p>Ünite ve konu yapısı olmayan bir koleksiyonda “Ünite ve konu yapısı kurulmamış” bilgisi ve iki yol görünür: <strong>Ai ile yapı hazırla</strong> ya da <strong>Yapı olmadan başla</strong>. Yapı olmadan da içerik ekleyip çalışabilirsin; hedef ve plan için konu yapısı gerekir.</p>
+
+<h2 id="koleksiyonu-duzenlemek">Koleksiyonu düzenlemek<a class="anchor" href="#koleksiyonu-duzenlemek" aria-label="“Koleksiyonu düzenlemek” bölümüne bağlantı">#</a></h2>
+<p><span class="path"><span>Koleksiyon seçenekleri</span><span>Koleksiyonu düzenle</span></span> ekranında iki bölüm vardır: <strong>Üniteler ve konular</strong> ile <strong>Hedefler ve görevler</strong>. Adı, rengi, üniteleri, konuları ve hedefleri burada elle ya da Ai ile değiştirirsin.</p>
+<ul>
+  <li>Manuel ve Ai değişiklikleri <strong>Kaydet</strong>'e basana kadar taslaktır; çıkarsan koleksiyonun değişmez.</li>
+  <li>Kaydettiğinde bütün değişiklikler tek seferde uygulanır; yarım kalan bir kayıt olmaz.</li>
+  <li>Hedefi olan bir ünite, hedefleri çözülmeden silinmez.</li>
+</ul>
+
+<h2 id="koleksiyon-silmek">Koleksiyon silmek<a class="anchor" href="#koleksiyon-silmek" aria-label="“Koleksiyon silmek” bölümüne bağlantı">#</a></h2>
+<p>Koleksiyonlar listesinden bir ya da birkaç koleksiyonu seçip silebilirsin. Onay penceresi koleksiyonla birlikte silinecek soruları, kartları, notları ve kaynakları söyler. Koleksiyon silme geri alınamaz. Kaydettiğin çalışma süreleri Profil'deki genel toplamda kalır.</p>
+<div class="callout danger" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>Görünümü daraltmak ile silmek farklıdır</p>
+  <p>Yalnız adını değiştirmek ya da bir konuyu düzenlemek istiyorsan silme yerine <strong>Koleksiyonu düzenle</strong>'yi kullan.</p>
+</div>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/not-bloklari/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Notlarda zengin anlatım</b></a><a class="next" href="/rehber/hedefler/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Hedefler ve hedef görevleri</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Koleksiyon%20ve%20konu%20yap%C4%B1s%C4%B1">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#koleksiyon-acmak">Koleksiyon açmak</a></li><li><a href="#unite-konu-ve-alt-konu">Ünite, konu ve alt konu</a></li><li><a href="#icindekiler-sayfasi">İçindekiler sayfası</a></li><li><a href="#konu-sayfasi">Konu sayfası</a></li><li><a href="#ust-cubuktaki-dugmeler">Üst çubuktaki düğmeler</a></li><li><a href="#yapi-kurulmamissa">Yapı kurulmamışsa</a></li><li><a href="#koleksiyonu-duzenlemek">Koleksiyonu düzenlemek</a></li><li><a href="#koleksiyon-silmek">Koleksiyon silmek</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Koleksiyon</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Koleksiyon ve konu yapısı” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

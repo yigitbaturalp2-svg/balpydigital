@@ -4,285 +4,205 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Sorular | Balpy Rehberi</title>
-  <meta name="description" content="Soruları fotoğrafla ekle ya da hazırlat; ipucu ve çözümle çalış.">
+  <meta name="description" content="Şıklı ya da açık uçlu soru, ipucu ve çözüm adımları; fotoğrafla soru ekleme ve çözümsüz sorular.">
   <link rel="canonical" href="https://balpydigital.com/rehber/sorular/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
+  <meta property="og:locale" content="tr_TR">
   <meta property="og:title" content="Sorular | Balpy Rehberi">
-  <meta property="og:description" content="Soruları fotoğrafla ekle ya da hazırlat; ipucu ve çözümle çalış.">
+  <meta property="og:description" content="Şıklı ya da açık uçlu soru, ipucu ve çözüm adımları; fotoğrafla soru ekleme ve çözümsüz sorular.">
   <meta property="og:url" content="https://balpydigital.com/rehber/sorular/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question" aria-current="page"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Koleksiyonun içinde</span></nav>
-        <article class="topic tone-question" id="sorular">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">quiz</span></span><div><small>Koleksiyonun içinde</small><h1>Sorular</h1></div></div>
-<p class="lead">Soru, konuyu gerçekten uygulayabildiğini sınar. Kart hatırlatır, soru çözdürür.</p>
-<h3>Soru ekleme</h3>
-<p>Sorular sekmesindeki <strong>Soru ekle</strong> iki yol sunar:</p>
-<div class="defs">
-  <div><dt>Fotoğraf Çek</dt><dd>Kitaptaki ya da defterdeki soruyu çek. Birkaç soruyu tek seferde ekleyebilirsin.</dd></div>
-  <div><dt>Ai ile hazırla</dt><dd>Seçenekli veya açık uçlu soruları yapay zekâna hazırlat; ipucu ve çözüm adımları da gelir.</dd></div>
-</div>
-<h3>Etiketler</h3>
-<ul>
-  <li><strong>Süresi geldi:</strong> Bugün tekrar edilecek.</li>
-  <li><strong>Çözümsüz:</strong> Çözümü henüz eklenmemiş soru. Çalışırken <strong>Çözüm ekle</strong> ile tamamlarsın.</li>
-  <li><strong>Yeni:</strong> Hiç çalışılmamış.</li>
-</ul>
-<h3>Çözme</h3>
-<ul>
-  <li><strong>Seçenekli soru:</strong> Şıkları oku, cevabını alttaki harf düğmelerinden seç. Balpy doğru mu yanlış mı olduğunu kendisi kaydeder.</li>
-  <li><strong>Açık uçlu soru:</strong> Kendi cevabını düşün, sonra <strong>Doğru yaptım</strong> ya da <strong>Yanlış yaptım</strong> ile değerlendir.</li>
-  <li>Takılırsan <strong>İpuçları ve çözüm</strong>'e bak. Bakmak cevaplamanı engellemez, sonucu da kendiliğinden kaydetmez.</li>
-</ul>
-<p>Oturumun sonunda bir özet görürsün; yanlışlarınla hemen bir tur daha yapabilirsin. Bu ek tur seviyeleri değiştirmez.</p>
-<div class="callout tone-question"><span class="ms">fact_check</span><div><b>Ai sorusunu kontrol et</b><p>Yapay zekânın verdiği doğru cevabı ve çözümdeki hesapları kaydetmeden önce kontrol et.</p></div></div>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="soru-nedir-nasil-eklenir"><summary>Soru nedir, nasıl eklenir?</summary><div class="note-body"><blockquote>
-<p><strong>Soru</strong>, öğrendiğin bilgiyi bir durum üzerinde kullanmanı ve çözüm üretmeni sağlar. Kendi materyalinden fotoğraf ekleyebilir veya yapay zekâya metin soruları hazırlatabilirsin.</p>
-</blockquote>
-<h3>Ai ile çözümlü sorular hazırlatmak</h3>
-<p>Yeni alıştırmalar için <strong>Sorular → Soru ekle → Ai ile hazırla</strong> yolunu kullanabilirsin. Kılavuzu ve gerekli bağlamı harici sohbete gönderip konunu, düzeyini ve zorlandığın soru türünü anlatırsın. Ai’ın XML yanıtını aynı hazırlama ekranında içe aktararak soruları ve çözümlerini birlikte önizler, uygun bulduklarını kaydedersin. Bir nottan veya kaynaktan da soru hazırlatabilirsin; soruları ve cevaplarını tek tek elle yazman gerekmez.</p>
-<h3>Kart ile sorunun farkı</h3>
-<p>Bir kart, bir bilgiyi veya ayrımı hatırlamanı isteyebilir. Soru ise bilgiyi kullanarak karar vermeni, hesap yapmanı veya bir çözümü gerekçelendirmeni gerektirir. Konuyu anladığın hâlde uygulamada zorlanıyorsan soru çalışmasıyla takıldığın yeri daha açık görebilirsin.</p>
-<h3>Kendi kitabından fotoğrafla soru eklemek</h3>
-<p>Koleksiyonun <strong>Sorular</strong> sekmesinden <strong>Soru ekle</strong> ekranını açarsın. Kayıt yapılacak koleksiyon ve varsa ünite veya konuyu seçer, <strong>Fotoğraf Çek</strong> ile kitabındaki ya da defterindeki soruyu eklersin.</p>
-<p><strong>Kendi sorunu ekle</strong></p>
-<ul>
-<li>Kayıt yerini kontrol et: Sorunun bağlı olacağı koleksiyonu ve konuyu seç.</li>
-<li>Fotoğraf çek: Soru metni, şekiller ve varsa seçenekler okunabilir olsun.</li>
-<li>Taslağı incele: Gerektiğinde Fotoğrafı düzenle ile görseli düzelt; eksik veya ilgisiz taslakları kontrol et.</li>
-<li>Soruyu kaydet: Tek taslağı Soruyu kaydet, birden fazla taslağı ilgili toplu kayıt düğmesiyle ekle.</li>
-</ul>
-<p>Birden fazla soru taslağı hazırlayabilirsin. Fotoğrafın ekleme ekranında görünmesi, sorunun kaydedildiği anlamına gelmez. Kayıt düğmesine dokunduktan sonra sorular koleksiyonundaki listede yer alır.</p>
-<h3>Fotoğrafı kaynak olarak eklemekten farkı</h3>
-<p>Kitap sayfasını Kaynaklar sekmesinde toplamak, bir materyali saklamak içindir. Aynı sayfadaki soruyu Sorular sekmesine eklemek ise çözüm ve tekrar çalışmasına yöneliktir. Kaynak fotoğrafı kendiliğinden soru kaydına dönüşmez.</p>
-<h3>Çözümü olmayan soru</h3>
-<p>Fotoğrafla eklediğin soruya henüz çözüm tanımlanmadıysa listede <strong>Çözümsüz</strong> durumunu görebilirsin. Bu ifade, soruyu yanlış yaptığın anlamına gelmez; kayıtlı bir çözüm bulunmadığını anlatır.</p>
-<blockquote>
-<p><strong>Soruyu eklemek, çözümünü eklemek ve tekrar çalışmasını yapmak ayrı adımlardır.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="yapay-zeka-ile-soru-hazirlamak"><summary>Yapay zekâ ile soru hazırlamak</summary><div class="note-body"><blockquote>
-<p><strong>Ai ile soru hazırla</strong>, kendi hedeflerine uygun alıştırma taslakları hazırlatmanı sağlar. Konuyu ve istediğin çalışmayı harici sohbette sen belirlersin.</p>
-</blockquote>
-<h3>Nereden başlayabilirsin?</h3>
-<p>Sorular sekmesindeki ekleme ekranında <strong>Ai ile hazırla</strong> seçeneğini kullanabilirsin. Bir notun <strong>Soru hazırla</strong> menüsü, bir kaynak çalışması veya soru hazırlama görevindeki <strong>Ai ile soru hazırla</strong> da ilgili bağlamla hazırlama ekranını açar.</p>
-<p>Koleksiyonu, kayıt yerini ve kullanılacak içerikleri kontrol et. Kaynak metni, mevcut not veya görev bilgisi pakete girmişse model bunlara dayanabilir. Kullanım rehberinin kendisi cihazındaki bu kayıtları taşımaz.</p>
-<h3>Sohbette isteğini belirtmek</h3>
-<p>Kılavuz, kabul edilen soru biçimini açıklar. Öğrenme konun, düzeyin, soru miktarı ve anlatım tercihlerin ise senin isteğindir. Sürekli kullandığın bir özel kılavuz varsa ayrıca seçebilirsin; seçmediğinde pakete varsayılan bir çalışma yöntemi eklenmez.</p>
-<p><strong>Örnek: Uygulama sorusu isteği</strong>
-“Bu kılavuza ve notlara göre yüzde hesabı konusunda alıştırmalar hazırla. Formülü biliyorum ama hangi değerin neye oranlandığını karıştırıyorum. Cevapların yanında adım adım açıklayan çözümler de istiyorum.”</p>
-<p>Bu istek bir kullanım örneğidir. Kendi seviyene ve zorlandığın noktaya göre farklı bir görev yazabilirsin. Yapay zekânın hazırladığı içerik, doğruluğu incelenmesi gereken bir taslaktır.</p>
-<h3>İçe aktarma ve önizleme</h3>
-<p>Ai’ın XML yanıtını kopyalayıp aynı hazırlama ekranında <strong>İçe aktar</strong> kullan. Soru metinlerinin yeterli bilgi içerdiğini, seçeneklerin birbirinden ayrıldığını, doğru cevabın tutarlı olduğunu ve çözümün soruyla uyuştuğunu incele. Çalışmak istediğin koleksiyon ve konuya kaydet. Ardından cevaplara bakmadan çözmeyi dene; sonucunu değerlendirdiğinde sorular Balpy’nin tekrar düzenine katılır.</p>
-<p>Biçim hatası varsa Balpy’nin sorun raporunu kılavuzuyla birlikte harici sohbete götürebilirsin. İçerik hatası ile biçim hatası farklıdır: uygulamanın yanıtı okuyabilmesi, matematiksel sonucun veya açıklamanın doğru olduğunu tek başına göstermez.</p>
-<h3>İsteği daraltmak</h3>
-<p>Çok geniş bir ünite yerine zorlandığın alt konuyu söyleyebilirsin. Örneğin “olasılık soruları” yerine “iki olayın birlikte gerçekleşmesiyle ilgili sorular” demek, ihtiyacını daha açık anlatır. Üretilen soruları inceleyerek kapsamı sonradan geliştirebilirsin.</p>
-<blockquote>
-<p><strong>Balpy yanıtı çalışılabilir kayıtlara dönüştürür; soruların sana uygunluğunu ve içerik doğruluğunu sen kontrol edersin.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="cozum-ipucu-ve-aciklama-eklemek"><summary>Çözüm, ipucu ve açıklama eklemek</summary><div class="note-body"><blockquote>
-<p><strong>Çözüm</strong>, cevabını karşılaştırabileceğin ve nasıl sonuca ulaşıldığını inceleyebileceğin bilgidir. Çözümü eklemek ile soruyu doğru çözmüş olmak farklıdır.</p>
-</blockquote>
-<h3>Çözüm eklemek</h3>
-<p>Çözümü bulunmayan soruyu açıp <strong>Çözüm ekle</strong> seçeneğine geçebilirsin. Fotoğraf sorusunda doğru cevabı belirleyebilir ve çözüm fotoğrafı ekleyebilirsin. Soru veya çözüm fotoğrafını düzenleme araçlarıyla inceleyip değiştirebilirsin.</p>
-<p>Metin sorusunda da doğru cevap ve açıklama alanları kullanılır. Sorunun türüne göre seçenekler ve doğru cevap alanı farklı olabilir. Çözümü kaydetmeden önce soru metni ile cevabın birbirine uyduğuna bak.</p>
-<h3>İpucu ve çözüm adımları</h3>
-<p><strong>İpucu Ekle</strong>, çözümün bir parçasını düşünmene yardım edecek bilgiler içindir. <strong>Çözüm Adımları Ekle</strong>, sonuca nasıl ulaşıldığını daha ayrıntılı açıklamana yarar. Bir formülün veya işlemin neden kullanıldığını bu alanlarda anlatabilirsin.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>İçerik</th>
-<th>İşlevi</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Doğru cevap</strong></td>
-<td>Ulaşılması gereken sonucu gösterir.</td>
-</tr>
-<tr>
-<td><strong>İpucu</strong></td>
-<td>Çözümü tamamen açmadan ilerlemene yardımcı olur.</td>
-</tr>
-<tr>
-<td><strong>Çözüm adımları</strong></td>
-<td>İşlem sırasını ve çözümün gerekçesini açıklar.</td>
-</tr>
-<tr>
-<td><strong>Çözüm fotoğrafı</strong></td>
-<td>Fotoğraf sorusunun görsel çözümünü sunar.</td>
-</tr>
-</tbody></table></div>
-<p>İpucunun bütün cevabı doğrudan vermesi, düşünme fırsatını azaltabilir. Öte yandan yalnızca sonucun yazılı olduğu bir çözüm, neden hata yaptığını anlamaya yetmeyebilir. İhtiyacına göre açıklamayı geliştirebilirsin.</p>
-<h3>Kendin veya yapay zekâ yardımıyla</h3>
-<p>Çözüm bilgisini ilgili çözüm ekranından kendin ekleyebilirsin. Soruya yönelik yapay zekâ araçlarını kullandığında, gönderilecek soru ve mevcut çözüm bilgilerini kontrol eder, istediğin yardımı harici sohbette belirtirsin. Sonuç ekranında önerilen cevabı ve açıklamayı inceleyerek kaydedersin.</p>
-<h3>Kayıt ile değerlendirmeyi ayırmak</h3>
-<p><strong>Kaydet</strong> veya sıralı akışın sonundaki <strong>Tamamla</strong>, çözüm bilgisini kaydetme işlemini bitirir. Bunlar “soruyu kendi başıma doğru çözdüm” değerlendirmesinin yerine geçmez. Çalışma sırasında çözümü görmeden denemen ve kendi sonucunu ayrıca belirtmen gerekir.</p>
-<p><strong>Önemli: Açıklamayı soru ile karşılaştır</strong>
-Doğru şık, kullanılan değerler, işlem sırası ve çözümün sorudaki koşullara uygunluğu birlikte kontrol edilir. Görsel bir çözümün okunabilir olması kadar, gerçekten o soruya ait olması da önemlidir.</p>
-</div></details>
-<details class="note-detail" id="soru-calismasi-ve-tekrar-durumlari"><summary>Soru çalışması ve tekrar durumları</summary><div class="note-body"><blockquote>
-<p>Soru çalışmasında önce <strong>kendin çözmeyi denersin</strong>, sonra cevabını verirsin. Bu sonuç tekrar düzenine yansır.</p>
-</blockquote>
-<h3>Listedeki durumlar</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Durum</th>
-<th>Anlamı</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Çözümsüz</strong></td>
-<td>Kayıtlı çözümü olmayan soru</td>
-</tr>
-<tr>
-<td><strong>Yeni</strong></td>
-<td>Henüz çalışılmamış içerik</td>
-</tr>
-<tr>
-<td><strong>Süresi geldi</strong></td>
-<td>Tekrar zamanı gelen içerik</td>
-</tr>
-<tr>
-<td><strong>Seviye</strong></td>
-<td>Tekrar sürecindeki basamak</td>
-</tr>
-<tr>
-<td><strong>Tamamlandı</strong></td>
-<td>Son tekrar basamağı tamamlanan içerik</td>
-</tr>
-</tbody></table></div>
-<p>Bu durumlar farklı şeyleri anlatır. Çözümsüz bir soruya çözüm eklemek, konuyu öğrendiğin anlamına gelmez. Yeni soru da mutlaka bugünkü tekrar kuyruğunda değildir. Listede bir rozetin görünmesi, toplam soru sayısını değiştirmez.</p>
-<h3>Çalışmayı başlatmak</h3>
-<p>Sorular sekmesindeki <strong>Günlük tekrar</strong> veya <strong>Çalış</strong> düğmesini kullanabilirsin. Oturum öncesinde konu kapsamını, içerik sayısını, <strong>Sırayla / Karışık</strong> seçimini ve <strong>Yalnız süresi gelenler</strong> ayarını kontrol et. Dar bir konu veya yalnız tekrar filtresi seçildiğinde bazı soruların sıraya girmemesi beklenen bir durumdur.</p>
-<h3>Denemek, ipucu ve çözüm</h3>
-<p>Soru metnini veya görselini inceleyip kendi çözümünü kur. Sorunun yüzüne dokununca ön ve arka yüz arasında geçersin; takılırsan <strong>İpuçları ve çözüm</strong>’e bakabilirsin. Bakmak cevaplamanı engellemez ve kendi başına doğru ya da yanlış sonucu kaydetmez.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Soru türü</th>
-<th>Cevabı nasıl verirsin?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Seçenekli</strong></td>
-<td>Şık metinlerini okursun; cevabını alttaki harf düğmelerinden seçersin. Balpy doğru mu yanlış mı olduğunu kendisi kaydeder.</td>
-</tr>
-<tr>
-<td><strong>Açık uçlu</strong></td>
-<td>Cevabını düşünür ya da yazarsın; sonra <strong>Doğru yaptım</strong> veya <strong>Yanlış yaptım</strong> ile değerlendirirsin.</td>
-</tr>
-</tbody></table></div>
-<p>Açık uçlu soruda sonucu, çözüme bakmadan önceki denemene göre belirtirsin. Doğru cevabı okuduktan sonra anlamış olman ile onu bağımsız çözmüş olman aynı değildir.</p>
-<h3>Tekrar düzeni</h3>
-<p>Doğru çalışılan soruda seviye yükselir ve aralık uzar; yanlış çalışılan soruda seviye düşebilir ve daha erken tekrar planlanır. Temel aralıklar yaklaşık <strong>1, 3, 7, 15 ve 30 gündür</strong>. Bunlar ilgili çalışmadan sonraki bekleme süreleridir ve geçmişine göre biraz değişebilir.</p>
-<p>Son basamak tamamlandığında soru <strong>Tamamlandı</strong> durumuna geçer, silinmez ve günlük tekrar kuyruğundan çıkar. Aynı oturumdaki yanlışları yeniden görme turu ise pekiştirmeye yöneliktir; aynı sonuç için seviyeyi ikinci kez değiştirmez.</p>
-<h3>Yanlış yaptığında nasıl devam edebilirsin?</h3>
-<p>Hatanın bilgi eksikliği, yanlış kural seçimi veya işlem hatası olup olmadığını incele. Gerekirse notu tekrar oku, çözümü geliştir veya karıştırdığın ayrımı bir karta dönüştür. Sorular uygulama pratiğini, kartlar hatırlamayı, notlar ise açıklamayı destekler.</p>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-card" href="/rehber/kartlar/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Kartlar</b></a><a class="pager-link next tone-success" href="/rehber/tekrar/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Tekrar ve seviyeler</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Koleksiyon ve içerikler</span></nav>
+      <header class="doc-head">
+        <h1>Sorular</h1>
+        <p class="doc-lead">Şıklı ya da açık uçlu soru, ipucu ve çözüm adımları; fotoğrafla soru ekleme ve çözümsüz sorular.</p>
+        <div class="doc-tools"><span>2 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 5 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#soru-turleri">Soru türleri</a></li><li><a href="#soru-eklemek">Soru eklemek</a></li><li><a href="#soruyu-cevaplamak">Soruyu cevaplamak</a></li><li><a href="#ipucu-cozum-ve-sik-aciklamalari">İpucu, çözüm ve şık açıklamaları</a></li><li><a href="#yanlis-yaptiginda">Yanlış yaptığında</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Soru, öğrendiğin bilgiyi bir durumda kullanmanı ister: karar vermek, hesaplamak, gerekçelendirmek. Kart “hatırlıyor musun?”, soru “uygulayabiliyor musun?” diye sorar. Konuyu anladığın hâlde sınavda takılıyorsan çalışman gereken yer burasıdır.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="soru-turleri">Soru türleri<a class="anchor" href="#soru-turleri" aria-label="“Soru türleri” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Çoktan seçmeli</dt><dd>Soru kökü ve A)–E) şıkları. Doğru şıkkı Balpy bilir; sen seçince sonucu kendisi kaydeder. Her şık için ayrı bir açıklama bulunabilir.</dd></div>
+  <div><dt>Açık uçlu</dt><dd>Klasik soru ve cevabı. Çözümü kendin değerlendirirsin.</dd></div>
+</dl>
+<p>Uzun soru köklerinde paragraflar ayrı durur, soru cümlesi kalın görünür; I., II., III. ile başlayan öncüller hizalı bir liste olur. Kökte ve çözüm adımlarında tablo, formül ve görsel bloklar da bulunabilir.</p>
+
+<h2 id="soru-eklemek">Soru eklemek<a class="anchor" href="#soru-eklemek" aria-label="“Soru eklemek” bölümüne bağlantı">#</a></h2>
+<h3 id="ai-ile-hazirlatmak">Ai ile hazırlatmak<a class="anchor" href="#ai-ile-hazirlatmak" aria-label="“Ai ile hazırlatmak” bölümüne bağlantı">#</a></h3>
+<p>Ai ekranında <strong>Soru</strong> ya da <strong>Genel</strong> seçiliyken paketi gönderir, isteğini yazarsın. Bir notun Ai menüsündeki <strong>Soru hazırla</strong> soruları o nota bağlı hazırlar. <a href="/rehber/ai/">Ai ile içerik hazırlama</a></p>
+<div class="callout ai" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Örnek istek</p>
+  <p>“KPSS Matematik, oran-orantı. Ters orantıyı doğru orantıyla karıştırıyorum. 8 çoktan seçmeli soru hazırla; her sorunun çözümünü adım adım yaz ve yanlış şıkların hangi hatadan geldiğini açıkla.”</p>
+</div>
+
+<h3 id="fotografla-soru-eklemek">Fotoğrafla soru eklemek<a class="anchor" href="#fotografla-soru-eklemek" aria-label="“Fotoğrafla soru eklemek” bölümüne bağlantı">#</a></h3>
+<p>Kitabındaki ya da deneme kitapçığındaki bir soruyu çözüp tekrar etmek istiyorsan fotoğrafını eklersin:</p>
+<ol class="steps tone-question">
+  <li><strong>Soru ekle</strong>Konunun sayfasından ya da sorular listesinden <strong>Soru ekle</strong>'yi aç; kayıt yerini kontrol et.</li>
+  <li><strong>Fotoğraf çek</strong><strong>Fotoğraf Çek</strong> ile soruyu çek. Soru metni, şekil ve şıklar okunur olsun.</li>
+  <li><strong>Kaydet</strong>Gerekirse fotoğrafı düzenle; birden çok soru çektiysen hepsini birlikte kaydedebilirsin.</li>
+  <li><strong>Çözümü ekle</strong>Soruyu açıp <strong>Çözüm ekle</strong> ile doğru cevabı ve istersen çözüm fotoğrafını ekle.</li>
+</ol>
+<p>Çözümü henüz eklenmemiş soru <strong>çözümsüz</strong> sayılır. Bu, soruyu yanlış yaptığın anlamına gelmez; kayıtlı bir çözüm yoktur. Çözümsüz sorular Ana Sayfa'da ve konu satırlarında “çözüm bekliyor” olarak görünür; çözümü eklenince ilk çalışmaya ve tekrara girer.</p>
+
+<h2 id="soruyu-cevaplamak">Soruyu cevaplamak<a class="anchor" href="#soruyu-cevaplamak" aria-label="“Soruyu cevaplamak” bölümüne bağlantı">#</a></h2>
+<ul>
+  <li>Şık metinleri okunur metindir; cevabı alttaki <strong>harf düğmelerinden</strong> seçersin. Sonuç hemen kaydedilir.</li>
+  <li>Açık uçlu soruda önce kendin çöz, sonra <strong>Doğru yaptım</strong> ya da <strong>Yanlış yaptım</strong> ile değerlendir. Değerlendirmeyi, çözüme bakmadan önceki denemene göre yap.</li>
+  <li>Sorunun yüzüne dokununca ön ve arka yüz arasında geçersin. Ön yüzde kök ve şıklar, arka yüzde cevap, ipuçları ve çözüm adımları bulunur.</li>
+</ul>
+
+<h2 id="ipucu-cozum-ve-sik-aciklamalari">İpucu, çözüm ve şık açıklamaları<a class="anchor" href="#ipucu-cozum-ve-sik-aciklamalari" aria-label="“İpucu, çözüm ve şık açıklamaları” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>İpucu</dt><dd>Çözümü tamamen açmadan bir sonraki adımı düşünmene yardım eder.</dd></div>
+  <div><dt>Çözüm adımları</dt><dd>Sonuca nasıl ulaşıldığını sırayla anlatır.</dd></div>
+  <div><dt>Şık açıklaması</dt><dd>Bir şıkkın neden doğru ya da yanlış olduğunu söyler. Yanlış bir şık seçtiysen o şıkkın açıklaması öne çıkar.</dd></div>
+</dl>
+<p>İpuçlarına ya da çözüme bakmak cevaplamayı engellemez ve kendiliğinden sonuç kaydetmez. Takıldığında bakıp yine kendi denemene göre cevap verebilirsin.</p>
+
+<h2 id="yanlis-yaptiginda">Yanlış yaptığında<a class="anchor" href="#yanlis-yaptiginda" aria-label="“Yanlış yaptığında” bölümüne bağlantı">#</a></h2>
+<p>Yanlış cevaplanan soru daha erken tekrar edilir. Oturumun sonunda yanlışlarını yeniden görebilir, yanlış sorularının notlarından ve konularından kartlar hazırlatarak bilgiyi pekiştirebilirsin. <a href="/rehber/tekrar/#oturumun-sonunda">Oturumun sonunda</a></p>
+<p>Hatanın kaynağını ayırmak işe yarar: bilgi eksikliği mi, kuralı karıştırmak mı, işlem hatası mı? Bilgi eksikse notuna dön, ayrımı karıştırıyorsan bir karta çevir, işlem hatasıysa benzer sorularla devam et.</p>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/kartlar/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Kartlar</b></a><a class="next" href="/rehber/tekrar/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Çalışma oturumu ve aralıklı tekrar</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Sorular">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#soru-turleri">Soru türleri</a></li><li><a href="#soru-eklemek">Soru eklemek</a></li><li><a href="#soruyu-cevaplamak">Soruyu cevaplamak</a></li><li><a href="#ipucu-cozum-ve-sik-aciklamalari">İpucu, çözüm ve şık açıklamaları</a></li><li><a href="#yanlis-yaptiginda">Yanlış yaptığında</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Sorular</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Sorular” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

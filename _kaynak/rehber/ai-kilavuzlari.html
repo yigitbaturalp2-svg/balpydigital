@@ -1,0 +1,74 @@
+<p class="lead">Bir Ai ekranından kopyaladığın paket üç ayrı parçadan oluşur. Her parçanın işi farklıdır ve biri diğerinin yerine geçmez. Bu ayrımı bilmek, Ai'dan tam istediğini almanın en kısa yoludur.</p>
+
+<h2>Paketin üç katmanı</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Katman</th><th>Kimin</th><th>Ne taşır</th></tr></thead>
+  <tbody>
+    <tr><td><strong>1. Temel kılavuz</strong></td><td>Balpy</td><td>Yalnız bilgi: XML biçimi, alanlar, sınırlar, içeriğin Balpy'de nasıl göründüğü ve nasıl kaydedildiği. Görev ya da yöntem içermez.</td></tr>
+    <tr><td><strong>2. Özel kılavuz</strong></td><td>Sen ya da Balpy'nin önerisi</td><td>Yöntem, üslup ve her seferinde tekrar ettiğin tercihler. Metni aynen, ayrı bir başlıkla eklenir.</td></tr>
+    <tr><td><strong>3. Sohbetteki isteğin</strong></td><td>Sen</td><td>Şimdi yapılacak iş: “TYT Türkçe paragraf için 10 soru hazırla.”</td></tr>
+  </tbody>
+</table></div>
+<p>Balpy senin yerine konu ya da görev seçmez. Temel kılavuz “şu kadar soru hazırla” ya da “kolaydan zora sırala” demez; yalnız biçimi anlatır. Ne isteyeceğine sen karar verirsin.</p>
+
+<h2>Temel kılavuz</h2>
+<p>Her ekranın kendi temel kılavuzu vardır ve pakete her zaman girer. Örneğin not ekranının kılavuzu notun başlık, grup ve gövde alanlarını, desteklenen anlatım biçimlerini ve sınırları anlatır. Kılavuz seçiminde <strong>Temel kılavuz</strong>'u seçersen pakete ek bir istem girmez; metni okumak için seçeneğe basılı tutabilirsin.</p>
+
+<h2>Önerilen kılavuz</h2>
+<p>Her ekranda Balpy'nin hazırladığı tek bir özel kılavuz bulunur: <strong>Önerilen kılavuz</strong>. Bu metin Ai'a o ekran için iyi işleyen anlatım, yöntem ve düzen tercihlerini aktarır; örneğin notta konunun nasıl bölümlendiği ya da sorularda çözümün nasıl yazıldığı.</p>
+<ul>
+  <li>Konu, kapsam, adet ve üretilecek türleri yine sohbetteki isteğin belirler.</li>
+  <li>Aynı konuda açıkça farklı bir şey istersen senin isteğin önceliklidir.</li>
+  <li>Önerilen kılavuz XML biçimini ve kayıt sınırlarını değiştirmez.</li>
+</ul>
+
+<h2 id="kilavuzlarim">Kılavuzlarım</h2>
+<p>Her seferinde aynı tercihleri yazıyorsan bunları bir kez kendi kılavuzuna kaydet. Ai ekranındaki kılavuz seçiminde <strong>Özel kılavuz ekle</strong> ile <strong>Yeni Kılavuz Oluştur</strong> ekranını açarsın:</p>
+<dl class="defs">
+  <div><dt>Kılavuz adı</dt><dd>3–60 karakter. Kılavuz kutusunda görünür; Ai'a gönderilmez.</dd></div>
+  <div><dt>Kısa açıklama</dt><dd>İsteğe bağlı; yalnız sana hatırlatır.</dd></div>
+  <div><dt>Kılavuz metni</dt><dd>Tekrar kullanmak istediğin kendi isteğin. Pakete “kullanıcının özel kılavuzu” başlığıyla, yazdığın gibi eklenir.</dd></div>
+</dl>
+<ul>
+  <li>Bir kılavuz yalnız yazıldığı ekran türünde kullanılır. Başka bir ekranda da kullanmak istersen <strong>Başka ekran için kopyala</strong>.</li>
+  <li>Bir pakette en fazla bir özel kılavuz bulunur: ya Önerilen kılavuz ya da senin seçtiğin kayıt. Seçimin sonraki açılışlarda hatırlanır.</li>
+  <li>Sık kullandığın kılavuzu favoriye ekleyebilir, sırasını {{yol:Ai ayarları > Kılavuz sıralaması}} ekranında değiştirebilirsin.</li>
+</ul>
+<div class="callout ai" title="Kılavuzlarım için örnek metin">
+  <p>“YKS'ye hazırlanan bir 12. sınıf öğrencisiyim. Anlatımı ders kitabı diliyle değil, kısa paragraflar ve örneklerle yaz. Her konunun sonunda sık yapılan hataları ayrı bir uyarı kutusunda ver. Sorularda ÖSYM'nin son yıllardaki soru köklerine benzer bir dil kullan; her yanlış şıkkın neden yanlış olduğunu açıkla.”</p>
+</div>
+
+<h2>Bağlam: pakete ne girer?</h2>
+<p>Ai senin koleksiyonlarını, konularını ya da kayıtlarını bilmez; yalnız pakette ne varsa onu görür. Bu yüzden Balpy işin gerektirdiği bilgiyi pakete ekler:</p>
+<ul>
+  <li><strong>Zorunlu bağlam:</strong> Ekranın işi onsuz yapılamıyorsa kendiliğinden girer. Örneğin koleksiyon düzenlemede mevcut yapı, hedef ekranında ünite yapısı, sayaç ekranında kayıtlı sayaçların.</li>
+  <li><strong>İsteğe bağlı bağlam:</strong> Açıp kapattığın bölümlerdir. Örneğin günlük plandaki <strong>Tekrar içerikleri</strong>, <strong>Hedefler</strong> ve <strong>Geçmiş</strong>. Kapalı bir bölüm pakete hiç girmez.</li>
+  <li><strong>Kaynak metni:</strong> Bir PDF sayfasından, transkriptten ya da nottan açtığın ekranda o metin pakete girer. Uzun bir PDF'in tamamının gittiğini varsayma; hazırlama ekranında neyin gönderileceğini görürsün.</li>
+</ul>
+<div class="callout warn" title="Ad uyuşmazlığı aktarımı durdurur">
+  <p>Bir yanıt bir koleksiyonu ya da konuyu adıyla anıyorsa o ad pakette bulunan adlardan biri olmalıdır. Ai bir ad uydurursa Balpy aktarımı durdurur ve geçerli adları düzeltme metnine ekler.</p>
+</div>
+
+<h2>İçerik zenginleştirme</h2>
+<p>{{yol:Profil > Ayarlar > Ai ayarları > İçerik zenginleştirme}} bölümünde not, kart ve sorularda hangi zengin anlatım biçimlerinin kılavuza ekleneceğini seçersin: formüller, tablolar, gizlenebilir metin, adım adım anlatım, akış şeması, fonksiyon grafikleri, geometrik şekiller, ders diyagramları, veri grafikleri, Venn şeması, periyodik tablo, Türkiye haritası, kod örnekleri ve zaman çizelgesi. Kapalı bir biçim kılavuzda anlatılmaz. Biçimlerin ne yaptığı: <a href="/rehber/not-bloklari/">Notlarda zengin anlatım</a>.</p>
+
+<h2 id="duzeltme-notu">Düzeltme notu</h2>
+<p>Yanıt Balpy'nin biçimine uymuyorsa Balpy içe aktarmayı durdurur ve sorunları listeler. <strong>Düzeltme metnini kopyala</strong> şunları içeren bir metin hazırlar:</p>
+<ul>
+  <li>Bulunan hataların listesi.</li>
+  <li>Düzeltme için gereken bilgi: geçerli koleksiyon adları, konu yolları ya da kimlikler gibi.</li>
+  <li>İlk paketle aynı bağlama göre kurulmuş temel kılavuz.</li>
+</ul>
+<p>Metni aynı sohbete yapıştırırsın; Ai düzeltilmiş yanıtı yazar, sen yeniden içe aktarırsın. Düzeltme notu “yeniden yaz” ya da “içeriği koru” gibi yeni bir görev eklemez; yalnız sorunu bildirir.</p>
+<div class="callout tip" title="Aynı sohbete yapıştır">
+  <p>Paketi aynı oturumda zaten kopyaladıysan kılavuz o sohbette vardır. Bu durumda koleksiyon ekranı tam kılavuzu yinelemez, yalnız hata listesini ve gereken bilgiyi gönderir; ekran bunu “aynı sohbete yapıştır” ipucuyla söyler.</p>
+</div>
+
+<h2>Paketi önizlemek ve dosya olarak göndermek</h2>
+<p>Ai ekranının <strong>Diğer işlemler</strong> bölümünde şu seçenekler bulunur:</p>
+<dl class="defs">
+  <div><dt>Paketi önizle</dt><dd>Sohbete gidecek metnin tamamını gösterir. Hangi bağlamın girdiğini buradan kontrol edersin.</dd></div>
+  <div><dt>Metni kopyala</dt><dd>Paketi, sohbet uygulaması açmadan panoya alır.</dd></div>
+  <div><dt>Dosya olarak paylaş</dt><dd>Çok uzun paketi kesmeden göndermek için metin dosyası hâlinde paylaşır. Ai'ın yanıtı yine sohbet metni olarak gelir.</dd></div>
+  <div><dt>Kılavuzları sırala</dt><dd>Kılavuz seçimindeki sırayı değiştirir.</dd></div>
+</dl>

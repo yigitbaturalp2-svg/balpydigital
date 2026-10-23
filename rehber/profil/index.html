@@ -3,233 +3,198 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Profil | Balpy Rehberi</title>
-  <meta name="description" content="Çalışma süren, doğru oranın, zayıf noktaların ve ilerlemen.">
+  <title>Profil ve istatistikler | Balpy Rehberi</title>
+  <meta name="description" content="Toplam süre, seri, çalışma ritmi, doğru oranı, zayıf noktalar ve yaklaşan tekrar yükü.">
   <link rel="canonical" href="https://balpydigital.com/rehber/profil/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="Profil | Balpy Rehberi">
-  <meta property="og:description" content="Çalışma süren, doğru oranın, zayıf noktaların ve ilerlemen.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Profil ve istatistikler | Balpy Rehberi">
+  <meta property="og:description" content="Toplam süre, seri, çalışma ritmi, doğru oranı, zayıf noktalar ve yaklaşan tekrar yükü.">
   <meta property="og:url" content="https://balpydigital.com/rehber/profil/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info" aria-current="page"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Her gün</span></nav>
-        <article class="topic tone-info" id="profil">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">person</span></span><div><small>Her gün</small><h1>Profil</h1></div></div>
-<p class="lead">Profil, çalışmanın özetidir. Üstten <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ya da <strong>Tümü</strong>'nü seçersin; kartlar o döneme göre güncellenir.</p>
-<ul>
-  <li><strong>Toplam çalışma:</strong> Dönemdeki süre, çalıştığın gün sayısı, kesintisiz gün serin ve günlük ortalaman. Önceki dönemle karşılaştırma ve oturum listesi de buradadır; unuttuğun bir çalışmayı buradan ekleyebilirsin.</li>
-  <li><strong>Çalışma ritmi:</strong> Günlere göre süren ve günlük hedef çizgin. Haftada çubuklar, 30 günde takvim görünür.</li>
-  <li><strong>Öğrenme:</strong> Kart ve soru cevaplarının doğru oranı.</li>
-  <li><strong>Zayıf noktalar:</strong> Doğru oranı düşük koleksiyonlar. <strong>Tekrar et</strong> hâlâ yanlış olan öğeleri tek oturumda açar.</li>
-  <li><strong>Koleksiyonlar:</strong> Sürenin koleksiyonlara dağılımı ve her birinin doğru oranı.</li>
-  <li><strong>Yaklaşan tekrar:</strong> Bugün ve önümüzdeki 7 gün kaç tekrarın beklediği.</li>
-</ul>
-<p>Sağ üstteki dişli Ayarlar'ı açar.</p>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="donem-secimi-ve-toplam-calisma"><summary>Dönem seçimi ve Toplam çalışma</summary><div class="note-body"><blockquote>
-<p><strong>Profil</strong> ekranı, kaydettiğin çalışma sürelerini ve kart-soru cevaplarını özetler. Bütün sayılar üstte seçtiğin döneme göre hesaplanır.</p>
-</blockquote>
-<h3>Dönem seçmek</h3>
-<p>Üstte üç seçenek vardır: <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ve <strong>Tümü</strong>. Başlığın altındaki tarih aralığı hangi günlerin hesaba girdiğini gösterir. “Tümü”, ilk çalışma kaydından bugüne kadar olan dönemi kapsar.</p>
-<p>Henüz gelmemiş günler için çalışma süresi kaydı yoktur. Bu hafta henüz bitmediyse kalan günler ortalamayı düşürmez.</p>
-<h3>Toplam çalışma kartı</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Gösterge</th>
-<th>Anlamı</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Toplam süre</strong></td>
-<td>Döneme giren sayaç ve elle eklenen oturumların toplamı</td>
-</tr>
-<tr>
-<td><strong>gün çalışıldı</strong></td>
-<td>Dönemde süre kaydı olan günlerin sayısı / geçen gün sayısı</td>
-</tr>
-<tr>
-<td><strong>gün seri</strong></td>
-<td>Bugüne (bugün henüz çalışmadıysan düne) kadar kesintisiz çalıştığın gün sayısı</td>
-</tr>
-<tr>
-<td><strong>günlük ort.</strong></td>
-<td>Toplam sürenin dönemde geçen gün sayısına bölümü</td>
-</tr>
-</tbody></table></div>
-<p>Seri dönemden bağımsızdır: “şu an kaç gündür çalışıyorum?” sorusunu cevaplar. Gün henüz bitmediği için bugün çalışmamış olman seriyi bozmaz.</p>
-<h3>Önceki dönemle karşılaştırma</h3>
-<p>Bu hafta ve Son 30 gün seçiliyken toplam sürenin altında önceki dönemle karşılaştırma görünür. Aynı sayıda gün karşılaştırılır: haftanın üçüncü günündeysen geçen haftanın ilk üç günüyle kıyaslanır. Daha düşük bir toplam, tek başına daha az öğrendiğini göstermez.</p>
-<h3>Oturumlar ve süre eklemek</h3>
-<p><strong>Oturumlar</strong> satırı dönemdeki oturum listesini açar; buradan bir oturumu yeniden adlandırır, süresini düzeltir ya da silersin. Kartın sağ üstündeki <strong>+</strong> ile uygulama dışında yaptığın bir çalışmayı sonradan eklersin.</p>
-<blockquote>
-<p><strong>Önce dönemi seç, sonra toplamın hangi kayıtlara dayandığını yorumla.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="calisma-ritmi-ve-gunluk-hedef"><summary>Çalışma ritmi ve günlük hedef</summary><div class="note-body"><blockquote>
-<p><strong>Çalışma ritmi</strong> kartı, sürenin günlere nasıl dağıldığını ve günlük hedefine ne sıklıkla ulaştığını gösterir.</p>
-</blockquote>
-<h3>Döneme göre görünüm</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Dönem</th>
-<th>Görünüm</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Bu hafta</strong></td>
-<td>Her gün için bir çubuk ve o günün hedef çizgisi</td>
-</tr>
-<tr>
-<td><strong>Son 30 gün</strong></td>
-<td>Günlerin renk yoğunluğuyla gösterildiği takvim</td>
-</tr>
-<tr>
-<td><strong>Tümü</strong></td>
-<td>Haftalık toplamların çubukları</td>
-</tr>
-</tbody></table></div>
-<p>Bir çubuğa ya da takvim gününe dokununca o günün süresini ve hedefini görürsün; çubuk grafikte görevlerin kaçının tamamlandığı da yazar.</p>
-<h3>Hedefe ulaşılan günler</h3>
-<p>Kartın sağ üstündeki bayrak, hedefe ulaştığın gün sayısını “4/6” biçiminde gösterir. Paydada yalnız hedefi bilinen geçmiş günler vardır. Hedef kaydı olmayan günler sıfır hedefli sayılmaz; böylece oran yapay olarak yükselmez.</p>
-<p>Her gün kendi hedefiyle ölçülür. Bugünkü hedefini değiştirmek geçmiş günleri yeni hedefle değerlendirmez.</p>
-<h3>Beklenmeyen bir durum varsa</h3>
-<p>Gece 04.00’ten önce yaptığın çalışma bir önceki güne sayılır; takvimdeki gün ile çalışma günü bu yüzden farklı görünebilir. Hatalı ya da çift kaydı oturum listesinden düzeltirsin.</p>
-<blockquote>
-<p><strong>Ritim, ne kadar düzenli çalıştığını gösterir; ne kadar öğrendiğini kart ve soru sonuçların gösterir.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="ogrenme-ve-zayif-noktalar"><summary>Öğrenme ve zayıf noktalar</summary><div class="note-body"><blockquote>
-<p><strong>Öğrenme</strong> kartı kart ve soru cevaplarının doğru oranını, <strong>Zayıf noktalar</strong> kartı ise zorlandığın koleksiyonları gösterir.</p>
-</blockquote>
-<h3>Öğrenme kartı</h3>
-<p>Dönemdeki cevapların ne kadarının doğru olduğunu yüzde olarak görürsün; altında sorular (<strong>doğru</strong>) ve kartlar (<strong>hatırlandı</strong>) ayrı ayrı yazar. Önceki dönem varsa oranın nasıl değiştiği de görünür.</p>
-<p>Aynı kart ya da soru aynı gün birkaç kez çalışıldıysa yalnız o günün <strong>ilk</strong> cevabı sayılır. Yanlışlarla yapılan ek tur, oranı şişirmez.</p>
-<h3>Zayıf noktalar</h3>
-<p>Bu kart, dönemde en az 5 cevabı olan ve doğru oranı %80’in altında kalan koleksiyonları listeler; en zayıftan başlayarak en fazla üç tane. Her satırda koleksiyonun doğru oranı ve son cevabı hâlâ yanlış olan öğe sayısı yazar.</p>
-<p><strong>Tekrar et</strong>, o koleksiyonda son cevabı yanlış olan kart ve soruları tek bir oturumda açar. Sonradan doğru cevapladığın öğe bu listeden çıkar.</p>
-<p>Silinmiş koleksiyonların geçmişi bu kartta görünmez; o çalışmanın süresi ise genel toplamda kalır.</p>
-<p><strong>Önemli: Oran bir not değildir</strong>
-Az cevapla hesaplanan oran rastlantıya açıktır; bu yüzden 5 cevaptan azı zayıf nokta sayılmaz. Oranı, hangi konuya geri dönmen gerektiğini görmek için kullan.</p>
-</div></details>
-<details class="note-detail" id="koleksiyonlar-ve-yaklasan-tekrar"><summary>Koleksiyonlar ve yaklaşan tekrar</summary><div class="note-body"><blockquote>
-<p><strong>Koleksiyonlar</strong> kartı sürenin koleksiyonlara dağılımını, <strong>Yaklaşan tekrar</strong> kartı ise önündeki günlerin tekrar yükünü gösterir.</p>
-</blockquote>
-<h3>Koleksiyonlar kartı</h3>
-<p>Halka, dönemdeki toplam sürenin koleksiyonlara nasıl dağıldığını gösterir. Altındaki her satırda koleksiyonun süresi, süre payı ve doğru oranı yazar; böylece çok çalışıp az bildiğin bir koleksiyonu tek bakışta görürsün.</p>
-<p><strong>Genel çalışma</strong>, bir koleksiyona bağlanmadan kaydettiğin oturumları gösterir. Yalnız soru çözdüğün, süre kaydetmediğin koleksiyon da listede yer alır; satırında “Süre kaydı yok” yazar. İlk beşten fazla koleksiyon varsa liste düğmeyle genişler.</p>
-<p><strong>Önemli: Süre payı öğrenme oranı değildir</strong>
-Bir koleksiyonun süre payının büyük olması, o alanı daha iyi öğrendiğini göstermez. Zorlandığın bir konu daha çok süre almış olabilir. Süreyi doğru oranıyla birlikte oku.</p>
-<h3>Yaklaşan tekrar</h3>
-<p>Bugün kaç kart ve sorunun tekrar beklediğini ve önümüzdeki 7 günün her biri için tekrar sayısını görürsün. Yoğun bir gün görüyorsan o günden önce biraz fazladan çalışarak yükü dağıtabilirsin.</p>
-<h3>Yapay zekâ ile yorumlamak</h3>
-<p>Bu rehber bölümünü göndererek göstergelerin anlamını sorabilirsin. Kendi verini yorumlatmak istediğinde seçtiğin dönemi ve ilgili sayıları sohbette ayrıca belirtirsin; rehber hesabındaki istatistikleri kendiliğinden göndermez.</p>
-<blockquote>
-<p><strong>İstatistikleri, daha uygun hedef ve çalışma düzeni seçmek için kullan.</strong></p>
-</blockquote>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-success" href="/rehber/sayac/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Sayaç</b></a><a class="pager-link next" href="/rehber/ayarlar/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Ayarlar</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Çalışma düzeni</span></nav>
+      <header class="doc-head">
+        <h1>Profil ve istatistikler</h1>
+        <p class="doc-lead">Toplam süre, seri, çalışma ritmi, doğru oranı, zayıf noktalar ve yaklaşan tekrar yükü.</p>
+        <div class="doc-tools"><span>2 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 7 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#donem-secmek">Dönem seçmek</a></li><li><a href="#toplam-calisma">Toplam çalışma</a></li><li><a href="#calisma-ritmi-ve-aliskanlik">Çalışma ritmi ve alışkanlık</a></li><li><a href="#ogrenme">Öğrenme</a></li><li><a href="#zayif-noktalar">Zayıf noktalar</a></li><li><a href="#koleksiyonlar">Koleksiyonlar</a></li><li><a href="#yaklasan-tekrar">Yaklaşan tekrar</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Profil, kaydettiğin çalışma sürelerini ve kart-soru cevaplarını özetler. Ne kadar ve ne düzenle çalıştığını, ne kadar doğru cevapladığını ve nerede zorlandığını gösterir. Sağ üstteki dişli <strong>Ayarlar</strong>'ı açar.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="donem-secmek">Dönem seçmek<a class="anchor" href="#donem-secmek" aria-label="“Dönem seçmek” bölümüne bağlantı">#</a></h2>
+<p>Üstte üç dönem vardır: <strong>Bu hafta</strong>, <strong>Son 30 gün</strong> ve <strong>Tümü</strong>. Bütün kartlar seçtiğin döneme göre hesaplanır. Bu hafta henüz bitmediyse kalan günler ortalamayı düşürmez.</p>
+
+<h2 id="toplam-calisma">Toplam çalışma<a class="anchor" href="#toplam-calisma" aria-label="“Toplam çalışma” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Toplam süre</dt><dd>Dönemdeki sayaç oturumlarının ve elle eklenen çalışmaların toplamı.</dd></div>
+  <div><dt>gün çalışıldı</dt><dd>Süre kaydı olan gün sayısı / dönemde geçen gün sayısı.</dd></div>
+  <div><dt>gün seri</dt><dd>Bugüne kadar (bugün henüz çalışmadıysan düne kadar) kesintisiz çalıştığın gün sayısı. Dönemden bağımsızdır; gün bitmeden çalışmamış olman seriyi bozmaz.</dd></div>
+  <div><dt>günlük ort.</dt><dd>Toplam sürenin dönemde geçen gün sayısına bölümü.</dd></div>
+</dl>
+<p>Bu hafta ve Son 30 gün seçiliyken önceki dönemle karşılaştırma görünür; aynı sayıda gün karşılaştırılır. Oturum listesinden bir kaydı yeniden adlandırır, süresini düzeltir ya da silersin; <strong>Çalışma süresi ekle</strong> ile uygulama dışında yaptığın çalışmayı eklersin.</p>
+
+<h2 id="calisma-ritmi-ve-aliskanlik">Çalışma ritmi ve alışkanlık<a class="anchor" href="#calisma-ritmi-ve-aliskanlik" aria-label="“Çalışma ritmi ve alışkanlık” bölümüne bağlantı">#</a></h2>
+<ul>
+  <li><strong>Bu hafta:</strong> Her gün için bir çubuk ve o günün hedef çizgisi.</li>
+  <li><strong>Son 30 gün:</strong> Günlerin renk yoğunluğuyla gösterildiği takvim.</li>
+  <li><strong>Tümü:</strong> Haftalık toplamlar.</li>
+</ul>
+<p>Bir güne dokununca o günün süresini ve hedefini görürsün. Her gün kendi hedefiyle ölçülür; bugünkü hedefini değiştirmek geçmiş günleri yeni hedefle değerlendirmez. <strong>Çalışma alışkanlığı</strong> son haftalarda çalıştığın günleri ve en uzun serini gösterir.</p>
+
+<h2 id="ogrenme">Öğrenme<a class="anchor" href="#ogrenme" aria-label="“Öğrenme” bölümüne bağlantı">#</a></h2>
+<p>Dönemdeki cevapların ne kadarının doğru olduğunu yüzde olarak görürsün; altında sorular (doğru) ve kartlar (hatırlandı) ayrı yazar. Aynı kart ya da soru aynı gün birkaç kez çalışıldıysa yalnız o günün <strong>ilk</strong> cevabı sayılır; yanlışlarla yapılan ek tur oranı şişirmez.</p>
+
+<h2 id="zayif-noktalar">Zayıf noktalar<a class="anchor" href="#zayif-noktalar" aria-label="“Zayıf noktalar” bölümüne bağlantı">#</a></h2>
+<p>Dönemde en az 5 cevabı olan ve doğru oranı %80'in altında kalan koleksiyonlar, en zayıftan başlayarak listelenir. Her satırda koleksiyonun doğru oranı ve son cevabı hâlâ yanlış olan içerik sayısı yazar. <strong>Tekrar et</strong>, o koleksiyonda son cevabı yanlış olan kart ve soruları tek oturumda açar; sonradan doğru cevapladığın içerik listeden çıkar.</p>
+<div class="callout note" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Oran bir not değildir</p>
+  <p>Az cevapla hesaplanan oran rastlantıya açıktır; bu yüzden 5 cevaptan azı zayıf nokta sayılmaz. Oranı, hangi koleksiyona geri dönmen gerektiğini görmek için kullan.</p>
+</div>
+
+<h2 id="koleksiyonlar">Koleksiyonlar<a class="anchor" href="#koleksiyonlar" aria-label="“Koleksiyonlar” bölümüne bağlantı">#</a></h2>
+<p>Halka grafik, dönemdeki toplam sürenin koleksiyonlarına nasıl dağıldığını gösterir. Her satırda koleksiyonun süresi, süre payı ve doğru oranı yazar; çok çalışıp az bildiğin bir dersi tek bakışta görürsün. Bir koleksiyona bağlanmadan kaydettiğin süreler ayrı satırda durur; yalnız soru çözüp süre kaydetmediğin koleksiyonda “Süre kaydı yok” yazar.</p>
+
+<h2 id="yaklasan-tekrar">Yaklaşan tekrar<a class="anchor" href="#yaklasan-tekrar" aria-label="“Yaklaşan tekrar” bölümüne bağlantı">#</a></h2>
+<p>Bugün kaç kart ve sorunun tekrar beklediğini ve önümüzdeki 7 günün her biri için tekrar sayısını gösterir. Yoğun bir gün görüyorsan ondan önce biraz fazladan çalışarak yükü dağıtabilirsin; örneğin bir denemeden önceki güne yığılan tekrarları önceden eritmek için.</p>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/sayac/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Sayaç ve Challenge</b></a><a class="next" href="/rehber/ayarlar/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Ayarlar ve bildirimler</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Profil%20ve%20istatistikler">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#donem-secmek">Dönem seçmek</a></li><li><a href="#toplam-calisma">Toplam çalışma</a></li><li><a href="#calisma-ritmi-ve-aliskanlik">Çalışma ritmi ve alışkanlık</a></li><li><a href="#ogrenme">Öğrenme</a></li><li><a href="#zayif-noktalar">Zayıf noktalar</a></li><li><a href="#koleksiyonlar">Koleksiyonlar</a></li><li><a href="#yaklasan-tekrar">Yaklaşan tekrar</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Profil</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Profil ve istatistikler” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

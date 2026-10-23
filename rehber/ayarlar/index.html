@@ -3,260 +3,210 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Ayarlar | Balpy Rehberi</title>
-  <meta name="description" content="Bildirimler, Ai ayarları, çöp kutusu ve geri bildirim.">
+  <title>Ayarlar ve bildirimler | Balpy Rehberi</title>
+  <meta name="description" content="Bildirimler, Ai ayarları, PDF kalitesi, çöp kutusu, gizlilik ve hesap işlemleri.">
   <link rel="canonical" href="https://balpydigital.com/rehber/ayarlar/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="Ayarlar | Balpy Rehberi">
-  <meta property="og:description" content="Bildirimler, Ai ayarları, çöp kutusu ve geri bildirim.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Ayarlar ve bildirimler | Balpy Rehberi">
+  <meta property="og:description" content="Bildirimler, Ai ayarları, PDF kalitesi, çöp kutusu, gizlilik ve hesap işlemleri.">
   <meta property="og:url" content="https://balpydigital.com/rehber/ayarlar/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/" aria-current="page"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Hesap ve destek</span></nav>
-        <article class="topic" id="ayarlar">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">settings</span></span><div><small>Hesap ve destek</small><h1>Ayarlar</h1></div></div>
-<p class="lead">Profil ekranının sağ üstündeki dişliyle açılır. Satırların sağında o ayarın güncel değeri görünür.</p>
-<div class="table-wrap"><table>
-  <thead><tr><th>Bölüm</th><th>Satırlar</th></tr></thead>
-  <tbody>
-    <tr><td>Hesap kartı</td><td>Adın ve e-postan; dokununca görünen adı düzenlersin.</td></tr>
-    <tr><td>Çalışma</td><td>Çalışma planı (bugünün hedefi) · Bildirimler</td></tr>
-    <tr><td>Yapay zekâ</td><td>Ai ayarları</td></tr>
-    <tr><td>İçerik</td><td>PDF içe aktarma kalitesi · Çöp kutusu</td></tr>
-    <tr><td>Yardım</td><td>Balpy web sitesi</td></tr>
-    <tr><td>Gizlilik ve hesap</td><td>Gizlilik Politikası · YouTube ve gizlilik · Hesap ve veri silme</td></tr>
-    <tr><td>En altta</td><td>Çıkış yap ve uygulama sürümü</td></tr>
-  </tbody>
-</table></div>
-<h3>Bildirimler</h3>
-<p><strong>Tüm hatırlatmalar</strong> anahtarı kapalıyken diğerleri de susar. Altında üç tür var: <strong>Görev hatırlatmaları</strong>, saatini seçtiğin <strong>Günlük özet</strong> ve <strong>Sayaç uyarıları</strong>. Bildirim izni kapalıysa sayfanın üstünde “İzni aç” çıkar.</p>
-<h3>Çöp kutusu</h3>
-<p>Silinen kaynak, soru ve kartlar burada bekler; geri alabilir ya da kalıcı silebilirsin. Notlar çöp kutusuna düşmez, doğrudan silinir.</p>
-<h3>Geri bildirim</h3>
-<p>Aklındakini yazıp gönder; tür seçmen gerekmez. Sürüm ve cihaz modelin kendiliğinden eklenir, yanıtımız hesabının e-postasına gelir. İnternet yoksa mesajın saklanır, bağlantı gelince gönderilir.</p>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="profil-rehber-ve-ayarlar-bolumleri"><summary>Profil, rehber ve ayarlar bölümleri</summary><div class="note-body"><blockquote>
-<p><strong>Profil</strong>, çalışma geçmişini incelediğin ve uygulama ayarlarına ulaştığın ana bölümdür. Rehber ve yardım araçlarını da buradan açabilirsin.</p>
-</blockquote>
-<h3>Profil’in düzeni</h3>
-<p>Profil’de dönem seçimini ve çalışma göstergelerini görürsün. Sağ üstteki <strong>Ayarlar</strong> düğmesi; hesap bilgileri, çalışma tercihleri, yapay zekâ araçları, içerik seçenekleri ve yardım bağlantılarını açar.</p>
-<p>İlk girişte <strong>Balpy’yi keşfet</strong> penceresi bu siteye göz atmanı önerir. <strong>Web sitemize göz at</strong> ile siteyi tarayıcıda açabilir veya <strong>Daha sonra</strong> ile uygulamaya devam edebilirsin. Davet aynı kullanıcı için cihazda bir kez gösterilir. Sonradan <strong>Profil → Ayarlar → Yardım → Balpy web sitesi</strong> yolundan bu siteye ulaşabilirsin.</p>
-<h3>Rehberin bölümlerini kullanmak</h3>
-<p>Web rehberinde <strong>İlk adımlar</strong> ile temel akışı sırayla öğrenebilir, aramayla ilgili ekranı bulabilir veya ayrıntılı not başlıklarını açabilirsin. <strong>Ai ile öğren</strong> penceresinden yalnız seçilen bölümü sohbetine kopyalarsın. Rehberde okundu işareti ve tamamlama takibi yoktur.</p>
-<h3>Ayarlar bölümleri</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Bölüm</th>
-<th>İçindeki araçlar</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Çalışma</strong></td>
-<td>Çalışma planı ve bildirimler</td>
-</tr>
-<tr>
-<td><strong>Yapay zekâ</strong></td>
-<td>Tercih edilen sohbet uygulaması ve yanıt aktarımı</td>
-</tr>
-<tr>
-<td><strong>İçerik</strong></td>
-<td>PDF içe aktarma kalitesi ve çöp kutusu</td>
-</tr>
-<tr>
-<td><strong>Yardım</strong></td>
-<td>Balpy web sitesi</td>
-</tr>
-<tr>
-<td><strong>Gizlilik ve hesap</strong></td>
-<td>Gizlilik, YouTube tercihleri ve hesap/veri silme talebi</td>
-</tr>
-</tbody></table></div>
-<h3>Hesap bilgileri</h3>
-<p>Ayarlar’daki hesap kartında profil adını ve hesabın e-posta bilgisini inceleyebilirsin. Profil düzenleme aracı, profil bilgilerini değiştirmek içindir; bir öğrenme koleksiyonunun adını veya görev planını değiştirmez.</p>
-<p>Veri yüklenirken veya hata olduğunda ekranın yükleme ve yeniden deneme açıklamalarına bak. Profil bilgisi ile yerel çalışma göstergelerinin yüklenmesi farklı işlemler olabilir; yalnız bir bölümün hata vermesi bütün çalışmaların silindiği anlamına gelmez.</p>
-</div></details>
-<details class="note-detail" id="yapay-zeka-ayarlari-ve-kilavuzlarim"><summary>Yapay zekâ ayarları ve Kılavuzlarım</summary><div class="note-body"><blockquote>
-<p><strong>Ai ayarları</strong>, kullanacağın harici sohbet uygulamasını ve yanıtı Balpy’ye getirme biçimini düzenler. <strong>Kılavuzlarım</strong> ise tekrar kullandığın içerik hazırlama tercihlerini tutar.</p>
-</blockquote>
-<h3>Tercih edilen yapay zekâ</h3>
-<p><strong>Profil → Ayarlar → Yapay zekâ → Ai ayarları</strong> yolunda ChatGPT, Gemini veya Claude gibi desteklenen seçenekler arasından tercih yapabilirsin. Bu tercih, hazırlama ekranlarındaki <strong>Kopyala ve aç</strong> ve <strong>Hızlı gönder</strong> işlemlerinin hedefini belirler.</p>
-<p><strong>Kopyala ve aç’ta diğerleri</strong> bölümünde ek hızlı erişim seçeneklerini düzenleyebilirsin. Bir sohbet uygulamasını seçmek, o hizmette hesap oluşturmaz veya abonelik sağlamaz. Uygulamanın kurulu olup olmaması ve cihazdaki açılma davranışı, erişim yolunu etkileyebilir.</p>
-<h3>Panodan otomatik içe aktar</h3>
-<p>Bu seçenek açık olduğunda içerik ve kılavuz ekranları, yanıtı kopyalayıp Balpy’ye döndüğünde aktarma işlemini başlatabilir. Kapalı olduğunda ilgili ekrandaki <strong>İçe aktar</strong> aracını kullanırsın.</p>
-<p><strong>Önemli: Otomatik içe aktarma otomatik kaydetme değildir</strong>
-Yanıtın okunup önizlemeye alınması ile kayıtların uygulanması ayrı aşamalardır. Gelen içeriği ve değişiklikleri kontrol ederek kaydetme kararını verirsin. Bu ayar, yapay zekânın cihazındaki bütün kayıtlara sürekli eriştiği anlamına gelmez.</p>
-<h3>Kılavuzlarım nerede?</h3>
-<p>Özel kılavuzlarını ilgili Ai hazırlama ekranlarındaki kılavuz araçlarından açarsın. İçerik, plan, hedef veya koleksiyon hazırlama ekranının işi farklı olduğu için kılavuzların kullanılacağı ekran da önemlidir.</p>
-<p>Bir kılavuza ad verip tekrar eden tercihlerini yazabilirsin. Mevcut kılavuzu düzenleyebilir veya <strong>Başka ekran için kopyala</strong> ile uygun bir ekranda kullanılacak kopyasını hazırlayabilirsin. XML içeriği ile özel kılavuz metni aynı şey değildir; özel kılavuzda yapay zekâya iletmek istediğin tercihleri ifade edersin.</p>
-<h3>Üç parçalı kullanım</h3>
-<p>Balpy’nin temel kılavuzu biçimi açıklar. Seçtiğin özel kılavuz tercihlerini ayrı taşır. O anki konu ve görev ise harici sohbette yazdığın istektir. Özel kılavuz seçmediğinde hazır bir yöntem kendiliğinden eklenmez.</p>
-<blockquote>
-<p><strong>Ayarlar gönderim yolunu, özel kılavuz tekrar eden tercihlerini, sohbet mesajın ise şimdi yapılacak işi belirler.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="icerik-secenekleri-ve-bildirimler"><summary>İçerik seçenekleri ve bildirimler</summary><div class="note-body"><blockquote>
-<p>İçerik ve bildirim ayarları, Balpy’deki çalışmalarını nasıl açacağını ve nasıl hatırlatılacağını düzenler. Bu ayarlar öğrenme sonucunu kendiliğinden değiştirmez.</p>
-</blockquote>
-<h3>PDF içe aktarma kalitesi</h3>
-<p><strong>Ayarlar → İçerik → PDF içe aktarma kalitesi</strong> bölümündeki seçimin, sonraki PDF aktarımlarında kullanılacak varsayılanı belirler. Kaynak ekleme ekranında da aktarım kalitesini seçebilirsin.</p>
-<p>Belgenin küçük yazılar, ayrıntılı şekiller veya uzun sayfalar içerip içermediğini düşünerek seçim yapabilirsin. Yeni varsayılanı değiştirmek, daha önce aktarılmış bütün kaynakları kendiliğinden yeniden hazırlamaz. Sorun belirli bir dosyadaysa o kaynağın görünümünü ayrıca kontrol edersin.</p>
-<h3>Çöp kutusu</h3>
-<p><strong>Ayarlar → İçerik → Çöp Kutusu</strong>, çöpe alınan kaynakları, soruları ve kartları türlerine göre gösterir. Uygun kayıtlarda <strong>Geri al</strong> ile içeriği geri getirebilirsin. Geri alınan kart ve soru, çöpe atılmadan önceki seviyesine döner; bu işlem yeni bir başarılı tekrar sayılmaz.</p>
-<p>Not silme işlemlerinin çöp kutusu yoktur; notlar bu listede geri alınacak kayıt olarak görünmez. Bir koleksiyonun tamamını veya kaynağın tek sayfasını silmek gibi işlemler için de onay ekranındaki kapsamı ayrı okumak gerekir.</p>
-<p><strong>Kalıcı sil</strong> veya çöp kutusunu boşaltma, geri alma yolundan farklıdır. Ekran işlemin geri alınamayacağını açıklar. Yanlış bir içeriği yalnızca düzenlemek istiyorsan ilgili düzenleme aracını kullanabilirsin.</p>
-<h3>Bildirim türleri</h3>
-<p><strong>Çalışma → Bildirimler</strong> bölümünde genel hatırlatma anahtarını ve görev, günlük özet, sayaç uyarılarını ayrı yönetebilirsin. Sayaç uyarıları; süre hedefi, Pomodoro odak sonu ve mola sonu gibi olaylarla ilgilidir.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Kontrol</th>
-<th>Ne belirler?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Cihazın bildirim izni</strong></td>
-<td>Uygulamanın bildirim gösterebilmesini</td>
-</tr>
-<tr>
-<td><strong>Tüm hatırlatmalar</strong></td>
-<td>Balpy hatırlatmalarının genel durumunu</td>
-</tr>
-<tr>
-<td><strong>Tür ayarları</strong></td>
-<td>Hangi çalışma olayları için uyarı istediğini</td>
-</tr>
-<tr>
-<td><strong>Görevin hatırlatıcısı</strong></td>
-<td>Belirli görevin bildirim zamanını</td>
-</tr>
-</tbody></table></div>
-<p>Bildirim gelmediğinde bu katmanları birlikte kontrol edebilirsin. Bir sayaç uyarısını kapatmak, kaydettiğin çalışma oturumunu silmez; günlük özeti kapatmak da görevlerin tamamlandığı anlamına gelmez.</p>
-</div></details>
-<details class="note-detail" id="yardim-gizlilik-ve-hesap-araclari"><summary>Yardım, gizlilik ve hesap araçları</summary><div class="note-body"><blockquote>
-<p>Yardım ve hesap araçları, rehbere dönmeni ve hesapla ilgili işlemleri başlatmanı sağlar. Bir bağlantıyı açmak ile talebi göndermek farklı aşamalardır.</p>
-</blockquote>
-<h3>Rehberi kullanmak</h3>
-<p><strong>Profil → Ayarlar → Yardım → Balpy web sitesi</strong> bu siteyi tarayıcıda açar. İhtiyacın olan bölümü seçip okuyabilir veya <strong>Ai ile öğren</strong> penceresinden yalnız o bölümü kopyalayabilirsin. Diğer bölümleri ihtiyaç duydukça aynı sohbete eklersin.</p>
-<h3>Bölüm bölüm öğrenmek</h3>
-<p>Webde <strong>Ai ile öğren</strong> düğmesine basıp <strong>Göndereceğin bölüm</strong> alanından seçim yaparsın. Her gönderim yalnız seçtiğin bölümün kullanım bilgisini içerir. Bölümün altındaki <strong>Bu bölümü Ai ile öğren</strong> düğmesi, o bölüm seçili olarak aynı pencereyi açar. Önce okumak zorunda değilsin.</p>
-<p><strong>Bölümü kopyala</strong> ile metni sohbetine yapıştırabilir veya <strong>Kopyala ve ChatGPT&#39;yi aç</strong>, Gemini ve Claude düğmeleriyle sohbeti açabilirsin. <strong>Bölümü indir</strong> yalnız seçilen bölümü bir metin dosyasına kaydeder. Ardından hedefini, düzeyini, zamanını veya sorunu yazarsın. Ai kullanım yolunu küçük adımlarla anlatır; hazır olduğunda <strong>devam</strong> yazabilirsin.</p>
-<p>Ai başka bir bölüme ihtiyaç duyarsa bölümün adını belirtir. İstenen bölümü bu web rehberinden seçip <strong>aynı sohbete</strong> gönderirsin. Daha önce gönderdiğin bölümü tekrar göndermen gerekmez.</p>
-<h3>Öneriyi içerik hazırlamaya dönüştürmek</h3>
-<p>Örneğin Ai sana nottan kart hazırlamayı önerdiyse not okuyucusundaki <strong>Kart hazırla</strong> aracını açarsın. O ekranın güncel kılavuzunu ve not bağlamını aynı sohbete gönderip ne istediğini yazarsın. Ai’ın XML yanıtını Balpy’de içe aktarır, önizler ve kaydedersin. Rehber bölümünü göndermek kullanım yolunu öğrenmek içindir; kaydedilebilir içerik için ilgili hazırlama ekranının XML kılavuzu gerekir.</p>
-<h3>Gönderimin kapsamı</h3>
-<p>Balpy, harici sohbetteki öğrenme ilerlemesini takip etmez. Rehber cihazındaki gerçek koleksiyonları, görevleri veya istatistikleri de kendiliğinden göndermez. Kendi verin üzerinden konuşmak istediğinde ilgili bilgiyi sohbette ayrıca paylaşırsın.</p>
-<h3>Gizlilik bilgileri</h3>
-<p><strong>Gizlilik Politikası</strong> bağlantısından açıklamaları okuyabilirsin. <strong>YouTube ve gizlilik</strong> bölümü, video kaynaklarıyla ilgili tercih ve bilgilere ulaşmanı sağlar. Bir gizlilik ayarını değiştirmek, video transkriptinin veya öğrenme notunun doğruluğunu değiştirmez.</p>
-<h3>Hesap ve veri silme</h3>
-<p><strong>Hesap ve veri silme</strong> ekranı sunucuda yalnız hesabının durduğunu, içeriklerinin telefonunda kaldığını anlatır. <strong>E-posta taslağı oluştur</strong>, hesap bilgilerinle bir silme talebi taslağı açar. Bu işlem hesabını o anda doğrudan silmez; talep e-postayla işlenir. Taslağı inceleyip göndermek sana aittir.</p>
-<h3>Çıkış yapmak</h3>
-<p><strong>Çıkış yap</strong>, uygulamadaki oturumu kapatma işlemidir. Çöp kutusu boşaltmak veya hesap silme talebi göndermekle aynı değildir. Çıkış onayındaki hesap ve kayıt açıklamalarını okuyarak devam edersin.</p>
-<blockquote>
-<p><strong>İhtiyacın olduğunda rehbere dön; hesap işlemlerinde son onayı kontrol et.</strong></p>
-</blockquote>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-info" href="/rehber/profil/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Profil</b></a><a class="pager-link next tone-info" href="/rehber/veriler/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Verilerin</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Hesap ve destek</span></nav>
+      <header class="doc-head">
+        <h1>Ayarlar ve bildirimler</h1>
+        <p class="doc-lead">Bildirimler, Ai ayarları, PDF kalitesi, çöp kutusu, gizlilik ve hesap işlemleri.</p>
+        <div class="doc-tools"><span>2 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 7 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#hesap-karti">Hesap kartı</a></li><li><a href="#bildirimler">Bildirimler</a></li><li><a href="#ai-ayarlari">Ai ayarları</a></li><li><a href="#icerik">İçerik</a></li><li><a href="#yardim">Yardım</a></li><li><a href="#gizlilik-ve-hesap">Gizlilik ve hesap</a></li><li><a href="#cikis-yapmak">Çıkış yapmak</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Ayarlar'a <span class="path"><span>Profil</span><span>Ayarlar</span></span> yolundan, Profil'in sağ üstündeki dişliyle ulaşırsın. En üstte hesap kartın, altında Çalışma, Yapay zekâ, İçerik, Yardım ve Gizlilik ve hesap bölümleri bulunur.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="hesap-karti">Hesap kartı<a class="anchor" href="#hesap-karti" aria-label="“Hesap kartı” bölümüne bağlantı">#</a></h2>
+<p>Görünen adını ve hesabının e-posta adresini gösterir. Görünen adını buradan düzenlersin. Profil bilgisi yüklenemezse kart bunu yazar ve yeniden denemeni sağlar; bu, içeriklerinin silindiği anlamına gelmez.</p>
+
+<h2 id="bildirimler">Bildirimler<a class="anchor" href="#bildirimler" aria-label="“Bildirimler” bölümüne bağlantı">#</a></h2>
+<p><span class="path"><span>Ayarlar</span><span>Çalışma</span><span>Bildirimler</span></span> ekranında şu ayarlar bulunur:</p>
+<dl class="defs">
+  <div><dt>Tüm hatırlatmalar</dt><dd>Ana anahtar. Kapalıyken aşağıdakilerin hepsi susar.</dd></div>
+  <div><dt>Görev hatırlatmaları</dt><dd>Görevde seçtiğin zamanda bildirim.</dd></div>
+  <div><dt>Günlük özet</dt><dd>Bekleyen görevler, soru ve kart tekrarları için günde bir hatırlatma. Saatini <strong>Günlük özet saati</strong> ile seçersin.</dd></div>
+  <div><dt>Sayaç uyarıları</dt><dd>Süre hedefi, Pomodoro odağı ve mola sonu.</dd></div>
+</dl>
+<p>Üstte <strong>Bildirim izni kapalı</strong> yazıyorsa <strong>İzni aç</strong>'a dokun. İzin verilene kadar tercihlerin kaydedilir ama bildirim gösterilemez. Hatırlatmalar işletim sisteminin zamanlamasına göre birkaç dakika gecikebilir. Android'de sayacın canlı göstergesi bu ayarlardan ayrı çalışır.</p>
+<div class="callout tip" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"/></svg>Bildirim gelmiyorsa</p>
+  <p>Sırayla bak: telefonun bildirim izni, <strong>Tüm hatırlatmalar</strong>, ilgili türün anahtarı ve görevin kendi hatırlatma zamanı. Pil tasarrufu ayarları da bildirimleri geciktirebilir.</p>
+</div>
+
+<h2 id="ai-ayarlari">Ai ayarları<a class="anchor" href="#ai-ayarlari" aria-label="“Ai ayarları” bölümüne bağlantı">#</a></h2>
+<p><span class="path"><span>Ayarlar</span><span>Yapay zekâ</span><span>Ai ayarları</span></span> ekranında şunlar bulunur:</p>
+<dl class="defs">
+  <div><dt>Tercih edilen yapay zekâ</dt><dd><strong>Kopyala ve aç</strong> ve <strong>Hızlı gönder</strong>'in açacağı uygulama. Uygulama yüklü değilse web sürümü açılır.</dd></div>
+  <div><dt>Diğer Ai kısayolları</dt><dd>Kopyala ve aç'ta tercih ettiğinin yanında görünecek diğer Ai uygulamaları.</dd></div>
+  <div><dt>Panodan otomatik içe aktar</dt><dd>Açıksa, bir Ai ekranından sohbete gidip yanıtı kopyalayarak Balpy'ye döndüğünde yanıt kendiliğinden taslaklara eklenir. Varsayılan olarak kapalıdır. İçe aktarmak kaydetmek değildir.</dd></div>
+  <div><dt>İçerik zenginleştirme</dt><dd>Not, kart ve soru kılavuzlarına hangi anlatım biçimlerinin ekleneceği: formül, tablo, grafik, diyagram, harita… <a href="/rehber/not-bloklari/">Zengin anlatım</a></dd></div>
+  <div><dt>Kılavuz sıralaması</dt><dd>Her Ai ekranındaki kılavuzların sırası.</dd></div>
+</dl>
+<p>Kılavuzlarım burada değil, Ai ekranlarındaki kılavuz seçimindedir. <a href="/rehber/ai-kilavuzlari/#kilavuzlarim">Kılavuzlarım</a></p>
+
+<h2 id="icerik">İçerik<a class="anchor" href="#icerik" aria-label="“İçerik” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>PDF içe aktarma kalitesi</dt><dd>Sonraki PDF aktarımlarının varsayılan kalitesi. Daha önce aktarılmış PDF'leri değiştirmez.</dd></div>
+  <div><dt>Çöp Kutusu</dt><dd>Sildiğin kaynaklar, sorular ve kartlar burada bekler. <strong>Geri al</strong> ile geri getirirsin; geri gelen kart ve soru eski seviyesine döner. Kalıcı silme geri alınamaz. Notlar çöp kutusuna düşmez.</dd></div>
+</dl>
+
+<h2 id="yardim">Yardım<a class="anchor" href="#yardim" aria-label="“Yardım” bölümüne bağlantı">#</a></h2>
+<p><strong>Balpy web sitesi</strong> bu rehberi tarayıcıda açar. Ai ekranlarındaki yardım bağlantıları doğrudan <a href="/rehber/ai/">Ai ile içerik hazırlama</a> sayfasına gelir.</p>
+
+<h2 id="gizlilik-ve-hesap">Gizlilik ve hesap<a class="anchor" href="#gizlilik-ve-hesap" aria-label="“Gizlilik ve hesap” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Gizlilik Politikası</dt><dd>Hangi verinin nerede tutulduğunu anlatan <a href="/gizlilik-politikasi/">politika</a>.</dd></div>
+  <div><dt>YouTube ve gizlilik</dt><dd>YouTube bilgilerinin alınmasını kapatabilirsin; geçici başlık, kanal ve kapak bilgileri kaldırılır, çalışma içeriğin korunur.</dd></div>
+  <div><dt>Hesap ve veri silme</dt><dd><strong>E-posta taslağı oluştur</strong>, hesap bilgilerinle bir silme talebi e-postası açar. Talep e-postayla işlenir. <a href="/hesap-silme/">Hesap ve Veri Silme</a></dd></div>
+</dl>
+
+<h2 id="cikis-yapmak">Çıkış yapmak<a class="anchor" href="#cikis-yapmak" aria-label="“Çıkış yapmak” bölümüne bağlantı">#</a></h2>
+<p><strong>Çıkış yap</strong> yalnız oturumu kapatır. Bu cihazdaki içeriklerin silinmez; aynı hesapla yeniden girince kaldığın yerden devam edersin. Aynı telefonda başka bir hesapla girersen o hesabın ayrı defteri açılır.</p>
+<p>Ayarlar'ın altında uygulamanın sürümü yazar; bir sorun bildirirken bu bilgiyi eklemen işimizi kolaylaştırır.</p>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/profil/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Profil ve istatistikler</b></a><a class="next" href="/rehber/veriler/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Verilerin ve gizlilik</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Ayarlar%20ve%20bildirimler">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#hesap-karti">Hesap kartı</a></li><li><a href="#bildirimler">Bildirimler</a></li><li><a href="#ai-ayarlari">Ai ayarları</a></li><li><a href="#icerik">İçerik</a></li><li><a href="#yardim">Yardım</a></li><li><a href="#gizlilik-ve-hesap">Gizlilik ve hesap</a></li><li><a href="#cikis-yapmak">Çıkış yapmak</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Ayarlar</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Ayarlar ve bildirimler” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

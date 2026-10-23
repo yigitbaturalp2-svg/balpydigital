@@ -3,341 +3,232 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Sayaç | Balpy Rehberi</title>
-  <meta name="description" content="Kronometre, geri sayım ya da Pomodoro ile çalışma süreni tut.">
+  <title>Sayaç ve Challenge | Balpy Rehberi</title>
+  <meta name="description" content="Geri sayım, kronometre, Pomodoro ve Challenge; günlük hedef, oturum kayıtları ve elle çalışma ekleme.">
   <link rel="canonical" href="https://balpydigital.com/rehber/sayac/">
-  <meta name="theme-color" content="#090f1b">
+  <meta name="theme-color" content="#090f1b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balpy">
-  <meta property="og:title" content="Sayaç | Balpy Rehberi">
-  <meta property="og:description" content="Kronometre, geri sayım ya da Pomodoro ile çalışma süreni tut.">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Sayaç ve Challenge | Balpy Rehberi">
+  <meta property="og:description" content="Geri sayım, kronometre, Pomodoro ve Challenge; günlük hedef, oturum kayıtları ve elle çalışma ekleme.">
   <meta property="og:url" content="https://balpydigital.com/rehber/sayac/">
   <meta property="og:image" content="https://balpydigital.com/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-700.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="/assets/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin>
+  <script>try{var t=localStorage.getItem('balpy-tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/rehber/guide.css">
   <script src="/site.js" defer></script>
-  <script src="/rehber/guide.js" defer></script>
 </head>
-<body class="guide-topic">
+<body class="docs-page">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4M12 17h.01"/></symbol><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H20"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol><symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-5M11 16V6M16 16v-8"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol><symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol><symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v11l-5 5H5z"/><path d="M14 20v-5h5M8 9h8M8 13h4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="i-question" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17h.01"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.7L4 15.5M4 20v-4.5h4.5"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="i-sigma" viewBox="0 0 24 24"><path d="M17 5H7l6 7-6 7h10"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></symbol></svg>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <div class="backdrop" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="38" height="38">Balpy</a>
-      <nav class="site-nav" id="site-nav" aria-label="Ana menü">
-        <a href="/">Ana sayfa</a>
-        <a href="/rehber/">Rehber</a>
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-button menu-button" type="button" data-nav-open aria-controls="sidebar" aria-expanded="false" aria-label="Menüyü aç"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      <a class="brand" href="/" aria-label="Balpy ana sayfa"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy<span class="brand-tag">Rehber</span></a>
+      <nav class="top-nav" aria-label="Ana menü">
+        <a href="/rehber/" aria-current="page">Rehber</a>
         <a href="/rehber/ilk-adimlar/">İlk adımlar</a>
+        <a href="/rehber/ai/">Ai ile çalışma</a>
         <a href="/rehber/sss/">Sık sorulanlar</a>
       </nav>
-      <a class="button ghost small" href="mailto:balpydigital.iletisim@gmail.com?subject=Balpy%20destek"><span class="ms">mail</span>Destek</a>
-      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç"><span class="ms">menu</span></button>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <div class="wrap guide-layout">
-      <nav class="toc" id="guide-toc" aria-label="Rehber konuları">
-        <div class="toc-head"><b>Konular</b><button class="dialog-close" id="toc-close" type="button" aria-label="Konuları kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-        <a href="/rehber/" class="toc-home"><span class="ms" aria-hidden="true">search</span>Rehberde ara</a>
-        <p>Başlarken</p>
-        <a href="/rehber/ilk-adimlar/" class="tone-amber"><span class="ms" aria-hidden="true">flag</span>İlk adımlar</a>
-        <a href="/rehber/baslangic/" class="tone-amber"><span class="ms" aria-hidden="true">rocket_launch</span>İlk bakış</a>
-        <a href="/rehber/ai/" class="tone-ai"><span class="ms" aria-hidden="true">bolt</span>Ai ve XML</a>
-        <p>Koleksiyonun içinde</p>
-        <a href="/rehber/koleksiyon/" class="tone-note"><span class="ms" aria-hidden="true">collections_bookmark</span>Koleksiyon</a>
-        <a href="/rehber/genel/" class="tone-success"><span class="ms" aria-hidden="true">bar_chart</span>Genel sekmesi</a>
-        <a href="/rehber/kaynaklar/" class="tone-source"><span class="ms" aria-hidden="true">menu_book</span>Kaynaklar</a>
-        <a href="/rehber/notlar/" class="tone-note"><span class="ms" aria-hidden="true">sticky_note_2</span>Notlar</a>
-        <a href="/rehber/kartlar/" class="tone-card"><span class="ms" aria-hidden="true">style</span>Kartlar</a>
-        <a href="/rehber/sorular/" class="tone-question"><span class="ms" aria-hidden="true">quiz</span>Sorular</a>
-        <p>Her gün</p>
-        <a href="/rehber/tekrar/" class="tone-success"><span class="ms" aria-hidden="true">event_repeat</span>Tekrar ve seviyeler</a>
-        <a href="/rehber/ana-sayfa/" class="tone-amber"><span class="ms" aria-hidden="true">home</span>Ana Sayfa ve plan</a>
-        <a href="/rehber/planlama/" class="tone-amber"><span class="ms" aria-hidden="true">event_note</span>Planlama ve görevler</a>
-        <a href="/rehber/sayac/" class="tone-success" aria-current="page"><span class="ms" aria-hidden="true">timer</span>Sayaç</a>
-        <a href="/rehber/profil/" class="tone-info"><span class="ms" aria-hidden="true">person</span>Profil</a>
-        <p>Hesap ve destek</p>
-        <a href="/rehber/ayarlar/"><span class="ms" aria-hidden="true">settings</span>Ayarlar</a>
-        <a href="/rehber/veriler/" class="tone-info"><span class="ms" aria-hidden="true">smartphone</span>Verilerin</a>
-        <a href="/rehber/sss/"><span class="ms" aria-hidden="true">help</span>Sık sorulanlar</a>
-      </nav>
-
-      <div class="guide-content">
-        <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><span class="ms" aria-hidden="true">chevron_right</span><span>Her gün</span></nav>
-        <article class="topic tone-success" id="sayac">
-          <div class="topic-head"><span class="badge"><span class="ms" aria-hidden="true">timer</span></span><div><small>Her gün</small><h1>Sayaç</h1></div></div>
-<p class="lead">Çalıştığın süreyi tutar. Oturumu bir koleksiyona ya da genel çalışmaya bağlarsın; süre günlük hedefine eklenir.</p>
-<p>Modu ekranın üstündeki çubuktan seçersin; altındaki çiplerde o moda uygun hazır seçenekler ve her modda <strong>Özel</strong> vardır. Özel, istediğin değeri yazabileceğin bir pencere açar.</p>
-<div class="defs">
-  <div><dt>Geri sayım</dt><dd>25, 45, 60 veya 90 dakika ya da özel süre; bitince uyarı gelir.</dd></div>
-  <div><dt>Kronometre</dt><dd>Serbest akış: ilerledikçe sayar, dilediğinde bitirirsin. İstersen 30, 60, 90 dakikada ya da özel bir sürede bir kez hatırlatır; kronometre durmaz.</dd></div>
-  <div><dt>Pomodoro</dt><dd>Klasik 25·5, Derin 50·10, 52·17 veya 90·20 düzeni. Özel'de odak, kısa mola, uzun mola, uzun mola sıklığı ve tur sayısını ayarlarsın; tur sınırsız da olabilir.</dd></div>
-</div>
-<h3>Günlük hedef ve çalışma planı</h3>
-<p>Hedefini sayacın üstündeki hedef şeridine dokunarak ya da Profil → dişli → <strong>Çalışma planı</strong> ile değiştirirsin. Temel günlük hedefin yanında belirli günlere ayrı hedef koyabilirsin. Unuttuğun bir çalışmayı <strong>Bugüne süre ekle</strong> ile sonradan kaydedersin.</p>
-<div class="callout tone-info"><span class="ms">notifications</span><div><b>Bitiş uyarısı gelmiyorsa</b><p>Profil → dişli → Bildirimler'de <strong>Sayaç uyarıları</strong> açık mı ve Balpy'nin bildirim izni var mı, kontrol et.</p></div></div>
-<div class="topic-details"><p>Ayrıntılı kullanım notları · İhtiyacın olan başlığı aç</p>
-<details class="note-detail" id="geri-sayim-kronometre-ve-pomodoro"><summary>Geri Sayım, Kronometre ve Pomodoro</summary><div class="note-body"><blockquote>
-<p><strong>Sayaç</strong>, çalışmaya ayırdığın süreyi ölçmene yardımcı olur. Üç modu vardır: <strong>Geri Sayım, Kronometre ve Pomodoro</strong>.</p>
-</blockquote>
-<h3>Modların farkı</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Mod</th>
-<th>Nasıl çalışır?</th>
-<th>Ne zaman kullanabilirsin?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Geri Sayım</strong></td>
-<td>Belirlediğin oturum süresinden geriye sayar.</td>
-<td>Bir işe belirli bir süre ayırmak istediğinde</td>
-</tr>
-<tr>
-<td><strong>Kronometre</strong></td>
-<td>Sen bitirene kadar geçen süreyi sayar.</td>
-<td>Süreyi baştan sınırlamadan çalışmak istediğinde</td>
-</tr>
-<tr>
-<td><strong>Pomodoro</strong></td>
-<td>Odak süreleri ile molaları belirlediğin düzende kullanır.</td>
-<td>Çalışmayı aralıklı oturumlara bölmek istediğinde</td>
-</tr>
-</tbody></table></div>
-<p>Bu modlar öğrenme içeriğinin türünü değiştirmez. Aynı notu Kronometre ile okuyabilir, soru çözmeyi Geri Sayım ile sınırlandırabilir veya bir kaynağı Pomodoro düzeninde çalışabilirsin.</p>
-<h3>Mod ve süre seçmek</h3>
-<p>Modu sayaç ekranının üstündeki çubuktan seçersin. Altındaki çipler o moda göre değişir ve her birinde <strong>Özel</strong> vardır; Özel, istediğin değeri yazabileceğin bir pencere açar.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Mod</th>
-<th>Hazır seçenekler</th>
-<th>Özel ile</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Geri Sayım</strong></td>
-<td>25, 45, 60, 90 dk</td>
-<td>1–480 dakika arası herhangi bir süre</td>
-</tr>
-<tr>
-<td><strong>Kronometre</strong></td>
-<td>Hatırlatma yok, 30, 60, 90 dk</td>
-<td>5–480 dakika arası bir hatırlatma</td>
-</tr>
-<tr>
-<td><strong>Pomodoro</strong></td>
-<td>Klasik 25·5, Derin 50·10, 52·17, 90·20</td>
-<td>Odak, kısa mola, uzun mola, uzun mola sıklığı ve tur sayısı</td>
-</tr>
-</tbody></table></div>
-<p>Açık bir oturum veya mola varken çipler gizlenir; yeni düzeni oturumu bitirdikten sonra seçersin.</p>
-<p><strong>Kronometre hatırlatması</strong> bir hedef değildir. Seçtiğin sürede bir kez bildirim gelir, kronometre saymaya devam eder. Duraklattığın süre hesaba girmez.</p>
-<p>Oturum için seçtiğin süre, <strong>günlük süre hedefinden</strong> farklıdır. Örneğin günlük hedefin 90 dakika, bir geri sayım oturumun 30 dakika olabilir. Bir oturumu bitirmek bütün günlük hedefin tamamlandığı anlamına gelmez.</p>
-<h3>Pomodoro düzeni</h3>
-<p>Pomodoro’da odak süresi, kısa mola, uzun mola ve uzun molanın sıklığı bulunur. Hazır düzen çipine dokunmak süreleri değiştirir, tur sayını korur. Çiplerin altındaki özet satırı (“25 dk odak · 5 dk mola · 4 tur”) ya da <strong>Özel</strong>, <strong>Pomodoro düzeni</strong> penceresini açar: süreleri ve tur sayısını orada ayarlar, setin toplam süresini önceden görürsün. <strong>Sınırsız</strong> açıkken set, sen bitirene kadar sürer.</p>
-<p>Hazır düzenlerden birini seçmek, o sürelerin her kullanıcı için en uygun olduğu anlamına gelmez. Bölümün uzunluğunu, yorgunluğunu ve o günkü işini dikkate alarak süreyi değiştirebilirsin.</p>
-<h3>Süre ölçmek neyi gösterir?</h3>
-<p>Sayaç, çalışma olarak kaydettiğin zamanı gösterir. Bu süre tek başına dikkatini, içerik doğruluğunu veya öğrendiğin bilgi miktarını ölçmez. Bir saati kaydetmiş olmak ile konunun tamamını öğrenmiş olmak ayrı sonuçlardır.</p>
-<blockquote>
-<p><strong>Önce çalışma biçimini seç; ardından ihtiyacına uygun süreyle başlayıp oturumu tamamla.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="calismayi-baslatmak-duraklatmak-ve-bitirmek"><summary>Çalışmayı başlatmak, duraklatmak ve bitirmek</summary><div class="note-body"><blockquote>
-<p>Sayacı <strong>Başlat, Duraklat, Devam et ve Bitir</strong> işlemleriyle yönetirsin. <strong>Sıfırla</strong>, geçen süreyi kaydetmeden bırakmak içindir.</p>
-</blockquote>
-<p><strong>Bir çalışma oturumunu yönet</strong></p>
-<ul>
-<li>Modu belirle: Geri Sayım, Kronometre veya Pomodoro seç; gerekiyorsa süreyi ayarla.</li>
-<li>Başlat: Çalışmaya başladığında başlat düğmesine dokun.</li>
-<li>Ara verirken duraklat: Oturumu sürdürmek istiyorsan Devam et ile yeniden başlat.</li>
-<li>Bitir: Çalışman sona erdiğinde oturumu bitir ve kaydedilen süreyi kontrol et.</li>
-</ul>
-<h3>Duraklatmak</h3>
-<p>Duraklatma, mevcut oturumu bitirmez. Daha sonra aynı oturuma dönebilirsin. Duraklatılmış süre çalışma süresine eklenmez; devam ettiğinde süre yeniden birikmeye başlar.</p>
-<p>Uygulamada başka bir ekrana geçmek ise kendiliğinden duraklatma değildir. Kaynağını, notunu veya sorularını açıp çalışırken oturum devam edebilir. Gerçekten ara verdiğinde duraklatma aracını kullanırsın.</p>
-<h3>Diğer ekranlardaki sayaç çubuğu</h3>
-<p>Aktif oturumda Ana Sayfa, Koleksiyonlar veya Profil gibi bölümlerde sayaç çubuğu görünür. Oturumun durumunu buradan takip edebilir, <strong>Duraklat</strong>, <strong>Devam et</strong> veya <strong>Bitir</strong> işlemlerine ulaşabilirsin. Sayaca dönmek için bütün çalışmayı kapatman gerekmez.</p>
-<h3>Bitirmek ile sıfırlamak</h3>
-<p><strong>Bitir</strong>, uygun süreyi oturum kaydı olarak tamamlar. <strong>Sıfırla</strong>, devam eden oturumu kaydetmeden kaldırır. Kayda değer bir süre biriktiğinde sıfırlama ekranı, geçen sürenin kaydedilmeyeceğini açıklar. Süreyi saklamak istiyorsan Bitir kullanırsın.</p>
-<p>Normal sayaç oturumunda bir dakikadan kısa bir çalışma kaydedilmez; bu durumda ekran bilgi verir. Bu sınırı günlük hedef veya öğrenme başarısı ölçütü gibi değerlendirmemelisin.</p>
-<h3>Süre dolması ve mola</h3>
-<p>Geri sayım hedefi dolduğunda oturum tamamlanır. Pomodoro’da tamamlanan odak bölümü kaydedilir; seçtiğin mola düzenine ve tur sayısına göre çalışmanın sonraki aşamasına geçilir. Mola, çalışma süresine eklenmez. Molayı ve yeni odak aşamasını ekrandaki kontrollerden izlersin.</p>
-<p><strong>Önemli: Zamanı doğru kaydet</strong>
-Sayaç açık kaldığı için geçen bir süreyi gerçekten çalışmış saymak zorunda değilsin. Kayıtta hata fark ettiğinde oturumun süre düzenleme aracını kullanabilirsin. Sayaç senin çalışma kaydını tutar; çalışıp çalışmadığını bağımsız olarak değerlendirmez.</p>
-</div></details>
-<details class="note-detail" id="gunluk-hedef-ve-oturum-sirasi"><summary>Günlük hedef ve oturum sırası</summary><div class="note-body"><blockquote>
-<p><strong>Günlük süre hedefi</strong>, bir çalışma gününde ne kadar süre kaydetmek istediğini belirtir. <strong>Oturum hedefi</strong> ise tek bir çalışma bölümünün süresidir.</p>
-</blockquote>
-<h3>Günlük hedefe ulaşmak</h3>
-<p>Sayaç ekranının üstündeki hedef şeridine dokunarak <strong>Çalışma planı</strong> ekranına ulaşırsın. Profil’deki günlük hedef bağlantıları ve Ayarlar’daki Çalışma planı da aynı hedef düzenine gider.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Hedef</th>
-<th>Kapsamı</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Oturum süresi</strong></td>
-<td>Başlatacağın tek çalışmanın süresi</td>
-</tr>
-<tr>
-<td><strong>Temel günlük hedef</strong></td>
-<td>Özel plan bulunmayan günlerde kullanılan süre</td>
-</tr>
-<tr>
-<td><strong>Bu günün hedefi</strong></td>
-<td>Seçtiğin çalışma gününe özel süre</td>
-</tr>
-<tr>
-<td><strong>Gelişim hedefi</strong></td>
-<td>Zaman içinde ulaşmak istediğin çalışma düzeni</td>
-</tr>
-</tbody></table></div>
-<h3>Temel günlük hedef</h3>
-<p><strong>Temel günlük hedef</strong>, bugünden itibaren özel planı olmayan günlerde kullanılır. Günlük hedefi değiştirmen geçmişteki bütün günlerin hedeflerini yeniden yazmaz. Böylece bir gün için o sırada belirlediğin hedef ayrı takip edilebilir.</p>
-<h3>Güne özel hedef</h3>
-<p>Çalışma planında tarihi seçip <strong>Bu günün hedefi</strong> değerini değiştirebilirsin. Yoğun bir gün ile daha fazla vakit ayırabildiğin gün için farklı hedefler koyabilirsin. Oturum sırası eklemeden yalnızca günlük hedef belirlemek de mümkündür.</p>
-<p>Hedef girişinde <strong>Süre</strong> seçersen dakika yazarsın. <strong>Pomodoro adedi</strong> seçersen her adet 25 dakika çalışma olarak hesaplanır; molalar hedefe eklenmez. Örneğin üç adet, 75 dakikalık süre hedefidir. Bu seçim günlük hedefi ifade etmenin bir yoludur; oturum sırasını ayrıca hazırlarsın.</p>
-<h3>Gelişim hedefi</h3>
-<p><strong>Gelişim hedefi</strong>, başlangıç süreni, ulaşmak istediğin süreyi ve haftada kaç gün çalışmayı düşündüğünü belirtmene yarar. Bu bilgi Ai ile çalışma planı hazırlarken kullanılabilir.</p>
-<p><strong>Önemli: Gelişim hedefi kendiliğinden program uygulamaz</strong>
-Bir gelişim hedefi kaydetmek, günlük sürenin otomatik olarak artırıldığı anlamına gelmez. Yapay zekânın önerdiği gün ve oturum düzeni, sen inceleyip kaydetmeden uygulanmaz.</p>
-<h3>Hedef ile kayıt</h3>
-<p>Günlük hedef planlanan süredir; tamamlanan oturumların toplamı gerçekleşen süredir. Bir günlük hedefi 60 dakika yapmak, istatistiklerine 60 dakika çalışma eklemez. Süreyi sayaçla ölçüp oturumu bitirmen veya yaptığın çalışmayı manuel eklemen gerekir.</p>
-<blockquote>
-<p><strong>Hedef çalışmak istediğin süreyi, oturum kaydı ise kaydettiğin gerçek çalışmayı gösterir.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="yapay-zeka-ile-calisma-plani-hazirlamak"><summary>Yapay zekâ ile çalışma planı hazırlamak</summary><div class="note-body"><blockquote>
-<p><strong>Çalışma planı</strong>, bir günün süre hedefini ve çalışma oturumlarının sırasını düzenler. Ana Sayfa’daki görev planıyla birlikte kullanılabilir; aynı kayıt değildir.</p>
-</blockquote>
-<h3>Önerilen yol: Ai ile süre ve oturum planı hazırlatmak</h3>
-<p><strong>Çalışma planı → Ai ile planla</strong> ile <strong>Ai ile çalışma planı</strong> ekranını açarsın. Tarih aralığını ve kullanılacak geçmiş bilgilerini kontrol edip kılavuzu sohbete gönderirsin. Ne kadar zaman ayırabildiğini, odaklanırken nerede zorlandığını ve nasıl bir düzen istediğini yazarsın. Ai’ın XML yanıtını aynı ekranda içe aktarıp günlük hedefleri, çalışma oturumlarını ve molaları önizlersin. Uygun günleri <strong>Seçilen günleri kaydet</strong> ile uygular, Sayaç’tan sıradaki oturumu başlatırsın.</p>
-<p><strong>Örnek: Ai ile şöyle planlayabilirsin</strong>
-“Şu anda uzun oturumlarda zorlanıyorum. Bu kılavuz ve çalışma geçmişime göre seçili günler için odak ve mola düzeni hazırla. Günlük süreyi bir anda yükseltmek istemiyorum; uygulanabilir bir oturum sırası istiyorum.”</p>
-<p>Bu bir istek örneğidir; kendi sürelerini ve tercihlerini sen belirtirsin. Oturumları tek tek elle eklemek yerine Ai’dan bir taslak alabilir, önizlemede sana uygun olanı seçebilirsin.</p>
-<h3>Oturum sırasını kendin düzenlemek</h3>
-<p><strong>Oturum sırasını hazırla</strong></p>
-<ul>
-<li>Günü seç: Çalışma planında hangi günü düzenlediğini kontrol et.</li>
-<li>Oturum ekle: Geri sayım, Pomodoro veya Mola seçeneğiyle bir bölüm oluştur.</li>
-<li>Süre veya tur sayısını belirle: Geri sayım ve molada dakika, Pomodoro’da tur sayısı gir.</li>
-<li>Sırayı düzenle: Bekleyen oturumları Yukarı taşı ve Aşağı taşı araçlarıyla sıralayıp toplamları kontrol et.</li>
-<li>Planı kaydet: Hazırladığın sırayı ve günlük hedefi uygula.</li>
-</ul>
-<p>Planlı oturumlarda <strong>Geri sayım</strong>, <strong>Pomodoro</strong> ve <strong>Mola</strong> seçenekleri bulunur. Kronometre ise süre sınırı koymadan çalışmak için Sayaç ekranından kullanılır. Planlı Pomodoro seti, 25 dakikalık odaklar ve 5 dakikalık kısa molalar kullanır; dört odakta bir 15 dakikalık uzun mola vardır. Setin sonunda yeni mola başlamaz. Sayaç’taki serbest Pomodoro tercihleriyle planlı setin düzenini karıştırmadan, açılan formun açıklamasını okuyabilirsin.</p>
-<p>Planlanan oturum toplamı ile günlük hedef farklı olabilir. Ekran, oturumların toplamının hedefin altında mı üstünde mi olduğunu gösterir. Uygunsa <strong>Hedefi oturum toplamına eşitle</strong> seçeneğini kullanabilirsin. Günlük hedef ile oturum toplamını aynı yapmak zorunlu değildir.</p>
-<h3>Çalışma ve molalar</h3>
-<p><strong>Planlanan çalışma</strong> toplamına molalar dahil değildir. <strong>Tahmini molalar</strong> ayrı gösterilir. Örneğin iki odak bölümünün arasındaki mola, toplam öğrenme süresine eklenen üçüncü bir çalışma değildir.</p>
-<p>Sayaç ekranından sıradaki planlı oturuma başlayabilir, <strong>Planı aç</strong> ile düzeni inceleyebilir veya uygun bir oturumu <strong>Atla</strong> ile o gün çalışmanın dışında bırakabilirsin. Atlanan oturum ile bitirilmiş oturum farklı durumlarda gösterilir.</p>
-<h3>Oturumların durumları</h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Durum</th>
-<th>Anlamı</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Bekliyor</strong></td>
-<td>Henüz başlanmamış oturum</td>
-</tr>
-<tr>
-<td><strong>Aktif</strong></td>
-<td>Şu anda devam eden oturum veya mola</td>
-</tr>
-<tr>
-<td><strong>Kalan süre</strong></td>
-<td>Bir bölümü kaydedilmiş, tamamlanacak süresi bulunan çalışma</td>
-</tr>
-<tr>
-<td><strong>Tamamlandı</strong></td>
-<td>Çalışma hedefi karşılanmış veya planlı mola bitmiş bölüm</td>
-</tr>
-<tr>
-<td><strong>Atlandı</strong></td>
-<td>O gün için sıradan çıkarılmış bölüm</td>
-</tr>
-</tbody></table></div>
-<p>Planlı bir çalışmayı erken bitirirsen kaydedilmiş süre korunur; oturumun kalan kısmı daha sonra tamamlanabilir. Başlamış veya kaydı oluşmuş bölümler, geçmişi korumak için bekleyen oturumlarla aynı düzenleme seçeneklerini sunmaz. Düzenle, Kaldır ve sıralama araçlarının kullanılabilirliğini oturumun durumuna göre görürsün.</p>
-<h3>Önizlemede günleri seçmek</h3>
-<p>Yanıtı içe aktardığında günlük hedefleri, planlanan çalışma ve molaları, eklenecek veya kaldırılacak oturumları görürsün. Kaydetmek istediğin günleri seçip <strong>Seçilen günleri kaydet</strong> ile uygularsın.</p>
-<p>Kaydetme, seçilen günlerin bekleyen oturum sırasını değiştirir. Başlamış, tamamlanmış ve atlanmış oturumlar korunur. Benzer öğelerin ayrı yeni oturumlara dönüşeceği bir durumda ekranın uyarı ve onayını incele. Önizleme sonrası plan değişmişse yeniden incelemen istenebilir.</p>
-<blockquote>
-<p><strong>Görev planı ne yapacağını, oturum planı ise hangi süre ve sırayla çalışacağını belirler.</strong></p>
-</blockquote>
-</div></details>
-<details class="note-detail" id="calisma-kayitlari-ve-icerik-ekleme"><summary>Çalışma kayıtları ve içerik ekleme</summary><div class="note-body"><blockquote>
-<p>Tamamlanan çalışmalar <strong>oturum kaydı</strong> olarak tutulur. Sayacı kullanmadan yaptığın çalışmaları da <strong>Çalışma ekle</strong> ile kaydedebilirsin.</p>
-</blockquote>
-<h3>Bugünkü Oturumlar</h3>
-<p>Sayaç ekranındaki <strong>Bugünkü Oturumlar</strong> bölümünde tamamlanan kayıtlarını görürsün. Başlamış ama henüz bitirilmemiş bir sayaç ile tamamlanmış bir kayıt aynı durumda değildir. Listeden oturum adını ve süresini inceleyebilirsin.</p>
-<h3>Manuel çalışma eklemek</h3>
-<p><strong>Çalışma ekle</strong> seçeneğinde süreyi, <strong>Bugün</strong>, <strong>Dün</strong> veya <strong>Tarih seç</strong> üzerinden çalışma gününü ve istersen oturum adını belirtirsin. Böylece sayacı açmadan yaptığın bir kitap veya ders çalışmasını geçmişine ekleyebilirsin.</p>
-<p><strong>Örnek: Sayaç açmadan çalıştıysan</strong>
-Bir ders kitabını 40 dakika çalıştığını düşün. Bu süreyi manuel eklerken uygun günü ve “Kitap çalışması” gibi bir ad seçebilirsin. Bu, cihazının ölçtüğü bir oturum değil, senin bildirdiğin çalışma kaydıdır.</p>
-<p>Sayaçta zaten kaydedilmiş aynı çalışmayı yeniden manuel eklersen toplam süreyi iki kez artırmış olursun. Önce mevcut kayıtları kontrol etmek, istatistiklerini doğru tutmana yardımcı olur.</p>
-<h3>Düzenleme ve silme</h3>
-<p>Oturum seçeneklerinden adını değiştirebilir veya <strong>Süreyi düzenle</strong> ile yanlış kaydedilmiş süreyi düzeltebilirsin. Silme işlemi kaydı kaldırır; ilgili bildirimde <strong>Geri al</strong> seçeneği sunulursa hemen geri dönebilirsin. Kayıt düzenlemesi süreye dayanan istatistikleri de etkiler.</p>
-<h3>Çalışma günü ve kayıt yeri</h3>
-<p>Balpy’nin çalışma günü 04.00’te değişir. Sayaç kaydı, oturumun başlangıcına veya bağlı olduğu plan gününe göre belirlenir. Manuel kayıtta ise seçtiğin güne dikkat edersin.</p>
-<p>Sayacın <strong>İçerik ekle</strong> kısayollarından Kaynak, Soru, Kart, Not veya Ai hazırlama ekranlarına geçebilirsin. İçeriğin kayıt yeri bu ekranlarda ayrıca seçilir. Sayaçta bulunmak, içeriği kendiliğinden belirli bir koleksiyona kaydetmez.</p>
-<h3>Kayıtları yorumlamak</h3>
-<p>Süre kayıtları Profil’deki toplam çalışma, ortalamalar ve çalışma takvimine katkı verir. Bir göreve bağlı sayaç çalışması, ilgili <strong>Sayaç</strong> görevinin ilerlemesinde kullanılabilir. Süre eklemek bütün kartları, soruları veya ünite hedeflerini tamamlamaz.</p>
-</div></details>
-</div>
-<div class="topic-tools" hidden><button class="button ghost small" id="open-ai-learning" type="button"><span class="ms" aria-hidden="true">bolt</span>Bu bölümü Ai ile öğren</button></div>
-        </article>
-        <nav class="pager" aria-label="Önceki ve sonraki konu"><a class="pager-link prev tone-amber" href="/rehber/planlama/"><small><span class="ms" aria-hidden="true">arrow_back</span>Önceki</small><b>Planlama ve görevler</b></a><a class="pager-link next tone-info" href="/rehber/profil/"><small>Sonraki<span class="ms" aria-hidden="true">arrow_forward</span></small><b>Profil</b></a></nav>
+      <div class="top-actions">
+        <button class="search-trigger" type="button" data-search-open aria-label="Rehberde ara"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span>Rehberde ara</span><kbd>/</kbd></button>
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Açık ya da koyu temaya geç"><svg class="icon sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg></button>
       </div>
     </div>
-  </main>
+  </header>
+  <div class="docs has-toc">
+    <aside class="sidebar" id="sidebar" aria-label="Rehber konuları">
+      <div class="sidebar-head"><a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="34" height="34">Balpy</a><button class="icon-button" type="button" data-nav-close aria-label="Menüyü kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button></div>
+      <div class="nav-group nav-site">
+        <ul>
+          <li><a class="nav-link" href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana sayfa</a></li>
+          <li><a class="nav-link" href="/rehber/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Rehber girişi</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Başlarken</p>
+        <ul>
+          <li><a class="nav-link tone-amber" href="/rehber/baslangic/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Genel bakış</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ilk-adimlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg>İlk adımlar</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Ai ile çalışma</p>
+        <ul>
+          <li><a class="nav-link tone-ai" href="/rehber/ai/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Ai ve XML&#39;e giriş</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-ekranlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg>Ai ekranları</a></li>
+          <li><a class="nav-link tone-ai" href="/rehber/ai-kilavuzlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg>Kılavuzlar ve bağlam</a></li>
+          <li><a class="nav-link tone-formula" href="/rehber/not-bloklari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sigma"/></svg>Zengin anlatım</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Koleksiyon ve içerikler</p>
+        <ul>
+          <li><a class="nav-link tone-note" href="/rehber/koleksiyon/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-folder"/></svg>Koleksiyon</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/hedefler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg>Hedefler</a></li>
+          <li><a class="nav-link tone-source" href="/rehber/kaynaklar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Kaynaklar</a></li>
+          <li><a class="nav-link tone-note" href="/rehber/notlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>Notlar</a></li>
+          <li><a class="nav-link tone-card" href="/rehber/kartlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cards"/></svg>Kartlar</a></li>
+          <li><a class="nav-link tone-question" href="/rehber/sorular/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-question"/></svg>Sorular</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Çalışma düzeni</p>
+        <ul>
+          <li><a class="nav-link tone-success" href="/rehber/tekrar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-repeat"/></svg>Çalışma ve tekrar</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/calisma-modlari/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg>Çalışma modları</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/ana-sayfa/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Ana Sayfa</a></li>
+          <li><a class="nav-link tone-amber" href="/rehber/planlama/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Görevler ve plan</a></li>
+          <li><a class="nav-link tone-success" href="/rehber/sayac/" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg>Sayaç</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/profil/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg>Profil</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p>Hesap ve destek</p>
+        <ul>
+          <li><a class="nav-link" href="/rehber/ayarlar/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sliders"/></svg>Ayarlar</a></li>
+          <li><a class="nav-link tone-info" href="/rehber/veriler/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Verilerin</a></li>
+          <li><a class="nav-link" href="/rehber/sss/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Sık sorulanlar</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="scrim" data-nav-close aria-hidden="true"></div>
+    <main class="doc" id="main" tabindex="-1">
+      <nav class="crumbs" aria-label="Konum"><a href="/rehber/">Rehber</a><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Çalışma düzeni</span></nav>
+      <header class="doc-head">
+        <h1>Sayaç ve Challenge</h1>
+        <p class="doc-lead">Geri sayım, kronometre, Pomodoro ve Challenge; günlük hedef, oturum kayıtları ve elle çalışma ekleme.</p>
+        <div class="doc-tools"><span>5 dk okuma</span><span class="sep" aria-hidden="true"></span><button class="button ghost" type="button" data-ask-open-dialog><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Bu sayfayı Ai'a sor</button></div>
+        <details class="toc-inline"><summary>Bu sayfada · 7 bölüm<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><ol><li><a href="#dort-mod">Dört mod</a></li><li><a href="#dugmeler">Düğmeler</a></li><li><a href="#gunluk-hedef">Günlük hedef</a></li><li><a href="#goreve-bagli-sayac">Göreve bağlı sayaç</a></li><li><a href="#bugunku-oturumlar-ve-elle-ekleme">Bugünkü Oturumlar ve elle ekleme</a></li><li><a href="#challenge">Challenge</a></li><li><a href="#ai-ile-sayac">Ai ile sayaç</a></li></ol></details>
+      </header>
+      <article class="prose" id="rehber-metni">
+<p class="lead">Sayaç çalışma süreni ölçer ve kaydeder. Bir mod seçip <strong>Başlat</strong>'a dokunman yeter. Koleksiyonun olmasa da kullanılır. Sayaç açıkken uygulamanın diğer bölümlerinde gezinebilirsin; süre kesilmez.</p>
 
-  <div class="toc-scrim" id="toc-scrim" hidden></div>
-  <div class="guide-bar" id="guide-bar" hidden>
-    <button type="button" id="toc-open" aria-controls="guide-toc" aria-expanded="false"><span class="ms" aria-hidden="true">format_list_bulleted</span>Konular</button>
-    <a href="/rehber/#ara"><span class="ms" aria-hidden="true">search</span>Ara</a>
-    <button type="button" id="to-top"><span class="ms" aria-hidden="true">arrow_upward</span>Başa dön</button>
+<h2 id="dort-mod">Dört mod<a class="anchor" href="#dort-mod" aria-label="“Dört mod” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Geri Sayım</dt><dd>Seçtiğin süreden geriye sayar, süre dolunca kendiliğinden durur ve kaydedilir. Hazır sayaçlar 15, 30, 45, 60, 75 ve 90 dakikadır; kendi sayacını 1 dakika ile 8 saat arasında, istersen adıyla kurarsın.</dd></div>
+  <div><dt>Kronometre</dt><dd>Sen bitirene kadar yukarı sayar. Ayarı ve molası yoktur.</dd></div>
+  <div><dt>Pomodoro</dt><dd>25 dakika odak, 5 dakika mola; her dört turda bir 15 dakika uzun mola. Yalnız tur sayısını seçersin: hazır 2, 3 ve 4 tur ya da 1–12 arası kendi seçeneğin.</dd></div>
+  <div><dt>Challenge</dt><dd>Bir uğraşı çalışma süresine bağlayan kendi kuralların. Aşağıda ayrıntılı.</dd></div>
+</dl>
+<p>Sayaç başlığındaki düzenleme simgesi <strong>Sayaç ayarları</strong>'nı açar: geri sayımları ve tur seçeneklerini ekler, değiştirir ya da silersin. Açık bir oturum ya da mola sırasında bu seçenekler kilitlidir.</p>
+
+<h2 id="dugmeler">Düğmeler<a class="anchor" href="#dugmeler" aria-label="“Düğmeler” bölümüne bağlantı">#</a></h2>
+<dl class="defs">
+  <div><dt>Başlat / Duraklat / Devam et</dt><dd>Duraklattığın süre çalışmaya sayılmaz. Başka bir ekrana geçmek sayacı duraklatmaz.</dd></div>
+  <div><dt>Molayı geç / Odağa başla</dt><dd>Pomodoro'da mola sırasında yeni odağı hemen başlatırsın; mola bitince sıradaki odak sen <strong>Odağa başla</strong> diyene kadar başlamaz.</dd></div>
+  <div><dt>Sıfırla</dt><dd>Pomodoro'da akan turu kaydetmeden baştan başlatır; tamamlanan turlar korunur.</dd></div>
+  <div><dt>Sil</dt><dd>Diğer modlarda akan süreyi kaydetmeden siler. Bir dakikayı geçen süre için önce sorulur.</dd></div>
+  <div><dt>Bitir</dt><dd>Süreyi kaydedip sayacı kapatır. Pomodoro setinin son turundan önce basarsan o turun süresi kaydedilir, kalan turlar başlamaz.</dd></div>
+</dl>
+<div class="callout note" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>Bir dakikadan kısa çalışma</p>
+  <p>Serbest çalışmada bir dakikadan kısa süre kaydedilmez; bu durumda Balpy <strong>Kaydetmeden bitir</strong>'i sorar. Göreve bağlı çalışmada kısa süreler de görevin ilerlemesine yazılır.</p>
+</div>
+<p>Sağ üstteki sayaç seçeneklerinden sayacın görünümünü <strong>Sade</strong> ya da <strong>Tur halkası</strong> olarak değiştirirsin; tur halkasında Pomodoro turları dış halkada parça parça dolar. Görünüm süreyi etkilemez.</p>
+
+<h2 id="gunluk-hedef">Günlük hedef<a class="anchor" href="#gunluk-hedef" aria-label="“Günlük hedef” bölümüne bağlantı">#</a></h2>
+<p>Günlük hedef, bir çalışma gününde kaydetmek istediğin toplam süredir. Kaydedilmiş çalışmaların ve o güne ait açık oturumun toplamıyla ölçülür; molalar ve duraklatılmış süreler eklenmez. Sayaç ekranındaki hedef şeridine dokunarak hedefi değiştirirsin; yeni hedef bugünden itibaren geçerlidir, geçmiş günleri yeniden yazmaz.</p>
+<p>Günlük hedef bir öğrenme ölçüsü değildir ve görevlerin tahmini süresi de değildir. Hedefe ulaşınca kronometre durmaz; açık görevlerin sürer.</p>
+<div class="callout tip" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"/></svg>Gün 04.00'te değişir</p>
+  <p>Gece yarısından sonra yaptığın çalışma, saat 04.00'e kadar bir önceki güne yazılır.</p>
+</div>
+
+<h2 id="goreve-bagli-sayac">Göreve bağlı sayaç<a class="anchor" href="#goreve-bagli-sayac" aria-label="“Göreve bağlı sayaç” bölümüne bağlantı">#</a></h2>
+<p>Bir <strong>Sayaç</strong> görevinden başlattığın oturum görevi hazırlar ve <strong>Başlat</strong>'ı bekler; süre o göreve ve görevin koleksiyonuna yazılır. Görevin süre hedefine ulaşınca görev tamamlanır. Sayaç ekranındaki <strong>Göreve dön</strong> seni görevine götürür. Başka bir sayaç açıksa yeni oturum başlamaz; açık olan oturuma yönlendirilirsin.</p>
+
+<h2 id="bugunku-oturumlar-ve-elle-ekleme">Bugünkü Oturumlar ve elle ekleme<a class="anchor" href="#bugunku-oturumlar-ve-elle-ekleme" aria-label="“Bugünkü Oturumlar ve elle ekleme” bölümüne bağlantı">#</a></h2>
+<ul>
+  <li>Tamamlanan çalışmalar sayaç ekranındaki <strong>Bugünkü Oturumlar</strong> listesinde görünür. Bir Pomodoro seti tek satırdır: “3 Pomodoro · 75 dk”; dokununca turlar açılır.</li>
+  <li>Bir oturumun adını değiştirebilir, süresini düzeltebilir ya da silebilirsin. Silmeden hemen sonra kısa bir süre <strong>Geri al</strong> sunulur.</li>
+  <li>Sayacı açmadan yaptığın bir çalışmayı <strong>Çalışma ekle</strong> ile kaydedersin: süre, gün (<strong>Bugün</strong>, <strong>Dün</strong> ya da takvimden) ve istersen oturum adı. Aynı çalışmayı iki kez eklememeye dikkat et.</li>
+</ul>
+<p>Sayaç açıkken diğer bölümlerde küçük bir sayaç çubuğu ve bildirim görünür; buradan duraklatabilir ya da bitirebilirsin.</p>
+
+<h2 id="challenge">Challenge<a class="anchor" href="#challenge" aria-label="“Challenge” bölümüne bağlantı">#</a></h2>
+<p>Challenge, bir uğraşı çalışmaya bağlayan kayıtlı kurallardır. Örneğin bir oyunda “her öldüğümde 15 dakika çalışacağım” ya da “maçı kaybedersem 25 dakika” gibi. Kuralları bir kez kurarsın; olay oldukça süre eklenir, geri sayım başlar ve borcunu çalışarak ödersin.</p>
+<ol class="steps tone-success">
+  <li><strong>Challenge'ı kur</strong>Sayaç'ta <strong>Challenge</strong> modunu seç. Hiç kaydın yoksa <strong>Challenge hazırla</strong> Ai ekranını açar; kurallarını sohbette tarif edersin. Elle kurmak için Sayaç ayarlarının Challenge bölümünü kullanırsın.</li>
+  <li><strong>Bugünün koşusunu başlat</strong>Challenge'ı seçip başlatırsın. Aynı anda tek koşu açık olur; koşu açıkken mod değişmez.</li>
+  <li><strong>Olayları gir</strong>Olay düğmesine bastığında süre hemen eklenir ve geri sayım başlar. Sayaç zaten akıyorsa kalan süre uzar.</li>
+  <li><strong>Borcunu öde</strong>Geri sayım dolunca süre çalışma oturumu olarak kaydedilir ve koşu sıradaki olayı bekler.</li>
+</ol>
+<h3 id="kural-turleri">Kural türleri<a class="anchor" href="#kural-turleri" aria-label="“Kural türleri” bölümüne bağlantı">#</a></h3>
+<dl class="defs">
+  <div><dt>Olay düğmesi</dt><dd>“Öldüm = 15 dk”. 0 dakikalık düğme yalnız sonucu kaydeder.</dd></div>
+  <div><dt>Ödül</dt><dd>“Telefonu başka odaya koydum = −10 dk”. Yalnız ödenmemiş süreyi düşer; sıfırın altına inmez, süre biriktirmez.</dd></div>
+  <div><dt>Sonuç girişi</dt><dd>“Maç sonucu” gibi değerler girersin; süre girdilerden ya da bir formülden hesaplanır. Girdi Evet/Hayır sorusu da olabilir.</dd></div>
+  <div><dt>Koşullu kural</dt><dd>Girdilere göre farklı eylem: süre ekle, süre eklemeden devam et ya da borçtan düş. Kurallar yukarıdan aşağı denenir, ilk eşleşen uygulanır.</dd></div>
+  <div><dt>Duruma göre süre</dt><dd>Kural, düğmenin bugün kaçıncı kez kullanıldığına, mevcut borca ya da bugün eklenen süreye bakabilir: “her 3 ölümde bir 15 dk”.</dd></div>
+  <div><dt>Günlük tavan</dt><dd>İsteğe bağlı: bir günde eklenebilecek en fazla süre. Tavanı aşan kısım eklenmez.</dd></div>
+</dl>
+<p>Her olaydan sonra birkaç saniyelik <strong>Geri al</strong> vardır. Sonradan da koşu panelindeki <strong>Bugünkü olaylar</strong> listesinden bir olayı silebilirsin; eklediği süre borçtan düşer.</p>
+<div class="callout warn" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>Koşu ne zaman bozulur?</p>
+  <p>Gün 04.00'te dönerken ödenmemiş süre kaldıysa, koşuyu borçla kapatırsan (<strong>Bozarak bitir</strong>) ya da akan geri sayımı yarıda bitirirsen koşu bozulur. Son ikisinde önce onay istenir. Borç ertesi güne devretmez.</p>
+</div>
+<p>Kapanan koşular, olaylarıyla ve süreleriyle <strong>Challenge geçmişi</strong>'nde durur. Ai ekranında kuralları önizlerken <strong>Sonucu dene</strong> ile gerçek değerler girip ne kadar süre çıkacağını görebilirsin; bu deneme olay kaydetmez ve sayacı başlatmaz.</p>
+<div class="callout ai" role="note"><p class="callout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spark"/></svg>Örnek istek</p>
+  <p>“Oyun için bir challenge kur: her ölüm 10 dakika, ama günün ilk ölümü serbest olsun. Maçı kazanırsam süre eklenmesin, kaybedersem 20 dakika. Günde en fazla 2 saat eklensin.”</p>
+</div>
+
+<h2 id="ai-ile-sayac">Ai ile sayaç<a class="anchor" href="#ai-ile-sayac" aria-label="“Ai ile sayaç” bölümüne bağlantı">#</a></h2>
+<p>Sayaç ekranının ⋮ menüsündeki <strong>Ai ile sayaç</strong>, geri sayımlarını, Pomodoro tur seçeneklerini ve Challenge kurallarını tek pakette gönderir. “Sabah için 50 dakikalık ve akşam için 1 saat 20 dakikalık iki sayaç ekle” gibi değişiklikleri sohbette istersin. Yanıt sayacı başlatmaz; yazılmayan kayıtlar korunur. Pomodoro süreleri sabit 25/5 düzeninde kalır. Açık bir oturum ya da mola varken kayıt yapılmaz.</p>
+      </article>
+      <nav class="pager" aria-label="Önceki ve sonraki sayfa"><a class="prev" href="/rehber/planlama/"><small><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>Önceki</small><b>Günlük görevler ve plan</b></a><a class="next" href="/rehber/profil/"><small>Sonraki<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></small><b>Profil ve istatistikler</b></a></nav>
+      <p class="doc-foot">Bu sayfada eksik ya da yanlış bir şey mi gördün? <a href="mailto:balpydigital.iletisim@gmail.com?subject=Rehber%3A%20Saya%C3%A7%20ve%20Challenge">Bize yaz</a>; düzeltelim.</p>
+    </main>
+    <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ol><li><a href="#dort-mod">Dört mod</a></li><li><a href="#dugmeler">Düğmeler</a></li><li><a href="#gunluk-hedef">Günlük hedef</a></li><li><a href="#goreve-bagli-sayac">Göreve bağlı sayaç</a></li><li><a href="#bugunku-oturumlar-ve-elle-ekleme">Bugünkü Oturumlar ve elle ekleme</a></li><li><a href="#challenge">Challenge</a></li><li><a href="#ai-ile-sayac">Ai ile sayaç</a></li></ol></nav>
   </div>
-
-  <dialog class="ai-learning-dialog" id="ai-learning-dialog" aria-labelledby="ai-learning-title">
-    <div class="ai-dialog-heading"><div><span class="eyebrow">Her gönderimde tek bölüm</span><h2 id="ai-learning-title">Bu bölümü Ai ile öğren</h2></div><button class="dialog-close" id="close-ai-learning" type="button" aria-label="Pencereyi kapat"><span class="ms" aria-hidden="true">close</span></button></div>
-    <p>Metni sohbetine yapıştırıp hedefini ve sorunu yaz. Başka bir konu gerekirse o konunun sayfasından aynı sohbete ekleyebilirsin.</p>
-    <p class="ai-topic-name">Gönderilecek bölüm: <strong>Sayaç</strong></p>
-    <label class="ai-preview-label" for="ai-preview">Gönderilecek metin <span id="ai-character-count"></span></label>
-    <textarea id="ai-preview" rows="8" readonly spellcheck="false"></textarea>
-    <p class="ai-preview-help">Bu metin kullanım rehberidir. İçerik hazırlatmak için güncel XML kılavuzunu ilgili Balpy ekranından ayrıca gönderirsin.</p>
-    <div class="ai-dialog-actions"><button class="button primary" id="copy-ai-section" type="button"><span class="ms" aria-hidden="true">content_copy</span>Bölümü kopyala</button><button class="button ghost" id="download-ai-section" type="button"><span class="ms" aria-hidden="true">download</span>Bölümü indir</button></div>
-    <div class="ai-platforms" aria-label="Kopyala ve sohbet uygulamasını aç"><button type="button" class="button ghost small" data-ai-platform="chatgpt">Kopyala ve ChatGPT'yi aç</button><button type="button" class="button ghost small" data-ai-platform="gemini">Gemini</button><button type="button" class="button ghost small" data-ai-platform="claude">Claude</button></div>
-    <p class="action-status" id="ai-status" role="status" aria-live="polite"></p>
-  </dialog>
-
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-row">
-        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="30" height="30">Balpy</a>
+        <a class="brand" href="/"><img src="/assets/brand/balpy-mark-96.png" alt="" width="28" height="28">Balpy</a>
         <nav class="footer-nav" aria-label="Alt menü">
           <a href="/rehber/">Rehber</a>
+          <a href="/rehber/sss/">Sık sorulanlar</a>
           <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
           <a href="/hesap-silme/">Hesap ve Veri Silme</a>
           <a href="/sifre-yenile/">Şifre Yenile</a>
           <a href="mailto:balpydigital.iletisim@gmail.com">İletişim</a>
         </nav>
       </div>
-      <p class="footer-note">© 2026 Balpy · balpydigital.iletisim@gmail.com</p>
+      <p class="footer-note">© 2026 Balpy · <a class="text-link" href="mailto:balpydigital.iletisim@gmail.com">balpydigital.iletisim@gmail.com</a></p>
     </div>
   </footer>
+  <button class="to-top" type="button" data-to-top aria-label="Sayfanın başına dön"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <dialog class="search-dialog" id="search-dialog" aria-label="Rehberde ara">
+    <div class="search-box" role="search">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+      <input id="search-input" type="search" placeholder="Ara: tekrar, PDF, kılavuz, bildirim…" aria-label="Aranacak kelime" aria-controls="search-results" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="icon-button" type="button" data-search-close aria-label="Aramayı kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="Arama sonuçları"></div>
+    <p class="search-hint" id="search-hint">Örnek: <b>aralıklı tekrar</b>, <b>düzeltme metni</b>, <b>pomodoro</b>, <b>transkript</b>. Türkçe karakterleri yazmasan da bulur.</p>
+  </dialog>
+  <dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+    <button class="icon-button dialog-close" type="button" data-ask-close aria-label="Kapat"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+    <h2 id="ask-title">Bu sayfayı Ai'a sor</h2>
+    <p>“Sayaç ve Challenge” sayfasının metni kopyalanır. Sohbetine yapıştırıp sorunu yaz: “Ben YKS'ye hazırlanıyorum, bunu nasıl kullanmalıyım?” gibi.</p>
+    <p>Bu metin kullanım rehberidir. Not, kart ya da soru hazırlatmak için Balpy'deki ilgili Ai ekranının kılavuzunu ayrıca gönderirsin.</p>
+    <div class="ask-actions">
+      <button class="button primary" type="button" data-ask-copy><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>Sayfayı kopyala</button>
+      <div class="row">
+        <a class="button ghost small" href="https://chatgpt.com/" target="_blank" rel="noopener" data-ask-open>ChatGPT</a>
+        <a class="button ghost small" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-ask-open>Gemini</a>
+        <a class="button ghost small" href="https://claude.ai/new" target="_blank" rel="noopener" data-ask-open>Claude</a>
+      </div>
+    </div>
+    <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>

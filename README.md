@@ -1,78 +1,77 @@
-# Balpy web rehberi
+# balpydigital.com
 
-Balpy'nin kullanım rehberi `https://balpydigital.com/rehber/` adresindedir.
-Uygulama ilk giriş davetinden, Profil → Ayarlar → Balpy rehberi satırından
-ve Ai ekranlarındaki yardım düğmelerinden bu siteye yönlendirir.
+Balpy'nin tanıtım sitesi ve kullanım rehberi. GitHub Pages bu deponun `main`
+dalını olduğu gibi yayınlar; sunucuda derleme yoktur.
 
-Site, Balpy'yi hiç bilmeyen birine genel kullanımı öğretir; hedefe
-(sınav, bölüm vb.) göre ayrı yollar sunmaz. Ana sayfa beş bölümlük kısa bir
-tanıtımdır; ayrıntı rehberdedir.
+## Adresler
 
-## Rehberin yapısı
+Uygulama şu adreslere bağlanır; değiştirilmez:
 
-- `/rehber/` giriş sayfasıdır: arama, "İlk adımlar" kartı ve gruplu konu
-  kartları. Arama `rehber/arama.json` dizinini ilk kullanımda yükler; konu
-  başlıklarında ve ayrıntılı notların metninde arar.
-- Her konu kendi sayfasındadır: `/rehber/ilk-adimlar/`, `/rehber/ai/`,
-  `/rehber/kartlar/` gibi. Sayfada konum yolu, önceki/sonraki konu ve
-  "Bu bölümü Ai ile öğren" düğmesi bulunur. Masaüstünde konu listesi solda
-  durur; telefonda alttaki çubuktan (Konular, Ara, Başa dön) açılır.
-- Uygulama `/rehber/#ai` adresine bağlanır. Giriş sayfası `#konu` biçimindeki
-  eski adresleri tarayıcıda `/rehber/konu/` sayfasına yönlendirir; bu yüzden
-  konu adresleri (`slug`) değiştirilmez.
-- Ayrıntılı notlar açılır başlıklardır ve her birinin kendi adresi vardır
-  (`/rehber/ayarlar/#bildirimler` gibi); bu adres o başlığı açar.
+| Adres | Kullanan |
+| --- | --- |
+| `/` | Ayarlar → Balpy web sitesi, boş koleksiyon ekranı |
+| `/rehber/`, `/rehber/#ai` | Ai ekranlarının yardım bağlantısı |
+| `/gizlilik-politikasi/` | Ayarlar, Play Console |
+| `/hesap-silme/` | Ayarlar, Play Console |
+| `/sifre-yenile/` | Supabase şifre sıfırlama yönlendirmesi |
 
-## İçerik güncelleme
+`/rehber/#konu` biçimindeki eski adresler tarayıcıda `/rehber/konu/` sayfasına
+yönlenir. Adı değişen sayfalar `_kaynak/rehber.json` içindeki `redirects`
+listesinde tutulur (ör. `genel` → `hedefler`).
 
-Kaynaklar `_rehber/` klasöründedir. GitHub Pages alt çizgiyle başlayan
-klasörü yayınlamaz.
+## Yapı
 
-- `_rehber/konular.json`: konuların sırası, grubu, başlığı, ikonu, rengi,
-  kart özeti, arama anahtar kelimeleri ve bağlı not bölümü (`notes`).
-- `_rehber/konular/<slug>.html`: konunun kısa anlatımı (HTML parçası).
-  Başka bir konuya bağlantı `/rehber/<slug>/` biçiminde yazılır.
-- `_rehber/notes.json`: 12 bölüm ve 51 ayrıntılı notun kaynak metni
-  (Markdown).
-
-Kaynakları değiştirdikten sonra:
-
-```sh
-npm install
-npm run build:guide
+```
+_kaynak/rehber.json          gruplar, sayfa sırası, başlık, özet, simge, arama sözcükleri
+_kaynak/rehber/<adres>.html  rehber sayfalarının içeriği (HTML parçası)
+_kaynak/sayfalar/*.html      ana sayfa, 404, gizlilik ve hesap silme
+tool/build.mjs               derleme aracı (bağımlılık yok, Node 20+)
+site.css, site.js            bütün sayfaların ortak stili ve davranışı
+sifre-yenile/                elle yazılmış; derleme aracı dokunmaz
 ```
 
-Araç `rehber/index.html`, her konunun `rehber/<slug>/index.html` sayfasını,
-`rehber/arama.json` dizinini ve `sitemap.xml` dosyasını üretir. Bunlar elle
-değiştirilmez. Araç bilinmeyen bir konu bağlantısını, eksik ya da iki kez
-bağlanmış not bölümünü hata olarak durdurur. Derlenen HTML depoda tutulur;
-GitHub Pages için Node veya çalışma zamanı derlemesi gerekmez. Ana uygulamanın
-`tool/dump_ai_guides.dart` aracı yalnız içerik üretim XML kılavuzlarını
-üretir; web kullanım rehberi ayrıdır.
+Alt çizgiyle başlayan klasörleri GitHub Pages yayınlamaz. `rehber/`,
+`index.html`, `404.html`, `gizlilik-politikasi/`, `hesap-silme/` ve
+`sitemap.xml` üretilir; elle değiştirilmez.
 
-## Ai ile öğrenme
+## İçerik yazmak
 
-Gönderme penceresi ve `.txt` indirmesi yalnız seçilen bölümün metnini içerir.
-Bütün rehberi gönderen bir seçenek yoktur. Pencerede metin önizlenir;
-kullanıcı kopyalama veya dosya indirme eylemini kendisi seçer. Panoya erişim
-engellendiğinde metin seçilir ve elle kopyalama yolu açıklanır.
+Parçalarda düz HTML kullanılır. Ek kısa yazımlar:
 
-Sohbet isteği, Balpy'nin güncel XML şemasının yerine geçmez. İçerik
-hazırlatmak için kullanıcı ilgili Balpy ekranının kılavuzunu ve bağlamını
-aynı sohbete ayrıca gönderir. Site kişisel kayıtları bilmez.
+- `{{i:ad}}` simge ekler. Simgeler `tool/build.mjs` içindeki `icons`
+  listesindedir; sayfaya yalnız kullanılanlar gömülür.
+- `{{yol:Profil > Ayarlar > Bildirimler}}` uygulamadaki ekran yolunu gösterir.
+- `<div class="callout tip" title="İpucu">…</div>` başlıklı kutu. Türler:
+  `note` (varsayılan), `tip`, `warn`, `ai`, `danger`.
+- `<ol class="steps">` numaralı adım kartları; `<dl class="defs">` iki sütunlu
+  tablonun telefonda alt alta düşen karşılığı.
 
-## Yayın notları
+`h2` ve `h3` başlıkları kimliğini metinden alır. Dışarıdan bağlantı verilen
+bir başlığa `id` yazılırsa başlık metni değişse de bağlantı kırılmaz.
 
-Uygulama Google Play'de herkese açılınca ana sayfadaki "Yakında Google Play'de"
-rozetini ve alttaki çağrı metnini mağaza bağlantısıyla değiştir.
+Derleme; bilinmeyen sayfa ya da bölüm bağlantısını, aynı kimliği taşıyan iki
+başlığı, bilinmeyen simgeyi ve çözülemeyen kısa yazımı hata olarak durdurur.
 
-İkonlar `assets/fonts/material-symbols-rounded.woff2` dosyasından gelir; dosya
-yalnız sitede kullanılan ikonları içerir. Yeni bir ikon adı eklenirse Google
-Fonts'tan `icon_names=` parametresine bütün ikon adları (alfabetik) yazılarak
-dosya yeniden indirilir; yoksa ikon yerine adı yazı olarak görünür.
+```sh
+npm run build
+```
 
-`sitemap.xml` rehber derlemesiyle üretilir; rehber dışında yeni bir sayfa
-eklenirse `tool/build-guide.mjs` içindeki sayfa listesine de eklenir.
+## Yazım ilkeleri
+
+- Metin uygulamanın bugünkü davranışını anlatır. Yayında olmayan özellikler
+  (satranç, geliştirici seçenekleri) yazılmaz.
+- Arayüz adları uygulamadaki gibi yazılır; kullanıcıya görünen metinde “AI”
+  değil “Ai” kullanılır.
+- Not, kart ve soru ayrımı korunur: not anlatım, kart kısa hatırlama, soru
+  uygulamadır.
+- Gizlilik ve hesap silme metinleri yasal metindir; uygulamadaki veri işleme
+  değişmeden değiştirilmez.
+
+## Tema
+
+Varsayılan koyu temadır. Açık tema sistem tercihinden ya da üst çubuktaki
+düğmeden gelir; seçim tarayıcıda `balpy-tema` anahtarıyla saklanır. Şifre
+yenileme sayfası her zaman koyu kalır.
 
 ## Yerel önizleme
 
@@ -80,5 +79,9 @@ eklenirse `tool/build-guide.mjs` içindeki sayfa listesine de eklenir.
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-`http://127.0.0.1:8765/rehber/` adresini aç. Gerçek yayın, bu deponun
-GitHub Pages akışıyla yapılır. Uygulama deposuyla bu depo ayrı güncellenir.
+`http://127.0.0.1:8765/` adresini aç.
+
+## Yayın notları
+
+Uygulama Google Play'de herkese açılınca ana sayfadaki “Yakında Google Play'de”
+etiketini ve SSS'deki indirme cevabını mağaza bağlantısıyla değiştir.

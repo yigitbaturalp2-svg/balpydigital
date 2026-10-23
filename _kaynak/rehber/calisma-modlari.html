@@ -1,0 +1,53 @@
+<p class="lead">Çalışma modları, ünite ve konu sayfalarına kendi çalışma kutularını eklemeni sağlar. “Önce yanlış yaptığım sorular, sonra zayıf kartlar” gibi bir düzeni bir kez kurarsın; kutuya her dokunduğunda Balpy o bölümün güncel içeriğinden yeni bir oturum hazırlar.</p>
+
+<h2>Mod nasıl çalışır?</h2>
+<ul>
+  <li>Bir mod belirli bir koleksiyona bağlı değildir. Kutuya hangi ünite ya da konu sayfasında dokunursan, o bölümün alt konularıyla birlikte not, kart ve sorularına uygulanır.</li>
+  <li>Kutudaki sayı o bölümde oturuma girecek içerik sayısıdır. Uygun içerik yoksa kutu sönük kalır; dokununca hangi seçimden kaç içerik bulunduğunu söyler.</li>
+  <li>Kuyruk her dokunuşta yeniden kurulur; dün eklediğin sorular bugün kendiliğinden girer.</li>
+  <li>Bir içerik oturumda yalnız bir kez yer alır.</li>
+</ul>
+
+<h2>Mod kurmak</h2>
+<ol class="steps tone-success">
+  <li><strong>Ai ile mod kur</strong>Bir ünite ya da konu sayfasında <strong>Çalışma modları</strong> başlığındaki <strong>Ai ile mod kur</strong>'a dokun. Mevcut modların pakete kendiliğinden girer.</li>
+  <li><strong>Modunu tarif et</strong>Sohbette nasıl çalışmak istediğini yaz: hangi içerikler, kaçar tane, hangi sırayla.</li>
+  <li><strong>Önizle ve kaydet</strong>Yanıtı içe aktar; modun bloklarını önizle ve kaydet. Kutu konu sayfalarında görünür.</li>
+</ol>
+<p>Bir mod kutusuna basılı tutunca iki seçenek çıkar: modu mevcut modlarınla birlikte Ai'a gönderip düzenletmek ya da <strong>Modu sil</strong>. Bir pakette en fazla 12 mod, bir modda en fazla 6 blok bulunur.</p>
+
+<h2>Bloklar ve seçimler</h2>
+<p>Bir mod bir ya da birkaç bloktan oluşur. Her blok bir içerik türünden belirli bir seçimi, en fazla belirli sayıda alır:</p>
+<dl class="defs">
+  <div><dt>Yeni</dt><dd>Hiç çalışılmamış kart ve sorular.</dd></div>
+  <div><dt>Süresi gelen</dt><dd>Tekrar zamanı gelmiş kart ve sorular.</dd></div>
+  <div><dt>Çalışılabilir</dt><dd>Tamamlanmış ve çözümsüz olanlar dışındaki hepsi.</dd></div>
+  <div><dt>Zayıf</dt><dd>Çalışılmış ama alt basamaklarda kalan, unutulan ya da yanlış yapılanlar.</dd></div>
+  <div><dt>Yanlış yapılmış</dt><dd>En az bir kez yanlış cevaplananlar.</dd></div>
+  <div><dt>Uzun süredir bakılmayan</dt><dd>Tekrar zamanı gelmemiş ama son çalışmadan bu yana belirli gün (3–90) geçmiş olanlar.</dd></div>
+  <div><dt>Tamamlanmış</dt><dd>Son basamağı geçip günlük tekrardan çıkanlar.</dd></div>
+  <div><dt>Çözümsüz</dt><dd>Yalnız sorular: çözümü eklenmemiş olanlar.</dd></div>
+  <div><dt>Notların hepsi</dt><dd>Yalnız notlar.</dd></div>
+</dl>
+<p>Bir blok istediği sayıya ulaşmazsa eksiği aynı türden başka bir seçimle tamamlayabilir; örneğin “5 zayıf kart, yetmezse çalışılabilir kartlardan tamamla”.</p>
+
+<h3>Sıra ve düzen</h3>
+<ul>
+  <li><strong>Sıra:</strong> ünite ve konu sırasıyla, karışık, en çok unutulan ve yanlış yapılan önce ya da en uzun süredir bakılmayan önce.</li>
+  <li><strong>Düzen:</strong> bloklar arka arkaya gelir ya da bütün seçim tek bir karışık kuyrukta toplanır.</li>
+  <li><strong>Kaynak notu önce:</strong> seçilen kart ve soruların geldiği not, o içeriklerden önce okunabilir. Bu notlar blok sayısına eklenmez.</li>
+</ul>
+
+<h2>Örnek modlar</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Mod</th><th>Ne yapar?</th></tr></thead>
+  <tbody>
+    <tr><td>Deneme öncesi ısınma</td><td>10 süresi gelen soru, ardından 5 zayıf kart.</td></tr>
+    <tr><td>Hata avı</td><td>Yanlış yapılmış sorular, en zayıf önce; her sorudan önce geldiği not.</td></tr>
+    <tr><td>Unutmadan</td><td>21 gündür bakılmayan 15 kart, en eski önce.</td></tr>
+    <tr><td>Konuya giriş</td><td>Bütün notlar, ardından 10 yeni kart ve 5 yeni soru.</td></tr>
+  </tbody>
+</table></div>
+<div class="callout ai" title="Örnek istek">
+  <p>“Deneme sınavından önceki akşam kullanacağım bir mod istiyorum: önce yanlış yaptığım 10 soru, en zayıflar önce; sonra 21 gündür bakmadığım 10 kart. Kartlar ve sorular karışık gelmesin, bloklar sırayla olsun. Adı Deneme öncesi olsun.”</p>
+</div>
